@@ -1,0 +1,338 @@
+<title>Sitemap — Accessibility Map NAGOYA</title>
+<!--
+  ACCESSIBILITY MAP NAGOYA — SITEMAP
+  A working blueprint of the whole site. Filled dot = the page exists,
+  hollow dot = still to build. Paste into a WordPress Custom HTML block,
+  or keep it as an internal planning page.
+-->
+<style>
+
+/* [FONT] Option B — self-hosted Gibson. Un-comment and fix the paths.
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Regular.woff2") format("woff2");font-weight:400;font-display:swap;}
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Medium.woff2") format("woff2");font-weight:500;font-display:swap;}
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-SemiBold.woff2") format("woff2");font-weight:600;font-display:swap;}
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Bold.woff2") format("woff2");font-weight:700;font-display:swap;}
+*/
+:root{--font-main:"Gibson","Helvetica Neue",Arial,sans-serif;}
+
+/* ---------------------------------------------------------------
+   TOKENS — matches wheelsnagoya: flat vivid fills, black type on colour
+   --------------------------------------------------------------- */
+.amn{
+  /* railway lines */
+  --shinkansen:#1F5BFF;  --jr:#12B85A;  --meitetsu:#E5332A;  --kintetsu:#FF7A1A;
+  --subway:#FFC71F;      --aonami:#0FC3E4;  --toilet:#FF66C4;  --bus:#16C2B0;
+  /* site palette (from the TOP page) */
+  --area:#D4FF3A;        /* Nagoya Station area card colour */
+  --sky:#3CC1F3;         /* logo dot */
+
+  --ink:#111111; --ink-2:#555555; --paper:#F3F2EE; --card:#FFFFFF; --grey:#E4E2DC; --line:#111111; --focus:#111111;
+  --r:18px;
+  --display:var(--font-main); --body:var(--font-main);
+
+  font-family:var(--body);font-weight:400;color:var(--ink);background:var(--paper);
+  line-height:1.5;-webkit-font-smoothing:antialiased;
+}
+body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /* preview ground; delete inside WP if needed */
+
+.amn *,.amn *::before,.amn *::after{box-sizing:border-box;}
+.amn h1,.amn h2,.amn h3,.amn p{margin:0;}
+.amn ul{margin:0;padding:0;list-style:none;}
+.amn a{color:inherit;}
+.amn button{font:inherit;color:inherit;}
+.amn :focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px;}
+
+/* FULL-WIDTH, MOBILE-FIRST — --gut is the single knob for all side margins */
+.amn{--gut:clamp(16px,5vw,64px);}
+.amn .wrap{width:100%;max-width:none;margin:0;padding:0 var(--gut);}
+@media (min-width:1600px){.amn .wrap{max-width:1560px;margin:0 auto;}}
+.amn .rule{border:0;border-top:1.5px solid var(--line);margin:0;}
+.amn .label{font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);}
+.amn section{padding:clamp(28px,7vw,40px) 0 clamp(40px,9vw,56px);scroll-margin-top:12px;}
+.amn h2{font-family:var(--display);font-weight:700;font-size:clamp(32px,8.4vw,76px);letter-spacing:-.02em;line-height:.92;text-transform:uppercase;}
+.amn .section-head{display:grid;grid-template-columns:auto 1fr auto;align-items:end;gap:clamp(10px,3vw,18px);padding:clamp(12px,3.5vw,16px) 0 clamp(14px,4vw,18px);border-top:1.5px solid var(--line);margin-bottom:22px;}
+.amn .section-head .idx{font-family:var(--display);font-weight:700;font-size:clamp(32px,8.4vw,76px);letter-spacing:-.02em;line-height:.92;}
+.amn .section-head .meta{text-align:right;}
+.amn .section-head .meta b{display:block;font-size:clamp(18px,2vw,24px);letter-spacing:-.02em;}
+.amn .chip{font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:999px;color:var(--ink);display:inline-block;}
+.amn .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+
+/* ---------------------------------------------------------------
+   1. HEADER — logo only (CSS version of the site logo)  [IMG]
+   --------------------------------------------------------------- */
+/* the logo sits alone and centred, so the rolling wheel never crosses a button */
+.amn .site-head{padding:clamp(22px,6vw,34px) 0 clamp(16px,4vw,22px);border-bottom:1.5px solid var(--line);}
+.amn .site-head .wrap{display:flex;justify-content:center;}
+.amn .site-head .logo{align-items:center;text-align:center;}
+.amn .site-head .logo .l2{margin-right:0;padding-left:.32em;}   /* optical centring of the tracked NAGOYA */
+/* the buttons live BELOW the rule, on their own row */
+.amn .navrow{border-bottom:1.5px solid var(--line);}
+.amn .navrow .wrap{display:flex;justify-content:center;padding-top:clamp(12px,3.5vw,16px);padding-bottom:clamp(12px,3.5vw,16px);}
+/* [IMG] LOGO — CSS/animated recreation of the site's GIF logo.
+   The bowl of the "p" in "Map" becomes a blue wheel, rolls off to the right,
+   comes back in from the left and clicks back into the "p". Loops every 9s.
+   To use the GIF instead: replace the <a class="logo"> contents with
+   <img src="logo.gif" alt="Accessibility Map NAGOYA">. */
+.amn .logo{display:inline-flex;flex-direction:column;text-decoration:none;color:var(--ink);line-height:1;}
+.amn .logo .l1{font-family:var(--display);font-weight:500;font-size:clamp(22px,6.4vw,32px);letter-spacing:0;position:relative;white-space:nowrap;}
+.amn .logo .l2{font-family:var(--display);font-weight:700;font-size:clamp(28px,8.2vw,40px);letter-spacing:.32em;margin-top:3px;margin-right:-.32em;}
+/* the "p" is two layers: the full "p", and an "I" that shows while the wheel (the p's bowl) is away.
+   To leave a lowercase stem instead, change the letter inside <span class="stem"> to "l" or "i". */
+.amn .logo .p{position:relative;display:inline-block;}
+.amn .logo .p .glyph{color:inherit;}
+/* the I is pushed down by the descender depth so its bottom lines up with the bottom of the lowercase p
+   (cap-height ≈ x-height + descender in Gibson, so it reads as the p's own stem). Tune --desc per font. */
+.amn .logo .p{--desc:.21em;}
+.amn .logo .p .stem{position:absolute;left:0;top:0;color:inherit;opacity:0;transform:translateY(var(--desc));}
+.amn .logo .p .glyph{transition:none;}
+.amn .logo .wheel{
+  --ground:.62em;                      /* drop distance: lands on the NAGOYA line below */
+  position:absolute;left:.34em;top:.42em;width:.56em;height:.56em;
+  border:.13em solid var(--sky);border-radius:50%;box-sizing:border-box;opacity:0;
+}
+@media (prefers-reduced-motion:no-preference){
+  .amn .logo .p .stem{animation:amn-stem 9s linear infinite;}
+  .amn .logo .wheel{animation:amn-wheel 9s linear infinite;}
+  .amn .logo .p .glyph{animation:amn-glyph 9s linear infinite;}
+  @keyframes amn-stem{0%,10%{opacity:0}10.1%,89.9%{opacity:1}90%,100%{opacity:0}}
+  @keyframes amn-glyph{0%,10%{opacity:1}10.1%,89.9%{opacity:0}90%,100%{opacity:1}}
+  /* the wheel: drops out of the p (small bounce), rolls off right, comes back from the left,
+     then JUMPS in an arc back into the p. --ground = how far below the bowl it lands. */
+  @keyframes amn-wheel{
+    0%,10%   {opacity:0;transform:translate(0,0) rotate(0);}
+    10.1%    {opacity:1;transform:translate(0,0) rotate(0);animation-timing-function:ease-in;}
+    13.5%    {transform:translate(.05em,var(--ground)) rotate(20deg);animation-timing-function:ease-out;}   /* lands */
+    15%      {transform:translate(.12em,calc(var(--ground) - .22em)) rotate(60deg);animation-timing-function:ease-in;} /* bounce */
+    16.5%    {transform:translate(.2em,var(--ground)) rotate(100deg);animation-timing-function:linear;}
+    46%      {opacity:1;transform:translate(70vw,var(--ground)) rotate(1180deg);}                          /* rolls away */
+    46.1%    {opacity:0;transform:translate(70vw,var(--ground)) rotate(1180deg);}
+    50%      {opacity:0;transform:translate(-70vw,var(--ground)) rotate(-1080deg);}
+    50.1%    {opacity:1;transform:translate(-70vw,var(--ground)) rotate(-1080deg);animation-timing-function:linear;}
+    82%      {transform:translate(-1.1em,var(--ground)) rotate(-40deg);animation-timing-function:ease-out;} /* back, winds up */
+    84.5%    {transform:translate(-.5em,calc(var(--ground) - .9em)) rotate(0);animation-timing-function:ease-in;} /* top of the jump */
+    87%      {transform:translate(0,0) rotate(20deg);animation-timing-function:ease-out;}                   /* lands in the p */
+    88.5%    {transform:translate(0,.06em) rotate(0);}                                                    /* tiny settle */
+    89.9%    {opacity:1;transform:translate(0,0) rotate(0);}
+    90%,100% {opacity:0;transform:translate(0,0) rotate(0);}
+  }
+}
+.amn .site-head{overflow:hidden;}   /* the wheel leaves the page without causing sideways scroll */
+.amn footer{overflow:hidden;}
+/* breadcrumb = the site structure; only this page exists for now [LINK] */
+.amn .crumbs{display:flex;align-items:center;justify-content:center;gap:8px;font-weight:500;font-size:13px;color:var(--ink-2);flex-wrap:wrap;text-transform:uppercase;letter-spacing:.06em;}
+.amn .crumbs a{text-decoration:none;color:var(--ink);padding:6px 12px;border-radius:999px;border:1.5px solid var(--ink);}
+.amn .crumbs span[aria-current]{padding:6px 12px;border-radius:999px;background:var(--ink);color:#fff;font-weight:700;border:1.5px solid var(--ink);}
+
+
+/* ---------------------------------------------------------------
+   SITEMAP — the whole site as one tree. Four levels:
+   L1 area · L2 section · L3 group · L4 page
+   Colour = the area's colour. A dot on the left of each row says
+   whether the page exists yet (filled = built, hollow = to build).
+   --------------------------------------------------------------- */
+.amn .smhead{padding:clamp(30px,8vw,64px) 0 clamp(20px,5vw,30px);}
+.amn h1{font-family:var(--display);font-weight:700;font-size:clamp(42px,11vw,96px);line-height:.92;letter-spacing:-.02em;text-transform:uppercase;}
+.amn .smhead .standfirst{margin-top:clamp(14px,3.5vw,20px);font-size:clamp(16px,4.2vw,22px);font-weight:500;max-width:30em;}
+.amn .key{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:clamp(18px,4vw,26px);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;}
+.amn .key span{display:inline-flex;align-items:center;gap:9px;}
+.amn .key i{width:11px;height:11px;border-radius:50%;border:2px solid var(--ink);display:inline-block;}
+.amn .key i.done{background:var(--ink);}
+
+.amn .tree{padding-bottom:clamp(50px,10vw,90px);}
+.amn .branch{border-top:1.5px solid var(--line);}
+/* L1 — the area itself: a full-bleed colour bar */
+.amn .l1{--c:var(--ink);--fg:#fff;background:var(--c);color:var(--fg);}
+.amn .l1 .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding-top:clamp(16px,4vw,22px);padding-bottom:clamp(16px,4vw,22px);}
+.amn .l1 h2{font-family:var(--display);font-weight:700;font-size:clamp(26px,7vw,48px);letter-spacing:-.02em;line-height:1;text-transform:uppercase;color:inherit;}
+.amn .l1 .n{font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;}
+.amn .l1.light{--fg:#111;}
+
+/* L2 — section inside the area */
+.amn .l2{border-bottom:1.5px solid var(--line);}
+.amn .l2:last-child{border-bottom:0;}
+.amn .l2 > .wrap{padding-top:clamp(14px,3.5vw,20px);padding-bottom:clamp(14px,3.5vw,20px);}
+.amn .l2 h3{font-family:var(--display);font-weight:700;font-size:clamp(19px,4.6vw,26px);letter-spacing:-.015em;line-height:1.1;text-transform:uppercase;
+  display:flex;align-items:center;gap:12px;}
+.amn .l2 h3::before{content:"";width:14px;height:14px;border-radius:4px;background:var(--c,var(--ink));flex:none;}
+.amn .l2 .sub{font-size:13px;font-weight:500;color:var(--ink-2);margin:6px 0 0 26px;}
+
+/* L3 — group of pages */
+.amn .grp{margin:14px 0 0 26px;padding-left:16px;border-left:1.5px solid var(--line);}
+.amn .grp + .grp{margin-top:16px;}
+.amn .grp .gname{font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);margin-bottom:8px;}
+/* L4 — the pages themselves */
+.amn .pages{display:flex;flex-wrap:wrap;gap:8px;}
+.amn .pg{display:inline-flex;align-items:center;gap:9px;border:1.5px solid var(--line);border-radius:999px;
+  padding:8px 14px;font-size:14px;font-weight:500;background:var(--paper);}
+.amn .pg i{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ink);flex:none;}
+.amn .pg.done{background:var(--ink);color:#fff;border-color:var(--ink);}
+.amn .pg.done i{background:#fff;border-color:#fff;}
+.amn .pg.c{border-color:var(--c);}
+.amn .pg.c i{border-color:var(--c);background:var(--c);}
+
+.amn .foot-note{border-top:1.5px solid var(--line);}
+.amn .foot-note .wrap{padding-top:clamp(20px,5vw,28px);padding-bottom:clamp(24px,6vw,36px);}
+.amn .foot-note p{font-size:14px;color:var(--ink-2);max-width:44em;line-height:1.7;}
+/* ---------------------------------------------------------------
+   7. FOOTER — black, like the TOP page
+   --------------------------------------------------------------- */
+.amn footer{background:#111;color:#fff;padding:clamp(44px,10vw,64px) 0 clamp(36px,8vw,48px);margin-top:clamp(24px,6vw,40px);}
+.amn footer .wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px;}
+.amn footer .logo{color:#fff;--paper:#141414;}
+.amn footer .logo .l1{font-size:34px;font-weight:500;}
+.amn footer .logo .l2{font-size:40px;letter-spacing:.2em;}
+.amn footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(20px,6vw,40px);font-size:16px;font-weight:500;}
+.amn footer nav a{text-underline-offset:4px;}
+.amn footer nav a{text-decoration:none;}
+.amn footer small{font-size:13px;color:#CFCFCF;font-weight:400;}
+
+
+@media (prefers-reduced-motion:reduce){.amn *,.amn *::before,.amn *::after{transition:none!important;animation:none!important;}}
+</style>
+
+<!-- SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M12 6v3l2 1.5M12 15v6M9 21h6"/></symbol>
+  <symbol id="i-gate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="6" height="16" rx="2"/><rect x="15" y="4" width="6" height="16" rx="2"/><path d="M9 12h6"/></symbol>
+  <symbol id="i-elev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 14v-4l-2 2M9 10l2 2M15 10v4l-2-2M15 14l2-2"/></symbol>
+  <symbol id="i-esc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18h5l9-11h4"/><path d="M3 21h6l9-11h3"/><circle cx="9.5" cy="10.5" r="1.5"/></symbol>
+  <symbol id="i-toilet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="5" r="2"/><path d="M9 8v6l4 1 2 5"/><circle cx="8" cy="17" r="4"/><path d="M17 4h4M19 4v8"/></symbol>
+  <symbol id="i-train" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 10h14M9 21l1.5-3M15 21l-1.5-3"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="14" r="1"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
+</svg>
+
+<div class="amn">
+
+  <header class="site-head">
+    <div class="wrap">
+      <a class="logo" href="index.html" aria-label="Accessibility Map NAGOYA — home">
+        <span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span>
+        <span class="l2" aria-hidden="true">NAGOYA</span>
+      </a>
+    </div>
+  </header>
+  <div class="navrow">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="You are here">
+        <a href="index.html">Top</a><span aria-hidden="true">&rsaquo;</span><span aria-current="page">Sitemap</span>
+      </nav>
+    </div>
+  </div>
+
+  <section class="smhead">
+    <div class="wrap">
+      <span class="label">Structure</span>
+      <h1>Sitemap</h1>
+      <p class="standfirst">Five branches from the top page. Every leaf is one page.</p>
+      <div class="key">
+        <span><i class="done"></i>Built</span>
+        <span><i></i>To build</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="tree">
+<section class="branch">    <div class="l1" style="--c:#111">
+      <div class="wrap"><h2>Asian Games</h2><span class="n">1 + venues</span></div>
+    </div>
+      <div class="l2" style="--c:#E8412A">
+        <div class="wrap">
+          <h3>Aichi-Nagoya 2026</h3>
+          <p class="sub">Special feature — index of every venue</p>
+          <div class="grp"><div class="gname">Venue cards → one page each</div><div class="pages"><span class="pg c"><i></i>Venue 01</span><span class="pg c"><i></i>Venue 02</span><span class="pg c"><i></i>Venue 03</span><span class="pg c"><i></i>Venue …</span></div></div>
+        </div>
+      </div>
+</section><section class="branch">    <div class="l1 light" style="--c:#D4FF3A">
+      <div class="wrap"><h2>Nagoya Station</h2><span class="n">1 + 3 + 9</span></div>
+    </div>
+      <div class="l2" style="--c:#1F5BFF">
+        <div class="wrap">
+          <h3>Train</h3>
+          <p class="sub">Index of the six lines</p>
+          <div class="grp"><div class="gname">One page per line</div><div class="pages"><span class="pg done"><i></i>Shinkansen</span><span class="pg done"><i></i>JR</span><span class="pg c"><i></i>Meitetsu</span><span class="pg c"><i></i>Kintetsu</span><span class="pg c"><i></i>Subway</span><span class="pg c"><i></i>Aonami</span></div></div>
+        </div>
+      </div>
+      <div class="l2" style="--c:#16C2B0">
+        <div class="wrap">
+          <h3>Bus</h3>
+          
+          <div class="grp"><div class="gname">One page per service</div><div class="pages"><span class="pg c"><i></i>City bus</span><span class="pg c"><i></i>Highway bus</span></div></div>
+        </div>
+      </div>
+      <div class="l2" style="--c:#FF66C4">
+        <div class="wrap">
+          <h3>Toilets</h3>
+          <p class="sub">Accessible &amp; family toilets in and around the station</p>
+          <div class="grp"><div class="gname">Single page</div><div class="pages"><span class="pg c"><i></i>Toilet guide</span></div></div>
+        </div>
+      </div>
+</section><section class="branch">    <div class="l1 light" style="--c:#3AE6F2">
+      <div class="wrap"><h2>Sakae / Hisaya-odori</h2><span class="n">1 + 2</span></div>
+    </div>
+      <div class="l2" style="--c:#3AE6F2">
+        <div class="wrap">
+          <h3>Station</h3>
+          
+          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+        </div>
+      </div>
+      <div class="l2" style="--c:#3AE6F2">
+        <div class="wrap">
+          <h3>Bus terminal</h3>
+          
+          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+        </div>
+      </div>
+</section><section class="branch">    <div class="l1 light" style="--c:#FF66C4">
+      <div class="wrap"><h2>Yaba-cho</h2><span class="n">1 + 2</span></div>
+    </div>
+      <div class="l2" style="--c:#FF66C4">
+        <div class="wrap">
+          <h3>Station</h3>
+          
+          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+        </div>
+      </div>
+      <div class="l2" style="--c:#FF66C4">
+        <div class="wrap">
+          <h3>Other facilities</h3>
+          
+          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+        </div>
+      </div>
+</section><section class="branch">    <div class="l1 light" style="--c:#FF3B0F">
+      <div class="wrap"><h2>Osu</h2><span class="n">1 + 2</span></div>
+    </div>
+      <div class="l2" style="--c:#FF3B0F">
+        <div class="wrap">
+          <h3>Station</h3>
+          
+          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+        </div>
+      </div>
+      <div class="l2" style="--c:#FF3B0F">
+        <div class="wrap">
+          <h3>Other facilities</h3>
+          
+          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+        </div>
+      </div>
+</section>  </div>
+
+  <div class="foot-note">
+    <div class="wrap">
+      <p>Top page also carries the standing pages in the footer: About us, Sources and Privacy. Each area page opens with its own index; each leaf below is a page of its own so it can be linked to directly and updated on its own schedule.</p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span><span class="l2" aria-hidden="true">NAGOYA</span></span>
+      <nav aria-label="Footer"><a href="amn-about.html">About us</a><a href="amn-sources.html">Sources</a><a href="amn-privacy.html">Privacy</a></nav>
+      <small>&copy; 2026 Accessibility Map NAGOYA</small>
+    </div>
+  </footer>
+</div>

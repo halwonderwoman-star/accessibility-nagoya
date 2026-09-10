@@ -1,0 +1,708 @@
+<title>Aichi Budokan &mdash; Asian Para Games venue guide</title>
+<!--
+  =====================================================================
+  ACCESSIBILITY MAP NAGOYA — Asian Para Games venue guide > Aichi Budokan
+  ---------------------------------------------------------------------
+  Everything is scoped under the wrapper element with the class "amn".
+  Reuses the Nagoya Station train-line pages' design system byte-for-
+  byte (STYLE/SPRITE/HEADER/FOOTER/SCRIPT, the cat() badge/colour logic).
+  =====================================================================
+-->
+<style>
+/* [FONT] Option B — self-hosted Gibson. Un-comment and fix the paths.
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Regular.woff2") format("woff2");font-weight:400;font-display:swap;}
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Medium.woff2") format("woff2");font-weight:500;font-display:swap;}
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-SemiBold.woff2") format("woff2");font-weight:600;font-display:swap;}
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Bold.woff2") format("woff2");font-weight:700;font-display:swap;}
+*/
+:root{--font-main:"Gibson","Helvetica Neue",Arial,sans-serif;}
+
+/* ---------------------------------------------------------------
+   TOKENS — matches wheelsnagoya: flat vivid fills, black type on colour
+   --------------------------------------------------------------- */
+.amn{
+  /* railway lines */
+  --shinkansen:#1F5BFF;  --jr:#12B85A;  --meitetsu:#E5332A;  --kintetsu:#FF7A1A;
+  --subway:#FFC71F;      --aonami:#0FC3E4;  --toilet:#FF66C4;  --bus:#5B6472;
+  /* site palette (from the TOP page) */
+  --area:#D4FF3A;        /* Nagoya Station area card colour */
+  --sky:#3CC1F3;         /* logo dot */
+
+  --ink:#111111; --ink-2:#555555; --paper:#F3F2EE; --card:#FFFFFF; --grey:#E4E2DC; --line:#111111; --focus:#111111;
+  --r:18px;
+  --display:var(--font-main); --body:var(--font-main);
+
+  font-family:var(--body);font-weight:400;color:var(--ink);background:var(--paper);
+  line-height:1.5;-webkit-font-smoothing:antialiased;
+}
+body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /* preview ground; delete inside WP if needed */
+
+.amn *,.amn *::before,.amn *::after{box-sizing:border-box;}
+.amn h1,.amn h2,.amn h3,.amn p{margin:0;}
+.amn ul{margin:0;padding:0;list-style:none;}
+.amn a{color:inherit;}
+.amn button{font:inherit;color:inherit;}
+.amn :focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px;}
+
+/* FULL-WIDTH, MOBILE-FIRST — --gut is the single knob for all side margins */
+.amn{--gut:clamp(16px,5vw,64px);}
+.amn .wrap{width:100%;max-width:none;margin:0;padding:0 var(--gut);}
+@media (min-width:1600px){.amn .wrap{max-width:1560px;margin:0 auto;}}
+.amn .rule{border:0;border-top:1.5px solid var(--line);margin:0;}
+.amn .label{font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);}
+.amn section{padding:clamp(28px,7vw,40px) 0 clamp(40px,9vw,56px);scroll-margin-top:12px;}
+.amn h2{font-family:var(--display);font-weight:700;font-size:clamp(32px,8.4vw,76px);letter-spacing:-.02em;line-height:.92;text-transform:uppercase;}
+.amn .section-head{display:grid;grid-template-columns:auto 1fr auto;
+  grid-template-areas:"chip chip chip" "idx title meta";
+  align-items:end;column-gap:clamp(12px,3vw,20px);row-gap:clamp(16px,4vw,22px);
+  padding:clamp(18px,5vw,26px) 0 clamp(16px,4vw,22px);border-top:1.5px solid var(--line);margin-bottom:clamp(18px,4.5vw,26px);}
+.amn .section-head .chiprow{grid-area:chip;}
+.amn .section-head .idx{grid-area:idx;}
+.amn .section-head h2{grid-area:title;}
+.amn .section-head .meta{grid-area:meta;text-align:right;}
+.amn .section-head .idx{font-family:var(--display);font-weight:700;font-size:clamp(32px,8.4vw,76px);letter-spacing:-.02em;line-height:.92;}
+.amn .section-head .meta{text-align:right;}
+.amn .section-head .meta b{display:block;font-size:clamp(18px,2vw,24px);letter-spacing:-.02em;}
+.amn .chip{font-weight:700;font-size:clamp(12px,3.2vw,13px);letter-spacing:.12em;text-transform:uppercase;
+  padding:11px 22px;border-radius:999px;color:var(--ink);display:inline-block;background:var(--cc,var(--ink));}
+/* the label sits on its own line, flush left with the "0" of the number, and
+   trails off into two circles of the same colour — the pill breaking up. */
+.amn .chiprow{display:flex;align-items:center;gap:9px;}
+.amn .chiprow i{display:block;border-radius:50%;background:var(--cc,var(--ink));flex:none;}
+.amn .chiprow i:nth-of-type(1){width:clamp(22px,5.6vw,26px);height:clamp(22px,5.6vw,26px);}
+.amn .chiprow i:nth-of-type(2){width:clamp(11px,2.8vw,13px);height:clamp(11px,2.8vw,13px);}
+.amn .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+
+/* ---------------------------------------------------------------
+   1. HEADER — logo only (CSS version of the site logo)  [IMG]
+   --------------------------------------------------------------- */
+/* the logo sits alone and centred, so the rolling wheel never crosses a button */
+.amn .site-head{padding:clamp(22px,6vw,34px) 0 clamp(16px,4vw,22px);border-bottom:1.5px solid var(--line);}
+.amn .site-head .wrap{display:flex;justify-content:center;}
+.amn .site-head .logo{align-items:center;text-align:center;}
+.amn .site-head .logo .l2{margin-right:0;padding-left:.32em;}   /* optical centring of the tracked NAGOYA */
+/* the buttons live BELOW the rule, on their own row */
+.amn .navrow{border-bottom:1.5px solid var(--line);}
+.amn .navrow .wrap{display:flex;justify-content:center;padding-top:clamp(12px,3.5vw,16px);padding-bottom:clamp(12px,3.5vw,16px);}
+/* [IMG] LOGO — CSS/animated recreation of the site's GIF logo.
+   The bowl of the "p" in "Map" becomes a blue wheel, rolls off to the right,
+   comes back in from the left and clicks back into the "p". Loops every 9s.
+   To use the GIF instead: replace the <a class="logo"> contents with
+   <img src="logo.gif" alt="Accessibility Map NAGOYA">. */
+.amn .logo{display:inline-flex;flex-direction:column;text-decoration:none;color:var(--ink);line-height:1;}
+.amn .logo .l1{font-family:var(--display);font-weight:500;font-size:clamp(22px,6.4vw,32px);letter-spacing:0;position:relative;white-space:nowrap;}
+.amn .logo .l2{font-family:var(--display);font-weight:700;font-size:clamp(28px,8.2vw,40px);letter-spacing:.32em;margin-top:3px;margin-right:-.32em;}
+/* the "p" is two layers: the full "p", and an "I" that shows while the wheel (the p's bowl) is away.
+   To leave a lowercase stem instead, change the letter inside <span class="stem"> to "l" or "i". */
+.amn .logo .p{position:relative;display:inline-block;}
+.amn .logo .p .glyph{color:inherit;}
+/* the I is pushed down by the descender depth so its bottom lines up with the bottom of the lowercase p
+   (cap-height ≈ x-height + descender in Gibson, so it reads as the p's own stem). Tune --desc per font. */
+.amn .logo .p{--desc:.21em;}
+.amn .logo .p .stem{position:absolute;left:0;top:0;color:inherit;opacity:0;transform:translateY(var(--desc));}
+.amn .logo .p .glyph{transition:none;}
+.amn .logo .wheel{
+  --ground:.62em;                      /* drop distance: lands on the NAGOYA line below */
+  position:absolute;left:.34em;top:.42em;width:.56em;height:.56em;
+  border:.13em solid var(--sky);border-radius:50%;box-sizing:border-box;opacity:0;
+}
+@media (prefers-reduced-motion:no-preference){
+  .amn .logo .p .stem{animation:amn-stem 9s linear infinite;}
+  .amn .logo .wheel{animation:amn-wheel 9s linear infinite;}
+  .amn .logo .p .glyph{animation:amn-glyph 9s linear infinite;}
+  @keyframes amn-stem{0%,10%{opacity:0}10.1%,89.9%{opacity:1}90%,100%{opacity:0}}
+  @keyframes amn-glyph{0%,10%{opacity:1}10.1%,89.9%{opacity:0}90%,100%{opacity:1}}
+  /* the wheel: drops out of the p (small bounce), rolls off right, comes back from the left,
+     then JUMPS in an arc back into the p. --ground = how far below the bowl it lands. */
+  @keyframes amn-wheel{
+    0%,10%   {opacity:0;transform:translate(0,0) rotate(0);}
+    10.1%    {opacity:1;transform:translate(0,0) rotate(0);animation-timing-function:ease-in;}
+    13.5%    {transform:translate(.05em,var(--ground)) rotate(20deg);animation-timing-function:ease-out;}   /* lands */
+    15%      {transform:translate(.12em,calc(var(--ground) - .22em)) rotate(60deg);animation-timing-function:ease-in;} /* bounce */
+    16.5%    {transform:translate(.2em,var(--ground)) rotate(100deg);animation-timing-function:linear;}
+    46%      {opacity:1;transform:translate(70vw,var(--ground)) rotate(1180deg);}                          /* rolls away */
+    46.1%    {opacity:0;transform:translate(70vw,var(--ground)) rotate(1180deg);}
+    50%      {opacity:0;transform:translate(-70vw,var(--ground)) rotate(-1080deg);}
+    50.1%    {opacity:1;transform:translate(-70vw,var(--ground)) rotate(-1080deg);animation-timing-function:linear;}
+    82%      {transform:translate(-1.1em,var(--ground)) rotate(-40deg);animation-timing-function:ease-out;} /* back, winds up */
+    84.5%    {transform:translate(-.5em,calc(var(--ground) - .9em)) rotate(0);animation-timing-function:ease-in;} /* top of the jump */
+    87%      {transform:translate(0,0) rotate(20deg);animation-timing-function:ease-out;}                   /* lands in the p */
+    88.5%    {transform:translate(0,.06em) rotate(0);}                                                    /* tiny settle */
+    89.9%    {opacity:1;transform:translate(0,0) rotate(0);}
+    90%,100% {opacity:0;transform:translate(0,0) rotate(0);}
+  }
+}
+.amn .site-head{overflow:hidden;}   /* the wheel leaves the page without causing sideways scroll */
+.amn footer{overflow:hidden;}
+/* breadcrumb = the site structure; only this page exists for now [LINK] */
+.amn .crumbs{display:flex;align-items:center;justify-content:center;gap:8px;font-weight:500;font-size:13px;color:var(--ink-2);flex-wrap:wrap;text-transform:uppercase;letter-spacing:.06em;}
+.amn .crumbs a{text-decoration:none;color:var(--ink);padding:6px 12px;border-radius:999px;border:1.5px solid var(--ink);}
+.amn .crumbs span[aria-current]{padding:6px 12px;border-radius:999px;background:var(--ink);color:#fff;font-weight:700;border:1.5px solid var(--ink);}
+
+/* ---------------------------------------------------------------
+   2. HERO — title + one line
+   --------------------------------------------------------------- */
+.amn .hero{padding:clamp(24px,7vw,40px) 0 0;}
+.amn .hero .top{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:end;}
+.amn .hero .top .label{padding-bottom:10px;}
+.amn h1{font-family:var(--display);font-weight:700;font-size:clamp(54px,15vw,180px);line-height:.86;letter-spacing:-.02em;text-transform:uppercase;margin-top:14px;}
+.amn h1 span{display:block;}
+.amn h1 .hl{color:var(--shinkansen);}
+.amn h1 .hl.long{font-size:clamp(40px,11.4vw,148px);}   /* a long line name still fits the gutter */
+.amn .hero p{margin:clamp(16px,4vw,22px) 0 clamp(20px,5vw,26px);font-size:clamp(16px,4vw,24px);font-weight:500;color:var(--ink);max-width:28em;}
+/* index rows — like a table of contents */
+.amn .index{border-top:1.5px solid var(--line);}
+.amn .index a{display:grid;grid-template-columns:clamp(32px,9vw,52px) 1fr auto clamp(36px,10vw,40px);align-items:center;gap:clamp(10px,2.5vw,16px);padding:clamp(14px,4vw,18px) 0;border-bottom:1.5px solid var(--line);text-decoration:none;transition:padding-left .25s;}
+.amn .index a .n{font-weight:700;font-size:14px;letter-spacing:.06em;}
+.amn .index a .t{font-family:var(--display);font-weight:700;font-size:clamp(22px,6vw,34px);letter-spacing:-.015em;text-transform:uppercase;line-height:1;}
+.amn .index a .t small{display:block;font-weight:500;font-size:13px;letter-spacing:.1em;margin-top:6px;color:var(--ink-2);}
+.amn .index a .pf{font-weight:700;font-size:clamp(19px,5vw,32px);letter-spacing:-.015em;font-variant-numeric:tabular-nums;}
+.amn .index a .ar{width:36px;height:36px;border-radius:50%;background:var(--c);display:grid;place-items:center;color:#fff;}
+.amn .index a .ar svg{width:18px;height:18px;transition:transform .25s;}
+.amn .index a.dark .ar{color:#111;}
+@media (hover:hover){.amn .index a:hover{padding-left:8px;} .amn .index a:hover .ar svg{transform:translate(2px,-2px);}}
+
+/* ---------------------------------------------------------------
+   3. FOLDER STACK — landscape folders, tabs on top (like nagoyastation_menu)
+   Six landscape folders lie on top of each other. Each folder's tab sits
+   at a different x-position along the top edge, so every tab is visible
+   while only the FRONT folder's body is. Click / tap a tab (or the front
+   folder) to pull that folder to the front — the z-index swaps and it
+   lifts. Shinkansen is in front by default.
+   --i = tab slot (0 = leftmost).  --z is set by JS on click.
+   Motion: 380ms transform only; off for prefers-reduced-motion.
+   --------------------------------------------------------------- */
+.amn .files{padding:clamp(32px,8vw,56px) 0 clamp(32px,8vw,48px);}
+.amn .files .intro{font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);margin-bottom:26px;display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:14px;border-top:1.5px solid var(--line);}
+.amn .stack{
+  --n:6;--tab-h:clamp(42px,11vw,50px);--body-h:clamp(240px,52vw,340px);--depth:9px;    /* --depth: how much each folder behind peeks out at the bottom */
+  position:relative;width:100%;max-width:none;margin:0;
+  height:calc(var(--tab-h) + var(--body-h) + var(--depth) * (var(--n) - 1) + 40px);
+}
+.amn .file{
+  --c:var(--shinkansen);--fg:#fff;
+  --ease:cubic-bezier(.32,1.25,.5,1);
+  position:absolute;left:0;right:0;top:0;                 /* every folder starts at the same top: all tabs stay visible */
+  z-index:var(--z,calc(var(--n) - var(--i)));
+  display:block;text-decoration:none;color:var(--fg);cursor:pointer;
+  transform:translateY(0);
+  filter:drop-shadow(0 4px 0 rgba(0,0,0,.06));
+  transition:transform .38s var(--ease), filter .38s;
+  will-change:transform;
+}
+.amn .file.dark{--fg:#111;}
+/* tab: slot i of n along the top edge */
+.amn .file .tab{
+  position:absolute;top:0;height:var(--tab-h);
+  left:calc(var(--i) * (100% / var(--n)));width:calc(100% / var(--n));
+  background:var(--c);border-radius:18px 18px 0 0;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.04em;text-transform:uppercase;
+  padding:0 8px;text-align:center;line-height:1.05;
+}
+.amn .file:first-child .tab{border-top-left-radius:22px;}
+.amn .file .tab{z-index:2;}
+/* body */
+.amn .file .body{
+  position:absolute;top:var(--tab-h);left:0;right:0;
+  height:calc(var(--body-h) + var(--i) * var(--depth));   /* folders further back are a little taller → a stacked edge shows below the front one */
+  background:var(--c);border-radius:22px;
+  padding:clamp(18px,5vw,28px) clamp(18px,5vw,36px) clamp(20px,5vw,30px);display:grid;grid-template-columns:1fr auto;gap:clamp(12px,3vw,20px);align-items:end;
+  max-height:calc(var(--body-h) + var(--i) * var(--depth));
+}
+.amn .file .body > *{align-self:end;margin-bottom:calc(var(--i) * var(--depth));}  /* keep text at the same height on every folder */
+.amn .file:first-child .body{border-top-left-radius:0;}
+.amn .file:last-child .body{border-top-right-radius:0;}   /* the rightmost tab sits flush on the body's corner */
+.amn .file:last-child .tab{border-top-right-radius:22px;}
+.amn .file .body .name{font-family:var(--display);font-weight:700;font-size:clamp(30px,7.6vw,68px);letter-spacing:-.02em;line-height:.9;text-transform:uppercase;}
+.amn .file .body .sub{font-weight:500;font-size:clamp(14px,3.4vw,20px);margin-top:6px;opacity:.9;}
+.amn .file .body .start{margin-top:22px;display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:15px;letter-spacing:.04em;text-transform:uppercase;
+  background:#fff;color:var(--c);padding:10px 16px;border-radius:999px;border:0;}
+.amn .file .body .start svg{width:18px;height:18px;transition:transform .3s var(--ease);}
+.amn .file .body .ja{display:block;text-align:center;font-weight:700;font-size:clamp(22px,5.4vw,46px);line-height:1.02;align-self:end;}   /* one character per line; its last line sits on the CTA's bottom edge */
+.amn .file.soon .body .start{background:rgba(255,255,255,.85);color:var(--c);}
+.amn .file .body .name,.amn .file .body .sub{display:block;}
+
+@media (hover:hover){
+  .amn .file:hover{transform:translateY(-8px);filter:drop-shadow(0 14px 22px rgba(0,0,0,.18));}
+  .amn .file:hover .start svg{transform:translateX(5px);}
+}
+.amn .file:focus-visible{transform:translateY(-10px);outline-offset:6px;}
+.amn .file.is-active{transform:translateY(-8px);filter:drop-shadow(0 18px 30px rgba(0,0,0,.24));}   /* small lift so the other tabs stay fully clickable */
+.amn .file.is-active .tab::before{content:"";width:10px;height:10px;border-radius:50%;background:currentColor;margin-right:8px;flex:none;}
+/* ---------------------------------------------------------------
+   4 / 5. LINE SECTIONS — flat: black type on colour
+   --------------------------------------------------------------- */
+.amn .line{--c:var(--shinkansen);}
+.amn .line .chip{background:var(--c);}
+.amn .start{display:grid;grid-template-columns:auto 1fr auto;gap:clamp(14px,3.5vw,22px);align-items:center;padding:clamp(18px,4.5vw,24px) 0;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);}
+.amn .start .clock{width:clamp(52px,13vw,68px);height:clamp(52px,13vw,68px);border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:700;font-size:26px;color:#fff;background:#111;flex:none;}
+.amn .start .k{display:block;font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);margin-bottom:6px;}
+.amn .start .v{font-family:var(--display);font-weight:700;font-size:clamp(26px,6.6vw,46px);letter-spacing:-.02em;line-height:.95;}
+.amn .start .v em{font-style:normal;color:var(--c);}
+.amn .start .side{font-weight:700;font-size:14px;letter-spacing:.08em;text-transform:uppercase;text-align:right;}
+.amn .start.silver .clock{background:#8A93A8;}
+.amn .start.gold .clock{background:#D9A400;color:#111;}
+
+/* info cells — a 1px grid, flat colour blocks, big index numerals, arrow top-right */
+.amn .blocks{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5px;background:var(--line);border:1.5px solid var(--line);border-left:0;border-right:0;margin-top:clamp(16px,4vw,22px);}  /* runs edge to edge */
+.amn .block{
+  background:var(--grey);color:var(--ink);padding:clamp(14px,3.6vw,20px) clamp(14px,3.6vw,20px) clamp(14px,3.2vw,18px);
+  display:grid;grid-template-rows:auto 1fr auto;gap:clamp(14px,4vw,22px);min-height:clamp(180px,44vw,240px);
+  transition:transform .25s;position:relative;
+}
+.amn .block .k{font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;display:flex;justify-content:space-between;align-items:center;}
+.amn .block .k svg{width:20px;height:20px;}
+.amn .block .v{font-family:var(--display);font-weight:700;font-size:clamp(19px,4.6vw,28px);line-height:1;letter-spacing:-.015em;align-self:end;}
+.amn .block .foot{display:flex;justify-content:space-between;align-items:end;}
+.amn .block .foot .n{font-family:var(--display);font-weight:700;font-size:clamp(36px,8vw,64px);line-height:.8;letter-spacing:-.02em;}
+.amn .block .foot .ic{width:clamp(38px,9.5vw,46px);height:clamp(38px,9.5vw,46px);border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;}
+.amn .block .foot .ic svg{width:24px;height:24px;}
+.amn .block.c{background:var(--c);}           /* line colour */
+.amn .block.c.light{color:#111;}
+.amn .block.pink{background:var(--toilet);}
+@media (hover:hover){.amn .block:hover{transform:translateY(-3px);}}
+
+
+/* ---------------------------------------------------------------
+   FACTS — the readable detail under each line's four blocks.
+   One fact per row, label left, plain sentence right.
+   --------------------------------------------------------------- */
+.amn .facts{margin:0;border-bottom:1.5px solid var(--line);}
+.amn .facts .r{display:grid;grid-template-columns:clamp(100px,24vw,200px) 1fr;
+  gap:clamp(10px,3vw,28px);padding:clamp(13px,3.4vw,18px) 0;border-top:1.5px solid var(--line);align-items:baseline;}
+.amn .facts .r:first-child{border-top:0;}
+.amn .facts dt{font-weight:500;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2);line-height:1.5;}
+.amn .facts dd{margin:0;font-size:clamp(15px,3.9vw,19px);font-weight:500;line-height:1.55;}
+.amn .facts dd b{font-weight:700;}
+.amn .facts dd .no{color:#B4001F;font-weight:700;}
+.amn .facts dd .yes{color:#0B7A3B;font-weight:700;}
+.amn .facts dd em{font-style:normal;font-weight:700;color:var(--c,var(--ink));}
+.amn .facts dd small{display:block;font-size:13px;font-weight:400;color:var(--ink-2);margin-top:4px;line-height:1.5;}
+@media (max-width:560px){
+  .amn .facts .r{grid-template-columns:1fr;gap:6px;}
+}
+
+/* PLATFORM TABLE — JR runs thirteen platforms; a table is the honest way to show it */
+.amn .ptwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:clamp(18px,4.5vw,26px);}
+.amn .ptab{width:100%;min-width:520px;border-collapse:collapse;}
+.amn .ptab caption{text-align:left;font-size:12px;font-weight:500;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2);padding-bottom:10px;}
+.amn .ptab th,.amn .ptab td{border-bottom:1.5px solid var(--line);padding:clamp(11px,2.8vw,15px) 10px clamp(11px,2.8vw,15px) 0;text-align:left;vertical-align:baseline;}
+.amn .ptab thead th{border-top:1.5px solid var(--line);font-weight:500;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .ptab tbody th{font-family:var(--display);font-weight:700;font-size:clamp(17px,4.4vw,23px);letter-spacing:-.01em;white-space:nowrap;}
+.amn .ptab td{font-size:clamp(14px,3.6vw,17px);font-weight:500;}
+.amn .ptab .y{color:#0B7A3B;font-weight:700;}
+.amn .ptab .n{color:#B4001F;font-weight:700;}
+.amn .ptab tbody tr:last-child th,.amn .ptab tbody tr:last-child td{border-bottom:0;}
+
+/* SOURCE LINE — every section says where it came from and when we checked */
+.amn .srcline{margin-top:clamp(16px,4vw,22px);font-size:12px;font-weight:500;letter-spacing:.05em;color:var(--ink-2);line-height:1.6;}
+.amn .srcline b{font-weight:700;letter-spacing:.13em;text-transform:uppercase;}
+
+
+/* ---------------------------------------------------------------
+   PHOTOS  [IMG] — every slot is an empty <figure> with a striped
+   placeholder. To fill one: delete the .ph div and put an <img>
+   in its place, keeping the same class on the figure.
+     <img src="/wp-content/uploads/2026/xx/name.jpg" alt="…">
+   Always write a real alt text: what a person needs to know if
+   they cannot see the photo ("Lift doors on platform 14, sign
+   above reads 14-15").
+   --------------------------------------------------------------- */
+.amn .ph{display:grid;place-items:center;text-align:center;
+  background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
+  color:var(--ink-2);font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:20px;}
+
+/* A. hero band — one wide photo directly under the headline */
+.amn .band{margin:clamp(20px,5vw,30px) 0 0;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);}
+.amn .band .ph,.amn .band img{display:block;width:100%;height:clamp(180px,42vw,420px);object-fit:cover;}
+.amn .band figcaption{padding:12px var(--gut) 14px;font-size:13px;font-weight:500;color:var(--ink-2);
+  border-top:1.5px solid var(--line);}
+
+/* B. three captioned shots — the things you actually have to find */
+.amn .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.5px;background:var(--line);
+  border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);margin-top:clamp(20px,5vw,28px);}
+.amn .shot{background:var(--grey);margin:0;display:flex;flex-direction:column;}
+.amn .shot .ph,.amn .shot img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;}
+.amn .shot figcaption{padding:clamp(13px,3.4vw,17px);display:grid;gap:7px;}
+.amn .shot .t{font-family:var(--display);font-weight:700;font-size:clamp(16px,4.2vw,19px);letter-spacing:-.01em;line-height:1.2;}
+.amn .shot .d{font-size:14px;font-weight:400;color:var(--ink-2);line-height:1.5;}
+.amn .shot .n{font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--c,var(--ink));}
+
+
+
+/* ---------------------------------------------------------------
+   CATEGORIES — the same three on every line page, in the same
+   order, with the same letter:
+     A  Elevator            エレベーター
+     B  Accessible toilet   車椅子トイレ
+     C  Entrances & exits   出入口
+   D and after vary by line. Each category is a coloured header bar
+   followed by its explanation and, where useful, one photo.
+   [IMG] to fill a photo, replace <div class="ph">…</div> with
+     <img src="/wp-content/uploads/…/name.jpg" alt="…">
+   Keep the data-mk letter on the <figure>: it draws the badge that
+   ties the photo to its category.
+   --------------------------------------------------------------- */
+.amn .cats{border-top:1.5px solid var(--line);margin-top:clamp(20px,5vw,28px);}
+.amn .cat{border-bottom:1.5px solid var(--line);}
+.amn .cathead{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:clamp(12px,3vw,18px);
+  align-items:center;background:var(--c);color:#fff;margin:0;
+  padding:clamp(12px,3.2vw,16px) var(--gut);}
+.amn .cat.light .cathead{color:#111;}
+.amn .cathead .mk{width:clamp(32px,7.4vw,40px);height:clamp(32px,7.4vw,40px);border-radius:50%;
+  background:#fff;color:var(--c);display:grid;place-items:center;flex:none;}
+.amn .cathead .mk svg{width:56%;height:56%;}
+.amn .cat.light .cathead .mk{background:#111;color:var(--c);}
+.amn .cathead .ttl{font-family:var(--display);font-weight:700;font-size:clamp(19px,4.8vw,27px);
+  letter-spacing:-.015em;line-height:1.05;}
+.amn .cathead .ttl i{display:block;font-style:normal;font-weight:500;font-size:clamp(11px,2.9vw,13px);
+  letter-spacing:.1em;margin-top:4px;opacity:.9;}
+.amn .cathead .tag{font-weight:700;font-size:clamp(11px,2.8vw,12px);letter-spacing:.11em;
+  text-transform:uppercase;text-align:right;line-height:1.3;}
+.amn .catbody{display:grid;grid-template-columns:minmax(0,1fr) clamp(230px,34%,430px);
+  gap:clamp(16px,4vw,40px);align-items:start;padding:clamp(20px,5vw,30px) var(--gut);}
+.amn .catbody.solo{grid-template-columns:minmax(0,1fr);}
+.amn .catbody .lead{font-size:clamp(17px,4.4vw,22px);font-weight:500;line-height:1.45;margin:0 0 clamp(14px,3.5vw,18px);}
+.amn .catbody .lead b{font-weight:700;}
+.amn .catbody .lead .no{color:#B4001F;font-weight:700;}
+.amn .catbody .lead .yes{color:#0B7A3B;font-weight:700;}
+.amn .catbody dl{margin:0;display:grid;gap:0;}
+.amn .catbody dl>div{display:grid;grid-template-columns:clamp(96px,22%,170px) minmax(0,1fr);
+  gap:clamp(10px,3vw,22px);padding:clamp(11px,2.9vw,15px) 0;border-top:1.5px solid var(--line);align-items:baseline;}
+.amn .catbody dt{font-weight:500;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);line-height:1.5;
+  display:flex;align-items:center;gap:9px;}
+.amn .catbody dt .ibadge{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 6px;border-radius:11px;flex:none;
+  background:var(--bc,var(--ink));color:#fff;font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:0;text-transform:none;white-space:nowrap;}
+.amn .catbody dd{margin:0;font-size:clamp(15px,3.8vw,17px);font-weight:500;line-height:1.55;}
+.amn .catbody dd b{font-weight:700;}
+.amn .catbody dd .no{color:#B4001F;font-weight:700;}
+.amn .catbody dd .yes{color:#0B7A3B;font-weight:700;}
+.amn .catbody dd small{display:block;font-size:13px;font-weight:400;color:var(--ink-2);margin-top:5px;line-height:1.5;}
+/* the photo */
+.amn .catbody figure{margin:0;position:relative;}
+.amn .catbody .ph,.amn .catbody img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;}
+.amn .catbody .ph{display:grid;place-items:center;align-content:center;gap:8px;text-align:center;padding:16px;
+  background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
+  color:var(--ink-2);font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;}
+@media (max-width:720px){
+  .amn .catbody{grid-template-columns:minmax(0,1fr);gap:18px;}
+  .amn .catbody dl>div{grid-template-columns:minmax(0,1fr);gap:5px;}
+  .amn .cathead{grid-template-columns:auto minmax(0,1fr);}
+  .amn .cathead .tag{grid-column:2;text-align:left;}
+}
+
+/* ON THIS PAGE — the colour blocks are the contents list. One per
+   category, same letter, and each one jumps to it. */
+.amn .blocks{grid-template-columns:repeat(var(--n,4),1fr);}
+.amn .blocks .filler{background:var(--grey);display:none;}   /* keeps the last row square when the count is odd */
+@media (max-width:900px){.amn .blocks{grid-template-columns:repeat(2,1fr);} .amn .blocks .filler{display:block;}}
+.amn .blocks li{display:contents;}
+.amn a.block{text-decoration:none;color:inherit;}
+.amn a.block .v em{display:block;font-style:normal;font-weight:500;font-size:clamp(12px,3vw,14px);
+  letter-spacing:.06em;margin-top:6px;opacity:.75;}
+.amn a.block .k svg{width:18px;height:18px;}
+@media (hover:hover){.amn a.block:hover .foot .ic{transform:translateY(-2px);}}
+.amn a.block .foot .ic{transition:transform .25s;}
+
+/* OTHER LINES — now at the foot of the page, after the content */
+.amn .others{border-top:1.5px solid var(--line);padding-top:clamp(22px,5vw,30px);}
+.amn .others .label{display:block;margin-bottom:clamp(12px,3vw,16px);}
+
+/* ---------------------------------------------------------------
+   6. MAP  [MAP] — pins are <button>s positioned in % of the map box
+   --------------------------------------------------------------- */
+.amn .map-shell{border:1.5px solid var(--line);border-left:0;border-right:0;padding:0;}  /* edge to edge */
+.amn .map{position:relative;overflow:auto;background:#fff;-webkit-overflow-scrolling:touch;}
+/* the plan is dense, so on a phone it keeps a readable width and the box scrolls
+   sideways. Pins sit inside .mapinner, so their % coordinates stay on the image. */
+.amn .mapinner{position:relative;width:100%;min-width:720px;}
+.amn .map img,.amn .map svg{display:block;width:100%;height:auto;}
+.amn .map-shell .hint .swipe{display:none;}
+@media (max-width:760px){.amn .map-shell .hint .swipe{display:inline;}}
+.amn .map-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .pin{--c:var(--shinkansen);position:absolute;transform:translate(-50%,-100%);display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:0;padding:6px;cursor:pointer;}
+.amn .pin .dot{width:38px;height:38px;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);background:var(--c);border:3px solid #fff;box-shadow:0 4px 10px rgba(0,0,0,.25);display:grid;place-items:center;color:#fff;transition:transform .25s;}
+.amn .pin .dot svg{width:20px;height:20px;transform:rotate(45deg);}
+.amn .pin .lbl{font-weight:700;font-size:12px;letter-spacing:.02em;background:#111;color:#fff;padding:3px 9px;border-radius:999px;white-space:nowrap;}
+.amn .pin:hover .dot,.amn .pin:focus-visible .dot{transform:rotate(-45deg) scale(1.12);}
+.amn .legend{display:flex;flex-wrap:wrap;gap:10px 18px;padding:12px 16px;border-top:1.5px solid var(--line);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);}
+.amn .legend span{display:inline-flex;align-items:center;gap:8px;}
+.amn .legend i{width:14px;height:14px;border-radius:4px;display:inline-block;}
+.amn .is-target{animation:amn-flash 1.2s ease-out 1;}
+@keyframes amn-flash{0%{box-shadow:inset 0 0 0 4px #111;}100%{box-shadow:inset 0 0 0 0 transparent;}}
+
+/* ---------------------------------------------------------------
+   7. FOOTER — black, like the TOP page
+   --------------------------------------------------------------- */
+.amn footer{background:#111;color:#fff;padding:clamp(44px,10vw,64px) 0 clamp(36px,8vw,48px);margin-top:clamp(24px,6vw,40px);}
+.amn footer .wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px;}
+.amn footer .logo{color:#fff;--paper:#141414;}
+.amn footer .logo .l1{font-size:34px;font-weight:500;}
+.amn footer .logo .l2{font-size:40px;letter-spacing:.2em;}
+.amn footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(20px,6vw,40px);font-size:16px;font-weight:500;}
+.amn footer nav a{text-underline-offset:4px;}
+.amn footer nav a{text-decoration:none;}
+.amn footer small{font-size:13px;color:#CFCFCF;font-weight:400;}
+
+/* ---------------------------------------------------------------
+   ENTRANCE — transform+opacity only; off for reduced motion
+   --------------------------------------------------------------- */
+@media (prefers-reduced-motion:no-preference){
+  .amn .anim.amn-in{animation:amn-rise .5s cubic-bezier(.2,.8,.2,1) both;}
+  .amn .anim.amn-in:nth-child(2){animation-delay:.06s;}
+  .amn .anim.amn-in:nth-child(3){animation-delay:.12s;}
+  .amn .anim.amn-in:nth-child(4){animation-delay:.18s;}
+  @keyframes amn-rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+  html{scroll-behavior:smooth;}
+}
+@media (prefers-reduced-motion:reduce){
+  .amn *,.amn *::before,.amn *::after{transition:none!important;animation:none!important;}
+}
+
+/* ---------------------------------------------------------------
+   RESPONSIVE — mobile first; the wallet stack is the same on every
+   size, only the step and card height shrink.
+   --------------------------------------------------------------- */
+@media (max-width:900px){
+  .amn .blocks{grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:640px){
+  .amn section{padding:32px 0 44px;}
+  .amn .section-head{grid-template-columns:auto 1fr;grid-template-areas:"chip chip" "idx title" "meta meta";row-gap:clamp(12px,3.5vw,18px);}
+  .amn .section-head .meta{text-align:left;display:flex;gap:10px;align-items:baseline;}
+  .amn .index a{grid-template-columns:36px 1fr auto 36px;gap:10px;}
+  .amn .start{grid-template-columns:auto 1fr;}
+  .amn .start .side{grid-column:2;text-align:left;}
+  .amn .block{min-height:190px;padding:14px;}
+  .amn .stack{--tab-h:52px;--body-h:250px;--depth:8px;}
+  .amn .file .tab{font-size:11px;letter-spacing:.02em;padding:0 3px;border-radius:12px 12px 0 0;word-break:break-word;hyphens:manual;}
+  .amn .file .body{padding:18px 18px 18px 20px;gap:12px;}
+  .amn .file .body .ja{font-size:32px;}
+  .amn .file.is-active .tab::before{display:none;}
+  .amn .start .clock{width:52px;height:52px;font-size:22px;}
+  .amn .pin .dot{width:30px;height:30px;}
+  .amn .pin .dot svg{width:16px;height:16px;}
+  .amn .pin .lbl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;} /* SR-only; icons still differ */
+  .amn footer .logo .l1{font-size:26px;} .amn footer .logo .l2{font-size:30px;}
+}
+
+/* ---------------------------------------------------------------
+   GETTING THERE — Google Map embed. Keyless embed URL, so it needs
+   no API key; swap the q= value to move the pin.
+   --------------------------------------------------------------- */
+.amn .gmap{border:1.5px solid var(--line);border-left:0;border-right:0;}
+.amn .gmap .frame{position:relative;height:clamp(300px,52vw,460px);display:grid;place-items:center;
+  background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E7E4DC 14px 28px);}
+.amn .gmap .frame p{font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);text-align:center;padding:0 24px;}
+.amn .gmap iframe{position:absolute;inset:0;display:block;width:100%;height:100%;border:0;}
+.amn .gmap .row{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;
+  padding:clamp(12px,3.5vw,16px) var(--gut);border-top:1.5px solid var(--line);}
+.amn .gmap .addr{font-weight:500;font-size:14px;color:var(--ink-2);}
+.amn .gmap .open{display:inline-flex;align-items:center;gap:10px;text-decoration:none;background:var(--ink);color:#fff;
+  border-radius:999px;padding:12px 20px;font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;transition:transform .25s;}
+.amn .gmap .open svg{width:16px;height:16px;transition:transform .25s;}
+@media (hover:hover){.amn .gmap .open:hover{transform:translateY(-2px);} .amn .gmap .open:hover svg{transform:translate(2px,-2px);}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M12 6v3l2 1.5M12 15v6M9 21h6"/></symbol>
+  <symbol id="i-gate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="6" height="16" rx="2"/><rect x="15" y="4" width="6" height="16" rx="2"/><path d="M9 12h6"/></symbol>
+  <symbol id="i-elev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 14v-4l-2 2M9 10l2 2M15 10v4l-2-2M15 14l2-2"/></symbol>
+  <symbol id="i-esc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18h5l9-11h4"/><path d="M3 21h6l9-11h3"/><circle cx="9.5" cy="10.5" r="1.5"/></symbol>
+  <symbol id="i-toilet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="5" r="2"/><path d="M9 8v6l4 1 2 5"/><circle cx="8" cy="17" r="4"/><path d="M17 4h4M19 4v8"/></symbol>
+  <symbol id="i-train" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 10h14M9 21l1.5-3M15 21l-1.5-3"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="14" r="1"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
+  <symbol id="i-bus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="11" rx="2.5"/><path d="M3 11h18M8 16v2M16 16v2"/><circle cx="7.5" cy="18.5" r="1.5"/><circle cx="16.5" cy="18.5" r="1.5"/></symbol>
+</svg>
+
+<div class="amn">
+
+  <header class="site-head">
+    <div class="wrap">
+      <!-- [IMG] logo → <img src="..." alt="Accessibility Map NAGOYA"> -->
+      <a class="logo" href="index.html" aria-label="Accessibility Map NAGOYA — home">
+        <span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span>
+        <span class="l2" aria-hidden="true">NAGOYA</span>
+      </a>
+    </div>
+  </header>
+  <div class="navrow">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="You are here">
+        <a href="index.html">Top</a><span aria-hidden="true">&rsaquo;</span>
+        <a href="amn-venues.html">Venues</a><span aria-hidden="true">&rsaquo;</span>
+        <span aria-current="page">Aichi Budokan</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ============================== HERO ============================== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="top">
+        <span class="label">Asian Para Games 2026 &middot; Venue guide</span>
+        <span class="label">Step-free</span>
+      </div>
+      <hr class="rule">
+      <h1 id="hero-title"><span>Aichi</span><span class="hl" style="color:var(--aonami)">Budokan</span></h1>
+      <p>A fifteen-minute walk from the Aonami Line, or a much shorter one from any of three named bus stops &mdash; the closest is about one minute away.</p>
+    </div>
+  </section>
+
+  <section class="line" style="--c:var(--aonami)" aria-labelledby="sec-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="chiprow" style="--cc:var(--aonami)"><span class="chip" style="color:#111">愛知県武道館</span><i></i><i></i></span>
+        <span class="idx">01</span>
+        <h2 id="sec-title">Step-free guide</h2>
+        <div class="meta"><span class="label">Nearest station</span><b>港北駅</b></div>
+      </div>
+      <div class="facts">
+        <div class="r"><dt>Address</dt><dd>&#12306;455-0078 愛知県名古屋市港区丸池町1丁目1-4 (1-1-4 Maruike-cho, Minato-ku, Nagoya).</dd></div>
+        <div class="r"><dt>Para sport</dt><dd>Para Judo (パラ柔道)</dd></div>
+      </div>
+    </div>
+
+    <!-- ================= A GETTING THERE / B ELEVATOR / ================ -->
+    <!-- ================= C ACCESSIBLE TOILET / D EXITS ================= -->
+    <div class="cats">
+    <section class="cat light" style="--c:var(--aonami)" id="cat-a" aria-labelledby="h-a">
+      <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-bus"/></svg></span><span class="ttl">Getting there<i lang="ja">アクセス</i></span><span class="tag">1 train + 3 bus stops</span></h3>
+      <div class="catbody solo">
+        <div>
+          <p class="lead">The official venue-access page names one train station and <b>three separate bus stops</b>, each with its own walk time &mdash; not one shared stop.</p>
+          <dl>
+            <div><dt><span class="ibadge" style="--bc:var(--aonami)">A</span>Aonami Line &middot; 港北駅 (Kohoku)</dt><dd>About 15 min walk (徒歩約15分), per the official Aichi Prefecture venue-access page.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--bus)">B</span>武道館(1番)バス停</dt><dd>About 1 min walk (徒歩約1分) &mdash; the closest approach of any route to this venue.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--bus)">C</span>武道館(2番)バス停</dt><dd>About 2 min walk (徒歩約2分).</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--bus)">D</span>川西通三丁目バス停</dt><dd>About 10 min walk (徒歩約10分).</dd></div>
+            <div><dt>Route guides</dt><dd>PDF walking-route guides exist in both Japanese and English on the official page.</dd></div>
+            <div><dt>Parking</dt><dd>No spectator parking or bicycle parking (会場には観客用の駐車場・駐輪場はございません). Public transit is recommended.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section class="cat light" style="--c:var(--aonami)" id="cat-b" aria-labelledby="h-b">
+      <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator<i lang="ja">エレベーター</i></span><span class="tag">1, secondary source</span></h3>
+      <div class="catbody solo">
+        <div>
+          <p class="lead">The Aonami Line&rsquo;s own official per-station page for Kohoku could not be machine-read in this research pass (persistent fetch error). A secondary, reputable accessible-transport database confirms <span class="yes">one lift</span>; the operator&rsquo;s own system-wide page confirms a lift at every station on the line generally.</p>
+          <dl>
+            <div><dt><span class="ibadge" style="--bc:var(--aonami)">A</span>The lift, station-to-street</dt><dd>Confirmed by a secondary source (らくらくおでかけネット), not the operator&rsquo;s own per-station page &mdash; consult aonamiline.co.jp/train/an07-kohoku directly for the definitive account.</dd></div>
+            <div><dt>Step-free routes</dt><dd>Ground-to-gate, gate-to-platform and between-platforms routes are all confirmed step-free at this station.</dd></div>
+            <div><dt>Platform edge</dt><dd>Movable platform-edge barriers on both platforms (1・2番線); platform-to-train step &le;5cm, gap 12&ndash;17cm.</dd></div>
+            <div><dt>Wheelchairs</dt><dd>Handle-type/powered wheelchairs are permitted, no advance notice required. Welfare transport service is not available at this station.</dd></div>
+            <div><dt>Station structure</dt><dd>Elevated station, one island platform, two tracks.</dd></div>
+            <div><dt>System-wide (operator’s own page)</dt><dd>Every station on the Aonami Line has a lift and an accessible toilet, audio/chime gate and toilet-gender announcements, braille fare tables, tactile guide blocks, wheelchair-friendly gates and ticket machines, and movable platform-edge barriers at every station except Kinjo-futo (full platform screen doors there).</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section class="cat light" style="--c:var(--toilet)" id="cat-c" aria-labelledby="h-c">
+      <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet<i lang="ja">車椅子トイレ</i></span><span class="tag">1, inside the gates</span></h3>
+      <div class="catbody solo">
+        <div>
+          <p class="lead">The same secondary source confirms <span class="yes">one</span> accessible toilet, <b>inside the ticket gates only</b>.</p>
+          <dl>
+            <div><dt><span class="ibadge" style="--bc:var(--toilet)">A</span>Inside the ticket gates</dt><dd>General toilet, wheelchair-accessible toilet, ostomate fixture and baby bed all provided. None of these outside the gates.</dd></div>
+            <div><dt>Source</dt><dd>From a secondary, reputable accessible-transport database (らくらくおでかけネット), not the operator&rsquo;s own per-station page &mdash; check aonamiline.co.jp/train/an07-kohoku directly to confirm.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section class="cat" style="--c:var(--ink)" id="cat-d" aria-labelledby="h-d">
+      <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits<i lang="ja">出入口</i></span><span class="tag">Not confirmed</span></h3>
+      <div class="catbody solo">
+        <div>
+          <p class="lead">This station&rsquo;s exit structure is <b>not confirmed</b> in machine-readable official text in this research pass.</p>
+          <dl>
+            <div><dt>Not confirmed</dt><dd>Neither Wikipedia (which does not detail exit numbering) nor the operator&rsquo;s own per-station page (not fetchable by automated tools in this pass) gave a usable exit list. Check aonamiline.co.jp/train/an07-kohoku directly, or on site.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <div class="wrap">
+      <p class="srcline"><b>Source</b> &middot; Aichi Prefecture, official venue-access page for Aichi Budokan (pref.aichi.jp/soshiki/unei-shien/18-ag-pg-aichikenbudoukan.html, re-fetched September 2026); Aonami Line official system-wide accessibility page (aonamiline.co.jp/guidance/accessibility); Aonami Line official Kohoku station page, cited as primary though not machine-extractable in this pass (aonamiline.co.jp/train/an07-kohoku); secondary source らくらくおでかけネット, station page for 港北 (ecomo-rakuraku.jp/ja/station/港北/).</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span><span class="l2" aria-hidden="true">NAGOYA</span></span>
+      <!-- [LINK] -->
+      <nav aria-label="Footer"><a href="amn-about.html">About us</a><a href="amn-sources.html">Sources</a><a href="amn-privacy.html">Privacy</a></nav>
+      <!-- [TEXT] -->
+      <small>Accessibility information may change. Please check official sources before visiting.<br>This is an independent accessibility guide.</small>
+    </div>
+  </footer>
+</div>
+
+<script>
+/* ---------------------------------------------------------------
+   Accessibility Map NAGOYA — behaviour
+   1) internal links smooth-scroll (respects reduced motion)
+   2) wallet stack: click/tap = .is-active (front + open) + scroll
+   3) map pins scroll to their block and flash it
+   4) light entrance animation
+   --------------------------------------------------------------- */
+(function(){
+  var root = document.querySelector('.amn'); if(!root) return;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function goTo(id){
+    var el = document.getElementById(id); if(!el) return;
+    el.scrollIntoView({behavior: reduce ? 'auto' : 'smooth', block: 'start'});
+    if(!el.hasAttribute('tabindex')) el.setAttribute('tabindex','-1');
+    el.focus({preventScroll:true});
+    el.classList.remove('is-target'); void el.offsetWidth; el.classList.add('is-target');
+    if(history.replaceState) history.replaceState(null,'','#'+id);
+  }
+
+  /* 1) plain internal links */
+  root.querySelectorAll('a[href^="#"]:not(.file)').forEach(function(a){
+    a.addEventListener('click',function(e){
+      var id = a.getAttribute('href').slice(1);
+      if(!id){ e.preventDefault(); return; }               /* [LINK] placeholders */
+      if(document.getElementById(id)){ e.preventDefault(); goTo(id); }
+    });
+  });
+
+  /* 2) folder stack — click a tab / folder to pull it to the front */
+  var stack = root.querySelector('.stack');
+  var files = Array.prototype.slice.call(root.querySelectorAll('.stack .file'));
+  function activate(f){
+    files.forEach(function(o){ o.classList.remove('is-active'); o.removeAttribute('aria-current'); o.style.removeProperty('--z'); });
+    f.classList.add('is-active'); f.setAttribute('aria-current','true'); f.style.setProperty('--z', 40);
+    if(stack) stack.classList.add('has-active');
+  }
+  files.forEach(function(f){
+    f.addEventListener('click',function(e){
+      e.preventDefault();
+      activate(f);
+      var id = f.getAttribute('data-target');
+      if(id) setTimeout(function(){ goTo(id); }, reduce ? 0 : 260);
+    });
+  });
+  if(location.hash){
+    files.forEach(function(f){ if(f.getAttribute('data-target')===location.hash.slice(1)) activate(f); });
+  }
+
+  /* 3) map pins */
+  root.querySelectorAll('.pin[data-target]').forEach(function(btn){
+    btn.addEventListener('click',function(){ goTo(btn.getAttribute('data-target')); });
+  });
+
+  /* 4) entrance animation */
+  var items = root.querySelectorAll('.anim');
+  if(reduce || !('IntersectionObserver' in window)){ items.forEach(function(el){ el.classList.add('amn-in'); }); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('amn-in'); io.unobserve(en.target); } });
+  },{rootMargin:'0px 0px -8% 0px', threshold:.1});
+  items.forEach(function(el){ io.observe(el); });
+})();
+</script>
