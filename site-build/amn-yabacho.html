@@ -302,6 +302,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .legend i{width:14px;height:14px;border-radius:4px;display:inline-block;}
 .amn .is-target{animation:amn-flash 1.2s ease-out 1;}
 @keyframes amn-flash{0%{box-shadow:inset 0 0 0 4px #111;}100%{box-shadow:inset 0 0 0 0 transparent;}}
+.amn .toi-cat{padding:clamp(18px,4.5vw,26px) 0;border-top:1.5px solid var(--line);}
+.amn .toi-cat:first-of-type{border-top:none;padding-top:0;}
+.amn .toi-cat h3{font-family:var(--display);font-weight:700;font-size:clamp(16px,4vw,19px);letter-spacing:-.01em;line-height:1.25;margin:0 0 8px;}
+.amn .toi-cat p{font-size:clamp(14px,3.6vw,16px);line-height:1.7;color:var(--ink);margin:0 0 .7em;}
+.amn .toi-cat p:last-child{margin-bottom:0;}
+.amn .toi-cat .note{font-size:13px;line-height:1.6;color:var(--ink-2);border-left:3px solid var(--line);padding-left:14px;margin-top:.6em;}
+
 .amn .illust-note{padding:12px 16px 16px;font-size:12px;line-height:1.6;color:var(--ink-2);border-top:1.5px solid var(--line);}
 
 /* ---------------------------------------------------------------
@@ -456,8 +463,9 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <p class="stand">The station, and the buildings above it.</p>
       <div class="colourrule" aria-hidden="true"></div>
       <nav class="index" aria-label="Sections on this page">
-        <a href="#station" class="dark" style="--c:var(--toilet)"><span class="n">01</span><span class="t">Station<small>Meijo line</small></span><span class="pf">4 topics</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="#facilities" style="--c:#B0289B"><span class="n">02</span><span class="t">Other facilities<small>Department stores &amp; shopping</small></span><span class="pf">4 topics</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="#station" class="dark" style="--c:var(--subway)"><span class="n">01</span><span class="t">Station<small>Meijo line</small></span><span class="pf">3 topics</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="#getting-around" style="--c:#B0289B"><span class="n">02</span><span class="t">Getting around<small>Matsuzakaya, PARCO &amp; the park</small></span><span class="pf">3 topics</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="#toilets" class="dark" style="--c:var(--toilet)"><span class="n">03</span><span class="t">Toilets<small>Station &amp; nearby</small></span><span class="pf">3 topics</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
       </nav>
     </div>
   </section>
@@ -466,68 +474,102 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <div class="wrap">
       <h2 id="pick" class="sr">Choose a section</h2>
       <p class="intro"><svg width="18" height="18" aria-hidden="true"><use href="#i-wheel"/></svg> Pick a section</p>
-      <div class="stack" style="--n:2">
-        <a class="file dark" href="#station" data-target="station" style="--i:0;--c:var(--toilet)">
+      <div class="stack" style="--n:3">
+        <a class="file dark" href="#station" data-target="station" style="--i:0;--c:var(--subway)">
           <span class="tab">Station</span>
           <span class="body">
             <span><span class="name">Station</span><br><span class="sub">Meijo line</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="ja" aria-hidden="true">駅</span>
           </span>
         </a>
-        <a class="file" href="#facilities" data-target="facilities" style="--i:1;--c:#B0289B">
-          <span class="tab">Facilities</span>
+        <a class="file" href="#getting-around" data-target="getting-around" style="--i:1;--c:#B0289B">
+          <span class="tab">Getting around</span>
           <span class="body">
-            <span><span class="name">Other facilities</span><br><span class="sub">Department stores &amp; shopping</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
-            <span class="ja" lang="ja" aria-hidden="true">施<br>設</span>
+            <span><span class="name">Getting around</span><br><span class="sub">Matsuzakaya, PARCO &amp; the park</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span class="ja" lang="ja" aria-hidden="true">移<br>動</span>
+          </span>
+        </a>
+        <a class="file dark" href="#toilets" data-target="toilets" style="--i:2;--c:var(--toilet)">
+          <span class="tab">Toilets</span>
+          <span class="body">
+            <span><span class="name">Toilets</span><br><span class="sub">Station &amp; nearby</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span class="ja" lang="ja" aria-hidden="true">ト<br>イ<br>レ</span>
           </span>
         </a>
       </div>
     </div>
   </section>
 
-  <section id="station" class="line" style="--c:var(--toilet)" aria-labelledby="station-t">
+  <section id="station" class="line" style="--c:var(--subway)" aria-labelledby="station-t">
     <div class="wrap">
       <div class="section-head">
-        <span class="chiprow" style="--cc:var(--toilet)"><span class="chip" style="color:#111">Station</span><i></i><i></i></span>
+        <span class="chiprow" style="--cc:var(--subway)"><span class="chip" style="color:#111">Station</span><i></i><i></i></span>
         <span class="idx">01</span>
         <h2 id="station-t">Station</h2>
-        <div class="meta"><span class="label">Topics</span><b>4</b></div>
+        <div class="meta"><span class="label">Topics</span><b>3</b></div>
       </div>
       <div class="start" id="station-start">
         <span class="clock" aria-hidden="true">S</span>
         <span><span class="k">Start from</span><span class="v"><em>[TEXT] landmark</em></span></span>
         <span class="side">Yaba-cho<br>Station</span>
       </div>
-      <ul class="blocks">
+      <ul class="blocks" style="grid-template-columns:repeat(3,1fr)">
         <li class="block anim"><span class="k">Elevator <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] which lift, and where it comes out</span><span class="foot"><span class="n">1</span><span class="ic"><svg aria-hidden="true"><use href="#i-elev"/></svg></span></span></li>
-        <li class="block pink anim"><span class="k">Accessible toilet <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] where it is, from the landmark</span><span class="foot"><span class="n">2</span><span class="ic"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span></span></li>
-        <li class="block anim"><span class="k">Coin lockers <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] large lockers, step-free</span><span class="foot"><span class="n">3</span><span class="ic"><svg aria-hidden="true"><use href="#i-locker"/></svg></span></span></li>
-        <li class="block anim"><span class="k">Last checked <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] date</span><span class="foot"><span class="n">4</span><span class="ic"><svg aria-hidden="true"><use href="#i-clock"/></svg></span></span></li>
+        <li class="block anim"><span class="k">Coin lockers <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] large lockers, step-free</span><span class="foot"><span class="n">2</span><span class="ic"><svg aria-hidden="true"><use href="#i-locker"/></svg></span></span></li>
+        <li class="block anim"><span class="k">Last checked <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] date</span><span class="foot"><span class="n">3</span><span class="ic"><svg aria-hidden="true"><use href="#i-clock"/></svg></span></span></li>
       </ul>
     </div>
   </section>
 
-  <section id="facilities" class="line" style="--c:#B0289B" aria-labelledby="facilities-t">
+  <section id="getting-around" aria-labelledby="ga-t">
     <div class="wrap">
       <div class="section-head">
-        <span class="chiprow" style="--cc:#B0289B"><span class="chip" style="color:#fff">Other facilities</span><i></i><i></i></span>
+        <span class="chiprow" style="--cc:#B0289B"><span class="chip" style="color:#fff">Getting around</span><i></i><i></i></span>
         <span class="idx">02</span>
-        <h2 id="facilities-t">Other facilities</h2>
-        <div class="meta"><span class="label">Topics</span><b>4</b></div>
+        <h2 id="ga-t">Getting around</h2>
+        <div class="meta"><span class="label">Topics</span><b>3</b></div>
       </div>
-      <div class="start" id="facilities-start">
-        <span class="clock" aria-hidden="true">F</span>
-        <span><span class="k">Start from</span><span class="v"><em>[TEXT] landmark</em></span></span>
-        <span class="side">[TEXT]<br>building</span>
+      <div class="toi-cat">
+        <h3>Up to street level</h3>
+        <p>Both gates sit on B1. The step-free way up is the elevator near Exit 3, running 5:30am&ndash;12:30am &mdash; it lifts you straight to Kusugai-dori Park above. Exits 2 and 3 themselves also open directly onto the park, but only the elevator skips the stairs. North Gate leads to Exits 1, 5 and 6; South Gate leads to Exits 2, 3, 4 and the elevator.</p>
       </div>
-      <ul class="blocks">
-        <li class="block anim"><span class="k">Elevator <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] which lift, and where it comes out</span><span class="foot"><span class="n">1</span><span class="ic"><svg aria-hidden="true"><use href="#i-elev"/></svg></span></span></li>
-        <li class="block pink anim"><span class="k">Accessible toilet <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] where it is, from the landmark</span><span class="foot"><span class="n">2</span><span class="ic"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span></span></li>
-        <li class="block anim"><span class="k">Coin lockers <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] large lockers, step-free</span><span class="foot"><span class="n">3</span><span class="ic"><svg aria-hidden="true"><use href="#i-locker"/></svg></span></span></li>
-        <li class="block anim"><span class="k">Last checked <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] date</span><span class="foot"><span class="n">4</span><span class="ic"><svg aria-hidden="true"><use href="#i-clock"/></svg></span></span></li>
-      </ul>
+      <div class="toi-cat">
+        <h3>Into Matsuzakaya</h3>
+        <p>Exit 5&rsquo;s staircase lands directly in Matsuzakaya&rsquo;s B1 &mdash; stairs only. For a step-free way in, use Matsuzakaya&rsquo;s own South Building lift instead; it can need an intercom call for assistance.</p>
+      </div>
+      <div class="toi-cat">
+        <h3>Into PARCO</h3>
+        <p>PARCO is reached through an underground passage from the North Gate area, without going back up to street level first.</p>
+        <p class="note">Sourced from Nagoya City Transportation Bureau&rsquo;s gate-to-exit accessibility guide. We haven&rsquo;t independently timed or photographed every step of these routes yet.</p>
+      </div>
     </div>
   </section>
+
+    <section id="toilets" aria-labelledby="toilets-t">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="chiprow" style="--cc:var(--toilet)"><span class="chip" style="color:#111">Toilets</span><i></i><i></i></span>
+        <span class="idx">03</span>
+        <h2 id="toilets-t">Toilets</h2>
+        <div class="meta"><span class="label">Types</span><b>3</b></div>
+      </div>
+      <div class="toi-cat">
+        <h3>Station</h3>
+        <p>Yabacho Station&rsquo;s accessible toilets are outside the South Gate, with ramped approaches on both sides &mdash; marked in pink on the floor plan below.</p>
+      </div>
+      <div class="toi-cat">
+        <h3>Public toilets outside</h3>
+        <p>Yaba Park Toilet (矢場公園トイレ), in Sakae 3-chome, is about 340m from the station.</p>
+        <p class="note">Wheelchair access for this specific toilet is not confirmed in the city&rsquo;s public-toilet open data. The station toilet above is the safer bet if step-free access matters.</p>
+      </div>
+      <div class="toi-cat">
+        <h3>Other: nearby large facilities</h3>
+        <p>Yabacho sits beneath and beside Matsuzakaya Nagoya, PARCO, Marui and OPA &mdash; all open customer toilets during business hours, and Matsuzakaya&rsquo;s South Building lift (mentioned above) connects straight into the store.</p>
+      </div>
+    </div>
+  </section>
+
+  
 
 
   <!-- MAP -->
@@ -535,7 +577,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <div class="wrap">
       <div class="section-head">
         <span class="chiprow" style="--cc:var(--ink)"><span class="chip" style="color:#fff">Map</span><i></i><i></i></span>
-        <span class="idx">03</span>
+        <span class="idx">04</span>
         <h2 id="map-t">Floor plan</h2>
         <div class="meta"><span class="label">Level</span><b>1F&middot;B1&middot;B2</b></div>
       </div>
@@ -552,11 +594,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   </section>
 
   <!-- GETTING THERE — Google Map [LINK] [TEXT] -->
-  <section id="getting-there" aria-labelledby="gt-t">
+    
+
+<section id="getting-there" aria-labelledby="gt-t">
     <div class="wrap">
       <div class="section-head">
         <span class="chiprow" style="--cc:var(--ink)"><span class="chip" style="color:#fff">Getting there</span><i></i><i></i></span>
-        <span class="idx">04</span>
+        <span class="idx">05</span>
         <h2 id="gt-t">On the map</h2>
         <div class="meta"><span class="label">Open in</span><b>Google Maps</b></div>
       </div>

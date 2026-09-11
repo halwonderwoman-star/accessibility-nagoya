@@ -302,6 +302,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .legend i{width:14px;height:14px;border-radius:4px;display:inline-block;}
 .amn .is-target{animation:amn-flash 1.2s ease-out 1;}
 @keyframes amn-flash{0%{box-shadow:inset 0 0 0 4px #111;}100%{box-shadow:inset 0 0 0 0 transparent;}}
+.amn .toi-cat{padding:clamp(18px,4.5vw,26px) 0;border-top:1.5px solid var(--line);}
+.amn .toi-cat:first-of-type{border-top:none;padding-top:0;}
+.amn .toi-cat h3{font-family:var(--display);font-weight:700;font-size:clamp(16px,4vw,19px);letter-spacing:-.01em;line-height:1.25;margin:0 0 8px;}
+.amn .toi-cat p{font-size:clamp(14px,3.6vw,16px);line-height:1.7;color:var(--ink);margin:0 0 .7em;}
+.amn .toi-cat p:last-child{margin-bottom:0;}
+.amn .toi-cat .note{font-size:13px;line-height:1.6;color:var(--ink-2);border-left:3px solid var(--line);padding-left:14px;margin-top:.6em;}
+
 
 /* ---------------------------------------------------------------
    7. FOOTER — black, like the TOP page
@@ -564,11 +571,36 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   </section>
 
   <!-- GETTING THERE — Google Map [LINK] [TEXT] -->
-  <section id="getting-there" aria-labelledby="gt-t">
+    <section id="toilets" aria-labelledby="toilets-t">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="chiprow" style="--cc:var(--toilet)"><span class="chip" style="color:#111">Toilets</span><i></i><i></i></span>
+        <span class="idx">04</span>
+        <h2 id="toilets-t">Toilets</h2>
+        <div class="meta"><span class="label">Types</span><b>3</b></div>
+      </div>
+      <div class="toi-cat">
+        <h3>Station</h3>
+        <p>Osu Kannon Station&rsquo;s accessible toilet &mdash; with an ostomate fitting and a baby-changing bed &mdash; is outside the ticket gates; none is available inside the paid area, per Nagoya City Transportation Bureau&rsquo;s barrier-free facility guide.</p>
+        <p class="note">Exact position will be added once this station&rsquo;s floor plan is drawn.</p>
+      </div>
+      <div class="toi-cat">
+        <h3>Public toilets outside</h3>
+        <p>Nishi-Osu Park Toilet (西大須公園トイレ), in Osu 1-chome, is about 292m southwest of the station, and there is a public toilet in front of Osu Kannon Temple itself, on Niomon-dori.</p>
+        <p class="note">Wheelchair access for either is not confirmed in the city&rsquo;s public-toilet open data. The station toilet above is the safer bet if step-free access matters.</p>
+      </div>
+      <div class="toi-cat">
+        <h3>Other: nearby large facilities</h3>
+        <p>Large shops along the Osu shopping arcade keep customer toilets, several with a multi-purpose stall &mdash; both KOMEHYO stores and the OSU301 building do. Banshoji Temple&rsquo;s building also opens its toilets to passers-by.</p>
+      </div>
+    </div>
+  </section>
+
+<section id="getting-there" aria-labelledby="gt-t">
     <div class="wrap">
       <div class="section-head">
         <span class="chiprow" style="--cc:var(--ink)"><span class="chip" style="color:#fff">Getting there</span><i></i><i></i></span>
-        <span class="idx">04</span>
+        <span class="idx">05</span>
         <h2 id="gt-t">On the map</h2>
         <div class="meta"><span class="label">Open in</span><b>Google Maps</b></div>
       </div>
