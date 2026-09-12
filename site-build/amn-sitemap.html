@@ -16,6 +16,7 @@
   gtag('config', 'G-X0VG068H8B');
 </script>
 <title>Sitemap — Accessibility Map NAGOYA</title>
+<meta name="description" content="Full page structure of Accessibility Map NAGOYA, a wheelchair accessibility guide to Nagoya.">
 <!--
   ACCESSIBILITY MAP NAGOYA — SITEMAP
   A working blueprint of the whole site. Filled dot = the page exists,
@@ -206,6 +207,11 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 
 @media (prefers-reduced-motion:reduce){.amn *,.amn *::before,.amn *::after{transition:none!important;animation:none!important;}}
+.amn .verify{border-top:1.5px solid var(--line);}
+.amn .verify .wrap{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;padding:16px var(--gut);text-align:center;}
+.amn .verify svg{width:17px;height:17px;color:#1F9254;flex-shrink:0;}
+.amn .verify span{font-size:13px;font-weight:600;letter-spacing:.01em;color:var(--ink-2);}
+.amn .verify b{color:var(--ink);font-weight:700;}
 </style>
 
 <!-- SVG icon sprite -->
@@ -219,6 +225,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
   <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></symbol>
 </svg>
 
 <div class="amn">
@@ -259,7 +266,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <div class="wrap">
           <h3>Aichi-Nagoya 2026</h3>
           <p class="sub">Special feature — index of every venue</p>
-          <div class="grp"><div class="gname">Venue cards → one page each</div><div class="pages"><span class="pg c"><i></i>Venue 01</span><span class="pg c"><i></i>Venue 02</span><span class="pg c"><i></i>Venue 03</span><span class="pg c"><i></i>Venue …</span></div></div>
+          <div class="grp"><div class="gname">Venue cards → one page each (9 built)</div><div class="pages"><span class="pg done"><i></i>Budokan</span><span class="pg done"><i></i>Intl Arena</span><span class="pg done"><i></i>Fukiage Hall</span><span class="pg done"><i></i>Tennis Center</span><span class="pg done"><i></i>Inae Sports</span><span class="pg done"><i></i>Mizuho</span><span class="pg done"><i></i>Rainbow Hall</span><span class="pg done"><i></i>Rainbow Pool</span><span class="pg done"><i></i>Terraspo</span></div></div>
         </div>
       </div>
 </section><section class="branch">    <div class="l1 light" style="--c:#D4FF3A">
@@ -269,14 +276,14 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <div class="wrap">
           <h3>Train</h3>
           <p class="sub">Index of the six lines</p>
-          <div class="grp"><div class="gname">One page per line</div><div class="pages"><span class="pg done"><i></i>Shinkansen</span><span class="pg done"><i></i>JR</span><span class="pg c"><i></i>Meitetsu</span><span class="pg c"><i></i>Kintetsu</span><span class="pg c"><i></i>Subway</span><span class="pg c"><i></i>Aonami</span></div></div>
+          <div class="grp"><div class="gname">One page per line</div><div class="pages"><span class="pg done"><i></i>Shinkansen</span><span class="pg done"><i></i>JR</span><span class="pg done"><i></i>Meitetsu</span><span class="pg done"><i></i>Kintetsu</span><span class="pg done"><i></i>Subway</span><span class="pg done"><i></i>Aonami</span></div></div>
         </div>
       </div>
       <div class="l2" style="--c:#16C2B0">
         <div class="wrap">
           <h3>Bus</h3>
           
-          <div class="grp"><div class="gname">One page per service</div><div class="pages"><span class="pg c"><i></i>City bus</span><span class="pg c"><i></i>Highway bus</span></div></div>
+          <div class="grp"><div class="gname">One page per service</div><div class="pages"><span class="pg done"><i></i>City bus</span><span class="pg done"><i></i>Highway bus</span></div></div>
         </div>
       </div>
       <div class="l2" style="--c:#FF66C4">
@@ -342,6 +349,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <div class="foot-note">
     <div class="wrap">
       <p>Top page also carries the standing pages in the footer: About us, Sources and Privacy. Each area page opens with its own index; each leaf below is a page of its own so it can be linked to directly and updated on its own schedule.</p>
+    </div>
+  </div>
+
+  <div class="verify">
+    <div class="wrap">
+      <svg aria-hidden="true"><use href="#i-check"/></svg>
+      <span><b>Verified</b> against official sources &middot; Last updated 12 Sep 2026</span>
     </div>
   </div>
 

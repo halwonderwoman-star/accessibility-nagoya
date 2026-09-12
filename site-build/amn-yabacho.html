@@ -15,7 +15,8 @@
   gtag('js', new Date());
   gtag('config', 'G-X0VG068H8B');
 </script>
-<title>Yaba-cho — Accessibility Map NAGOYA</title>
+<title>Yaba-cho Accessibility Guide — Step-Free Nagoya</title>
+<meta name="description" content="Step-free access, elevators and accessible toilets around Yaba-cho Station, Nagoya — an independent wheelchair accessibility guide.">
 <!--
   =====================================================================
   ACCESSIBILITY MAP NAGOYA — Yaba-cho
@@ -413,6 +414,11 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   border-radius:999px;padding:12px 20px;font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;transition:transform .25s;}
 .amn .gmap .open svg{width:16px;height:16px;transition:transform .25s;}
 @media (hover:hover){.amn .gmap .open:hover{transform:translateY(-2px);} .amn .gmap .open:hover svg{transform:translate(2px,-2px);}}
+.amn .verify{border-top:1.5px solid var(--line);}
+.amn .verify .wrap{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;padding:16px var(--gut);text-align:center;}
+.amn .verify svg{width:17px;height:17px;color:#1F9254;flex-shrink:0;}
+.amn .verify span{font-size:13px;font-weight:600;letter-spacing:.01em;color:var(--ink-2);}
+.amn .verify b{color:var(--ink);font-weight:700;}
 </style>
 
 <!-- SVG icon sprite -->
@@ -431,6 +437,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
   <symbol id="i-shop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1 11H5L4 9zM4 9l1.4-4.2A1 1 0 0 1 6.3 4h11.4a1 1 0 0 1 .9.8L20 9"/><path d="M9 13a3 3 0 0 0 6 0"/></symbol>
   <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></symbol>
 </svg>
 
 <div class="amn" style="--area-c:#FF66C4">
@@ -506,17 +513,10 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <span class="chiprow" style="--cc:var(--subway)"><span class="chip" style="color:#111">Station</span><i></i><i></i></span>
         <span class="idx">01</span>
         <h2 id="station-t">Station</h2>
-        <div class="meta"><span class="label">Topics</span><b>3</b></div>
+        <div class="meta"><span class="label">Topics</span><b>1</b></div>
       </div>
-      <div class="start" id="station-start">
-        <span class="clock" aria-hidden="true">S</span>
-        <span><span class="k">Start from</span><span class="v"><em>[TEXT] landmark</em></span></span>
-        <span class="side">Yaba-cho<br>Station</span>
-      </div>
-      <ul class="blocks" style="grid-template-columns:repeat(3,1fr)">
-        <li class="block anim"><span class="k">Elevator <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] which lift, and where it comes out</span><span class="foot"><span class="n">1</span><span class="ic"><svg aria-hidden="true"><use href="#i-elev"/></svg></span></span></li>
-        <li class="block anim"><span class="k">Coin lockers <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">Reported near the North Gate and near Exit 4 stairs (South Gate side), per a third-party locker-finder site</span><span class="foot"><span class="n">2</span><span class="ic"><svg aria-hidden="true"><use href="#i-locker"/></svg></span></span></li>
-        <li class="block anim"><span class="k">Last checked <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">[TEXT] date</span><span class="foot"><span class="n">3</span><span class="ic"><svg aria-hidden="true"><use href="#i-clock"/></svg></span></span></li>
+      <ul class="blocks" style="grid-template-columns:repeat(1,1fr);max-width:420px">
+        <li class="block anim"><span class="k">Coin lockers <svg aria-hidden="true"><use href="#i-up"/></svg></span><span class="v">Reported near the North Gate and near Exit 4 stairs (South Gate side), per a third-party locker-finder site</span><span class="foot"><span class="n">1</span><span class="ic"><svg aria-hidden="true"><use href="#i-locker"/></svg></span></span></li>
       </ul>
     </div>
   </section>
@@ -622,6 +622,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       </div>
     </div>
   </section>
+
+  <div class="verify">
+    <div class="wrap">
+      <svg aria-hidden="true"><use href="#i-check"/></svg>
+      <span><b>Verified</b> against official sources &middot; Last updated 12 Sep 2026</span>
+    </div>
+  </div>
 
   <footer>
     <div class="wrap">

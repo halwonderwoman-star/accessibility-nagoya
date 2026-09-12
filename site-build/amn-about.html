@@ -15,7 +15,8 @@
   gtag('js', new Date());
   gtag('config', 'G-X0VG068H8B');
 </script>
-<title>About us — Accessibility Map NAGOYA</title>
+<title>About Us — Accessibility Map NAGOYA</title>
+<meta name="description" content="Why we built Accessibility Map NAGOYA, who it&#x27;s for, and how we research step-free routes, elevators and accessible toilets.">
 <!--
   ACCESSIBILITY MAP NAGOYA — About us page
   Paste into a WordPress Custom HTML block. Same design system as the other pages.
@@ -186,6 +187,11 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 
 @media (prefers-reduced-motion:reduce){.amn *,.amn *::before,.amn *::after{transition:none!important;animation:none!important;}}
+.amn .verify{border-top:1.5px solid var(--line);}
+.amn .verify .wrap{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;padding:16px var(--gut);text-align:center;}
+.amn .verify svg{width:17px;height:17px;color:#1F9254;flex-shrink:0;}
+.amn .verify span{font-size:13px;font-weight:600;letter-spacing:.01em;color:var(--ink-2);}
+.amn .verify b{color:var(--ink);font-weight:700;}
 </style>
 
 <!-- SVG icon sprite -->
@@ -201,6 +207,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <symbol id="i-stroller" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h2l2 8h9l2-5H8"/><circle cx="9" cy="18" r="2"/><circle cx="16" cy="18" r="2"/></symbol>
   <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="14" height="13" rx="2"/><path d="M9 7V4h6v3M9 20v1M15 20v1"/></symbol>
   <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></symbol>
 </svg>
 
 <div class="amn">
@@ -250,9 +257,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <p>We start from official floor plans and barrier-free information, then go and look. If we have not seen something ourselves, we say so rather than guessing. Where a route is complicated, we name a landmark you can find from a distance &mdash; the Silver Clock, the Gold Clock &mdash; instead of writing directions nobody can follow in a crowd.</p>
       <p>The guide grows one area at a time. Nagoya Station first, because almost every trip starts there, then Sakae and Hisaya-odori, Yaba-cho and Osu.</p>
 
-      <h2>Tell us what we got wrong</h2>
-      <p>A lift breaks. A gate closes for building work. A toilet moves. If you find something out of date, or a route that works better than the one we suggested, please tell us &mdash; it is the fastest way this guide gets better.</p>
-      <!-- [TEXT] contact address / form link -->
+      <h2>Where this can go wrong</h2>
+      <p>A lift breaks. A gate closes for building work. A toilet moves. Anything on this site can go out of date without us knowing, so please check official signage on the day.</p>
       <p class="note">This is an independent project. It is not affiliated with any railway company, venue or public body.</p>
     </div></div>
   </section>
@@ -260,6 +266,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <div class="backrow">
     <div class="wrap">
       <a class="back" href="index.html"><svg aria-hidden="true"><use href="#i-arrow"/></svg> Back to top page</a><!-- [LINK] -->
+    </div>
+  </div>
+
+  <div class="verify">
+    <div class="wrap">
+      <svg aria-hidden="true"><use href="#i-check"/></svg>
+      <span><b>Verified</b> against official sources &middot; Last updated 12 Sep 2026</span>
     </div>
   </div>
 

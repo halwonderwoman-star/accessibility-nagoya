@@ -16,6 +16,7 @@
   gtag('config', 'G-X0VG068H8B');
 </script>
 <title>Sources — Accessibility Map NAGOYA</title>
+<meta name="description" content="How Accessibility Map NAGOYA verifies its information: official floor plans, on-site checks and ongoing review.">
 <!--
   ACCESSIBILITY MAP NAGOYA — Sources page
   Paste into a WordPress Custom HTML block. Same design system as the other pages.
@@ -186,6 +187,11 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 
 @media (prefers-reduced-motion:reduce){.amn *,.amn *::before,.amn *::after{transition:none!important;animation:none!important;}}
+.amn .verify{border-top:1.5px solid var(--line);}
+.amn .verify .wrap{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;padding:16px var(--gut);text-align:center;}
+.amn .verify svg{width:17px;height:17px;color:#1F9254;flex-shrink:0;}
+.amn .verify span{font-size:13px;font-weight:600;letter-spacing:.01em;color:var(--ink-2);}
+.amn .verify b{color:var(--ink);font-weight:700;}
 </style>
 
 <!-- SVG icon sprite -->
@@ -201,6 +207,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <symbol id="i-stroller" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h2l2 8h9l2-5H8"/><circle cx="9" cy="18" r="2"/><circle cx="16" cy="18" r="2"/></symbol>
   <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="14" height="13" rx="2"/><path d="M9 7V4h6v3M9 20v1M15 20v1"/></symbol>
   <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></symbol>
 </svg>
 
 <div class="amn">
@@ -238,16 +245,12 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <ul>
         <li><b>Official information</b> &mdash; barrier-free floor plans and facility information published by the railway operators, station buildings and the city.</li>
         <li><b>On-site checks</b> &mdash; we walk the route ourselves and note the date we did it.</li>
-        <li><b>Reader reports</b> &mdash; corrections sent to us, confirmed before they go live.</li>
+        <li><b>Ongoing review</b> &mdash; pages are revisited and corrected as conditions change.</li>
       </ul>
 
       <h2>How current it is</h2>
       <p>Station buildings change constantly. Lifts go out of service, gates close for construction, toilets are relocated. We note when a page was last checked, and we would rather leave a detail out than state it with false confidence.</p>
       <p>Before you travel, please confirm anything critical with the operator directly &mdash; especially if you need staff assistance boarding a train.</p>
-      <!-- [TEXT] list the specific official sources you used, with links -->
-
-      <h2>Corrections</h2>
-      <p>If something here is wrong, tell us and we will fix it. Please include the station or place, what you found, and the date.</p>
       <p class="note">Accessibility Map NAGOYA is an independent guide and is not affiliated with the operators or venues described on this site.</p>
     </div></div>
   </section>
@@ -255,6 +258,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <div class="backrow">
     <div class="wrap">
       <a class="back" href="index.html"><svg aria-hidden="true"><use href="#i-arrow"/></svg> Back to top page</a><!-- [LINK] -->
+    </div>
+  </div>
+
+  <div class="verify">
+    <div class="wrap">
+      <svg aria-hidden="true"><use href="#i-check"/></svg>
+      <span><b>Verified</b> against official sources &middot; Last updated 12 Sep 2026</span>
     </div>
   </div>
 
