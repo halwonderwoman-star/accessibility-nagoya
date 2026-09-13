@@ -469,11 +469,6 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h1 id="a-title"><span>Yaba-cho</span></h1>
       <p class="stand">The station, and the buildings above it.</p>
       <div class="colourrule" aria-hidden="true"></div>
-      <nav class="index" aria-label="Sections on this page">
-        <a href="#station" class="dark" style="--c:var(--subway)"><span class="n">01</span><span class="t">Station<small>Meijo line</small></span><span class="pf">3 topics</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="#getting-around" style="--c:#B0289B"><span class="n">02</span><span class="t">Getting around<small>Matsuzakaya, PARCO &amp; the park</small></span><span class="pf">3 topics</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="#toilets" class="dark" style="--c:var(--toilet)"><span class="n">03</span><span class="t">Toilets<small>Station &amp; nearby</small></span><span class="pf">3 topics</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-      </nav>
     </div>
   </section>
 
@@ -485,21 +480,21 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <a class="file dark" href="#station" data-target="station" style="--i:0;--c:var(--subway)">
           <span class="tab">Station</span>
           <span class="body">
-            <span><span class="name">Station</span><br><span class="sub">Meijo line</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span><span class="name">Station</span><br><span class="sub">Meijo line · 3 topics</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="ja" aria-hidden="true">駅</span>
           </span>
         </a>
         <a class="file" href="#getting-around" data-target="getting-around" style="--i:1;--c:#B0289B">
           <span class="tab">Getting around</span>
           <span class="body">
-            <span><span class="name">Getting around</span><br><span class="sub">Matsuzakaya, PARCO &amp; the park</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span><span class="name">Getting around</span><br><span class="sub">Matsuzakaya, PARCO &amp; the park · 3 topics</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="ja" aria-hidden="true">移<br>動</span>
           </span>
         </a>
         <a class="file dark" href="#toilets" data-target="toilets" style="--i:2;--c:var(--toilet)">
           <span class="tab">Toilets</span>
           <span class="body">
-            <span><span class="name">Toilets</span><br><span class="sub">Station &amp; nearby</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span><span class="name">Toilets</span><br><span class="sub">Station &amp; nearby · 3 topics</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="ja" aria-hidden="true">ト<br>イ<br>レ</span>
           </span>
         </a>
@@ -673,7 +668,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       if(id) setTimeout(function(){goTo(id);}, reduce?0:260);
     });
   });
-  if(location.hash){files.forEach(function(f){if(f.getAttribute('data-target')===location.hash.slice(1)) activate(f);});}
+  if(location.hash){var hid=location.hash.slice(1);var hmatch=files.filter(function(f){return f.getAttribute('data-target')===hid;})[0];if(hmatch){activate(hmatch);goTo(hid);}}
   root.querySelectorAll('.pin[data-target]').forEach(function(b){b.addEventListener('click',function(){goTo(b.getAttribute('data-target'));});});
   var items=root.querySelectorAll('.anim');
   if(reduce||!('IntersectionObserver' in window)){items.forEach(function(el){el.classList.add('amn-in');});return;}

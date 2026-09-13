@@ -468,9 +468,6 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h1 id="a-title"><span>Osu</span></h1>
       <p class="stand">The station, and the shopping streets beyond it.</p>
       <div class="colourrule" aria-hidden="true"></div>
-      <nav class="index" aria-label="Sections on this page">
-        <a href="#toilets" class="dark" style="--c:var(--toilet)"><span class="n">01</span><span class="t">Toilets<small>Station &amp; nearby</small></span><span class="pf">3 topics</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-      </nav>
     </div>
   </section>
 
@@ -482,7 +479,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <a class="file dark" href="#toilets" data-target="toilets" style="--i:0;--c:var(--toilet)">
           <span class="tab">Toilets</span>
           <span class="body">
-            <span><span class="name">Toilets</span><br><span class="sub">Station &amp; nearby</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span><span class="name">Toilets</span><br><span class="sub">Station &amp; nearby · 3 topics</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="ja" aria-hidden="true">お<br>手<br>洗</span>
           </span>
         </a>
@@ -595,7 +592,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       if(id) setTimeout(function(){goTo(id);}, reduce?0:260);
     });
   });
-  if(location.hash){files.forEach(function(f){if(f.getAttribute('data-target')===location.hash.slice(1)) activate(f);});}
+  if(location.hash){var hid=location.hash.slice(1);var hmatch=files.filter(function(f){return f.getAttribute('data-target')===hid;})[0];if(hmatch){activate(hmatch);goTo(hid);}}
   root.querySelectorAll('.pin[data-target]').forEach(function(b){b.addEventListener('click',function(){goTo(b.getAttribute('data-target'));});});
   var items=root.querySelectorAll('.anim');
   if(reduce||!('IntersectionObserver' in window)){items.forEach(function(el){el.classList.add('amn-in');});return;}

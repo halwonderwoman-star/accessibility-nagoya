@@ -487,11 +487,6 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h1 id="a-title"><span>Nagoya</span><span>Station</span></h1>
       <p class="stand">Trains, buses and the underground streets — where to go before you move.</p>
       <div class="colourrule" aria-hidden="true"></div>
-      <nav class="index" aria-label="Sections on this page">
-        <a href="#train" style="--c:var(--shinkansen)"><span class="n">01</span><span class="t">Train<small>Shinkansen · JR · Meitetsu · Kintetsu · Subway · Aonami</small></span><span class="pf">6 pages</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="#bus" style="--c:var(--bus)"><span class="n">02</span><span class="t">Bus<small>City bus · Meitetsu bus · Highway bus</small></span><span class="pf">3 pages</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="#underground" style="--c:#B0289B"><span class="n">03</span><span class="t">Underground Streets<small>ESCA, Fashion One, Gate Walk &amp; Unimall</small></span><span class="pf">4 of 8</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-      </nav>
     </div>
   </section>
 
@@ -504,21 +499,21 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <a class="file" href="#train" data-target="train" style="--i:0;--c:var(--shinkansen)">
           <span class="tab">Train</span>
           <span class="body">
-            <span><span class="name">Train</span><br><span class="sub">Six lines, one station</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span><span class="name">Train</span><br><span class="sub">Six lines, one station · 6 pages</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="ja" aria-hidden="true">電<br>車</span>
           </span>
         </a>
         <a class="file" href="#bus" data-target="bus" style="--i:1;--c:var(--bus)">
           <span class="tab">Bus</span>
           <span class="body">
-            <span><span class="name">Bus</span><br><span class="sub">City bus &amp; highway bus</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span><span class="name">Bus</span><br><span class="sub">City bus &amp; highway bus · 3 pages</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="ja" aria-hidden="true">バ<br>ス</span>
           </span>
         </a>
         <a class="file dark" href="#underground" data-target="underground" style="--i:2;--c:#B0289B">
           <span class="tab">Underground</span>
           <span class="body">
-            <span><span class="name">Underground Streets</span><br><span class="sub">ESCA, Unimall &amp; six more malls</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span><span class="name">Underground Streets</span><br><span class="sub">ESCA, Unimall &amp; six more malls · 4 of 8</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="ja" aria-hidden="true">地<br>下<br>街</span>
           </span>
         </a>
@@ -712,7 +707,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       if(id) setTimeout(function(){goTo(id);}, reduce?0:260);
     });
   });
-  if(location.hash){files.forEach(function(f){if(f.getAttribute('data-target')===location.hash.slice(1)) activate(f);});}
+  if(location.hash){var hid=location.hash.slice(1);var hmatch=files.filter(function(f){return f.getAttribute('data-target')===hid;})[0];if(hmatch){activate(hmatch);goTo(hid);}}
   var items=root.querySelectorAll('.anim');
   if(reduce||!('IntersectionObserver' in window)){items.forEach(function(el){el.classList.add('amn-in');});return;}
   var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('amn-in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -8% 0px',threshold:.1});
