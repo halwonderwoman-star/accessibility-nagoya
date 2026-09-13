@@ -570,6 +570,15 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .totop:focus-visible{outline:2px solid var(--focus);outline-offset:2px;}
 @media (max-width:480px){.amn .totop{right:12px;bottom:12px;width:42px;height:42px;}.amn .totop svg{width:18px;height:18px;}}
 @media print{.amn .totop{display:none;}}
+
+.amn .official{border-top:1.5px solid var(--line);}
+.amn .official .wrap{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;padding:clamp(12px,3.5vw,16px) var(--gut);}
+.amn .official .lbl{font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .official .links{display:flex;flex-wrap:wrap;gap:10px;}
+.amn .official .links a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;background:var(--ink);color:#fff;border-radius:999px;padding:10px 16px;font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;transition:transform .2s;}
+.amn .official .links a svg{width:14px;height:14px;transition:transform .2s;flex-shrink:0;}
+@media (hover:hover){.amn .official .links a:hover{transform:translateY(-2px);}.amn .official .links a:hover svg{transform:translate(2px,-2px);}}
+@media (max-width:480px){.amn .official .wrap{flex-direction:column;align-items:flex-start;}}
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -774,6 +783,14 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       </nav>
     </div>
   </section>
+
+  
+  <div class="official">
+    <div class="wrap">
+      <span class="lbl">Official site</span>
+      <div class="links"><a href="https://traininfo.jr-central.co.jp/shinkansen/pc/ja/index.html" target="_blank" rel="noopener">Shinkansen timetables <svg aria-hidden="true"><use href="#i-up"/></svg></a></div>
+    </div>
+  </div>
 
   <div class="verify">
     <div class="wrap">
