@@ -763,10 +763,22 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     if(stack) stack.classList.add('has-active');
   }
   files.forEach(function(f){
+    var cta=f.querySelector('.start');
+    if(cta){
+      cta.setAttribute('role','button');
+      cta.setAttribute('tabindex','0');
+      cta.addEventListener('click',function(e){
+        e.stopPropagation(); e.preventDefault();
+        activate(f);
+        var id=f.getAttribute('data-target');
+        if(id) goTo(id);
+      });
+      cta.addEventListener('keydown',function(e){
+        if(e.key==='Enter'||e.key===' '){ e.preventDefault(); cta.click(); }
+      });
+    }
     f.addEventListener('click',function(e){
       e.preventDefault(); activate(f);
-      var id=f.getAttribute('data-target');
-      if(id) setTimeout(function(){goTo(id);}, reduce?0:260);
     });
   });
   if(location.hash){var hid=location.hash.slice(1);var hmatch=files.filter(function(f){return f.getAttribute('data-target')===hid;})[0];if(hmatch){activate(hmatch);goTo(hid);}}
