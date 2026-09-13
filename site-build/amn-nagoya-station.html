@@ -235,7 +235,9 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .file .body .name{font-family:var(--display);font-weight:700;font-size:clamp(30px,7.6vw,68px);letter-spacing:-.02em;line-height:.9;text-transform:uppercase;}
 .amn .file .body .sub{font-weight:500;font-size:clamp(14px,3.4vw,20px);margin-top:6px;opacity:.9;}
 .amn .file .body .start{margin-top:22px;display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:15px;letter-spacing:.04em;text-transform:uppercase;
-  background:#fff;color:var(--c);padding:10px 16px;border-radius:999px;border:0;}
+  background:#fff;color:var(--c);padding:10px 16px;border-radius:999px;border:0;cursor:pointer;transition:transform .2s var(--ease),box-shadow .2s var(--ease);}
+.amn .file .body .start:hover,.amn .file .body .start:focus-visible{box-shadow:0 6px 16px rgba(0,0,0,.22);transform:translateY(-2px);}
+.amn .file .body .start:focus-visible{outline:2px solid #fff;outline-offset:2px;}
 .amn .file .body .start svg{width:18px;height:18px;transition:transform .3s var(--ease);}
 .amn .file .body .ja{display:block;text-align:center;font-weight:700;font-size:clamp(22px,5.4vw,46px);line-height:1.02;align-self:end;}   /* one character per line; its last line sits on the CTA's bottom edge */
 .amn .file.soon .body .start{background:rgba(255,255,255,.85);color:var(--c);}
