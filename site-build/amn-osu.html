@@ -475,11 +475,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <div class="wrap">
       <h2 id="pick" class="sr">Choose a section</h2>
       <p class="intro"><svg width="18" height="18" aria-hidden="true"><use href="#i-wheel"/></svg> Pick a section</p>
-      <div class="stack" style="--n:1">
-        <a class="file dark" href="#toilets" data-target="toilets" style="--i:0;--c:var(--toilet)">
+      <div class="stack" style="--n:2">
+        <a class="file dark" href="#train" data-target="train" style="--i:0;--c:var(--subway)">
+          <span class="tab">Train</span>
+          <span class="body">
+            <span><span class="name">Train</span><br><span class="sub">Osu Kannon &amp; Kamimaezu &middot; 2 stations</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span class="ja" lang="ja" aria-hidden="true">電<br>車</span>
+          </span>
+        </a>
+        <a class="file dark" href="#toilets" data-target="toilets" style="--i:1;--c:var(--toilet)">
           <span class="tab">Toilets</span>
           <span class="body">
-            <span><span class="name">Toilets</span><br><span class="sub">Station &amp; nearby · 3 topics</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span><span class="name">Toilets</span><br><span class="sub">Nearby &amp; shopping street &middot; 2 topics</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="ja" aria-hidden="true">お<br>手<br>洗</span>
           </span>
         </a>
@@ -487,26 +494,33 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     </div>
   </section>
 
-
-
+  <section id="train" class="line" style="--c:var(--subway)" aria-labelledby="train-t">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="chiprow" style="--cc:var(--subway)"><span class="chip" style="color:#111">Train</span><i></i><i></i></span>
+        <span class="idx">01</span>
+        <h2 id="train-t">Train</h2>
+        <div class="meta"><span class="label">Stations</span><b>2</b></div>
+      </div>
+      <nav class="index" aria-label="Stations at Osu">
+        <a href="amn-osu-osukannon.html" class="dark" style="--c:var(--subway)"><span class="n">01</span><span class="t">Osu Kannon<small>Tsurumai Line &middot; street lift right outside the gate</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-osu-kamimaezu.html" class="dark" style="--c:var(--subway)"><span class="n">02</span><span class="t">Kamimaezu<small>Meijo &amp; Tsurumai lines &middot; step-free line transfer</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+      </nav>
+    </div>
+  </section>
 
   <section id="toilets" aria-labelledby="toilets-t">
     <div class="wrap">
       <div class="section-head">
         <span class="chiprow" style="--cc:var(--toilet)"><span class="chip" style="color:#111">Toilets</span><i></i><i></i></span>
-        <span class="idx">01</span>
+        <span class="idx">02</span>
         <h2 id="toilets-t">Toilets</h2>
-        <div class="meta"><span class="label">Types</span><b>3</b></div>
-      </div>
-      <div class="toi-cat">
-        <h3>Station</h3>
-        <p>Osu Kannon Station&rsquo;s accessible toilet &mdash; with an ostomate fitting and a baby-changing bed &mdash; is outside the ticket gates; none is available inside the paid area, per Nagoya City Transportation Bureau&rsquo;s barrier-free facility guide.</p>
-        <p class="note">Exact position will be added once this station&rsquo;s floor plan is drawn.</p>
+        <div class="meta"><span class="label">Types</span><b>2</b></div>
       </div>
       <div class="toi-cat">
         <h3>Public toilets outside</h3>
         <p>Nishi-Osu Park Toilet (西大須公園トイレ), in Osu 1-chome, is about 292m southwest of the station, and there is a public toilet in front of Osu Kannon Temple itself, on Niomon-dori.</p>
-        <p class="note">Wheelchair access for either is not confirmed in the city&rsquo;s public-toilet open data. The station toilet above is the safer bet if step-free access matters.</p>
+        <p class="note">Wheelchair access for either is not confirmed in the city&rsquo;s public-toilet open data. The station&rsquo;s own accessible toilet (see the Osu Kannon page above) is the safer bet if step-free access matters.</p>
       </div>
       <div class="toi-cat">
         <h3>Other: nearby large facilities</h3>
@@ -519,7 +533,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <div class="wrap">
       <div class="section-head">
         <span class="chiprow" style="--cc:var(--ink)"><span class="chip" style="color:#fff">Getting there</span><i></i><i></i></span>
-        <span class="idx">02</span>
+        <span class="idx">03</span>
         <h2 id="gt-t">On the map</h2>
         <div class="meta"><span class="label">Open in</span><b>Google Maps</b></div>
       </div>
