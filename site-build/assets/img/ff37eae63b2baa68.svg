@@ -1,0 +1,458 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="2000" height="1400" viewBox="0 0 2000 1400" lang="en" role="img" aria-labelledby="title desc">
+<title id="title">Nagoya Station B1 — Underground Access Map</title>
+<desc id="desc">North-up English schematic matching the ground-floor map orientation. West is left. B1 public passages and station access areas are shown with selected elevators, escalators, stairs and accessible toilets. Other floors are indicated by direction callouts, not continuous B1 passageways.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L8 4.5L0 9Z" fill="#171817"/></marker></defs>
+<style>text{font-family:Arial,"Helvetica Neue",sans-serif}</style>
+<g id="background" inkscape:groupmode="layer" inkscape:label="01 Background">
+<rect x="0" y="0" width="2000" height="1400" rx="0" fill="#F3F2EE" stroke="none"/>
+<text x="64" y="83" fill="#171817" font-size="56" font-weight="800" text-anchor="start">NAGOYA STATION</text>
+<text x="66" y="126" fill="#171817" font-size="27" font-weight="600" text-anchor="start">Basement Level / Accessibility Map</text>
+<text x="1936" y="79" fill="#171817" font-size="34" font-weight="700" text-anchor="end">B1 / Underground</text>
+<text x="1936" y="119" fill="#171817" font-size="19" font-weight="400" text-anchor="end">Passages, Station Access &amp; Transfers</text>
+<line x1="64" y1="154" x2="1936" y2="154" stroke="#171817" stroke-width="1.5"/>
+</g>
+<g id="public-passages" inkscape:groupmode="layer" inkscape:label="02 B1 public passage footprints">
+<polygon points="362.1,626.0 362.1,535.0 1226.5,535.0 1260.4,509.0 1433.3,509.0 1433.3,203.5 1526.0,203.5 1526.0,330.2 1580.2,330.2 1580.2,434.2 1542.9,434.2 1542.9,541.5 1520.3,541.5 1520.3,697.5 1582.5,697.5 1582.5,860.0 1520.3,860.0 1520.3,1064.8 1435.6,1064.8 1435.6,879.5 1384.7,879.5 1384.7,864.6 1147.4,864.6 1062.7,836.6 1062.7,778.8 1116.9,778.8 1187.0,820.4 1433.3,820.4 1433.3,627.3 1258.2,627.3 1209.6,606.5 1045.8,606.5 1000.5,626.0 904.5,626.0 872.9,606.5 706.8,606.5 676.2,626.0 548.5,626.0 520.3,606.5 407.3,606.5" fill="#FFFFFF" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="418.6,626.0 418.6,603.2 507.9,603.2 507.9,626.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="429.9,556.5 429.9,535.0 535.0,535.0 535.0,556.5" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="568.9,626.0 568.9,605.2 657.0,605.2 657.0,626.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="598.3,554.5 598.3,535.0 689.8,535.0 689.8,554.5" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="736.1,626.0 736.1,605.2 852.5,605.2 852.5,626.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="751.9,554.5 751.9,535.0 875.1,535.0 875.1,554.5" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="924.8,626.0 924.8,605.2 994.9,605.2 994.9,626.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="963.3,554.5 963.3,535.0 1048.0,535.0 1048.0,554.5" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1092.1,626.0 1092.1,605.2 1180.2,605.2 1180.2,626.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1116.9,554.5 1116.9,535.0 1203.9,535.0 1203.9,554.5" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1068.3,535.0 1068.3,288.0 1339.5,288.0 1339.5,405.0 1413.0,405.0 1413.0,509.0 1261.6,509.0 1226.5,535.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1076.3,762.5 1076.3,633.8 1285.3,633.8 1285.3,762.5" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1307.9,814.5 1307.9,640.3 1410.7,640.3 1410.7,814.5" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1529.4,687.8 1529.4,564.2 1606.2,564.2 1606.2,687.8" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1529.4,294.5 1529.4,203.5 1606.2,203.5 1606.2,294.5" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1009.6,834.0 1009.6,787.9 1093.2,787.9 1144.1,815.8 1144.1,839.2 1077.4,839.2 1077.4,858.7" fill="#FFFFFF" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1319.2,1029.0 1319.2,862.0 1424.3,862.0 1469.5,884.7 1469.5,983.5 1435.6,1009.5 1435.6,1068.0 1345.2,1068.0" fill="#FFFFFF" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1379.1,1042.0 1379.1,984.1 1433.3,984.1 1433.3,1042.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1401.7,967.2 1401.7,913.3 1435.6,913.3 1435.6,967.2" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1469.5,1061.5 1537.3,1061.5 1563.3,1146.0 1597.2,1178.5 1548.6,1204.5 1494.4,1164.2" fill="#FFFFFF" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+<g id="paid-areas" inkscape:groupmode="layer" inkscape:label="03 B1 station areas">
+<polygon points="919.2,1058.2 945.2,918.5 965.5,839.9 1028.8,832.7 1069.5,861.3 1116.9,891.9 1096.6,977.0 1052.5,1058.9" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="952.0,1042.0 952.0,929.6 965.5,929.6 965.5,1042.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="994.9,1042.0 994.9,929.6 1008.5,929.6 1008.5,1042.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1034.4,1042.0 1034.4,929.6 1048.0,929.6 1048.0,1042.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1144.1,986.8 1144.1,906.8 1175.7,888.0 1205.1,906.8 1246.9,887.3 1304.5,906.8 1304.5,967.2 1272.9,975.7 1270.6,997.1 1239.0,997.1 1215.2,982.2 1178.0,982.2" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1228.8,969.2 1228.8,948.4 1263.8,948.4 1263.8,969.2" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1320.3,746.2 1327.1,711.8 1437.9,711.8 1437.9,742.4 1407.3,752.1" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1496.6,538.2 1496.6,471.9 1546.3,471.9 1546.3,434.2 1529.4,434.2 1529.4,333.5 1578.0,333.5 1578.0,444.0 1558.8,444.0 1558.8,538.2" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1514.7,851.6 1514.7,810.6 1580.2,810.6 1598.3,819.7 1588.1,850.9" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+<g id="area-labels" inkscape:groupmode="layer" inkscape:label="04 Station and passage names">
+<text x="754" y="480" fill="#171817" font-size="22" font-weight="600" text-anchor="middle">FASHION ONE</text>
+<text x="754" y="502" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Central underground passage · B1</text>
+<text x="1240" y="340" fill="#171817" font-size="16" font-weight="600" text-anchor="middle">JR Takashimaya</text>
+<text x="1240" y="362" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Department store · B1</text>
+<text x="798" y="1010" fill="#FF7A1A" font-size="21" font-weight="600" text-anchor="middle" data-route="kintetsu">KINTETSU NAGOYA</text>
+<text x="798" y="1032" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">B1 platform access area</text>
+<text x="1178" y="1063" fill="#E5332A" font-size="20" font-weight="600" text-anchor="middle" data-route="meitetsu">MEITETSU NAGOYA</text>
+<text x="1178" y="1085" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Main concourse · Platforms on B2</text>
+<text x="1485" y="708" fill="#777A76" font-size="20" font-weight="600" text-anchor="middle" transform="rotate(-90 1485 708)">GATE WALK</text>
+<text x="1613" y="274" fill="#C89400" font-size="20" font-weight="600" text-anchor="middle" data-route="subway">HIGASHIYAMA LINE</text>
+<text x="1613" y="296" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">B1 gates · Platforms below</text>
+<text x="1690" y="1000" fill="#171817" font-size="18" font-weight="600" text-anchor="middle">MEICHIKA</text>
+<text x="1690" y="1022" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Underground shopping area</text>
+<text x="1714" y="1085" fill="#171817" font-size="16" font-weight="600" text-anchor="middle">MIDLAND SQUARE</text>
+<text x="1714" y="1107" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Underground connection</text>
+</g>
+<g id="ticket-gates" inkscape:groupmode="layer" inkscape:label="05 B1 ticket gates">
+<g id="gate-kintetsu-underground"><title>Kintetsu Underground Gate</title>
+<rect x="1047.5" y="847.1" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1057.5" y="847.1" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1067.5" y="847.1" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1077.5" y="847.1" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1087.5" y="847.1" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="899.5" y="820.1" fill="#FF7A1A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="kintetsu">Kintetsu Underground</text>
+<text x="899.5" y="840.1" fill="#FF7A1A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="kintetsu">Gate</text>
+</g>
+<g id="gate-kintetsu-meitetsu-transfer"><title>Kintetsu / Meitetsu Gate</title>
+<rect x="1102.5" y="896.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1102.5" y="906.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1102.5" y="916.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1102.5" y="926.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1102.5" y="936.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<line x1="873.5" y1="915.5" x2="1085.5" y2="918.5" stroke="#777A76" stroke-width="1"/>
+<text x="803.5" y="918.5" fill="#171817" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5">Transfer</text>
+<text x="803.5" y="938.5" fill="#777A76" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" xml:space="preserve"><tspan fill="#FF7A1A" data-route="kintetsu">Kintetsu</tspan><tspan fill="#777A76"> / </tspan><tspan fill="#E5332A" data-route="meitetsu">Meitetsu</tspan></text>
+</g>
+<g id="gate-meitetsu-west"><title>West Gate</title>
+<rect x="1176.0" y="877.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1176.0" y="887.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1176.0" y="897.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1176.0" y="907.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1176.0" y="917.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<text x="1002.0" y="898.6" fill="#E5332A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="meitetsu">West</text>
+<text x="1002.0" y="918.6" fill="#E5332A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="meitetsu">Gate</text>
+</g>
+<g id="gate-meitetsu-south"><title>South Gate</title>
+<rect x="1212.5" y="966.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1222.5" y="966.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1232.5" y="966.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1242.5" y="966.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1252.5" y="966.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="1149.5" y="1009.6" fill="#E5332A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="meitetsu">South</text>
+<text x="1149.5" y="1029.6" fill="#E5332A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="meitetsu">Gate</text>
+</g>
+<g id="gate-meitetsu-central-exit"><title>Central Exit Gate</title>
+<rect x="1283.3" y="908.2" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1283.3" y="918.2" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1283.3" y="928.2" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1283.3" y="938.2" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1283.3" y="948.2" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<text x="1384.3" y="860.2" fill="#E5332A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="meitetsu">Central Exit</text>
+<text x="1384.3" y="880.2" fill="#E5332A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="meitetsu">Gate</text>
+</g>
+<g id="gate-meitetsu-central-entry"><title>Central Entry Gate</title>
+<rect x="1327.4" y="955.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1327.4" y="965.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1327.4" y="975.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1327.4" y="985.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1327.4" y="995.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<text x="1353.4" y="1033.6" fill="#E5332A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="meitetsu">Central Entry</text>
+<text x="1353.4" y="1053.6" fill="#E5332A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="meitetsu">Gate</text>
+</g>
+<g id="gate-meitetsu-north"><title>Meitetsu North Gate</title>
+<rect x="1369.5" y="733.3" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1379.5" y="733.3" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1389.5" y="733.3" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1399.5" y="733.3" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1409.5" y="733.3" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="1305.5" y="736.3" fill="#E5332A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="meitetsu">Meitetsu North</text>
+<text x="1305.5" y="756.3" fill="#E5332A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="meitetsu">Gate</text>
+</g>
+<g id="gate-higashiyama-central"><title>Central Gate</title>
+<rect x="1511.9" y="532.5" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1521.9" y="532.5" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1531.9" y="532.5" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1541.9" y="532.5" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1551.9" y="532.5" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="1458.9" y="554.5" fill="#C89400" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="subway">Central</text>
+<text x="1458.9" y="574.5" fill="#C89400" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="subway">Gate</text>
+</g>
+<g id="gate-higashiyama-north"><title>North Gate</title>
+<rect x="1563.6" y="415.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1563.6" y="425.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1563.6" y="435.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1563.6" y="445.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1563.6" y="455.5" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<text x="1494.6" y="437.5" fill="#C89400" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="subway">North</text>
+<text x="1494.6" y="457.5" fill="#C89400" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="subway">Gate</text>
+</g>
+<g id="gate-higashiyama-south"><title>South Gate</title>
+<rect x="1533.4" y="841.2" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1543.4" y="841.2" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1553.4" y="841.2" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1563.4" y="841.2" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1573.4" y="841.2" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="1639.4" y="866.2" fill="#C89400" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="subway">South</text>
+<text x="1639.4" y="886.2" fill="#C89400" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="subway">Gate</text>
+</g>
+</g>
+<g id="facilities" inkscape:groupmode="layer" inkscape:label="06 Elevators, escalators, stairs and accessible toilets">
+<g id="ev-fashion-one" data-type="EV" data-destination="Ground floor / JR concourse">
+<title>ev-fashion-one · EV · Ground floor / JR concourse</title>
+<circle cx="696.6" cy="626.0" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="696.6" y="631.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="es-public-west-up" data-type="ES" data-destination="Up to JR ground-floor concourse (west)">
+<title>es-public-west-up · ES · Up to JR ground-floor concourse (west)</title>
+<rect x="398.3" y="607.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="416.3" y="628.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-public-east-up" data-type="ES" data-destination="Up to JR ground-floor concourse (east)">
+<title>es-public-east-up · ES · Up to JR ground-floor concourse (east)</title>
+<rect x="1192.7" y="614.5" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1210.7" y="636.0" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-public-middle-up" data-type="ES" data-destination="Up to JR ground-floor concourse (middle)">
+<title>es-public-middle-up · ES · Up to JR ground-floor concourse (middle)</title>
+<rect x="767.8" y="623.0" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="785.8" y="644.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-subway-west-down" data-type="ES" data-destination="Down to Sakuradori Line gates">
+<title>es-subway-west-down · ES · Down to Sakuradori Line gates</title>
+<rect x="544.1" y="532.0" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="562.1" y="553.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-subway-middle-down" data-type="ES" data-destination="Down to Sakuradori Line gates">
+<title>es-subway-middle-down · ES · Down to Sakuradori Line gates</title>
+<rect x="604.0" y="532.0" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="622.0" y="553.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-subway-east-down" data-type="ES" data-destination="Down to Sakuradori Line gates">
+<title>es-subway-east-down · ES · Down to Sakuradori Line gates</title>
+<rect x="914.7" y="538.5" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="932.7" y="560.0" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-public-east-lobby" data-type="ES" data-destination="JR ground-floor / east lobby access">
+<title>es-public-east-lobby · ES · JR ground-floor / east lobby access</title>
+<rect x="1251.5" y="632.8" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1269.5" y="654.3" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-gatewalk-jr-north" data-type="ES" data-destination="Up to JR ground-floor / north side">
+<title>es-gatewalk-jr-north · ES · Up to JR ground-floor / north side</title>
+<rect x="1293.3" y="495.6" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1311.3" y="517.1" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-gatewalk-jr-south" data-type="ES" data-destination="Up to JR ground-floor / south side">
+<title>es-gatewalk-jr-south · ES · Up to JR ground-floor / south side</title>
+<rect x="1214.2" y="794.6" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1232.2" y="816.1" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-east-connection" data-type="ES" data-destination="East-side underground / building access">
+<title>es-east-connection · ES · East-side underground / building access</title>
+<rect x="1428.9" y="322.7" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1446.9" y="344.2" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<line x1="1446.9" y1="262.0" x2="1446.9" y2="278.0" stroke="#777A76" stroke-width="1"/>
+<g id="es-jp-tower" data-type="ES" data-destination="JP Tower / surface access">
+<title>es-jp-tower · ES · JP Tower / surface access</title>
+<rect x="1428.9" y="262.0" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1446.9" y="283.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-meitetsu-east" data-type="ES" data-destination="Meitetsu east-side connection">
+<title>es-meitetsu-east · ES · Meitetsu east-side connection</title>
+<rect x="1396.1" y="914.9" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1414.1" y="936.4" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-public-west-up" data-type="ST" data-destination="Up to JR concourse (west)">
+<title>st-public-west-up · ST · Up to JR concourse (west)</title>
+<rect x="398.3" y="577.5" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="416.3" y="599.0" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-public-east-up" data-type="ST" data-destination="Up to JR concourse (east)">
+<title>st-public-east-up · ST · Up to JR concourse (east)</title>
+<rect x="1200.6" y="582.0" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1218.6" y="603.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-public-middle-up" data-type="ST" data-destination="Up to JR concourse (middle)">
+<title>st-public-middle-up · ST · Up to JR concourse (middle)</title>
+<rect x="774.6" y="593.8" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="792.6" y="615.3" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-subway-west-down" data-type="ST" data-destination="Sakuradori Line access">
+<title>st-subway-west-down · ST · Sakuradori Line access</title>
+<rect x="539.6" y="561.2" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="557.6" y="582.7" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-subway-middle-down" data-type="ST" data-destination="Sakuradori Line access">
+<title>st-subway-middle-down · ST · Sakuradori Line access</title>
+<rect x="604.0" y="561.2" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="622.0" y="582.7" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-subway-east-down" data-type="ST" data-destination="Sakuradori Line access">
+<title>st-subway-east-down · ST · Sakuradori Line access</title>
+<rect x="910.2" y="566.5" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="928.2" y="588.0" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-fashion-east-link" data-type="ST" data-destination="Local level change / underground connection">
+<title>st-fashion-east-link · ST · Local level change / underground connection</title>
+<rect x="1044.7" y="590.5" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1062.7" y="612.0" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-gatewalk-west" data-type="ST" data-destination="Gate Walk connection">
+<title>st-gatewalk-west · ST · Gate Walk connection</title>
+<rect x="1268.4" y="584.0" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1286.4" y="605.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-gatewalk-north" data-type="ST" data-destination="JR / surface access">
+<title>st-gatewalk-north · ST · JR / surface access</title>
+<rect x="1276.3" y="469.6" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1294.3" y="491.1" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<line x1="1446.9" y1="240.6" x2="1489.9" y2="240.6" stroke="#777A76" stroke-width="1"/>
+<g id="st-jp-tower" data-type="ST" data-destination="JP Tower / surface access">
+<title>st-jp-tower · ST · JP Tower / surface access</title>
+<rect x="1471.9" y="224.6" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1489.9" y="246.1" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-meitetsu-north-east" data-type="ST" data-destination="Meitetsu North / Gate Walk connection">
+<title>st-meitetsu-north-east · ST · Meitetsu North / Gate Walk connection</title>
+<rect x="1383.7" y="689.3" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1401.7" y="710.8" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-higashiyama-central" data-type="ST" data-destination="Higashiyama platform access">
+<title>st-higashiyama-central · ST · Higashiyama platform access</title>
+<rect x="1546.4" y="462.4" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1564.4" y="483.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-higashiyama-south" data-type="ST" data-destination="Higashiyama platform access">
+<title>st-higashiyama-south · ST · Higashiyama platform access</title>
+<rect x="1523.8" y="807.0" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1541.8" y="828.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-meitetsu-central" data-type="ST" data-destination="Meitetsu central concourse level change">
+<title>st-meitetsu-central · ST · Meitetsu central concourse level change</title>
+<rect x="1302.3" y="912.9" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1320.3" y="934.4" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-meitetsu-south" data-type="ST" data-destination="Meitetsu platform access">
+<title>st-meitetsu-south · ST · Meitetsu platform access</title>
+<rect x="1157.7" y="951.2" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1175.7" y="972.7" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-kintetsu-jr" data-type="ST" data-destination="Up to JR / Hirokoji side">
+<title>st-kintetsu-jr · ST · Up to JR / Hirokoji side</title>
+<rect x="1018.7" y="784.2" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1036.7" y="805.7" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-kintetsu-mezzanine" data-type="ST" data-destination="Kintetsu mezzanine / Front Gate access">
+<title>st-kintetsu-mezzanine · ST · Kintetsu mezzanine / Front Gate access</title>
+<rect x="1021.0" y="1035.8" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1039.0" y="1057.3" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="ev-kintetsu-jr" data-type="EV" data-destination="Kintetsu B1 to ground-floor JR / Hirokoji side">
+<title>ev-kintetsu-jr · EV · Kintetsu B1 to ground-floor JR / Hirokoji side</title>
+<circle cx="1017.5" cy="814.5" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1017.5" y="820.0" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="wc-kintetsu" data-type="WC" data-destination="Accessible toilet near Kintetsu Underground Gate">
+<title>wc-kintetsu · WC · Accessible toilet near Kintetsu Underground Gate</title>
+<circle cx="1017.5" cy="845.7" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="1017.5" y="851.2" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+</g>
+<line x1="1158.8" y1="895.8" x2="1120.8" y2="868.8" stroke="#777A76" stroke-width="1"/>
+<g id="ev-meitetsu-public" data-type="EV" data-destination="Street level to Meitetsu West Gate (B1)">
+<title>ev-meitetsu-public · EV · Street level to Meitetsu West Gate (B1)</title>
+<circle cx="1120.8" cy="868.8" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1120.8" y="874.3" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="ev-meitetsu-paid" data-type="EV" data-destination="Meitetsu platform access via West Gate">
+<title>ev-meitetsu-paid · EV · Meitetsu platform access via West Gate</title>
+<circle cx="1235.6" cy="925.0" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1235.6" y="930.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="wc-meitetsu" data-type="WC" data-destination="Accessible toilet in Meitetsu main concourse">
+<title>wc-meitetsu · WC · Accessible toilet in Meitetsu main concourse</title>
+<circle cx="1189.3" cy="925.6" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="1189.3" y="931.1" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+</g>
+<g id="ev-higashiyama-north" data-type="EV" data-destination="Higashiyama north-side access">
+<title>ev-higashiyama-north · EV · Higashiyama north-side access</title>
+<circle cx="1549.7" cy="334.1" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1549.7" y="339.6" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="wc-higashiyama-north" data-type="WC" data-destination="Accessible toilet, Higashiyama north-side area">
+<title>wc-higashiyama-north · WC · Accessible toilet, Higashiyama north-side area</title>
+<circle cx="1616.4" cy="410.2" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="1616.4" y="415.7" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+</g>
+<g id="ev-jp-tower" data-type="EV" data-destination="JP Tower / street-level access">
+<title>ev-jp-tower · EV · JP Tower / street-level access</title>
+<circle cx="1440.1" cy="219.1" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1440.1" y="224.6" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+</g>
+<g id="level-notes" inkscape:groupmode="layer" inkscape:label="07 Floor changes and orientation">
+<text x="449" y="682" fill="#171817" font-size="15" font-weight="600" text-anchor="middle">Up to 1F</text>
+<text x="449" y="704" fill="#12B85A" font-size="13" font-weight="400" text-anchor="middle" data-route="jr">JR concourse</text>
+<text x="752" y="671" fill="#171817" font-size="15" font-weight="600" text-anchor="middle">EV to 1F</text>
+<text x="752" y="693" fill="#12B85A" font-size="13" font-weight="400" text-anchor="middle" data-route="jr">JR concourse</text>
+<text x="1214" y="679" fill="#171817" font-size="14" font-weight="600" text-anchor="middle">Up to 1F</text>
+<text x="1214" y="701" fill="#12B85A" font-size="13" font-weight="400" text-anchor="middle" data-route="jr">JR concourse</text>
+<rect x="77" y="401" width="222" height="133" rx="0" fill="#FFFFFF" stroke="#6E726E"/>
+<text x="188" y="447" fill="#171817" font-size="23" font-weight="600" text-anchor="middle">ESCA</text>
+<text x="188" y="469" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Underground shopping</text>
+<text x="188" y="496" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">West / Taikodori side</text>
+<line x1="323" y1="555" x2="340" y2="535" stroke="#777A76" stroke-width="2"/>
+<line x1="333" y1="560" x2="350" y2="540" stroke="#777A76" stroke-width="2"/>
+<text x="83" y="572" fill="#171817" font-size="16" font-weight="600" text-anchor="start">Access via 1F</text>
+<text x="83" y="595" fill="#777A76" font-size="13" font-weight="400" text-anchor="start">Use Taikodori Exit, then go down.</text>
+<line x1="1880" y1="340" x2="1880" y2="254" stroke="#171817" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="1880" y="235" fill="#171817" font-size="28" font-weight="700" text-anchor="middle">N</text>
+<text x="1880" y="367" fill="#171817" font-size="14" font-weight="400" text-anchor="middle">NORTH</text>
+<text x="65" y="720" fill="#777A76" font-size="16" font-weight="600" text-anchor="start">WEST</text>
+<text x="65" y="744" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Taikodori side</text>
+<text x="1935" y="720" fill="#777A76" font-size="16" font-weight="600" text-anchor="end">EAST</text>
+<text x="1935" y="744" fill="#777A76" font-size="14" font-weight="400" text-anchor="end">Sakuradori side</text>
+</g>
+<g id="directions" inkscape:groupmode="layer" inkscape:label="08 Transfer and destination arrows">
+<g id="to-sakuradori"><title>Sakuradori Line: Continue down to the gate level|Platforms are on a lower floor</title>
+<polyline points="652,479 652,401" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="539" y="320" fill="#C89400" font-size="22" font-weight="700" text-anchor="start" data-route="subway">Sakuradori Line</text>
+<text x="539" y="347" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Continue down to the gate level</text>
+<text x="539" y="369" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Platforms are on a lower floor</text>
+</g>
+<g id="to-jr-west"><title>JR / Aonami Line: Up to 1F · Taikodori side|JR Highway Bus: continue north</title>
+<polyline points="431,635 360,635 360,740" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="85" y="795" fill="#171817" font-size="22" font-weight="700" text-anchor="start" xml:space="preserve"><tspan fill="#12B85A" data-route="jr">JR</tspan><tspan fill="#171817"> / </tspan><tspan fill="#0FC3E4" data-route="aonami">Aonami Line</tspan></text>
+<text x="85" y="822" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Up to 1F · Taikodori side</text>
+<text x="85" y="844" fill="#777A76" font-size="14" font-weight="400" text-anchor="start" xml:space="preserve"><tspan fill="#16C2B0" data-route="bus">JR Highway Bus</tspan><tspan fill="#777A76">: continue north</tspan></text>
+</g>
+<g id="to-jr-east"><title>JR Lines: Up to 1F</title>
+<polyline points="1211,810 1211,757" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1128" y="704" fill="#12B85A" font-size="22" font-weight="700" text-anchor="end" data-route="jr">JR Lines</text>
+<text x="1128" y="731" fill="#777A76" font-size="14" font-weight="400" text-anchor="end">Up to 1F</text>
+</g>
+<g id="to-higashiyama"><title>Higashiyama Line: Use the B1 ticket gates|Continue down to platforms</title>
+<polyline points="1510,570 1560,570" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1660" y="547" fill="#C89400" font-size="22" font-weight="700" text-anchor="start" data-route="subway">Higashiyama Line</text>
+<text x="1660" y="574" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Use the B1 ticket gates</text>
+<text x="1660" y="596" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Continue down to platforms</text>
+</g>
+<g id="to-citybus"><title>City Bus / JP Tower: Head north; go up for city buses</title>
+<polyline points="1507,218 1507,187" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1572" y="203" fill="#171817" font-size="22" font-weight="700" text-anchor="start" xml:space="preserve"><tspan fill="#16C2B0" data-route="bus">City Bus</tspan><tspan fill="#171817"> / JP Tower</tspan></text>
+<text x="1572" y="230" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Head north; go up for city buses</text>
+</g>
+<g id="to-lucent"><title>Lucent Tower: Continue north underground</title>
+<polyline points="1507,360 1507,260" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1664" y="404" fill="#171817" font-size="22" font-weight="700" text-anchor="start">Lucent Tower</text>
+<text x="1664" y="431" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Continue north underground</text>
+</g>
+<g id="to-unimall"><title>Unimall: Continue east</title>
+<polyline points="1570,627 1823,627" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1793" y="651" fill="#171817" font-size="22" font-weight="700" text-anchor="end">Unimall</text>
+<text x="1793" y="678" fill="#777A76" font-size="14" font-weight="400" text-anchor="end">Continue east</text>
+</g>
+<g id="to-sunroad"><title>Sun Road: Continue south</title>
+<polyline points="1510,1000 1510,1187" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1645" y="1194" fill="#171817" font-size="22" font-weight="700" text-anchor="middle">Sun Road</text>
+<text x="1645" y="1221" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Continue south</text>
+</g>
+<g id="to-kintetsu-front"><title>Kintetsu Front Gate: Via mezzanine level</title>
+<polyline points="1038,1090 1038,1175" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="850" y="1193" fill="#FF7A1A" font-size="22" font-weight="700" text-anchor="middle" data-route="kintetsu">Kintetsu Front Gate</text>
+<text x="850" y="1220" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Via mezzanine level</text>
+</g>
+<g id="to-meitetsubus"><title>Meitetsu Bus Center: Up to street level; head south</title>
+<polyline points="1380,1110 1380,1187" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1314" y="1194" fill="#16C2B0" font-size="22" font-weight="700" text-anchor="middle" data-route="bus">Meitetsu Bus Center</text>
+<text x="1314" y="1221" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Up to street level; head south</text>
+</g>
+</g>
+<g id="legend" inkscape:groupmode="layer" inkscape:label="09 Legend and scope">
+<line x1="64" y1="1278" x2="1936" y2="1278" stroke="#171817" stroke-width="1.5"/>
+<circle cx="84" cy="1313" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="84" y="1318.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+<text x="115" y="1319" fill="#171817" font-size="19" font-weight="600" text-anchor="start">Elevator</text>
+<rect x="367" y="1297" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="385" y="1318.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+<text x="416" y="1319" fill="#171817" font-size="19" font-weight="600" text-anchor="start">Escalator</text>
+<rect x="703" y="1297" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="721" y="1318.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+<text x="752" y="1319" fill="#171817" font-size="19" font-weight="600" text-anchor="start">Stairs</text>
+<circle cx="967" cy="1313" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="967" y="1318.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+<text x="998" y="1319" fill="#171817" font-size="19" font-weight="600" text-anchor="start">Accessible toilet</text>
+<rect x="1300" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1308" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1316" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1324" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1332" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="1349" y="1318" fill="#171817" font-size="17" font-weight="600" text-anchor="start">Ticket gates</text>
+<rect x="1515" y="1299" width="29" height="24" rx="0" fill="#F8F8F5" stroke="#6E726E"/>
+<text x="1556" y="1317" fill="#171817" font-size="16" font-weight="400" text-anchor="start">Paid area</text>
+<rect x="1740" y="1299" width="29" height="24" rx="0" fill="#FFFFFF" stroke="#6E726E"/>
+<text x="1781" y="1317" fill="#171817" font-size="16" font-weight="400" text-anchor="start">Public area</text>
+<text x="64" y="1372" fill="#777A76" font-size="15" font-weight="400" text-anchor="start">B1 schematic. Selected access points are shown; other floors are indicated by callouts.</text>
+<text x="1936" y="1372" fill="#777A76" font-size="15" font-weight="400" text-anchor="end">Arrows show transfer directions. / North up · Not to scale</text>
+</g>
+</svg>

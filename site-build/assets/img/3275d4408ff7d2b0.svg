@@ -1,0 +1,535 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="2000" height="1400" viewBox="0 0 2000 1400" role="img" lang="en" aria-labelledby="title desc">
+<title id="title">JR Nagoya Station Ground Floor — Vertical Access and Transfers</title>
+<desc id="desc">North-up schematic with Taikodori Exit to the west and Sakuradori Exit to the east. Elevators, escalators, stairs, accessible toilets, ticket gates and transfer directions are shown at ground-floor access points. Platform and basement floor plans are omitted.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L8 4.5L0 9Z" fill="#171817"/></marker></defs>
+<style>text {font-family:Arial,"Helvetica Neue","Hiragino Kaku Gothic ProN","Noto Sans CJK JP",sans-serif} text {letter-spacing:0} </style>
+<g id="background" inkscape:groupmode="layer" inkscape:label="01 Background">
+<rect x="0" y="0" width="2000" height="1400" rx="0" fill="#F3F2EE" stroke="none"/>
+<text x="64" y="83" fill="#171817" font-size="56" font-weight="800" text-anchor="start">NAGOYA STATION</text>
+<text x="66" y="126" fill="#171817" font-size="27" font-weight="600" text-anchor="start">JR Ground Floor / Accessibility Map</text>
+<text x="1936" y="79" fill="#171817" font-size="34" font-weight="700" text-anchor="end">1F / Street Level</text>
+<text x="1936" y="119" fill="#171817" font-size="19" font-weight="400" text-anchor="end">Vertical Access &amp; Transfer Directions</text>
+<line x1="64" y1="154" x2="1936" y2="154" stroke="#171817" stroke-width="1.5"/>
+</g>
+<g id="floor" inkscape:groupmode="layer" inkscape:label="02 Ground floor footprint">
+<polygon points="190.0,1202.8 190.0,407.2 250.0,400.0 475.0,400.0 475.0,450.4 1180.0,450.4 1180.0,256.0 1337.5,256.0 1337.5,479.2 1615.0,479.2 1615.0,713.2 1562.5,713.2 1562.5,871.6 1360.0,922.0 1360.0,1202.8 1030.0,1202.8 1007.5,1019.2 520.0,1019.2 427.0,986.8 400.0,1195.6" fill="#FFFFFF" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="242.5,572.8 242.5,454.0 325.0,454.0 325.0,407.2 433.0,407.2 433.0,464.8 1205.5,464.8 1205.5,450.4 1270.0,450.4 1270.0,536.8 1205.5,536.8 1205.5,526.0 680.5,526.0 680.5,603.0 625.0,603.0 625.0,526.0 460.0,526.0 460.0,572.8" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="250.0,875.2 250.0,774.4 280.0,774.4 280.0,756.4 418.0,756.4 418.0,785.2 985.0,785.2 985.0,742.0 1117.0,742.0 1117.0,770.8 1172.5,770.8 1172.5,828.4 1210.0,828.4 1210.0,947.2 1172.5,968.8 1172.5,1017.8 1096.0,1017.8 1096.0,932.8 490.0,932.8 512.5,986.8 427.0,986.8 407.5,875.2" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="520.0,912.6 520.0,833.4 650.5,833.4 650.5,912.6" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="703.0,912.6 703.0,833.4 787.0,833.4 787.0,912.6" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="835.0,912.6 835.0,833.4 895.0,833.4 895.0,912.6" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="940.0,912.6 940.0,833.4 1015.0,833.4 1015.0,912.6" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1072.0,912.6 1072.0,833.4 1133.5,833.4 1133.5,912.6" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="563.5,464.8 563.5,433.1 622.0,433.1 622.0,464.8" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="647.5,464.8 647.5,433.1 706.0,433.1 706.0,464.8" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="769.0,464.8 769.0,433.1 827.5,433.1 827.5,464.8" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="880.0,464.8 880.0,433.1 938.5,433.1 938.5,464.8" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1007.5,464.8 1007.5,433.1 1066.0,433.1 1066.0,464.8" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1132.0,464.8 1132.0,433.1 1190.5,433.1 1190.5,464.8" fill="#F8F8F5" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="236.5,1195.6 212.5,889.6 290.5,888.2 317.5,912.6 392.5,912.6 392.5,979.6 367.0,979.6 367.0,1195.6" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="451.0,608.8 451.0,549.0 599.5,549.0 599.5,608.8" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="695.5,588.6 695.5,526.7 838.0,526.7 838.0,588.6" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="862.0,608.8 862.0,526.7 983.5,526.7 983.5,608.8" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1007.5,594.4 1007.5,528.2 1121.5,528.2 1121.5,594.4" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="464.5,778.0 464.5,729.8 569.5,729.8 569.5,778.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="605.5,778.0 605.5,729.8 692.5,729.8 692.5,778.0" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="739.0,777.3 739.0,728.3 925.0,728.3 925.0,777.3" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1132.0,767.2 1132.0,729.8 1187.5,729.8 1187.5,767.2" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="587.5,721.1 587.5,689.4 668.5,689.4 668.5,721.1" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="883.0,721.8 883.0,694.5 971.5,694.5 971.5,721.8" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1031.5,1194.2 1010.5,1017.0 1082.5,1017.0 1082.5,1031.4 1190.5,1031.4 1190.5,1107.8 1270.0,1107.8 1270.0,1194.2" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1202.5,577.1 1202.5,529.6 1264.0,529.6 1264.0,577.1" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1207.0,452.6 1207.0,269.0 1265.5,269.0 1265.5,452.6" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1352.5,587.2 1352.5,482.8 1558.0,482.8 1558.0,587.2" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1360.0,869.4 1360.0,717.5 1559.5,717.5 1559.5,869.4" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1343.5,450.4 1343.5,256.0 1558.0,256.0 1558.0,450.4" fill="#E8E7E2" stroke="#6E726E" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+<g id="area-labels" inkscape:groupmode="layer" inkscape:label="03 Public / paid passage labels">
+<text x="992.5" y="670.7" fill="#777A76" font-size="23" font-weight="500" text-anchor="middle">CENTRAL CONCOURSE</text>
+<text x="992.5" y="691.7" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Outside ticket gates</text>
+<text x="676" y="504" fill="#777A76" font-size="12" font-weight="400" text-anchor="middle">NORTH PASSAGE</text>
+<text x="512" y="817" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Central passage</text>
+<text x="562" y="958" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">South passage</text>
+<text x="283.0" y="1028.6" fill="#777A76" font-size="15" font-weight="500" text-anchor="middle">Umaimon Street</text>
+<text x="283.0" y="1049.6" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Shops &amp; dining</text>
+<text x="1457.5" y="806.1" fill="#777A76" font-size="16" font-weight="500" text-anchor="middle">JR Central Towers</text>
+<text x="1457.5" y="827.1" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Towers &amp; hotel</text>
+<text x="1451.5" y="533.9" fill="#777A76" font-size="14" font-weight="500" text-anchor="middle">JR Takashimaya</text>
+<text x="1451.5" y="554.9" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Department store</text>
+<text x="1430.5" y="328.0" fill="#777A76" font-size="15" font-weight="500" text-anchor="middle">JR Takashimaya</text>
+<text x="1430.5" y="349.0" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Shops (schematic)</text>
+<text x="1150.0" y="342.4" fill="#12B85A" font-size="18" font-weight="500" text-anchor="middle" data-route="jr">JR LOCAL LINES</text>
+<text x="1150.0" y="363.4" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Platform access from 1F</text>
+<text x="370.0" y="335.2" fill="#12B85A" font-size="18" font-weight="500" text-anchor="middle" data-route="jr">SHINKANSEN</text>
+<text x="370.0" y="356.2" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Platform access from 1F</text>
+<text x="587.5" y="412.4" fill="#171817" font-size="17" font-weight="600" text-anchor="middle">12, 13</text>
+<line x1="587.5" y1="422.4" x2="587.5" y2="448.4" stroke="#777A76" stroke-width="1"/>
+<text x="671.5" y="412.4" fill="#171817" font-size="17" font-weight="600" text-anchor="middle">10, 11</text>
+<line x1="671.5" y1="422.4" x2="671.5" y2="448.4" stroke="#777A76" stroke-width="1"/>
+<text x="793.0" y="412.4" fill="#171817" font-size="17" font-weight="600" text-anchor="middle">7, 8</text>
+<line x1="793.0" y1="422.4" x2="793.0" y2="448.4" stroke="#777A76" stroke-width="1"/>
+<text x="904.0" y="412.4" fill="#171817" font-size="17" font-weight="600" text-anchor="middle">5, 6</text>
+<line x1="904.0" y1="422.4" x2="904.0" y2="448.4" stroke="#777A76" stroke-width="1"/>
+<text x="1031.5" y="412.4" fill="#171817" font-size="17" font-weight="600" text-anchor="middle">3, 4</text>
+<line x1="1031.5" y1="422.4" x2="1031.5" y2="448.4" stroke="#777A76" stroke-width="1"/>
+<text x="1156.0" y="412.4" fill="#171817" font-size="17" font-weight="600" text-anchor="middle">2</text>
+<line x1="1156.0" y1="422.4" x2="1156.0" y2="448.4" stroke="#777A76" stroke-width="1"/>
+<text x="286.0" y="609.6" fill="#171817" font-size="14" font-weight="600" text-anchor="middle">16, 17</text>
+<text x="355.0" y="609.6" fill="#171817" font-size="14" font-weight="600" text-anchor="middle">14, 15</text>
+</g>
+<g id="gates" inkscape:groupmode="layer" inkscape:label="04 Ticket gates">
+<g id="gate-shinkansen-north"><title>Shinkansen North Gate</title>
+<rect x="288.0" y="549.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="298.0" y="549.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="308.0" y="549.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="318.0" y="549.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="328.0" y="549.6" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="180.0" y="548.6" fill="#12B85A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="jr">Shinkansen</text>
+<text x="180.0" y="568.6" fill="#12B85A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="jr">North Gate</text>
+</g>
+<g id="gate-shinkansen-south"><title>Shinkansen South Gate</title>
+<rect x="313.5" y="746.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="323.5" y="746.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="333.5" y="746.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="343.5" y="746.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="353.5" y="746.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="339.5" y="733.8" fill="#12B85A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="jr">Shinkansen</text>
+<text x="339.5" y="753.8" fill="#12B85A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="jr">South Gate</text>
+</g>
+<g id="gate-shinkansen-north-transfer"><title>Shinkansen transfer Gate</title>
+<rect x="419.0" y="482.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="419.0" y="492.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="419.0" y="502.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="419.0" y="512.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="419.0" y="522.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<line x1="430.0" y1="476.4" x2="430.0" y2="404.4" stroke="#777A76" stroke-width="1"/>
+<text x="430.0" y="377.4" fill="#12B85A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="jr">Shinkansen</text>
+<text x="430.0" y="397.4" fill="#12B85A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="jr">North Transfer Gate</text>
+</g>
+<g id="gate-shinkansen-south-transfer"><title>Shinkansen transfer Gate</title>
+<rect x="404.0" y="788.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="404.0" y="798.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="404.0" y="808.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="404.0" y="818.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="404.0" y="828.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<text x="505.0" y="859.4" fill="#12B85A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="jr">Shinkansen</text>
+<text x="505.0" y="879.4" fill="#12B85A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="jr">South Transfer Gate</text>
+</g>
+<g id="gate-central-north"><title>Central North Gate</title>
+<rect x="627.0" y="592.0" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="637.0" y="592.0" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="647.0" y="592.0" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="657.0" y="592.0" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="667.0" y="592.0" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="649.0" y="568.0" fill="#12B85A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="jr">Central North</text>
+<text x="649.0" y="588.0" fill="#12B85A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="jr">Gate</text>
+</g>
+<g id="gate-central"><title>Central Gate</title>
+<rect x="1014.0" y="732.4" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1024.0" y="732.4" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1034.0" y="732.4" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1044.0" y="732.4" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1054.0" y="732.4" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="1036.0" y="712.4" fill="#12B85A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="jr">Central</text>
+<text x="1036.0" y="732.4" fill="#12B85A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="jr">Gate</text>
+</g>
+<g id="gate-sakuradori"><title>Sakuradori Gate</title>
+<rect x="1259.0" y="482.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1259.0" y="492.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1259.0" y="502.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1259.0" y="512.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="1259.0" y="522.4" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<text x="1301.0" y="466.4" fill="#12B85A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="jr">Sakuradori</text>
+<text x="1301.0" y="486.4" fill="#12B85A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="jr">Gate</text>
+</g>
+<g id="gate-hirokoji"><title>Hirokoji Gate</title>
+<rect x="1099.5" y="1006.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1109.5" y="1006.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1119.5" y="1006.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1129.5" y="1006.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1139.5" y="1006.8" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="1106.5" y="985.8" fill="#12B85A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="jr">Hirokoji</text>
+<text x="1106.5" y="1005.8" fill="#12B85A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="jr">Gate</text>
+</g>
+<g id="gate-taikodori-south"><title>Taikodori South Gate</title>
+<rect x="410.0" y="926.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="410.0" y="936.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="410.0" y="946.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="410.0" y="956.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<rect x="410.0" y="966.6" width="22" height="4" rx="2" fill="#171817" stroke="none"/>
+<text x="372.0" y="1004.6" fill="#12B85A" font-size="16" font-weight="700" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="5" data-route="jr">Taikodori South</text>
+<text x="372.0" y="1024.6" fill="#12B85A" font-size="12" font-weight="400" text-anchor="middle" paint-order="stroke" stroke="white" stroke-width="4" data-route="jr">Gate</text>
+</g>
+</g>
+<g id="facilities" inkscape:groupmode="layer" inkscape:label="05 EV ES ST WC — each marker is editable">
+<g id="ev-jr-1" data-type="EV" data-destination="12, 13 platform access">
+<title>ev-jr-1 · EV · 12, 13 platform access</title>
+<circle cx="587.5" cy="473.4" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="587.5" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="st-north-1" data-type="ST" data-destination="12, 13 platform access (North Passage)">
+<title>st-north-1 · ST · 12, 13 platform access (North Passage)</title>
+<rect x="569.5" y="510.0" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="587.5" y="531.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="ev-jr-2" data-type="EV" data-destination="10, 11 platform access">
+<title>ev-jr-2 · EV · 10, 11 platform access</title>
+<circle cx="671.5" cy="473.4" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="671.5" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="st-north-2" data-type="ST" data-destination="10, 11 platform access (North Passage)">
+<title>st-north-2 · ST · 10, 11 platform access (North Passage)</title>
+<rect x="653.5" y="510.0" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="671.5" y="531.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-north-2" data-type="ES" data-destination="10, 11 platform access (North Passage)">
+<title>es-north-2 · ES · 10, 11 platform access (North Passage)</title>
+<rect x="689.5" y="457.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="707.5" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="ev-jr-3" data-type="EV" data-destination="7, 8 platform access">
+<title>ev-jr-3 · EV · 7, 8 platform access</title>
+<circle cx="793.0" cy="473.4" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="793.0" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="st-north-3" data-type="ST" data-destination="7, 8 platform access (North Passage)">
+<title>st-north-3 · ST · 7, 8 platform access (North Passage)</title>
+<rect x="775.0" y="510.0" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="793.0" y="531.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-north-3" data-type="ES" data-destination="7, 8 platform access (North Passage)">
+<title>es-north-3 · ES · 7, 8 platform access (North Passage)</title>
+<rect x="811.0" y="457.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="829.0" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="ev-jr-4" data-type="EV" data-destination="5, 6 platform access">
+<title>ev-jr-4 · EV · 5, 6 platform access</title>
+<circle cx="904.0" cy="473.4" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="904.0" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="st-north-4" data-type="ST" data-destination="5, 6 platform access (North Passage)">
+<title>st-north-4 · ST · 5, 6 platform access (North Passage)</title>
+<rect x="886.0" y="510.0" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="904.0" y="531.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-north-4" data-type="ES" data-destination="5, 6 platform access (North Passage)">
+<title>es-north-4 · ES · 5, 6 platform access (North Passage)</title>
+<rect x="922.0" y="457.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="940.0" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="ev-jr-5" data-type="EV" data-destination="3, 4 platform access">
+<title>ev-jr-5 · EV · 3, 4 platform access</title>
+<circle cx="1031.5" cy="473.4" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1031.5" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="st-north-5" data-type="ST" data-destination="3, 4 platform access (North Passage)">
+<title>st-north-5 · ST · 3, 4 platform access (North Passage)</title>
+<rect x="1013.5" y="510.0" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1031.5" y="531.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-north-5" data-type="ES" data-destination="3, 4 platform access (North Passage)">
+<title>es-north-5 · ES · 3, 4 platform access (North Passage)</title>
+<rect x="1049.5" y="457.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1067.5" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="ev-jr-6" data-type="EV" data-destination="2 platform access">
+<title>ev-jr-6 · EV · 2 platform access</title>
+<circle cx="1156.0" cy="473.4" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1156.0" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="st-north-6" data-type="ST" data-destination="2 platform access (North Passage)">
+<title>st-north-6 · ST · 2 platform access (North Passage)</title>
+<rect x="1138.0" y="510.0" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1156.0" y="531.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-north-6" data-type="ES" data-destination="2 platform access (North Passage)">
+<title>es-north-6 · ES · 2 platform access (North Passage)</title>
+<rect x="1174.0" y="457.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1192.0" y="478.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-central-1" data-type="ES" data-destination="10, 11 platform access (Central Passage)">
+<title>es-central-1 · ES · 10, 11 platform access (Central Passage)</title>
+<rect x="659.5" y="825.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="677.5" y="846.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-central-1" data-type="ST" data-destination="10, 11 platform access (Central Passage)">
+<title>st-central-1 · ST · 10, 11 platform access (Central Passage)</title>
+<rect x="680.5" y="789.4" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="698.5" y="810.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-south-1" data-type="ST" data-destination="10, 11 platform access (South Passage)">
+<title>st-south-1 · ST · 10, 11 platform access (South Passage)</title>
+<rect x="680.5" y="905.3" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="698.5" y="926.8" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-central-2" data-type="ES" data-destination="7, 8 platform access (Central Passage)">
+<title>es-central-2 · ES · 7, 8 platform access (Central Passage)</title>
+<rect x="782.5" y="825.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="800.5" y="846.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-central-2" data-type="ST" data-destination="7, 8 platform access (Central Passage)">
+<title>st-central-2 · ST · 7, 8 platform access (Central Passage)</title>
+<rect x="803.5" y="789.4" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="821.5" y="810.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-south-2" data-type="ST" data-destination="7, 8 platform access (South Passage)">
+<title>st-south-2 · ST · 7, 8 platform access (South Passage)</title>
+<rect x="803.5" y="905.3" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="821.5" y="926.8" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-central-3" data-type="ES" data-destination="5, 6 platform access (Central Passage)">
+<title>es-central-3 · ES · 5, 6 platform access (Central Passage)</title>
+<rect x="892.0" y="825.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="910.0" y="846.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-central-3" data-type="ST" data-destination="5, 6 platform access (Central Passage)">
+<title>st-central-3 · ST · 5, 6 platform access (Central Passage)</title>
+<rect x="913.0" y="789.4" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="931.0" y="810.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-south-3" data-type="ST" data-destination="5, 6 platform access (South Passage)">
+<title>st-south-3 · ST · 5, 6 platform access (South Passage)</title>
+<rect x="913.0" y="905.3" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="931.0" y="926.8" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-central-4" data-type="ES" data-destination="3, 4 platform access (Central Passage)">
+<title>es-central-4 · ES · 3, 4 platform access (Central Passage)</title>
+<rect x="1021.0" y="825.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1039.0" y="846.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-central-4" data-type="ST" data-destination="3, 4 platform access (Central Passage)">
+<title>st-central-4 · ST · 3, 4 platform access (Central Passage)</title>
+<rect x="1042.0" y="789.4" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1060.0" y="810.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-south-4" data-type="ST" data-destination="3, 4 platform access (South Passage)">
+<title>st-south-4 · ST · 3, 4 platform access (South Passage)</title>
+<rect x="1042.0" y="905.3" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1060.0" y="926.8" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-central-5" data-type="ES" data-destination="2 platform access (Central Passage)">
+<title>es-central-5 · ES · 2 platform access (Central Passage)</title>
+<rect x="1132.0" y="825.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1150.0" y="846.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-central-5" data-type="ST" data-destination="2 platform access (Central Passage)">
+<title>st-central-5 · ST · 2 platform access (Central Passage)</title>
+<rect x="1153.0" y="789.4" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1171.0" y="810.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-south-5" data-type="ST" data-destination="2 platform access (South Passage)">
+<title>st-south-5 · ST · 2 platform access (South Passage)</title>
+<rect x="1153.0" y="905.3" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1171.0" y="926.8" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="ev-shinkansen-1" data-type="EV" data-destination="16, 17 platform access">
+<title>ev-shinkansen-1 · EV · 16, 17 platform access</title>
+<circle cx="286.0" cy="560.6" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="286.0" y="566.1" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="ev-shinkansen-2" data-type="EV" data-destination="14, 15 platform access">
+<title>ev-shinkansen-2 · EV · 14, 15 platform access</title>
+<circle cx="355.0" cy="560.6" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="355.0" y="566.1" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="es-shinkansen-south" data-type="ES" data-destination="Shinkansen platform access (south side)">
+<title>es-shinkansen-south · ES · Shinkansen platform access (south side)</title>
+<rect x="247.0" y="787.9" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="265.0" y="809.4" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="es-shinkansen-north" data-type="ES" data-destination="Shinkansen platform access (north side)">
+<title>es-shinkansen-north · ES · Shinkansen platform access (north side)</title>
+<rect x="310.0" y="492.0" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="328.0" y="513.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-shinkansen-south-1" data-type="ST" data-destination="Shinkansen platform access (south side)">
+<title>st-shinkansen-south-1 · ST · Shinkansen platform access (south side)</title>
+<rect x="241.0" y="830.4" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="259.0" y="851.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-shinkansen-south-2" data-type="ST" data-destination="Shinkansen platform access (south side)">
+<title>st-shinkansen-south-2 · ST · Shinkansen platform access (south side)</title>
+<rect x="359.5" y="830.4" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="377.5" y="851.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-central-12-13" data-type="ST" data-destination="12, 13 platform access (Central Passage)">
+<title>st-central-12-13 · ST · 12, 13 platform access (Central Passage)</title>
+<rect x="571.0" y="767.8" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="589.0" y="789.3" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="ev-public-b1" data-type="EV" data-destination="B1 access">
+<title>ev-public-b1 · EV · B1 access</title>
+<circle cx="727.0" cy="746.3" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="727.0" y="751.8" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g id="es-public-west-b1" data-type="ES" data-destination="B1 / Sakuradori Line access (west side)">
+<title>es-public-west-b1 · ES · B1 / Sakuradori Line access (west side)</title>
+<rect x="424.0" y="632.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="442.0" y="653.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-public-west-b1" data-type="ST" data-destination="B1 / Sakuradori Line access (west side)">
+<title>st-public-west-b1 · ST · B1 / Sakuradori Line access (west side)</title>
+<rect x="401.5" y="659.8" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="419.5" y="681.3" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-public-east-b1" data-type="ES" data-destination="B1 / Sakuradori Line access (east side)">
+<title>es-public-east-b1 · ES · B1 / Sakuradori Line access (east side)</title>
+<rect x="1211.5" y="632.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1229.5" y="653.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-public-east-b1" data-type="ST" data-destination="B1 / Sakuradori Line access (east side)">
+<title>st-public-east-b1 · ST · B1 / Sakuradori Line access (east side)</title>
+<rect x="1243.0" y="659.8" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1261.0" y="681.3" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-towers" data-type="ES" data-destination="Towers / Gate Tower (upper floors)">
+<title>es-towers · ES · Towers / Gate Tower (upper floors)</title>
+<rect x="1507.0" y="654.7" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1525.0" y="676.2" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-towers" data-type="ST" data-destination="Towers / Gate Tower (upper floors)">
+<title>st-towers · ST · Towers / Gate Tower (upper floors)</title>
+<rect x="1459.0" y="654.7" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1477.0" y="676.2" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="es-sakuradori-b1" data-type="ES" data-destination="B1 / subway access (station forecourt)">
+<title>es-sakuradori-b1 · ES · B1 / subway access (station forecourt)</title>
+<rect x="1676.5" y="578.4" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1694.5" y="599.9" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<g id="st-sakuradori-b1" data-type="ST" data-destination="B1 / subway access (station forecourt)">
+<title>st-sakuradori-b1 · ST · B1 / subway access (station forecourt)</title>
+<rect x="1657.0" y="549.6" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1675.0" y="571.1" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-hirokoji-b1" data-type="ST" data-destination="Kintetsu / B1 access">
+<title>st-hirokoji-b1 · ST · Kintetsu / B1 access</title>
+<rect x="1199.5" y="937.7" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1217.5" y="959.2" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="st-hirokoji-transfer" data-type="ST" data-destination="Kintetsu transfer (inside ticket gates)">
+<title>st-hirokoji-transfer · ST · Kintetsu transfer (inside ticket gates)</title>
+<rect x="1090.0" y="898.8" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1108.0" y="920.3" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g id="wc-north-paid" data-type="WC" data-destination="North Passage, inside JR local-line ticket gates">
+<title>wc-north-paid · WC · North Passage, inside JR local-line ticket gates</title>
+<circle cx="986.5" cy="476.3" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="986.5" y="481.8" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+</g>
+<g id="wc-shinkansen-north" data-type="WC" data-destination="North side, inside Shinkansen ticket gates">
+<title>wc-shinkansen-north · WC · North side, inside Shinkansen ticket gates</title>
+<circle cx="406.0" cy="423.8" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="406.0" y="429.3" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+</g>
+<g id="wc-shinkansen-south" data-type="WC" data-destination="South side, inside Shinkansen ticket gates">
+<title>wc-shinkansen-south · WC · South side, inside Shinkansen ticket gates</title>
+<circle cx="328.0" cy="886.0" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="328.0" y="891.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+</g>
+<g id="wc-outside-north" data-type="WC" data-destination="North side, outside Sakuradori ticket gates">
+<title>wc-outside-north · WC · North side, outside Sakuradori ticket gates</title>
+<circle cx="1207.0" cy="305.7" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="1207.0" y="311.2" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+</g>
+<g id="wc-outside-hirokoji" data-type="WC" data-destination="Hirokoji side, outside ticket gates">
+<title>wc-outside-hirokoji · WC · Hirokoji side, outside ticket gates</title>
+<circle cx="1229.5" cy="1205.7" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="1229.5" y="1211.2" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+</g>
+</g>
+<g id="landmarks" inkscape:groupmode="layer" inkscape:label="06 Exit names and clocks">
+<circle cx="257.5" cy="670.7" r="18" fill="#DADCD8" stroke="#171817" stroke-width="1.5"/>
+<text x="257.5" y="640.7" fill="#171817" font-size="16" font-weight="600" text-anchor="middle">Silver Clock</text>
+<circle cx="1412.5" cy="670.7" r="18" fill="#E8D788" stroke="#171817" stroke-width="1.5"/>
+<text x="1412.5" y="640.7" fill="#171817" font-size="16" font-weight="600" text-anchor="middle">Gold Clock</text>
+<text x="170" y="713" fill="#171817" font-size="21" font-weight="700" text-anchor="middle">Taikodori Exit</text>
+<text x="170" y="739" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">WEST</text>
+<text x="1697" y="695" fill="#171817" font-size="22" font-weight="700" text-anchor="middle">Sakuradori Exit</text>
+<text x="1697" y="720" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">EAST</text>
+<text x="1430" y="1068" fill="#171817" font-size="22" font-weight="700" text-anchor="middle">Hirokoji Exit</text>
+<text x="1430" y="1092" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">SOUTHEAST</text>
+<text x="1495" y="712" fill="#777A76" font-size="13" font-weight="400" text-anchor="middle">Towers (up)</text>
+<text x="1242" y="618" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">To B1</text>
+<text x="757" y="750" fill="#777A76" font-size="13" font-weight="400" text-anchor="start">To B1</text>
+<line x1="1860" y1="340" x2="1860" y2="261" stroke="#171817" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="1860" y="245" fill="#171817" font-size="28" font-weight="700" text-anchor="middle">N</text>
+<text x="1860" y="367" fill="#171817" font-size="14" font-weight="400" text-anchor="middle">NORTH</text>
+</g>
+<g id="transfer-directions" inkscape:groupmode="layer" inkscape:label="07 Transfer direction arrows — outside JR floor plan">
+<g id="to-jr-highway-bus"><title>JR Highway Bus: Via Taikodori Exit|Head north</title>
+<polyline points="170,650 105,650 105,391" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="78" y="236" fill="#16C2B0" font-size="22" font-weight="700" text-anchor="start" data-route="bus">JR Highway Bus</text>
+<text x="78" y="263" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Via Taikodori Exit</text>
+<text x="78" y="285" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Head north</text>
+</g>
+<g id="to-city-bus"><title>City Bus Terminal: Via Sakuradori side|Head north</title>
+<polyline points="1290,375 1290,221" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1380" y="190" fill="#16C2B0" font-size="22" font-weight="700" text-anchor="start" data-route="bus">City Bus Terminal</text>
+<text x="1380" y="217" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Via Sakuradori side</text>
+<text x="1380" y="239" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Head north</text>
+</g>
+<g id="to-subway-higashiyama"><title>Subway Higashiyama Line: Subway · Via Sakuradori Exit|Down to B1</title>
+<polyline points="1745,667 1860,667 1860,517" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1645" y="440" fill="#C89400" font-size="22" font-weight="700" text-anchor="start" data-route="subway">Higashiyama Line</text>
+<text x="1645" y="467" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Subway · Via Sakuradori Exit</text>
+<text x="1645" y="489" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Down to B1</text>
+</g>
+<g id="to-subway-sakuradori"><title>Subway Sakuradori Line: Subway · Down to B1</title>
+<polyline points="570,702 487,702 455,677" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="720" y="622" fill="#C89400" font-size="22" font-weight="700" text-anchor="start" data-route="subway">Sakuradori Line</text>
+<text x="720" y="649" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Subway · Down to B1</text>
+</g>
+<g id="to-aonami"><title>Aonami Line: Via Taikodori Exit|Head south</title>
+<polyline points="421,1038 421,1130" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="515" y="1075" fill="#0FC3E4" font-size="22" font-weight="700" text-anchor="start" data-route="aonami">Aonami Line</text>
+<text x="515" y="1102" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Via Taikodori Exit</text>
+<text x="515" y="1124" fill="#777A76" font-size="14" font-weight="400" text-anchor="start">Head south</text>
+</g>
+<g id="to-kintetsu"><title>Kintetsu Line: Via Hirokoji side|Down to B1</title>
+<polyline points="1230,1000 1230,1156" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1150" y="1147" fill="#FF7A1A" font-size="22" font-weight="700" text-anchor="middle" data-route="kintetsu">Kintetsu Line</text>
+<text x="1150" y="1174" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Via Hirokoji side</text>
+<text x="1150" y="1196" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Down to B1</text>
+</g>
+<g id="to-meitetsu"><title>Meitetsu Line: Via Hirokoji Exit|Head south</title>
+<polyline points="1430,1113 1430,1156" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1425" y="1191" fill="#E5332A" font-size="22" font-weight="700" text-anchor="middle" data-route="meitetsu">Meitetsu Line</text>
+<text x="1425" y="1218" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Via Hirokoji Exit</text>
+<text x="1425" y="1240" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Head south</text>
+</g>
+<g id="to-meitetsu-bus"><title>Meitetsu Bus Center: Via Hirokoji Exit|Head south</title>
+<polyline points="1530,1113 1750,1113 1750,1156" fill="none" stroke="#171817" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1760" y="1191" fill="#16C2B0" font-size="22" font-weight="700" text-anchor="middle" data-route="bus">Meitetsu Bus Center</text>
+<text x="1760" y="1218" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Via Hirokoji Exit</text>
+<text x="1760" y="1240" fill="#777A76" font-size="14" font-weight="400" text-anchor="middle">Head south</text>
+</g>
+</g>
+<g id="legend" inkscape:groupmode="layer" inkscape:label="08 Legend and map notes">
+<line x1="64" y1="1278" x2="1936" y2="1278" stroke="#171817" stroke-width="1.5"/>
+<circle cx="84" cy="1313" r="20" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="84" y="1318.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">EV</text>
+<text x="115" y="1319" fill="#171817" font-size="19" font-weight="600" text-anchor="start">Elevator</text>
+<rect x="367" y="1297" width="36" height="32" rx="5" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="385" y="1318.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ES</text>
+<text x="416" y="1319" fill="#171817" font-size="19" font-weight="600" text-anchor="start">Escalator</text>
+<rect x="703" y="1297" width="36" height="32" rx="5" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="721" y="1318.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">ST</text>
+<text x="752" y="1319" fill="#171817" font-size="19" font-weight="600" text-anchor="start">Stairs</text>
+<circle cx="967" cy="1313" r="20" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="967" y="1318.5" fill="white" font-size="16" font-weight="700" text-anchor="middle">WC</text>
+<text x="998" y="1319" fill="#171817" font-size="19" font-weight="600" text-anchor="start">Accessible toilet</text>
+<rect x="1300" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1308" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1316" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1324" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<rect x="1332" y="1299" width="4" height="22" rx="2" fill="#171817" stroke="none"/>
+<text x="1349" y="1318" fill="#171817" font-size="17" font-weight="600" text-anchor="start">Ticket gates</text>
+<rect x="1515" y="1299" width="29" height="24" rx="0" fill="#F8F8F5" stroke="#6E726E"/>
+<text x="1556" y="1317" fill="#171817" font-size="16" font-weight="400" text-anchor="start">Paid area</text>
+<rect x="1740" y="1299" width="29" height="24" rx="0" fill="#FFFFFF" stroke="#6E726E"/>
+<text x="1781" y="1317" fill="#171817" font-size="16" font-weight="400" text-anchor="start">Public area</text>
+<text x="64" y="1372" fill="#777A76" font-size="15" font-weight="400" text-anchor="start">1F schematic. EV / ES / ST mark access points. Platform and basement floor plans are omitted.</text>
+<text x="1936" y="1372" fill="#777A76" font-size="15" font-weight="400" text-anchor="end">Arrows show transfer directions.  /  North up · Not to scale</text>
+</g>
+</svg>
