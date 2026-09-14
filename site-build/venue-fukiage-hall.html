@@ -437,6 +437,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
    6. MAP  [MAP] — pins are <button>s positioned in % of the map box
    --------------------------------------------------------------- */
 .amn .map-shell{border:1.5px solid var(--line);border-left:0;border-right:0;padding:0;}  /* edge to edge */
+.amn .illust-note{padding:12px 16px 16px;font-size:12px;line-height:1.6;color:var(--ink-2);border-top:1.5px solid var(--line);}
+.amn .subhead{margin-top:clamp(20px,5vw,28px);font-weight:700;font-size:14px;letter-spacing:.02em;color:var(--ink);}
 .amn .map{position:relative;overflow:auto;background:#fff;-webkit-overflow-scrolling:touch;}
 /* the plan is dense, so on a phone it keeps a readable width and the box scrolls
    sideways. Pins sit inside .mapinner, so their % coordinates stay on the image. */
@@ -609,6 +611,16 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <div class="r"><dt>Address</dt><dd>&#12306;464-0856 2-6-3 Fukiage, Chikusa-ku, Nagoya.</dd></div>
         <div class="r"><dt>Para sport</dt><dd>Para Powerlifting</dd></div>
         <div class="r"><dt>Also known as</dt><dd>Nagoya City Trade and Industry Center, commonly &ldquo;Fukiage Hall.&rdquo;</dd></div>
+      </div>
+      <p class="subhead">Fukiage Station map</p>
+      <div class="map-shell">
+        <p class="hint">Exit 5 route and step-free route to Fukiage Hall, with elevators, escalators and stairs marked <span class="swipe">&middot; swipe to see all</span></p>
+        <div class="map">
+          <div class="mapinner">
+            <img alt="Fukiage Station schematic: separate North and South gates, exits 1 through 7 with Exit 5 highlighted for Fukiage Hall, elevators, escalators, stairs, two accessible toilets, coin lockers, and the step-free route from the platform through the South Gate to Exit 5" src="assets/img/fukiage-station-map.png" width="2000" height="1400" loading="lazy">
+          </div>
+        </div>
+        <p class="illust-note">Schematic, not to scale. The step-free route follows official guidance: platform elevator to the South Gate, then the ramp and ground-floor elevator near Exit 5. Exits 1, 6 and 7 keep limited hours (06:00&ndash;23:30). Checked September 2026.</p>
       </div>
     </div>
 
