@@ -445,6 +445,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .map-shell .hint .swipe{display:none;}
 @media (max-width:760px){.amn .map-shell .hint .swipe{display:inline;}}
 .amn .map-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .illust-note{padding:12px 16px 16px;font-size:12px;line-height:1.6;color:var(--ink-2);border-top:1.5px solid var(--line);}
+.amn .subhead{margin-top:clamp(20px,5vw,28px);font-weight:700;font-size:14px;letter-spacing:.02em;color:var(--ink);}
 .amn .pin{--c:var(--shinkansen);position:absolute;transform:translate(-50%,-100%);display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:0;padding:6px;cursor:pointer;}
 .amn .pin .dot{width:38px;height:38px;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);background:var(--c);border:3px solid #fff;box-shadow:0 4px 10px rgba(0,0,0,.25);display:grid;place-items:center;color:#fff;transition:transform .25s;}
 .amn .pin .dot svg{width:20px;height:20px;transform:rotate(45deg);}
@@ -608,6 +610,16 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <div class="facts">
         <div class="r"><dt>Address</dt><dd>&#12306;455-0078 1-1-4 Maruike-cho, Minato-ku, Nagoya.</dd></div>
         <div class="r"><dt>Para sport</dt><dd>Para Judo</dd></div>
+      </div>
+      <p class="subhead">Kohoku Station map</p>
+      <div class="map-shell">
+        <p class="hint">Island platform doors, elevator and stairs &middot; concourse and step-free route to the street <span class="swipe">&middot; swipe to see all</span></p>
+        <div class="map">
+          <div class="mapinner">
+            <img alt="Kohoku Station schematic: island platform with door numbers, elevator and stairs, 1F concourse with accessible toilet, coin lockers and wide ticket gate, and the step-free route from platform to street" src="assets/img/kohoku-station-map.png" width="2000" height="1400" loading="lazy">
+          </div>
+        </div>
+        <p class="illust-note">Schematic, not to scale. Built from the Aonami Line&rsquo;s official Kohoku Station diagram and accessibility pages, checked September 2026. No escalator is shown on the official station plan. Coin locker position is based on an older Aonami Line diagram and a 2019 photo record &mdash; check current availability.</p>
       </div>
     </div>
 
