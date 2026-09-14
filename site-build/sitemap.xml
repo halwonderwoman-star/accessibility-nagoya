@@ -2,169 +2,247 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://accessibilitynagoya.com/</loc>
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-nagoya-station.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-nagoya-station</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-train-shinkansen.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-train-shinkansen</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-train-jr.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-train-jr</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-train-meitetsu.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-train-meitetsu</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-train-kintetsu.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-train-kintetsu</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-train-subway.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-train-subway</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-train-aonami.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-train-aonami</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-bus-city.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-bus-city</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-bus-meitetsu.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-bus-meitetsu</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-bus-highway.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-bus-highway</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-toilets.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-toilets</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-sakae.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-underground</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-sakae</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-yabacho.html</loc>
-    <lastmod>2026-09-11</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-yabacho</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-osu.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-osu</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/venue-mizuho.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-osu-shopping-street</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-osu-osukannon</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-osu-kamimaezu</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-kanayama</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-kanayama-jr</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-kanayama-meitetsu</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-kanayama-subway</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-kanayama-bus-city</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-kanayama-asunal</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-venues</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/venue-mizuho</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/venue-rainbow-hall.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/venue-rainbow-hall</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/venue-rainbow-pool.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/venue-rainbow-pool</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/venue-aichi-budokan.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/venue-aichi-budokan</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/venue-aichi-international-arena.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/venue-aichi-international-arena</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/venue-fukiage-hall.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/venue-fukiage-hall</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/venue-higashiyama-park-tennis-center.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/venue-higashiyama-park-tennis-center</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/venue-inae-sports-center.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/venue-inae-sports-center</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/venue-terraspo-tsuruma.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/venue-terraspo-tsuruma</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-sitemap.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-sitemap</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-about.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-about</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-sources.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-sources</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://accessibilitynagoya.com/amn-privacy.html</loc>
-    <lastmod>2026-09-10</lastmod>
+    <loc>https://accessibilitynagoya.com/amn-privacy</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-terms</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://accessibilitynagoya.com/amn-contact</loc>
+    <lastmod>2026-09-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

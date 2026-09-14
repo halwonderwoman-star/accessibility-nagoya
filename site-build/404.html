@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23111'/%3E%3Ccircle cx='10' cy='17' r='4' fill='none' stroke='%23fff' stroke-width='2'/%3E%3Ccircle cx='12' cy='4' r='1.5' fill='%23fff'/%3E%3Cpath d='M12 8v5h5l2 5' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Accessibility Map NAGOYA">
+<meta property="og:title" content="Page Not Found — Accessibility Map NAGOYA">
+<meta property="og:description" content="This page doesn't exist on Accessibility Map NAGOYA. Find step-free routes, elevators and accessible toilets from the top page instead.">
+
+<meta name="twitter:card" content="summary">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X0VG068H8B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-X0VG068H8B');
+</script>
+<title>Page Not Found — Accessibility Map NAGOYA</title>
+<meta name="description" content="This page doesn't exist on Accessibility Map NAGOYA. Find step-free routes, elevators and accessible toilets from the top page instead.">
+<!--
+  ACCESSIBILITY MAP NAGOYA — Privacy page
+  Paste into a WordPress Custom HTML block. Same design system as the other pages.
+  Markers: [FONT] Gibson · [LINK] navigation targets · [TEXT] copy to edit
+-->
+<style>
+
+/* [FONT] Option B — self-hosted Gibson. Un-comment and fix the paths.
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Regular.woff2") format("woff2");font-weight:400;font-display:swap;}
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Medium.woff2") format("woff2");font-weight:500;font-display:swap;}
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-SemiBold.woff2") format("woff2");font-weight:600;font-display:swap;}
+@font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Bold.woff2") format("woff2");font-weight:700;font-display:swap;}
+*/
+:root{--font-main:"Gibson","Helvetica Neue",Arial,sans-serif;}
+
+/* ---------------------------------------------------------------
+   TOKENS — matches wheelsnagoya: flat vivid fills, black type on colour
+   --------------------------------------------------------------- */
+.amn{
+  /* railway lines */
+  --shinkansen:#1F5BFF;  --jr:#12B85A;  --meitetsu:#E5332A;  --kintetsu:#FF7A1A;
+  --subway:#FFC71F;      --aonami:#0FC3E4;  --toilet:#FF66C4;  --bus:#16C2B0;
+  /* site palette (from the TOP page) */
+  --area:#D4FF3A;        /* Nagoya Station area card colour */
+  --sky:#3CC1F3;         /* logo dot */
+
+  --ink:#111111; --ink-2:#555555; --paper:#F3F2EE; --card:#FFFFFF; --grey:#E4E2DC; --line:#111111; --focus:#111111;
+  --r:18px;
+  --display:var(--font-main); --body:var(--font-main);
+
+  font-family:var(--body);font-weight:400;color:var(--ink);background:var(--paper);
+  line-height:1.5;-webkit-font-smoothing:antialiased;
+}
+body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /* preview ground; delete inside WP if needed */
+
+.amn *,.amn *::before,.amn *::after{box-sizing:border-box;}
+.amn h1,.amn h2,.amn h3,.amn p{margin:0;}
+.amn ul{margin:0;padding:0;list-style:none;}
+.amn a{color:inherit;}
+.amn button{font:inherit;color:inherit;}
+.amn :focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px;}
+
+/* FULL-WIDTH, MOBILE-FIRST — --gut is the single knob for all side margins */
+.amn{--gut:clamp(16px,5vw,64px);}
+.amn .wrap{width:100%;max-width:none;margin:0;padding:0 var(--gut);}
+@media (min-width:1600px){.amn .wrap{max-width:1560px;margin:0 auto;}}
+.amn .rule{border:0;border-top:1.5px solid var(--line);margin:0;}
+.amn .label{font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);}
+.amn section{padding:clamp(28px,7vw,40px) 0 clamp(40px,9vw,56px);scroll-margin-top:12px;}
+.amn h2{font-family:var(--display);font-weight:700;font-size:clamp(32px,8.4vw,76px);letter-spacing:-.02em;line-height:.92;text-transform:uppercase;}
+.amn .section-head{display:grid;grid-template-columns:auto 1fr auto;align-items:end;gap:clamp(10px,3vw,18px);padding:clamp(12px,3.5vw,16px) 0 clamp(14px,4vw,18px);border-top:1.5px solid var(--line);margin-bottom:22px;}
+.amn .section-head .idx{font-family:var(--display);font-weight:700;font-size:clamp(32px,8.4vw,76px);letter-spacing:-.02em;line-height:.92;}
+.amn .section-head .meta{text-align:right;}
+.amn .section-head .meta b{display:block;font-size:clamp(18px,2vw,24px);letter-spacing:-.02em;}
+.amn .chip{font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:7px 12px;border-radius:999px;color:var(--ink);display:inline-block;}
+.amn .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+
+/* ---------------------------------------------------------------
+   1. HEADER — logo only (CSS version of the site logo)  [IMG]
+   --------------------------------------------------------------- */
+/* the logo sits alone and centred, so the rolling wheel never crosses a button */
+.amn .site-head{padding:clamp(22px,6vw,34px) 0 clamp(16px,4vw,22px);border-bottom:1.5px solid var(--line);}
+.amn .site-head .wrap{display:flex;justify-content:center;}
+.amn .site-head .logo{align-items:center;text-align:center;}
+.amn .site-head .logo .l2{margin-right:0;padding-left:.32em;}   /* optical centring of the tracked NAGOYA */
+/* the buttons live BELOW the rule, on their own row */
+.amn .navrow{border-bottom:1.5px solid var(--line);}
+.amn .navrow .wrap{display:flex;justify-content:center;padding-top:clamp(12px,3.5vw,16px);padding-bottom:clamp(12px,3.5vw,16px);}
+/* [IMG] LOGO — CSS/animated recreation of the site's GIF logo.
+   The bowl of the "p" in "Map" becomes a blue wheel, rolls off to the right,
+   comes back in from the left and clicks back into the "p". Loops every 9s.
+   To use the GIF instead: replace the <a class="logo"> contents with
+   <img src="logo.gif" alt="Accessibility Map NAGOYA">. */
+.amn .logo{display:inline-flex;flex-direction:column;text-decoration:none;color:var(--ink);line-height:1;}
+.amn .logo .l1{font-family:var(--display);font-weight:500;font-size:clamp(22px,6.4vw,32px);letter-spacing:0;position:relative;white-space:nowrap;}
+.amn .logo .l2{font-family:var(--display);font-weight:700;font-size:clamp(28px,8.2vw,40px);letter-spacing:.32em;margin-top:3px;margin-right:-.32em;}
+/* the "p" is two layers: the full "p", and an "I" that shows while the wheel (the p's bowl) is away.
+   To leave a lowercase stem instead, change the letter inside <span class="stem"> to "l" or "i". */
+.amn .logo .p{position:relative;display:inline-block;}
+.amn .logo .p .glyph{color:inherit;}
+/* the I is pushed down by the descender depth so its bottom lines up with the bottom of the lowercase p
+   (cap-height ≈ x-height + descender in Gibson, so it reads as the p's own stem). Tune --desc per font. */
+.amn .logo .p{--desc:.21em;}
+.amn .logo .p .stem{position:absolute;left:0;top:0;color:inherit;opacity:0;transform:translateY(var(--desc));}
+.amn .logo .p .glyph{transition:none;}
+.amn .logo .wheel{
+  --ground:.62em;                      /* drop distance: lands on the NAGOYA line below */
+  position:absolute;left:.34em;top:.42em;width:.56em;height:.56em;
+  border:.13em solid var(--sky);border-radius:50%;box-sizing:border-box;opacity:0;
+}
+@media (prefers-reduced-motion:no-preference){
+  .amn .logo .p .stem{animation:amn-stem 9s linear infinite;}
+  .amn .logo .wheel{animation:amn-wheel 9s linear infinite;}
+  .amn .logo .p .glyph{animation:amn-glyph 9s linear infinite;}
+  @keyframes amn-stem{0%,10%{opacity:0}10.1%,89.9%{opacity:1}90%,100%{opacity:0}}
+  @keyframes amn-glyph{0%,10%{opacity:1}10.1%,89.9%{opacity:0}90%,100%{opacity:1}}
+  /* the wheel: drops out of the p (small bounce), rolls off right, comes back from the left,
+     then JUMPS in an arc back into the p. --ground = how far below the bowl it lands. */
+  @keyframes amn-wheel{
+    0%,10%   {opacity:0;transform:translate(0,0) rotate(0);}
+    10.1%    {opacity:1;transform:translate(0,0) rotate(0);animation-timing-function:ease-in;}
+    13.5%    {transform:translate(.05em,var(--ground)) rotate(20deg);animation-timing-function:ease-out;}   /* lands */
+    15%      {transform:translate(.12em,calc(var(--ground) - .22em)) rotate(60deg);animation-timing-function:ease-in;} /* bounce */
+    16.5%    {transform:translate(.2em,var(--ground)) rotate(100deg);animation-timing-function:linear;}
+    46%      {opacity:1;transform:translate(70vw,var(--ground)) rotate(1180deg);}                          /* rolls away */
+    46.1%    {opacity:0;transform:translate(70vw,var(--ground)) rotate(1180deg);}
+    50%      {opacity:0;transform:translate(-70vw,var(--ground)) rotate(-1080deg);}
+    50.1%    {opacity:1;transform:translate(-70vw,var(--ground)) rotate(-1080deg);animation-timing-function:linear;}
+    82%      {transform:translate(-1.1em,var(--ground)) rotate(-40deg);animation-timing-function:ease-out;} /* back, winds up */
+    84.5%    {transform:translate(-.5em,calc(var(--ground) - .9em)) rotate(0);animation-timing-function:ease-in;} /* top of the jump */
+    87%      {transform:translate(0,0) rotate(20deg);animation-timing-function:ease-out;}                   /* lands in the p */
+    88.5%    {transform:translate(0,.06em) rotate(0);}                                                    /* tiny settle */
+    89.9%    {opacity:1;transform:translate(0,0) rotate(0);}
+    90%,100% {opacity:0;transform:translate(0,0) rotate(0);}
+  }
+}
+.amn .site-head{overflow:hidden;}   /* the wheel leaves the page without causing sideways scroll */
+.amn footer{overflow:hidden;}
+/* breadcrumb = the site structure; only this page exists for now [LINK] */
+.amn .crumbs{display:flex;align-items:center;justify-content:center;gap:8px;font-weight:500;font-size:13px;color:var(--ink-2);flex-wrap:wrap;text-transform:uppercase;letter-spacing:.06em;}
+.amn .crumbs a{text-decoration:none;color:var(--ink);padding:6px 12px;border-radius:999px;border:1.5px solid var(--ink);}
+.amn .crumbs span[aria-current]{padding:6px 12px;border-radius:999px;background:var(--ink);color:#fff;font-weight:700;border:1.5px solid var(--ink);}
+
+
+/* ---------------------------------------------------------------
+   TEXT PAGE — About us / Sources / Privacy
+   Same system as the rest of the site: off-white ground, 1.5px rules,
+   big Gibson headline, one readable column.
+   --------------------------------------------------------------- */
+.amn .pagehead{padding:clamp(30px,8vw,64px) 0 clamp(22px,5vw,34px);}
+.amn .pagehead .label{display:block;margin-bottom:clamp(10px,3vw,14px);}
+.amn h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,12vw,104px);line-height:.92;letter-spacing:-.02em;text-transform:uppercase;}
+.amn .standfirst{margin-top:clamp(16px,4vw,24px);font-size:clamp(18px,4.6vw,26px);font-weight:500;line-height:1.35;max-width:26em;}
+
+.amn .prose{padding:clamp(24px,6vw,40px) 0 clamp(48px,10vw,80px);border-top:1.5px solid var(--line);}
+.amn .prose .col{max-width:38em;}
+.amn .prose h2{font-family:var(--display);font-weight:700;font-size:clamp(22px,5.2vw,30px);letter-spacing:-.015em;line-height:1.1;text-transform:none;margin:clamp(30px,7vw,44px) 0 10px;}
+.amn .prose h2:first-child{margin-top:0;}
+.amn .prose p{font-size:clamp(15px,4vw,18px);line-height:1.7;margin-bottom:1em;color:var(--ink);}
+.amn .prose ul{margin:0 0 1.2em;padding:0;list-style:none;}
+.amn .prose li{font-size:clamp(15px,4vw,18px);line-height:1.7;padding-left:1.4em;position:relative;margin-bottom:.4em;}
+.amn .prose li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:8px;border-radius:50%;background:var(--ink);}
+.amn .prose .note{font-size:14px;color:var(--ink-2);border-left:3px solid var(--line);padding-left:14px;margin:clamp(24px,6vw,34px) 0 0;}
+.amn .prose a.inline{text-underline-offset:3px;}
+/* the "who it's for" row, About page */
+.amn .who{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1.5px;background:var(--line);
+  border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);margin:clamp(26px,6vw,40px) 0;}
+.amn .who div{background:var(--grey);padding:18px 16px;display:grid;gap:10px;}
+.amn .who svg{width:30px;height:30px;}
+.amn .who b{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:-.01em;}
+/* back link */
+.amn .backrow{border-top:1.5px solid var(--line);}
+.amn .backrow .wrap{padding-top:18px;padding-bottom:18px;}
+.amn .back{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;}
+.amn .back svg{width:16px;height:16px;transform:scaleX(-1);}
+/* ---------------------------------------------------------------
+   7. FOOTER — black, like the TOP page
+   --------------------------------------------------------------- */
+.amn footer{background:#111;color:#fff;padding:clamp(44px,10vw,64px) 0 clamp(36px,8vw,48px);margin-top:clamp(24px,6vw,40px);}
+.amn footer .wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px;}
+.amn footer .logo{color:#fff;--paper:#141414;}
+.amn footer .logo .l1{font-size:34px;font-weight:500;}
+.amn footer .logo .l2{font-size:40px;letter-spacing:.2em;}
+.amn footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(20px,6vw,40px);font-size:16px;font-weight:500;}
+.amn footer nav a{text-underline-offset:4px;}
+.amn footer nav a{text-decoration:none;}
+.amn footer small{font-size:13px;color:#CFCFCF;font-weight:400;}
+
+
+@media (prefers-reduced-motion:reduce){.amn *,.amn *::before,.amn *::after{transition:none!important;animation:none!important;}}
+.amn .verify{border-top:1.5px solid var(--line);}
+.amn .verify .wrap{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;padding:16px var(--gut);text-align:center;}
+.amn .verify svg{width:17px;height:17px;color:#1F9254;flex-shrink:0;}
+.amn .verify span{font-size:13px;font-weight:600;letter-spacing:.01em;color:var(--ink-2);}
+.amn .verify b{color:var(--ink);font-weight:700;}
+
+.amn .totop{position:fixed;right:18px;bottom:18px;z-index:80;width:46px;height:46px;border-radius:50%;background:var(--ink);color:#fff;border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:.9;transition:opacity .15s ease,transform .15s ease;padding:0;}
+.amn .totop svg{width:20px;height:20px;}
+.amn .totop:hover{opacity:1;transform:translateY(-2px);}
+.amn .totop:focus-visible{outline:2px solid var(--focus);outline-offset:2px;}
+@media (max-width:480px){.amn .totop{right:12px;bottom:12px;width:42px;height:42px;}.amn .totop svg{width:18px;height:18px;}}
+@media print{.amn .totop{display:none;}}
+
+.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
+.skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+</style>
+<meta name="robots" content="noindex">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<!-- SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M12 6v3l2 1.5M12 15v6M9 21h6"/></symbol>
+  <symbol id="i-gate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="6" height="16" rx="2"/><rect x="15" y="4" width="6" height="16" rx="2"/><path d="M9 12h6"/></symbol>
+  <symbol id="i-elev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 14v-4l-2 2M9 10l2 2M15 10v4l-2-2M15 14l2-2"/></symbol>
+  <symbol id="i-esc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18h5l9-11h4"/><path d="M3 21h6l9-11h3"/><circle cx="9.5" cy="10.5" r="1.5"/></symbol>
+  <symbol id="i-toilet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="5" r="2"/><path d="M9 8v6l4 1 2 5"/><circle cx="8" cy="17" r="4"/><path d="M17 4h4M19 4v8"/></symbol>
+  <symbol id="i-train" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 10h14M9 21l1.5-3M15 21l-1.5-3"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="14" r="1"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-stroller" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h2l2 8h9l2-5H8"/><circle cx="9" cy="18" r="2"/><circle cx="16" cy="18" r="2"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="14" height="13" rx="2"/><path d="M9 7V4h6v3M9 20v1M15 20v1"/></symbol>
+  <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></symbol>
+</svg>
+
+<div class="amn">
+
+
+  <!-- HEADER — logo alone and centred (the rolling wheel never crosses a button) -->
+  <header class="site-head">
+    <div class="wrap">
+      <a class="logo" href="index.html" aria-label="Accessibility Map NAGOYA — home"><!-- [LINK] home -->
+        <span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span>
+        <span class="l2" aria-hidden="true">NAGOYA</span>
+      </a>
+    </div>
+  </header>
+  <div class="navrow">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="You are here">
+        <a href="index.html">Top</a><span aria-hidden="true">&rsaquo;</span>
+        <span aria-current="page">Not found</span>
+      </nav>
+    </div>
+  </div>
+<main id="main">
+
+
+  <section class="pagehead" aria-labelledby="pg-title">
+    <div class="wrap">
+      <span class="label">404</span>
+      <h1 id="pg-title">Page not found</h1>
+      <p class="standfirst">That page doesn&rsquo;t exist &mdash; it may have moved, or the link may be out of date.</p>
+    </div>
+  </section>
+
+  <section class="prose">
+    <div class="wrap"><div class="col">
+      <p>Sorry, we couldn&rsquo;t find that page. It may have been renamed, moved, or the link you followed may be out of date.</p>
+      <p>You can start again from a few good places:</p>
+      <ul>
+        <li><a class="inline" href="index.html">Top page</a> &mdash; explore all areas</li>
+        <li><a class="inline" href="amn-nagoya-station.html">Nagoya Station</a></li>
+        <li><a class="inline" href="amn-sakae.html">Sakae / Hisaya-odori</a></li>
+        <li><a class="inline" href="amn-kanayama.html">Kanayama</a></li>
+        <li><a class="inline" href="amn-yabacho.html">Yaba-cho</a></li>
+        <li><a class="inline" href="amn-osu.html">Osu</a></li>
+        <li><a class="inline" href="amn-toilets.html">Accessible toilets</a></li>
+        <li><a class="inline" href="amn-contact.html">Contact us</a> if you followed a broken link from elsewhere on this site</li>
+      </ul>
+    </div></div>
+  </section>
+
+  <div class="backrow">
+    <div class="wrap">
+      <a class="back" href="index.html"><svg aria-hidden="true"><use href="#i-arrow"/></svg> Back to top page</a><!-- [LINK] -->
+    </div>
+  </div>
+
+  
+</main>
+  <footer>
+    <div class="wrap">
+      <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span><span class="l2" aria-hidden="true">NAGOYA</span></span>
+      <nav aria-label="Footer"><a href="amn-about.html">About us</a><a href="amn-sources.html">Sources</a><a href="amn-privacy.html">Privacy</a><a href="amn-terms.html">Terms</a><a href="amn-contact.html">Contact</a></nav><!-- [LINK] -->
+      <small>Accessibility information may change. Please check official sources before visiting.<br>This is an independent accessibility guide.<br>&copy; 2026 Accessibility Map NAGOYA</small>
+    </div>
+  </footer>
+  <button type="button" class="totop" aria-label="Back to top" title="Back to top"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></button>
+
+
+</div>
+
+
+<script>
+(function(){
+  var btn=document.querySelector('.amn .totop'); if(!btn) return;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  btn.addEventListener('click',function(){
+    window.scrollTo({top:0,left:0,behavior:reduce?'auto':'smooth'});
+  });
+})();
+</script>
+
+</body>
+</html>
