@@ -411,6 +411,9 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .illust-legend span{display:inline-flex;align-items:center;gap:8px;}
 .amn .illust-legend i{width:14px;height:14px;border-radius:50%;display:inline-block;flex:none;}
 
+.amn .others{border-top:1.5px solid var(--line);padding-top:clamp(22px,5vw,30px);}
+.amn .others .label{display:block;margin-bottom:clamp(12px,3vw,16px);}
+
 /* ---------------------------------------------------------------
    GETTING THERE — Google Map embed. Keyless embed URL, so it needs
    no API key; swap the q= value to move the pin.
@@ -561,6 +564,17 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <span class="addr">Kanayama Station &middot; Kanayama 1-chome, Naka-ku, Nagoya</span>
         <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=Kanayama+Station,+Nagoya" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
       </div>
+    </div>
+  </section>
+
+    <!-- ========================== OTHER LINES ========================== -->
+  <section aria-labelledby="others-t">
+    <div class="wrap others">
+      <span class="label" id="others-t">Other lines at Kanayama</span>
+      <nav class="index" aria-labelledby="others-t">
+        <a href="amn-kanayama-jr.html" style="--c:var(--jr)"><span class="n">01</span><span class="t">JR<small>Tokaido &amp; Chuo Main Line</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-kanayama-subway.html" class="dark" style="--c:var(--subway)"><span class="n">02</span><span class="t">Subway<small>Meijo &amp; Meiko lines</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+      </nav>
     </div>
   </section>
 
