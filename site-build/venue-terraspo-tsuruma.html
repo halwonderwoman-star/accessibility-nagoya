@@ -445,6 +445,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .map-shell .hint .swipe{display:none;}
 @media (max-width:760px){.amn .map-shell .hint .swipe{display:inline;}}
 .amn .map-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .illust-note{padding:12px 16px 16px;font-size:12px;line-height:1.6;color:var(--ink-2);border-top:1.5px solid var(--line);}
+.amn .subhead{margin-top:clamp(20px,5vw,28px);font-weight:700;font-size:14px;letter-spacing:.02em;color:var(--ink);}
 .amn .pin{--c:var(--shinkansen);position:absolute;transform:translate(-50%,-100%);display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:0;padding:6px;cursor:pointer;}
 .amn .pin .dot{width:38px;height:38px;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);background:var(--c);border:3px solid #fff;box-shadow:0 4px 10px rgba(0,0,0,.25);display:grid;place-items:center;color:#fff;transition:transform .25s;}
 .amn .pin .dot svg{width:20px;height:20px;transform:rotate(45deg);}
@@ -607,6 +609,17 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       </div>
       <div class="facts">
         <div class="r"><dt>Address</dt><dd>&#12306;466-0064 1-1-156 Tsurumai, Showa-ku, Nagoya.</dd></div>
+      </div>
+
+      <p class="subhead">Tsurumai Station map</p>
+      <div class="map-shell">
+        <p class="hint">JR Park Exit and Subway Exit 4 <span class="swipe">&middot; swipe to see all</span></p>
+        <div class="map">
+          <div class="mapinner">
+            <img alt="Tsurumai Station access map for Terraspo Tsuruma, about 5 minutes from either station exit. JR Tsurumai (Chuo Line, use Park Exit): one ticket gate with an accessible toilet and coin lockers; two platforms (Tajimi-bound and Nagoya-bound), each with its own elevator and stairs. Step-free route is platform lift to Park Gate to Park Exit; Park Exit ticket office hours 06:00 to 22:00. Subway Tsurumai (T10 Tsurumai Line, use Exit 4): one ticket gate with coin lockers and an accessible toilet; Exit 4 itself uses stairs, so the step-free street exit is the ground lift EV.3 near Exit 2; two platforms (Kamio-otai-bound and Akaike-bound), each with its own elevator, plus an escalator; nearest lift doors are Kami-otai 8 and Akaike 6." src="assets/img/tsurumai-station-map.png" width="2000" height="1400" loading="lazy">
+          </div>
+        </div>
+        <p class="illust-note">Schematic, not to scale. Station geometry and facility positions follow the JR Central and Nagoya City Transportation Bureau official diagrams for Tsurumai Station (JR Chuo Line and T10 Tsurumai Line). Checked September 2026.</p>
       </div>
     </div>
 
