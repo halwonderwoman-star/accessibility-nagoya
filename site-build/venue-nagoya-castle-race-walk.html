@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://accessibilitynagoya.com/venue-nagoya-castle-race-walk">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23111'/%3E%3Ccircle cx='10' cy='17' r='4' fill='none' stroke='%23fff' stroke-width='2'/%3E%3Ccircle cx='12' cy='4' r='1.5' fill='%23fff'/%3E%3Cpath d='M12 8v5h5l2 5' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Accessibility Map NAGOYA">
+<meta property="og:title" content="Race Walk Course Accessibility Guide — Asian Games 2026">
+<meta property="og:description" content="Nearest subway stations, elevators and step-free spectator access for the Race Walk course looping the Aichi Prefectural Government and Nagoya City Hall area, an Asian Games 2026 venue.">
+<meta property="og:url" content="https://accessibilitynagoya.com/venue-nagoya-castle-race-walk">
+<meta name="twitter:card" content="summary">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X0VG068H8B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-X0VG068H8B');
+</script>
+<title>Race Walk Course Accessibility Guide — Asian Games 2026</title>
+<meta name="description" content="Nearest subway stations, elevators and step-free spectator access for the Race Walk course looping the Aichi Prefectural Government and Nagoya City Hall area, an Asian Games 2026 venue.">
+<!--
+  =====================================================================
+  ACCESSIBILITY MAP NAGOYA — Venue > Nagoya Castle Race Walk Course
+  ---------------------------------------------------------------------
+  Paste this whole file into a WordPress "Custom HTML" block.
+  Everything is scoped under the wrapper element with the class "amn".
+  Reuses the Nagoya Station train-line pages' design system verbatim
+  (STYLE / SPRITE / HEADER / FOOTER / SCRIPT / cat() / badge logic).
+
+  PAGE ORDER
+    hero → categories: A Getting there / E From central Nagoya /
+    B Elevator / C Accessible toilet / D Entrances & exits →
+    source line → footer
+
+  Station-to-course illustration not yet embedded — add a map-shell
+  block (see venue-rainbow-hall.html for the pattern) once ready.
+  =====================================================================
+-->
+<style>
+:root{--font-main:"Gibson","Helvetica Neue",Arial,sans-serif;}
+
+.amn{
+  --shinkansen:#1F5BFF;  --jr:#12B85A;  --meitetsu:#E5332A;  --kintetsu:#FF7A1A;
+  --subway:#FFC71F;      --aonami:#0FC3E4;  --toilet:#FF66C4;  --bus:#16C2B0;
+  --area:#D4FF3A;        --sky:#3CC1F3;
+
+  --ink:#111111; --ink-2:#555555; --paper:#F3F2EE; --card:#FFFFFF; --grey:#E4E2DC; --line:#111111; --focus:#111111;
+  --r:18px;
+  --display:var(--font-main); --body:var(--font-main);
+
+  font-family:var(--body);font-weight:400;color:var(--ink);background:var(--paper);
+  line-height:1.5;-webkit-font-smoothing:antialiased;
+}
+body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}
+
+.amn *,.amn *::before,.amn *::after{box-sizing:border-box;}
+.amn h1,.amn h2,.amn h3,.amn p{margin:0;}
+.amn ul{margin:0;padding:0;list-style:none;}
+.amn a{color:inherit;}
+.amn button{font:inherit;color:inherit;}
+.amn :focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px;}
+
+.amn{--gut:clamp(16px,5vw,64px);}
+.amn .wrap{width:100%;max-width:none;margin:0;padding:0 var(--gut);}
+@media (min-width:1600px){.amn .wrap{max-width:1560px;margin:0 auto;}}
+.amn .rule{border:0;border-top:1.5px solid var(--line);margin:0;}
+.amn .label{font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);}
+.amn section{padding:clamp(28px,7vw,40px) 0 clamp(40px,9vw,56px);scroll-margin-top:12px;}
+.amn h2{font-family:var(--display);font-weight:700;font-size:clamp(32px,8.4vw,76px);letter-spacing:-.02em;line-height:.92;text-transform:uppercase;}
+.amn .section-head{display:grid;grid-template-columns:auto 1fr auto;
+  grid-template-areas:"chip chip chip" "idx title meta";
+  align-items:end;column-gap:clamp(12px,3vw,20px);row-gap:clamp(16px,4vw,22px);
+  padding:clamp(18px,5vw,26px) 0 clamp(16px,4vw,22px);border-top:1.5px solid var(--line);margin-bottom:clamp(18px,4.5vw,26px);}
+.amn .section-head .chiprow{grid-area:chip;}
+.amn .section-head .idx{grid-area:idx;}
+.amn .section-head h2{grid-area:title;}
+.amn .section-head .meta{grid-area:meta;text-align:right;}
+.amn .section-head .idx{font-family:var(--display);font-weight:700;font-size:clamp(32px,8.4vw,76px);letter-spacing:-.02em;line-height:.92;}
+.amn .section-head .meta{text-align:right;}
+.amn .section-head .meta b{display:block;font-size:clamp(18px,2vw,24px);letter-spacing:-.02em;}
+.amn .chip{font-weight:700;font-size:clamp(12px,3.2vw,13px);letter-spacing:.12em;text-transform:uppercase;
+  padding:11px 22px;border-radius:999px;color:var(--ink);display:inline-block;background:var(--cc,var(--ink));}
+.amn .chiprow{display:flex;align-items:center;gap:9px;}
+.amn .chiprow i{display:block;border-radius:50%;background:var(--cc,var(--ink));flex:none;}
+.amn .chiprow i:nth-of-type(1){width:clamp(22px,5.6vw,26px);height:clamp(22px,5.6vw,26px);}
+.amn .chiprow i:nth-of-type(2){width:clamp(11px,2.8vw,13px);height:clamp(11px,2.8vw,13px);}
+.amn .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+
+.amn .site-head{padding:clamp(22px,6vw,34px) 0 clamp(16px,4vw,22px);border-bottom:1.5px solid var(--line);}
+.amn .site-head .wrap{display:flex;justify-content:center;}
+.amn .site-head .logo{align-items:center;text-align:center;}
+.amn .site-head .logo .l2{margin-right:0;padding-left:.32em;}
+.amn .navrow{border-bottom:1.5px solid var(--line);}
+.amn .navrow .wrap{display:flex;justify-content:center;padding-top:clamp(12px,3.5vw,16px);padding-bottom:clamp(12px,3.5vw,16px);}
+.amn .logo{display:inline-flex;flex-direction:column;text-decoration:none;color:var(--ink);line-height:1;}
+.amn .logo .l1{font-family:var(--display);font-weight:500;font-size:clamp(22px,6.4vw,32px);letter-spacing:0;position:relative;white-space:nowrap;}
+.amn .logo .l2{font-family:var(--display);font-weight:700;font-size:clamp(28px,8.2vw,40px);letter-spacing:.32em;margin-top:3px;margin-right:-.32em;}
+.amn .logo .p{position:relative;display:inline-block;}
+.amn .logo .p .glyph{color:inherit;}
+.amn .logo .p{--desc:.21em;}
+.amn .logo .p .stem{position:absolute;left:0;top:0;color:inherit;opacity:0;transform:translateY(var(--desc));}
+.amn .logo .p .glyph{transition:none;}
+.amn .logo .wheel{
+  --ground:.62em;
+  position:absolute;left:.34em;top:.42em;width:.56em;height:.56em;
+  border:.13em solid var(--sky);border-radius:50%;box-sizing:border-box;opacity:0;
+}
+@media (prefers-reduced-motion:no-preference){
+  .amn .logo .p .stem{animation:amn-stem 9s linear infinite;}
+  .amn .logo .wheel{animation:amn-wheel 9s linear infinite;}
+  .amn .logo .p .glyph{animation:amn-glyph 9s linear infinite;}
+  @keyframes amn-stem{0%,10%{opacity:0}10.1%,89.9%{opacity:1}90%,100%{opacity:0}}
+  @keyframes amn-glyph{0%,10%{opacity:1}10.1%,89.9%{opacity:0}90%,100%{opacity:1}}
+  @keyframes amn-wheel{
+    0%,10%   {opacity:0;transform:translate(0,0) rotate(0);}
+    10.1%    {opacity:1;transform:translate(0,0) rotate(0);animation-timing-function:ease-in;}
+    13.5%    {transform:translate(.05em,var(--ground)) rotate(20deg);animation-timing-function:ease-out;}
+    15%      {transform:translate(.12em,calc(var(--ground) - .22em)) rotate(60deg);animation-timing-function:ease-in;}
+    16.5%    {transform:translate(.2em,var(--ground)) rotate(100deg);animation-timing-function:linear;}
+    46%      {opacity:1;transform:translate(70vw,var(--ground)) rotate(1180deg);}
+    46.1%    {opacity:0;transform:translate(70vw,var(--ground)) rotate(1180deg);}
+    50%      {opacity:0;transform:translate(-70vw,var(--ground)) rotate(-1080deg);}
+    50.1%    {opacity:1;transform:translate(-70vw,var(--ground)) rotate(-1080deg);animation-timing-function:linear;}
+    82%      {transform:translate(-1.1em,var(--ground)) rotate(-40deg);animation-timing-function:ease-out;}
+    84.5%    {transform:translate(-.5em,calc(var(--ground) - .9em)) rotate(0);animation-timing-function:ease-in;}
+    87%      {transform:translate(0,0) rotate(20deg);animation-timing-function:ease-out;}
+    88.5%    {transform:translate(0,.06em) rotate(0);}
+    89.9%    {opacity:1;transform:translate(0,0) rotate(0);}
+    90%,100% {opacity:0;transform:translate(0,0) rotate(0);}
+  }
+}
+.amn .site-head{overflow:hidden;}
+.amn footer{overflow:hidden;}
+.amn .crumbs{display:flex;align-items:center;justify-content:center;gap:8px;font-weight:500;font-size:13px;color:var(--ink-2);flex-wrap:wrap;text-transform:uppercase;letter-spacing:.06em;}
+.amn .crumbs a{text-decoration:none;color:var(--ink);padding:6px 12px;border-radius:999px;border:1.5px solid var(--ink);}
+.amn .crumbs span[aria-current]{padding:6px 12px;border-radius:999px;background:var(--ink);color:#fff;font-weight:700;border:1.5px solid var(--ink);}
+
+.amn .hero{padding:clamp(24px,7vw,40px) 0 0;}
+.amn .hero .top{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:end;}
+.amn .hero .top .label{padding-bottom:10px;}
+.amn h1{font-family:var(--display);font-weight:700;font-size:clamp(54px,15vw,180px);line-height:.86;letter-spacing:-.02em;text-transform:uppercase;margin-top:14px;}
+.amn h1 span{display:block;}
+.amn h1 .hl{color:var(--shinkansen);}
+.amn h1 .hl.long{font-size:clamp(40px,11.4vw,148px);}
+.amn .hero p{margin:clamp(16px,4vw,22px) 0 clamp(20px,5vw,26px);font-size:clamp(16px,4vw,24px);font-weight:500;color:var(--ink);max-width:28em;}
+
+.amn .facts{margin:0;border-bottom:1.5px solid var(--line);}
+.amn .facts .r{display:grid;grid-template-columns:clamp(100px,24vw,200px) 1fr;
+  gap:clamp(10px,3vw,28px);padding:clamp(13px,3.4vw,18px) 0;border-top:1.5px solid var(--line);align-items:baseline;}
+.amn .facts .r:first-child{border-top:0;}
+.amn .facts dt{font-weight:500;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2);line-height:1.5;}
+.amn .facts dd{margin:0;font-size:clamp(15px,3.9vw,19px);font-weight:500;line-height:1.55;}
+.amn .facts dd b{font-weight:700;}
+.amn .facts dd .no{color:#B4001F;font-weight:700;}
+.amn .facts dd .yes{color:#0B7A3B;font-weight:700;}
+.amn .facts dd em{font-style:normal;font-weight:700;color:var(--c,var(--ink));}
+.amn .facts dd small{display:block;font-size:13px;font-weight:400;color:var(--ink-2);margin-top:4px;line-height:1.5;}
+@media (max-width:560px){
+  .amn .facts .r{grid-template-columns:1fr;gap:6px;}
+}
+
+.amn .srcline{margin-top:clamp(16px,4vw,22px);font-size:12px;font-weight:500;letter-spacing:.05em;color:var(--ink-2);line-height:1.6;}
+.amn .srcline b{font-weight:700;letter-spacing:.13em;text-transform:uppercase;}
+
+.amn .cats{border-top:1.5px solid var(--line);margin-top:clamp(20px,5vw,28px);}
+.amn .cat{border-bottom:1.5px solid var(--line);}
+.amn .cathead{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:clamp(12px,3vw,18px);
+  align-items:center;background:var(--c);color:#fff;margin:0;
+  padding:clamp(12px,3.2vw,16px) var(--gut);}
+.amn .cat.light .cathead{color:#111;}
+.amn .cathead .mk{width:clamp(32px,7.4vw,40px);height:clamp(32px,7.4vw,40px);border-radius:50%;
+  background:#fff;color:var(--c);display:grid;place-items:center;flex:none;}
+.amn .cathead .mk svg{width:56%;height:56%;}
+.amn .cat.light .cathead .mk{background:#111;color:var(--c);}
+.amn .cathead .ttl{font-family:var(--display);font-weight:700;font-size:clamp(19px,4.8vw,27px);
+  letter-spacing:-.015em;line-height:1.05;}
+.amn .cathead .ttl i{display:block;font-style:normal;font-weight:500;font-size:clamp(11px,2.9vw,13px);
+  letter-spacing:.1em;margin-top:4px;opacity:.9;}
+.amn .cathead .tag{font-weight:700;font-size:clamp(11px,2.8vw,12px);letter-spacing:.11em;
+  text-transform:uppercase;text-align:right;line-height:1.3;}
+.amn .catbody{display:grid;grid-template-columns:minmax(0,1fr) clamp(230px,34%,430px);
+  gap:clamp(16px,4vw,40px);align-items:start;padding:clamp(20px,5vw,30px) var(--gut);}
+.amn .catbody.solo{grid-template-columns:minmax(0,1fr);}
+.amn .catbody .lead{font-size:clamp(17px,4.4vw,22px);font-weight:500;line-height:1.45;margin:0 0 clamp(14px,3.5vw,18px);}
+.amn .catbody .lead b{font-weight:700;}
+.amn .catbody .lead .no{color:#B4001F;font-weight:700;}
+.amn .catbody .lead .yes{color:#0B7A3B;font-weight:700;}
+.amn .catbody dl{margin:0;display:grid;gap:0;}
+.amn .catbody dl>div{display:grid;grid-template-columns:clamp(96px,22%,170px) minmax(0,1fr);
+  gap:clamp(10px,3vw,22px);padding:clamp(11px,2.9vw,15px) 0;border-top:1.5px solid var(--line);align-items:baseline;}
+.amn .catbody dt{font-weight:500;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);line-height:1.5;
+  display:flex;align-items:center;gap:9px;}
+.amn .catbody dt .ibadge{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 6px;border-radius:11px;flex:none;
+  background:var(--bc,var(--ink));color:#fff;font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:0;text-transform:none;white-space:nowrap;}
+.amn .catbody dd{margin:0;font-size:clamp(15px,3.8vw,17px);font-weight:500;line-height:1.55;}
+.amn .catbody dd b{font-weight:700;}
+.amn .catbody dd .no{color:#B4001F;font-weight:700;}
+.amn .catbody dd .yes{color:#0B7A3B;font-weight:700;}
+.amn .catbody dd small{display:block;font-size:13px;font-weight:400;color:var(--ink-2);margin-top:5px;line-height:1.5;}
+.amn .catbody dd .mapembed{display:block;margin-top:10px;border-radius:14px;overflow:hidden;aspect-ratio:16/9;border:1.5px solid var(--line);background:var(--grey);}
+.amn .catbody dd .mapembed iframe{width:100%;height:100%;border:0;display:block;}
+.amn .catbody figure{margin:0;position:relative;}
+.amn .catbody .ph,.amn .catbody img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;}
+.amn .catbody .ph{display:grid;place-items:center;align-content:center;gap:8px;text-align:center;padding:16px;
+  background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
+  color:var(--ink-2);font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;}
+@media (max-width:720px){
+  .amn .catbody{grid-template-columns:minmax(0,1fr);gap:18px;}
+  .amn .catbody dl>div{grid-template-columns:minmax(0,1fr);gap:5px;}
+  .amn .cathead{grid-template-columns:auto minmax(0,1fr);}
+  .amn .cathead .tag{grid-column:2;text-align:left;}
+}
+
+.amn .map-shell{border:1.5px solid var(--line);border-left:0;border-right:0;padding:0;}
+.amn .map{position:relative;overflow:auto;background:#fff;-webkit-overflow-scrolling:touch;}
+.amn .mapinner{position:relative;width:100%;min-width:720px;}
+.amn .map img,.amn .map svg{display:block;width:100%;height:auto;}
+.amn .map-shell .hint .swipe{display:none;}
+@media (max-width:760px){.amn .map-shell .hint .swipe{display:inline;}}
+.amn .map-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .illust-note{padding:12px 16px 16px;font-size:12px;line-height:1.6;color:var(--ink-2);border-top:1.5px solid var(--line);}
+.amn .subhead{margin-top:clamp(20px,5vw,28px);font-weight:700;font-size:14px;letter-spacing:.02em;color:var(--ink);}
+.amn .pin{--c:var(--shinkansen);position:absolute;transform:translate(-50%,-100%);display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:0;padding:6px;cursor:pointer;}
+.amn .pin .dot{width:38px;height:38px;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);background:var(--c);border:3px solid #fff;box-shadow:0 4px 10px rgba(0,0,0,.25);display:grid;place-items:center;color:#fff;transition:transform .25s;}
+.amn .pin .dot svg{width:20px;height:20px;transform:rotate(45deg);}
+.amn .pin .lbl{font-weight:700;font-size:12px;letter-spacing:.02em;background:#111;color:#fff;padding:3px 9px;border-radius:999px;white-space:nowrap;}
+.amn .pin:hover .dot,.amn .pin:focus-visible .dot{transform:rotate(-45deg) scale(1.12);}
+.amn .legend{display:flex;flex-wrap:wrap;gap:10px 18px;padding:12px 16px;border-top:1.5px solid var(--line);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);}
+.amn .legend span{display:inline-flex;align-items:center;gap:8px;}
+.amn .legend i{width:14px;height:14px;border-radius:4px;display:inline-block;}
+.amn .is-target{animation:amn-flash 1.2s ease-out 1;}
+@keyframes amn-flash{0%{box-shadow:inset 0 0 0 4px #111;}100%{box-shadow:inset 0 0 0 0 transparent;}}
+
+.amn footer{background:#111;color:#fff;padding:clamp(44px,10vw,64px) 0 clamp(36px,8vw,48px);margin-top:clamp(24px,6vw,40px);}
+.amn footer .wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px;}
+.amn footer .logo{color:#fff;--paper:#141414;}
+.amn footer .logo .l1{font-size:34px;font-weight:500;}
+.amn footer .logo .l2{font-size:40px;letter-spacing:.2em;}
+.amn footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(20px,6vw,40px);font-size:16px;font-weight:500;}
+.amn footer nav a{text-underline-offset:4px;}
+.amn footer nav a{text-decoration:none;}
+.amn footer small{font-size:13px;color:#CFCFCF;font-weight:400;}
+
+@media (prefers-reduced-motion:no-preference){
+  .amn .anim.amn-in{animation:amn-rise .5s cubic-bezier(.2,.8,.2,1) both;}
+  .amn .anim.amn-in:nth-child(2){animation-delay:.06s;}
+  .amn .anim.amn-in:nth-child(3){animation-delay:.12s;}
+  .amn .anim.amn-in:nth-child(4){animation-delay:.18s;}
+  @keyframes amn-rise{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
+  html{scroll-behavior:smooth;}
+}
+@media (prefers-reduced-motion:reduce){
+  .amn *,.amn *::before,.amn *::after{transition:none!important;animation:none!important;}
+}
+
+@media (max-width:900px){
+  .amn .blocks{grid-template-columns:repeat(2,1fr);}
+}
+@media (max-width:640px){
+  .amn section{padding:32px 0 44px;}
+  .amn .section-head{grid-template-columns:auto 1fr;grid-template-areas:"chip chip" "idx title" "meta meta";row-gap:clamp(12px,3.5vw,18px);}
+  .amn .section-head .meta{text-align:left;display:flex;gap:10px;align-items:baseline;}
+  .amn .start{grid-template-columns:auto 1fr;}
+  .amn .start .side{grid-column:2;text-align:left;}
+  .amn .pin .dot{width:30px;height:30px;}
+  .amn .pin .dot svg{width:16px;height:16px;}
+  .amn .pin .lbl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+  .amn footer .logo .l1{font-size:26px;} .amn footer .logo .l2{font-size:30px;}
+}
+
+.amn .verify{border-top:1.5px solid var(--line);}
+.amn .verify .wrap{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;padding:16px var(--gut);text-align:center;}
+.amn .verify svg{width:17px;height:17px;color:#1F9254;flex-shrink:0;}
+.amn .verify span{font-size:13px;font-weight:600;letter-spacing:.01em;color:var(--ink-2);}
+.amn .verify b{color:var(--ink);font-weight:700;}
+
+.amn .totop{position:fixed;right:18px;bottom:18px;z-index:80;width:46px;height:46px;border-radius:50%;background:var(--ink);color:#fff;border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.25);opacity:.9;transition:opacity .15s ease,transform .15s ease;padding:0;}
+.amn .totop svg{width:20px;height:20px;}
+.amn .totop:hover{opacity:1;transform:translateY(-2px);}
+.amn .totop:focus-visible{outline:2px solid var(--focus);outline-offset:2px;}
+@media (max-width:480px){.amn .totop{right:12px;bottom:12px;width:42px;height:42px;}.amn .totop svg{width:18px;height:18px;}}
+@media print{.amn .totop{display:none;}}
+
+.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
+.skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M12 6v3l2 1.5M12 15v6M9 21h6"/></symbol>
+  <symbol id="i-gate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="6" height="16" rx="2"/><rect x="15" y="4" width="6" height="16" rx="2"/><path d="M9 12h6"/></symbol>
+  <symbol id="i-elev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 14v-4l-2 2M9 10l2 2M15 10v4l-2-2M15 14l2-2"/></symbol>
+  <symbol id="i-esc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18h5l9-11h4"/><path d="M3 21h6l9-11h3"/><circle cx="9.5" cy="10.5" r="1.5"/></symbol>
+  <symbol id="i-toilet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="5" r="2"/><path d="M9 8v6l4 1 2 5"/><circle cx="8" cy="17" r="4"/><path d="M17 4h4M19 4v8"/></symbol>
+  <symbol id="i-train" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 10h14M9 21l1.5-3M15 21l-1.5-3"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="14" r="1"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></symbol>
+</svg>
+
+<div class="amn">
+
+
+  <header class="site-head">
+    <div class="wrap">
+      <a class="logo" href="index.html" aria-label="Accessibility Map NAGOYA — home">
+        <span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span>
+        <span class="l2" aria-hidden="true">NAGOYA</span>
+      </a>
+    </div>
+  </header>
+  <div class="navrow">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="You are here">
+        <a href="index.html">Top</a><span aria-hidden="true">&rsaquo;</span>
+        <a href="amn-venues.html">Venues</a><span aria-hidden="true">&rsaquo;</span>
+        <span aria-current="page">Race Walk Course</span>
+      </nav>
+    </div>
+  </div>
+<main id="main">
+
+
+  <!-- ============================== HERO ============================== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div class="top">
+        <span class="label">Asian Games 2026 &middot; Venue</span>
+        <span class="label">Step-free</span>
+      </div>
+      <hr class="rule">
+      <h1 id="hero-title"><span>Race Walk</span><span class="hl" style="color:var(--subway)">Course</span></h1>
+      <p>A closed road-loop course around the Aichi Prefectural Government and Nagoya City Hall area, next to Nagoya Castle. Two half marathon/marathon race walk events are held here &mdash; there is no single fixed entrance, so this guide covers the two subway stations giving access to the course-side spectator areas.</p>
+    </div>
+  </section>
+
+  <section class="line" style="--c:var(--subway)" aria-labelledby="sec-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="chiprow" style="--cc:var(--subway)"><span class="chip" style="color:#111">Race Walk</span><i></i><i></i></span>
+        <span class="idx">01</span>
+        <h2 id="sec-title">Step-free guide</h2>
+        <div class="meta"><span class="label">Location</span><b>Naka-ku, Nagoya &mdash; Nagoya Castle / City Hall loop</b></div>
+      </div>
+    </div>
+
+    <!-- ===================== A / E / B / C / D CATEGORIES ===================== -->
+    <div class="cats">
+    <section class="cat light" style="--c:var(--subway)" id="cat-a" aria-labelledby="h-a">
+      <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Getting there</span><span class="tag">2 stations, East &amp; West areas</span></h3>
+      <div class="catbody">
+        <div>
+          <p class="lead">The course loops the government/city-hall area, with East and West spectator areas marked on the official map. Two subway stations, on two different lines, serve the two sides.</p>
+          <dl>
+            <div><dt><span class="ibadge" style="--bc:var(--subway)">A</span>Meijo Line &middot; Nagoyajo Station</dt><dd>Exit 5 or Exit 6, both marked as elevator-accessible on the official course map. <a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Nagoyajo+Station%2C+Nagoya%2C+Japan&amp;destination=Nagoya+City+Hall%2C+Nagoya%2C+Japan&amp;travelmode=walking" target="_blank" rel="noopener">Walking directions (Google Maps)</a><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Nagoyajo+Station%2C+Nagoya%2C+Japan&amp;daddr=Nagoya+City+Hall%2C+Nagoya%2C+Japan&amp;dirflg=w&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div></dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--subway)">B</span>Tsurumai Line &middot; Marunouchi Station</dt><dd>Exit 1, marked as elevator-accessible on the official course map. <a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Marunouchi+Station%2C+Nagoya%2C+Japan&amp;destination=Nagoya+City+Hall%2C+Nagoya%2C+Japan&amp;travelmode=walking" target="_blank" rel="noopener">Walking directions (Google Maps)</a><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Marunouchi+Station%2C+Nagoya%2C+Japan&amp;daddr=Nagoya+City+Hall%2C+Nagoya%2C+Japan&amp;dirflg=w&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div></dd></div>
+            <div><dt>Spectator areas</dt><dd>The official map marks a Spectator Area East and a Spectator Area West along the loop, near landmarks including Fushimi-Uonotana, Shinmisono Bridge and Ninomaru (the castle's second bailey).</dd></div>
+            <div><dt>Road closures</dt><dd>Traffic restrictions are in place around the course for the event &mdash; expect road crossings to be controlled and some routes signed as closed. Confirm the day's closure times on the official page before you travel.</dd></div>
+            <div><dt>Dates</dt><dd>Half Marathon Race Walk: <b>23 Sep 2026</b>, 7:30am start. Marathon Race Walk: <b>27 Sep 2026</b>, 7:30am start. (Per the organizing committee's official schedule.)</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section class="cat light" style="--c:var(--subway)" id="cat-e" aria-labelledby="h-e">
+      <h3 class="cathead" id="h-e"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">From central Nagoya</span><span class="tag">3 starting points</span></h3>
+      <div class="catbody solo">
+        <div>
+          <p class="lead">Live transit directions to Nagoyajo Station from each of the three main hubs. For elevators and step-free routes at that hub station itself, see its own page.</p>
+          <dl>
+            <div><dt><span class="ibadge" style="--bc:var(--subway)">A</span>From <a class="inline" href="amn-nagoya-station.html">Nagoya Station</a></dt><dd><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Nagoya+Station%2C+Nagoya%2C+Japan&amp;destination=Nagoyajo+Station%2C+Nagoya%2C+Japan&amp;travelmode=transit" target="_blank" rel="noopener">Get directions to Nagoyajo Station (Google Maps)</a><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Nagoya+Station%2C+Nagoya%2C+Japan&amp;daddr=Nagoyajo+Station%2C+Nagoya%2C+Japan&amp;dirflg=r&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div></dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--subway)">B</span>From <a class="inline" href="amn-kanayama.html">Kanayama</a></dt><dd><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Kanayama+Station%2C+Nagoya%2C+Japan&amp;destination=Nagoyajo+Station%2C+Nagoya%2C+Japan&amp;travelmode=transit" target="_blank" rel="noopener">Get directions to Nagoyajo Station (Google Maps)</a><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Kanayama+Station%2C+Nagoya%2C+Japan&amp;daddr=Nagoyajo+Station%2C+Nagoya%2C+Japan&amp;dirflg=r&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div></dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--subway)">C</span>From <a class="inline" href="amn-sakae.html">Sakae</a></dt><dd><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Sakae+Station%2C+Nagoya%2C+Japan&amp;destination=Nagoyajo+Station%2C+Nagoya%2C+Japan&amp;travelmode=transit" target="_blank" rel="noopener">Get directions to Nagoyajo Station (Google Maps)</a><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Sakae+Station%2C+Nagoya%2C+Japan&amp;daddr=Nagoyajo+Station%2C+Nagoya%2C+Japan&amp;dirflg=r&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section class="cat light" style="--c:var(--subway)" id="cat-b" aria-labelledby="h-b">
+      <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">Confirmed, 2 stations</span></h3>
+      <div class="catbody solo">
+        <div>
+          <p class="lead">Nagoya City Subway states that <b>all 87 stations</b> on the network &mdash; these two included &mdash; have a step-free elevator route from platform to street, and that staff will lay a portable ramp across the platform&ndash;train gap on request. The official course map additionally marks a specific elevator at each of the two recommended exits.</p>
+          <dl>
+            <div><dt>Nagoyajo Station (Meijo Line)</dt><dd>Elevator marked at the Exit 5/6 area on the official course map, in addition to the network-wide step-free route.</dd></div>
+            <div><dt>Marunouchi Station (Tsurumai Line)</dt><dd>Elevator marked at the Exit 1 area on the official course map, in addition to the network-wide step-free route.</dd></div>
+            <div><dt>Platform gap</dt><dd>Station staff will lay a portable ramp across the platform&ndash;train gap on request, network-wide.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section class="cat light" style="--c:var(--toilet)" id="cat-c" aria-labelledby="h-c">
+      <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">Present, 2 stations</span></h3>
+      <div class="catbody">
+        <div>
+          <p class="lead">Nagoya City Subway states that accessible toilets at all 87 stations include a western-style toilet, baby bed, ostomate fixture and sanitary box. Both stations serving this course are confirmed as having one, but the exact position within each station could not be retrieved.</p>
+          <dl>
+            <div><dt>Nagoyajo Station (Meijo Line)</dt><dd>Accessible toilet present, per the Transportation Bureau&rsquo;s system-wide policy.</dd></div>
+            <div><dt>Marunouchi Station (Tsurumai Line)</dt><dd>Present, same source.</dd></div>
+            <div><dt>Exact position</dt><dd>Not published in text for either station. Illustrated once we have walked it.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <section class="cat" style="--c:var(--ink)" id="cat-d" aria-labelledby="h-d">
+      <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">Wide gates, 2 stations</span></h3>
+      <div class="catbody solo">
+        <div>
+          <p class="lead">Nagoya City Subway states that all 87 stations, including these two, have a wide automatic ticket gate for wheelchair and stroller users, plus tactile guide blocks throughout.</p>
+          <dl>
+            <div><dt>Nagoyajo Station (Meijo Line)</dt><dd>Wide accessible ticket gate present, per system-wide policy. Use Exit 5 or 6 for the course.</dd></div>
+            <div><dt>Marunouchi Station (Tsurumai Line)</dt><dd>Present, same source. Use Exit 1 for the course.</dd></div>
+            <div><dt>Platform safety</dt><dd>Movable platform-edge barriers are installed on the Meijo Line, and (with one exception elsewhere on the network) on the Tsurumai Line.</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <div class="wrap">
+      <p class="srcline"><b>Source</b> &middot; Aichi Prefecture, official Asian Games venue-access map for the Race Walk course (<a class="inline" href="https://www.pref.aichi.jp/uploaded/attachment/630164.pdf" target="_blank" rel="noopener">PDF</a>); 2026 Asian Games organizing committee, marathon/race-walk course announcement (<a class="inline" href="https://old.aichi-nagoya2026.org/news/detail/1416" target="_blank" rel="noopener">aichi-nagoya2026.org/news/detail/1416</a>); Nagoya City Transportation Bureau, system-wide barrier-free policy (<a class="inline" href="https://kotsu.city.nagoya.jp/rp/subway/TRP0000809.htm" target="_blank" rel="noopener">kotsu.city.nagoya.jp/rp/subway/TRP0000809.htm</a>). Checked September 2026.</p>
+    </div>
+  </section>
+
+
+</main>
+<div class="verify">
+    <div class="wrap">
+      <svg aria-hidden="true"><use href="#i-check"/></svg>
+      <span><b>Verified</b> against official sources &middot; Last updated 15 Sep 2026</span>
+    </div>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span><span class="l2" aria-hidden="true">NAGOYA</span></span>
+      <nav aria-label="Footer"><a href="amn-about.html">About us</a><a href="amn-sources.html">Sources</a><a href="amn-privacy.html">Privacy</a><a href="amn-terms.html">Terms</a><a href="amn-contact.html">Contact</a></nav>
+      <small>Accessibility information may change. Please check official sources before visiting.<br>This is an independent accessibility guide.</small>
+    </div>
+  </footer>
+  <button type="button" class="totop" aria-label="Back to top" title="Back to top"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></button>
+
+
+</div>
+
+
+<script>
+(function(){
+  var root = document.querySelector('.amn'); if(!root) return;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function goTo(id){
+    var el = document.getElementById(id); if(!el) return;
+    el.scrollIntoView({behavior: reduce ? 'auto' : 'smooth', block: 'start'});
+    if(!el.hasAttribute('tabindex')) el.setAttribute('tabindex','-1');
+    el.focus({preventScroll:true});
+    el.classList.remove('is-target'); void el.offsetWidth; el.classList.add('is-target');
+    if(history.replaceState) history.replaceState(null,'','#'+id);
+  }
+
+  root.querySelectorAll('a[href^="#"]:not(.file)').forEach(function(a){
+    a.addEventListener('click',function(e){
+      var id = a.getAttribute('href').slice(1);
+      if(!id){ e.preventDefault(); return; }
+      if(document.getElementById(id)){ e.preventDefault(); goTo(id); }
+    });
+  });
+
+  root.querySelectorAll('.pin[data-target]').forEach(function(btn){
+    btn.addEventListener('click',function(){ goTo(btn.getAttribute('data-target')); });
+  });
+
+  var items = root.querySelectorAll('.anim');
+  if(reduce || !('IntersectionObserver' in window)){ items.forEach(function(el){ el.classList.add('amn-in'); }); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('amn-in'); io.unobserve(en.target); } });
+  },{rootMargin:'0px 0px -8% 0px', threshold:.1});
+  items.forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+<script>
+(function(){
+  var btn=document.querySelector('.amn .totop'); if(!btn) return;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  btn.addEventListener('click',function(){
+    window.scrollTo({top:0,left:0,behavior:reduce?'auto':'smooth'});
+  });
+})();
+</script>
+
+</body>
+</html>
