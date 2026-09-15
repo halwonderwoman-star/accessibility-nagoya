@@ -1,0 +1,4 @@
+# Raw, full-size photos before web compression — kept locally as a backup,
+# never committed (huge files; web-ready compressed copies live in
+# site-build/assets/img/ instead).
+site-build/assets/img/photo/
