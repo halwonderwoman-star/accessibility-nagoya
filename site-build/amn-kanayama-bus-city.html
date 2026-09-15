@@ -116,13 +116,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .logo .l1{font-family:var(--display);font-weight:500;font-size:clamp(22px,6.4vw,32px);letter-spacing:0;position:relative;white-space:nowrap;}
 .amn .logo .l2{font-family:var(--display);font-weight:700;font-size:clamp(28px,8.2vw,40px);letter-spacing:.32em;margin-top:3px;margin-right:-.32em;}
 /* the "p" is two layers: the full "p", and an "I" that shows while the wheel (the p's bowl) is away.
-   To leave a lowercase stem instead, change the letter inside <span class="stem"> to "l" or "i". */
+   To leave a lowercase stem instead, change the content:"I" in .amn .logo .p::before to "l" or "i". */
 .amn .logo .p{position:relative;display:inline-block;}
 .amn .logo .p .glyph{color:inherit;}
 /* the I is pushed down by the descender depth so its bottom lines up with the bottom of the lowercase p
    (cap-height ≈ x-height + descender in Gibson, so it reads as the p's own stem). Tune --desc per font. */
 .amn .logo .p{--desc:.21em;}
-.amn .logo .p .stem{position:absolute;left:0;top:0;color:inherit;opacity:0;transform:translateY(var(--desc));}
+.amn .logo .p::before{content:"I";position:absolute;left:0;top:0;color:inherit;opacity:0;transform:translateY(var(--desc));}
 .amn .logo .p .glyph{transition:none;}
 .amn .logo .wheel{
   --ground:.62em;                      /* drop distance: lands on the NAGOYA line below */
@@ -130,7 +130,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   border:.13em solid var(--sky);border-radius:50%;box-sizing:border-box;opacity:0;
 }
 @media (prefers-reduced-motion:no-preference){
-  .amn .logo .p .stem{animation:amn-stem 9s linear infinite;}
+  .amn .logo .p::before{animation:amn-stem 9s linear infinite;}
   .amn .logo .wheel{animation:amn-wheel 9s linear infinite;}
   .amn .logo .p .glyph{animation:amn-glyph 9s linear infinite;}
   @keyframes amn-stem{0%,10%{opacity:0}10.1%,89.9%{opacity:1}90%,100%{opacity:0}}
@@ -484,7 +484,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <header class="site-head">
     <div class="wrap">
       <a class="logo" href="index.html" aria-label="Accessibility Map NAGOYA — home"><!-- [LINK] home -->
-        <span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span>
+        <span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="wheel"></span></span></span>
         <span class="l2" aria-hidden="true">NAGOYA</span>
       </a>
     </div>
@@ -567,7 +567,6 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <!-- [MAP] keyless Google Maps embed — change q= to move the pin.
            q can be coordinates ("35.170,136.881") or a place name. -->
       <div class="frame">
-        <p>Google Map — loads on the live site</p>
       <iframe
           title="Kanayama Station on Google Maps"
           src="https://maps.google.com/maps?q=Kanayama+Station,+Nagoya&amp;z=17&amp;hl=en&amp;output=embed"
@@ -592,7 +591,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
   <footer>
     <div class="wrap">
-      <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="stem">I</span><span class="wheel"></span></span></span><span class="l2" aria-hidden="true">NAGOYA</span></span>
+      <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="wheel"></span></span></span> <span class="l2" aria-hidden="true">NAGOYA</span></span>
       <nav aria-label="Footer"><a href="amn-about.html">About us</a><a href="amn-sources.html">Sources</a><a href="amn-privacy.html">Privacy</a><a href="amn-terms.html">Terms</a><a href="amn-contact.html">Contact</a></nav><!-- [LINK] -->
       <small>Accessibility information may change. Please check official sources before visiting.<br>This is an independent accessibility guide.<br>&copy; 2026 Accessibility Map NAGOYA</small>
     </div>
