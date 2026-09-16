@@ -327,6 +327,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .onsite-photo{margin:14px 0 0;border:1.5px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;}
 .amn .onsite-photo img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;}
 .amn .onsite-photo figcaption{padding:10px 14px 12px;font-size:12.5px;line-height:1.55;color:var(--ink-2);border-top:1.5px solid var(--line);}
+.amn .pshow{border:1.5px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;margin:14px 0 0;}
+.amn .pshow-hint{font-size:12px;font-weight:500;color:var(--ink-2);padding:9px 14px 0;}
+.amn .pshow-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-top:6px;}
+.amn .pshow-track::-webkit-scrollbar{display:none;}
+.amn .pshow-track figure{flex:0 0 100%;scroll-snap-align:start;margin:0;}
+.amn .pshow-track img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;}
+.amn .pshow-track figcaption{padding:10px 14px 12px;font-size:12.5px;line-height:1.55;color:var(--ink-2);border-top:1.5px solid var(--line);}
 
 
 .amn .illust-note{padding:12px 16px 16px;font-size:12px;line-height:1.6;color:var(--ink-2);border-top:1.5px solid var(--line);}
@@ -555,11 +562,20 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <h3>Elevators</h3>
         <p>The only lift up to street level is beside stair E9, on the station side &mdash; it runs between the B1 mall and the 1F street entrance toward JR Nagoya Station&rsquo;s Taiko-dori/Shinkansen side. Two more lifts, near E2 and E6, only reach B2 parking, not the street.</p>
         <p class="note">Sourced from ESCA&rsquo;s official floor guide. E1&ndash;E17 are ESCA&rsquo;s own stair labels; not every stair is confirmed to reach street level.</p>
-      <figure class="onsite-photo"><img src="assets/img/esca-elevatora.jpg" alt="Blue elevator doors in the ESCA underground mall passageway, with a sign for the elevator to ground floor." width="1600" height="1200" loading="lazy"><figcaption>Elevator in the ESCA mall</figcaption></figure></div>
+      <div class="pshow">
+        <p class="pshow-hint">Elevator in the ESCA mall &middot; swipe for both angles</p>
+        <div class="pshow-track">
+          <figure><img src="assets/img/esca-elevatora.jpg" alt="Blue elevator doors in the ESCA underground mall passageway, with a sign for the elevator to ground floor." width="1600" height="1200" loading="lazy"><figcaption>ESCA elevator, angle 1</figcaption></figure>
+          <figure><img src="assets/img/esca-elevatorb.jpg" alt="Blue elevator doors in the ESCA underground mall passageway, a second angle." width="1600" height="1200" loading="lazy"><figcaption>ESCA elevator, angle 2</figcaption></figure>
+        </div>
+      </div>
+      </div>
       <div class="toi-cat">
         <h3>Toilets</h3>
         <p>The southwest toilets, near E1&ndash;E2, have a multipurpose accessible toilet alongside the men&rsquo;s and women&rsquo;s rooms. The northwest toilets, near E7, have a baby-changing bed but are not marked accessible on the official map.</p>
-      <figure class="onsite-photo"><img src="assets/img/esca-eastside-toilet.jpg" alt="Rest-room sign and multi-purpose toilet entrance in the ESCA underground mall, with wheelchair, baby-seat and ostomate pictograms." width="1600" height="1200" loading="lazy"><figcaption>Toilet entrance in the ESCA mall</figcaption></figure></div>
+      <figure class="onsite-photo"><img src="assets/img/esca-eastside-toilet.jpg" alt="Rest-room sign and multi-purpose toilet entrance in the ESCA underground mall, with wheelchair, baby-seat and ostomate pictograms." width="1600" height="1200" loading="lazy"><figcaption>Southwest toilet, near E1&ndash;E2 (accessible)</figcaption></figure>
+      <figure class="onsite-photo"><img src="assets/img/esca-toilet-westside.jpg" alt="Rest-room sign in the ESCA underground mall, northwest side near stair E7." width="1448" height="1086" loading="lazy"><figcaption>Northwest toilet, near E7 (baby-changing bed only, not marked accessible)</figcaption></figure>
+      </div>
       <div class="toi-cat">
         <h3>Coin lockers</h3>
         <p>Lockers are reported in the connecting passage on the left, just after coming down the stairs or escalator from the JR Taiko-dori exit into ESCA &mdash; near stair E9, close to the street-level lift.</p>
@@ -938,7 +954,16 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <h3>Toilets</h3>
         <p>One toilet group inside Sun Road, in the central block &mdash; men, women and a barrier-free toilet.</p>
         <p class="note">Sourced from Sun Road&rsquo;s own floor map and information page.</p>
-      <figure class="onsite-photo"><img src="assets/img/sunroad-toiletb.jpg" alt="Toilet sign featuring Sun Road's mole mascot, Mogura no Chika-chan, marking the toilet entrance in the Sun Road underground mall." width="1600" height="1200" loading="lazy"><figcaption>Toilet entrance in Sun Road, with the mall's mole mascot</figcaption></figure></div>
+      <div class="pshow">
+        <p class="pshow-hint">Toilet entrance in Sun Road, with the mall&rsquo;s mole mascot &middot; swipe for more angles</p>
+        <div class="pshow-track">
+          <figure><img src="assets/img/sunroad-toileta.jpg" alt="Toilet sign featuring Sun Road's mole mascot, Mogura no Chika-chan, marking the toilet entrance in the Sun Road underground mall." width="1448" height="1086" loading="lazy"><figcaption>Sun Road toilet, angle 1</figcaption></figure>
+          <figure><img src="assets/img/sunroad-toiletb.jpg" alt="Toilet sign featuring Sun Road's mole mascot, Mogura no Chika-chan, marking the toilet entrance in the Sun Road underground mall, a second angle." width="1600" height="1200" loading="lazy"><figcaption>Sun Road toilet, angle 2</figcaption></figure>
+          <figure><img src="assets/img/sunroad-toiletc.jpg" alt="Toilet entrance in the Sun Road underground mall, a third angle." width="1600" height="1200" loading="lazy"><figcaption>Sun Road toilet, angle 3</figcaption></figure>
+          <figure><img src="assets/img/sunroad-toiletd.jpg" alt="Toilet entrance in the Sun Road underground mall, a fourth angle." width="1600" height="1200" loading="lazy"><figcaption>Sun Road toilet, angle 4</figcaption></figure>
+        </div>
+      </div>
+      </div>
       <div class="toi-cat">
         <h3>Coin lockers</h3>
         <p>None confirmed inside Sun Road. The nearest is Nagoya subway station, Higashiyama Line South Gate, locker bank H, in the vending-machine corner toward the Sun Road entrance.</p>
@@ -1015,7 +1040,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <p>No accessible toilet is confirmed inside either mall. The nearest options are Enishio Meieki, 1F (reached via Miyako Exit 1 and its elevator hall) and Sun Road, B1, just north of Kitachika.</p>
         <p class="note">Documented by TOTO&rsquo;s 2024 case study on Enishio Meieki and Sun Road&rsquo;s own accessibility page; the exact internal route and access hours are not confirmed.</p>
       <p><b>Personally checked, 15 Sep 2026:</b> a toilet door marked with wheelchair, baby-seat and ostomate pictograms was found on site at Kitachika &mdash; see photo. We have not yet confirmed which exact route reaches it, so the official-source guidance above still applies until we can document the full path.</p>
-        <figure class="onsite-photo"><img src="assets/img/kitachika-toiletb.jpg" alt="Accessible toilet door with wheelchair, baby-seat and ostomate pictograms in the Kitachika underground passage." width="1600" height="1200" loading="lazy"><figcaption>Accessible toilet door found at Kitachika</figcaption></figure>
+        <div class="pshow">
+        <p class="pshow-hint">Accessible toilet door found at Kitachika &middot; swipe for both angles</p>
+        <div class="pshow-track">
+          <figure><img src="assets/img/kitachika-tileta.jpg" alt="Accessible toilet door with wheelchair, baby-seat and ostomate pictograms in the Kitachika underground passage, an approach view." width="1600" height="1200" loading="lazy"><figcaption>Kitachika toilet, angle 1</figcaption></figure>
+          <figure><img src="assets/img/kitachika-toiletb.jpg" alt="Accessible toilet door with wheelchair, baby-seat and ostomate pictograms in the Kitachika underground passage." width="1600" height="1200" loading="lazy"><figcaption>Kitachika toilet, angle 2</figcaption></figure>
+        </div>
+      </div>
       </div>
       <div class="toi-cat">
         <h3>Coin lockers</h3>

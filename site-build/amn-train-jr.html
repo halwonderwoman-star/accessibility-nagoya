@@ -413,6 +413,14 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .catbody dd small{display:block;font-size:13px;font-weight:400;color:var(--ink-2);margin-top:5px;line-height:1.5;}
 /* the photo */
 .amn .catbody figure{margin:0;position:relative;}
+.amn .catbody figure figcaption{margin-top:8px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.5;}
+.amn .pshow{border:1.5px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;}
+.amn .pshow-hint{font-size:12px;font-weight:500;color:var(--ink-2);padding:9px 14px 0;}
+.amn .pshow-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-top:6px;}
+.amn .pshow-track::-webkit-scrollbar{display:none;}
+.amn .pshow-track figure{flex:0 0 100%;scroll-snap-align:start;margin:0;}
+.amn .pshow-track img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;}
+.amn .pshow-track figcaption{padding:10px 14px 12px;font-size:12.5px;line-height:1.55;color:var(--ink-2);border-top:1.5px solid var(--line);}
 .amn .catbody .ph,.amn .catbody img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;}
 .amn .catbody .ph{display:grid;place-items:center;align-content:center;gap:8px;text-align:center;padding:16px;
   background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
@@ -714,6 +722,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt><span class="ibadge" style="--bc:var(--jr)">F</span>Platforms 12&ndash;13</dt><dd>Kansai Line. <span class="no">No escalator at all</span> &mdash; that lift, or stairs, is the only way up. Allow extra time.</dd></div>
           </dl>
         </div>
+        <figure><img src="assets/img/jr-central-elevator.jpg" alt="Elevator at the JR Central Entrance (Chuo-guchi), with wheelchair and priority signage." width="1600" height="1200" loading="lazy"><figcaption>Elevator at the Central Entrance</figcaption></figure>
       </div>
     </section>
     <section class="cat light" style="--c:var(--toilet)" id="cat-b" aria-labelledby="h-b">
@@ -729,7 +738,22 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt>Nearby</dt><dd>Lost &amp; Found is on the North Passage.</dd></div>
           </dl>
         </div>
-        <figure><img src="assets/img/jr-toilet-sakuradoriexit.jpg" alt="Accessible toilet stall with wheelchair, baby-seat and ostomate pictograms near the Sakura-dori side of Nagoya Station." width="1448" height="1086" loading="lazy"></figure>
+        <figure><img src="assets/img/jr-toilet-sakuradoriexit.jpg" alt="Accessible toilet stall with wheelchair, baby-seat and ostomate pictograms near the Sakura-dori side of Nagoya Station." width="1448" height="1086" loading="lazy"><figcaption>Toilet near the Sakura-dori Exit</figcaption></figure>
+      </div>
+      <p style="margin:16px 0 0;font-size:14px;line-height:1.6;color:var(--ink-2)"><b>Personally checked, 16 Sep 2026:</b> two more accessible toilets outside the gates were found on site &mdash; one near the Central Exit (Chuo-guchi) and one on Umaimon Street, near the Taikodori side. Both have the standard wheelchair, baby-seat and ostomate pictograms.</p>
+      <div class="pshow">
+        <p class="pshow-hint">Toilet near the Central Exit (Chuo-guchi) &middot; swipe for both angles</p>
+        <div class="pshow-track">
+          <figure><img src="assets/img/jr-toilet-chuouexita.jpg" alt="Accessible toilet with wheelchair, baby-seat and ostomate pictograms near the Central Exit (Chuo-guchi) of Nagoya Station." width="1448" height="1086" loading="lazy"><figcaption>Central Exit toilet, angle 1</figcaption></figure>
+          <figure><img src="assets/img/jr-toilet-chuouexitb.jpg" alt="Accessible toilet with wheelchair, baby-seat and ostomate pictograms near the Central Exit (Chuo-guchi) of Nagoya Station, a second angle." width="1448" height="1086" loading="lazy"><figcaption>Central Exit toilet, angle 2</figcaption></figure>
+        </div>
+      </div>
+      <div class="pshow">
+        <p class="pshow-hint">Toilet on Umaimon Street &middot; swipe for both angles</p>
+        <div class="pshow-track">
+          <figure><img src="assets/img/umaimon-toileta.jpg" alt="Accessible toilet with wheelchair, baby-seat and ostomate pictograms on Umaimon Street, near the Taikodori side of Nagoya Station." width="1448" height="1086" loading="lazy"><figcaption>Umaimon Street toilet, angle 1</figcaption></figure>
+          <figure><img src="assets/img/umaimon-toiletb.jpg" alt="Accessible toilet with wheelchair, baby-seat and ostomate pictograms on Umaimon Street, near the Taikodori side of Nagoya Station, a second angle." width="1600" height="1200" loading="lazy"><figcaption>Umaimon Street toilet, angle 2</figcaption></figure>
+        </div>
       </div>
     </section>
     <section class="cat" style="--c:var(--ink)" id="cat-c" aria-labelledby="h-c">
@@ -746,7 +770,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt>Coin lockers</dt><dd>Multiple locations, including the Central Concourse and near the Hirokoji exit; staffed luggage counters at Sakuradori and Taikodori exits.</dd></div>
           </dl>
         </div>
-        <figure><img src="assets/img/gold-clock.jpg" alt="The Gold Clock, a well-known meeting point on the Sakura-dori side of Nagoya Station's central concourse." width="1448" height="1086" loading="lazy"></figure>
+        <figure><img src="assets/img/gold-clock.jpg" alt="The Gold Clock, a well-known meeting point on the Sakura-dori side of Nagoya Station's central concourse." width="1448" height="1086" loading="lazy"><figcaption>The Gold Clock meeting point</figcaption></figure>
       </div>
     </section>
     <section class="cat light" style="--c:var(--jr)" id="cat-d" aria-labelledby="h-d">

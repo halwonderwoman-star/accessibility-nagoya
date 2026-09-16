@@ -413,6 +413,14 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .catbody dd small{display:block;font-size:13px;font-weight:400;color:var(--ink-2);margin-top:5px;line-height:1.5;}
 /* the photo */
 .amn .catbody figure{margin:0;position:relative;}
+.amn .catbody figure figcaption{margin-top:8px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.5;}
+.amn .pshow{border:1.5px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;}
+.amn .pshow-hint{font-size:12px;font-weight:500;color:var(--ink-2);padding:9px 14px 0;}
+.amn .pshow-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-top:6px;}
+.amn .pshow-track::-webkit-scrollbar{display:none;}
+.amn .pshow-track figure{flex:0 0 100%;scroll-snap-align:start;margin:0;}
+.amn .pshow-track img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;}
+.amn .pshow-track figcaption{padding:10px 14px 12px;font-size:12.5px;line-height:1.55;color:var(--ink-2);border-top:1.5px solid var(--line);}
 .amn .catbody .ph,.amn .catbody img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;}
 .amn .catbody .ph{display:grid;place-items:center;align-content:center;gap:8px;text-align:center;padding:16px;
   background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
@@ -706,7 +714,20 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt><span class="ibadge" style="--bc:var(--subway)">EV.7</span>Sakura-dori Central Gate &rarr; East Gate</dt><dd>Used when transferring in from Higashiyama, after EV.6.</dd></div>
           </dl>
         </div>
-              <figure><img src="assets/img/nagoyastation-higashiyama-elevator-centrala.jpg" alt="Elevator to the Higashiyama Line platform at Nagoya Station's central gate, with wheelchair and priority signage." width="1600" height="1200" loading="lazy"></figure>
+      <div class="pshow">
+        <p class="pshow-hint">Higashiyama Line elevator, Central Gate &middot; swipe for both angles</p>
+        <div class="pshow-track">
+          <figure><img src="assets/img/nagoyastation-higashiyama-elevator-centrala.jpg" alt="Elevator to the Higashiyama Line platform at Nagoya Station's central gate, with wheelchair and priority signage." width="1600" height="1200" loading="lazy"><figcaption>Central Gate elevator, angle 1</figcaption></figure>
+          <figure><img src="assets/img/nagoyastation-higashiyama-elevator-centralb.jpg" alt="Elevator to the Higashiyama Line platform at Nagoya Station's central gate, a second angle." width="1600" height="1200" loading="lazy"><figcaption>Central Gate elevator, angle 2</figcaption></figure>
+        </div>
+      </div>
+      <div class="pshow">
+        <p class="pshow-hint">Higashiyama Line elevator, North Gate &middot; swipe for both angles</p>
+        <div class="pshow-track">
+          <figure><img src="assets/img/nagoyastation-higashiyama-elevator-northa.jpg" alt="Elevator to the Higashiyama Line platform at Nagoya Station's north gate, with wheelchair and priority signage." width="1600" height="1200" loading="lazy"><figcaption>North Gate elevator, angle 1</figcaption></figure>
+          <figure><img src="assets/img/nagoyastation-higashiyama-elevator-northb.jpg" alt="Elevator to the Higashiyama Line platform at Nagoya Station's north gate, a second angle." width="1600" height="1200" loading="lazy"><figcaption>North Gate elevator, angle 2</figcaption></figure>
+        </div>
+      </div>
       </div>
     </section>
     <section class="cat light" style="--c:var(--toilet)" id="cat-b" aria-labelledby="h-b">
@@ -724,7 +745,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt>Finding them</dt><dd>A voice announcement plays as you approach each one.</dd></div>
           </dl>
         </div>
-              <figure><img src="assets/img/nagoyastation-subwayentrance-toileta.jpg" alt="Corridor with stained-glass panels leading to the toilets near the subway concourse at Nagoya Station." width="1600" height="1200" loading="lazy"></figure>
+      <div class="pshow">
+        <p class="pshow-hint">Corridor to the subway toilets &middot; swipe for both angles</p>
+        <div class="pshow-track">
+          <figure><img src="assets/img/nagoyastation-subwayentrance-toileta.jpg" alt="Corridor with stained-glass panels leading to the toilets near the subway concourse at Nagoya Station." width="1600" height="1200" loading="lazy"><figcaption>Toilet corridor, angle 1</figcaption></figure>
+          <figure><img src="assets/img/nagoyastation-subwayentrance-toiletb.jpg" alt="Corridor with stained-glass panels leading to the toilets near the subway concourse at Nagoya Station, a second angle." width="1600" height="1200" loading="lazy"><figcaption>Toilet corridor, angle 2</figcaption></figure>
+        </div>
+      </div>
       </div>
     </section>
     <section class="cat" style="--c:var(--ink)" id="cat-c" aria-labelledby="h-c">
@@ -741,6 +768,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt>Exit 13</dt><dd>The Taikodori side.</dd></div>
             <div><dt>Building lifts</dt><dd>JP Tower Nagoya, JR Gate Tower, Dai Nagoya Building, Midland Square, and Nagoya Lucent Tower (limited hours).</dd></div>
           </dl>
+        </div>
+        <div class="pshow">
+          <p class="pshow-hint">Street-level elevator, Central Gate (Sakura-dori side) &middot; swipe for both angles</p>
+          <div class="pshow-track">
+            <figure><img src="assets/img/jr-underground-elevator-sakuradoria.jpg" alt="Glass-walled street-level subway elevator kiosk at Nagoya Station's Central Gate, on the Sakura-dori side." width="1600" height="1200" loading="lazy"><figcaption>Central Gate street elevator, angle 1</figcaption></figure>
+            <figure><img src="assets/img/jr-underground-elevator-sakuradorib.jpg" alt="Glass-walled street-level subway elevator kiosk at Nagoya Station's Central Gate, a second angle." width="1600" height="1200" loading="lazy"><figcaption>Central Gate street elevator, angle 2</figcaption></figure>
+          </div>
         </div>
       </div>
     </section>

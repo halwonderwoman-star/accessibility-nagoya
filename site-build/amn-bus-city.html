@@ -403,6 +403,14 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .catbody dd small{display:block;font-size:13px;font-weight:400;color:var(--ink-2);margin-top:5px;line-height:1.5;}
 /* the photo */
 .amn .catbody figure{margin:0;position:relative;}
+.amn .catbody figure figcaption{margin-top:8px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.5;}
+.amn .pshow{border:1.5px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;}
+.amn .pshow-hint{font-size:12px;font-weight:500;color:var(--ink-2);padding:9px 14px 0;}
+.amn .pshow-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-top:6px;}
+.amn .pshow-track::-webkit-scrollbar{display:none;}
+.amn .pshow-track figure{flex:0 0 100%;scroll-snap-align:start;margin:0;}
+.amn .pshow-track img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;}
+.amn .pshow-track figcaption{padding:10px 14px 12px;font-size:12.5px;line-height:1.55;color:var(--ink-2);border-top:1.5px solid var(--line);}
 .amn .catbody .ph,.amn .catbody img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;}
 .amn .catbody .ph{display:grid;place-items:center;align-content:center;gap:8px;text-align:center;padding:16px;
   background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
@@ -704,7 +712,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt><span class="ibadge" style="--bc:var(--toilet)">B</span>KITTE side, north of bays 1&ndash;6</dt><dd>By the JP Tower / KITTE Nagoya entrance.</dd></div>
           </dl>
         </div>
-              <figure><img src="assets/img/nagoya-citybus-toiletb.jpg" alt="Men's and women's toilet signs in the corridor near the Nagoya Station bus terminal." width="1600" height="1200" loading="lazy"></figure>
+      <div class="pshow">
+        <p class="pshow-hint">Toilet corridor near the bus terminal &middot; swipe for both angles</p>
+        <div class="pshow-track">
+          <figure><img src="assets/img/nagoya-citybus-toileta.jpg" alt="Men's and women's toilet signs in the corridor near the Nagoya Station bus terminal, an approach view." width="1448" height="1086" loading="lazy"><figcaption>Toilet corridor, angle 1</figcaption></figure>
+          <figure><img src="assets/img/nagoya-citybus-toiletb.jpg" alt="Men's and women's toilet signs in the corridor near the Nagoya Station bus terminal." width="1600" height="1200" loading="lazy"><figcaption>Toilet corridor, angle 2</figcaption></figure>
+        </div>
+      </div>
       </div>
     </section>
     <section class="cat" style="--c:var(--ink)" id="cat-c" aria-labelledby="h-c">
@@ -722,7 +736,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt>Coin lockers</dt><dd>Yes &mdash; inside the terminal, south side: 89 lockers (small &times;32, medium &times;15, large &times;26/8, extra-large &times;8), cash or IC card. Two more banks are just outside, on the Sakuradori side near Dotour and inside Takashimaya 1F.</dd></div>
           </dl>
         </div>
-              <figure><img src="assets/img/nagoya-citybus-exit.jpg" alt="Sign for the City Bus Terminal at Nagoya Station, at the entrance from the JR Gate Tower concourse." width="1448" height="1086" loading="lazy"></figure>
+              <figure><img src="assets/img/nagoya-citybus-exit.jpg" alt="Sign for the City Bus Terminal at Nagoya Station, at the entrance from the JR Gate Tower concourse." width="1448" height="1086" loading="lazy"><figcaption>City Bus Terminal entrance</figcaption></figure>
       </div>
     </section>
     <section class="cat" style="--c:var(--bus-city)" id="cat-d" aria-labelledby="h-d">
