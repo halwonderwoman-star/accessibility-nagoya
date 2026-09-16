@@ -464,7 +464,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .band-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
 .amn .band-track::-webkit-scrollbar{display:none;}
 .amn .band-track figure.band{flex:0 0 100%;scroll-snap-align:start;}
-.amn .band{margin:clamp(20px,5vw,30px) 0 0;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);}
+.amn .band-hint{margin:clamp(20px,5vw,30px) 0 0;padding:0 var(--gut);font-size:12px;font-weight:500;color:var(--ink-2);}
+.amn .band{margin:10px 0 0;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);}
 .amn .band .ph,.amn .band img{display:block;width:100%;height:clamp(180px,42vw,420px);object-fit:cover;}
 .amn .band figcaption{padding:12px 20px 14px;font-size:13px;font-weight:500;color:var(--ink-2);}
 </style>
@@ -530,7 +531,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   </section>
 
 
-  <section class="band-wrap"><div class="wrap"><div class="band-track">
+  <section class="band-wrap"><p class="band-hint">3 photos &middot; scroll or swipe to see all</p><div class="wrap"><div class="band-track">
     <figure class="band"><img src="assets/img/nagoyastation-sakuradorib.jpg" alt="Nagoya Station's JR Central Towers building, with the Takashimaya sign and the NAGOYA STATION sign above the entrance." width="1600" height="1200" loading="lazy"><figcaption>Nagoya Station, Sakura-dori side</figcaption></figure>
     <figure class="band"><img src="assets/img/nagoyastation-sakuradoria.jpg" alt="Nagoya Station's JR Takashimaya building and main entrance canopy, on the Sakura-dori side." width="1600" height="1200" loading="lazy"><figcaption>Nagoya Station, Sakura-dori side (main entrance)</figcaption></figure>
     <figure class="band"><img src="assets/img/nagoyastation-taikoa.jpg" alt="Tourist information center at Nagoya Station's Taikodori Exit, with a Shinkansen train visible on the elevated platform behind." width="1600" height="1200" loading="lazy"><figcaption>Taikodori Exit tourist information center</figcaption></figure>
