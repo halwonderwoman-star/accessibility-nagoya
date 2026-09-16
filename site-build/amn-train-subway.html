@@ -421,6 +421,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .pshow-track figure{flex:0 0 100%;scroll-snap-align:start;margin:0;}
 .amn .pshow-track img{display:block;width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;}
 .amn .pshow-track figcaption{padding:10px 14px 12px;font-size:12.5px;line-height:1.55;color:var(--ink-2);border-top:1.5px solid var(--line);}
+.amn .photogrp{display:grid;gap:0;}
 .amn .catbody .ph,.amn .catbody img{display:block;width:100%;aspect-ratio:3/2;height:auto;object-fit:cover;}
 .amn .catbody .ph{display:grid;place-items:center;align-content:center;gap:8px;text-align:center;padding:16px;
   background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
@@ -469,6 +470,23 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .illust-legend span{display:inline-flex;align-items:center;gap:8px;}
 .amn .illust-legend i{width:14px;height:14px;border-radius:50%;display:inline-block;flex:none;}
 .amn .illust-note{padding:12px 16px 16px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.6;border-top:1.5px solid var(--line);}
+
+/* ---------------------------------------------------------------
+   ZOOM MAP — a dense per-line schematic gets a real pinch/wheel/drag
+   zoom viewer instead of the plain horizontal-scroll .illust, so it
+   doesn't just spill past the screen edge on mobile.
+   --------------------------------------------------------------- */
+.amn .zoommap-shell{border:1.5px solid var(--line);border-left:0;border-right:0;padding:0;}
+.amn .zoommap-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .zoommap{position:relative;overflow:hidden;background:#fff;touch-action:none;aspect-ratio:4/3;}
+.amn .zoommap .zm-stage{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;cursor:grab;}
+.amn .zoommap.dragging .zm-stage{cursor:grabbing;}
+.amn .zoommap img{display:block;max-width:none;-webkit-user-drag:none;user-select:none;}
+.amn .zm-controls{position:absolute;right:10px;bottom:10px;display:flex;flex-direction:column;gap:6px;z-index:2;}
+.amn .zm-controls button{width:38px;height:38px;border-radius:50%;border:0;background:var(--ink);color:#fff;font-size:20px;font-weight:700;line-height:1;display:grid;place-items:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);}
+.amn .zm-controls button:active{transform:scale(.94);}
+.amn .zm-controls .zm-reset{font-size:11px;letter-spacing:.05em;text-transform:uppercase;}
+.amn .zm-pct{position:absolute;left:10px;bottom:10px;background:rgba(17,17,17,.8);color:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;padding:5px 10px;border-radius:999px;pointer-events:none;z-index:2;}
 
 /* ---------------------------------------------------------------
    ZOOM MAP — the whole-station illustration (much denser than a
@@ -673,11 +691,17 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       </div>
       <p class="hint" style="padding:0 0 clamp(16px,4vw,22px)">Two separate diagrams, one per line &mdash; each drawn floor by floor, with the platform on its own sheet below the concourse, so a lift or stairs between floors is never mistaken for a corridor on the same level.</p>
     </div>
-    <div class="illust-shell">
-      <p class="hint">Higashiyama Line (H08) &middot; AI-drawn from the sources cited below, checked against them</p>
-      <div class="illust">
-        <div class="illust-inner">
-          <img alt="Schematic step-free floor plan for the Higashiyama Line at Nagoya Station: B1 gates, with a separate B2 platform plan, and badges for elevators, toilets and coin lockers" src="assets/img/nagoya-subway-higashiyama.svg" loading="lazy">
+    <div class="zoommap-shell" id="subway-h08" aria-labelledby="subway-h08-title">
+      <p class="hint" id="subway-h08-title">Higashiyama Line (H08) &middot; pinch, scroll-wheel, or the buttons to zoom &middot; drag to pan &middot; double-tap to reset</p>
+      <div class="zoommap" style="aspect-ratio:10/7" data-zoommap>
+        <div class="zm-stage" data-zm-stage>
+          <img alt="Schematic step-free floor plan for the Higashiyama Line at Nagoya Station: B1 gates, with a separate B2 platform plan, and badges for elevators, toilets and coin lockers" src="assets/img/nagoya-subway-higashiyama.svg">
+        </div>
+        <div class="zm-pct" data-zm-pct>100%</div>
+        <div class="zm-controls">
+          <button type="button" data-zm-in aria-label="Zoom in">+</button>
+          <button type="button" data-zm-out aria-label="Zoom out">&minus;</button>
+          <button type="button" class="zm-reset" data-zm-reset aria-label="Reset zoom">1:1</button>
         </div>
       </div>
       <div class="illust-legend" aria-label="How to read the illustration">
@@ -689,11 +713,17 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       </div>
       <p class="illust-note">Simplified schematic, not the official floor plan. T1 is two toilets side by side in one shared spot near the North / Central-North gates, not two separate locations. EV.7 is the inside-gates transfer lift toward the Sakura-dori line, shown on both diagrams.</p>
     </div>
-    <div class="illust-shell" style="margin-top:clamp(20px,5vw,28px)">
-      <p class="hint">Sakura-dori Line (S02) &middot; AI-drawn from the sources cited below, checked against them</p>
-      <div class="illust">
-        <div class="illust-inner">
-          <img alt="Schematic step-free floor plan for the Sakura-dori Line at Nagoya Station: B2 gates, with a separate B3 platform plan, and badges for elevators, toilets and coin lockers" src="assets/img/nagoya-subway-sakuradori.svg" loading="lazy">
+    <div class="zoommap-shell" id="subway-s02" aria-labelledby="subway-s02-title" style="margin-top:clamp(20px,5vw,28px)">
+      <p class="hint" id="subway-s02-title">Sakura-dori Line (S02) &middot; pinch, scroll-wheel, or the buttons to zoom &middot; drag to pan &middot; double-tap to reset</p>
+      <div class="zoommap" style="aspect-ratio:10/7" data-zoommap>
+        <div class="zm-stage" data-zm-stage>
+          <img alt="Schematic step-free floor plan for the Sakura-dori Line at Nagoya Station: B2 gates, with a separate B3 platform plan, and badges for elevators, toilets and coin lockers" src="assets/img/nagoya-subway-sakuradori.svg">
+        </div>
+        <div class="zm-pct" data-zm-pct>100%</div>
+        <div class="zm-controls">
+          <button type="button" data-zm-in aria-label="Zoom in">+</button>
+          <button type="button" data-zm-out aria-label="Zoom out">&minus;</button>
+          <button type="button" class="zm-reset" data-zm-reset aria-label="Reset zoom">1:1</button>
         </div>
       </div>
       <div class="illust-legend" aria-label="How to read the illustration">
@@ -733,6 +763,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt><span class="ibadge" style="--bc:var(--subway)">EV.5</span>Sakura-dori East Gate &rarr; platform</dt><dd>Final leg when transferring in from Higashiyama, after EV.6 and EV.7.</dd></div>
           </dl>
         </div>
+      <div class="photogrp">
       <div class="pshow">
         <p class="pshow-hint">Higashiyama Line elevator, Central Gate &middot; swipe for both angles</p>
         <div class="pshow-track">
@@ -740,12 +771,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
           <figure><img src="assets/img/nagoyastation-higashiyama-elevator-centralb.jpg" alt="Elevator to the Higashiyama Line platform at Nagoya Station's central gate, a second angle." width="1600" height="1200" loading="lazy"><figcaption>Central Gate elevator, angle 2</figcaption></figure>
         </div>
       </div>
-      <div class="pshow">
+      <div class="pshow" style="margin-top:14px">
         <p class="pshow-hint">Higashiyama Line elevator, North Gate &middot; swipe for both angles</p>
         <div class="pshow-track">
           <figure><img src="assets/img/nagoyastation-higashiyama-elevator-northa.jpg" alt="Elevator to the Higashiyama Line platform at Nagoya Station's north gate, with wheelchair and priority signage." width="1600" height="1200" loading="lazy"><figcaption>North Gate elevator, angle 1</figcaption></figure>
           <figure><img src="assets/img/nagoyastation-higashiyama-elevator-northb.jpg" alt="Elevator to the Higashiyama Line platform at Nagoya Station's north gate, a second angle." width="1600" height="1200" loading="lazy"><figcaption>North Gate elevator, angle 2</figcaption></figure>
         </div>
+      </div>
       </div>
       </div>
     </section>
@@ -763,7 +795,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
           </dl>
         </div>
       <div class="pshow">
-        <p class="pshow-hint">Corridor to the subway toilets &middot; swipe for both angles</p>
+        <p class="pshow-hint">Corridor to toilet T1, outside the North / Central gates &middot; swipe for both angles</p>
         <div class="pshow-track">
           <figure><img src="assets/img/nagoyastation-subwayentrance-toileta.jpg" alt="Corridor with stained-glass panels leading to the toilets near the subway concourse at Nagoya Station." width="1600" height="1200" loading="lazy"><figcaption>Toilet corridor, angle 1</figcaption></figure>
           <figure><img src="assets/img/nagoyastation-subwayentrance-toiletb.jpg" alt="Corridor with stained-glass panels leading to the toilets near the subway concourse at Nagoya Station, a second angle." width="1600" height="1200" loading="lazy"><figcaption>Toilet corridor, angle 2</figcaption></figure>
@@ -961,6 +993,105 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('amn-in'); io.unobserve(en.target); } });
   },{rootMargin:'0px 0px -8% 0px', threshold:.1});
   items.forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+<script>
+(function(){
+  document.querySelectorAll('[data-zoommap]').forEach(function(root){
+    var stage = root.querySelector('[data-zm-stage]');
+    var pctEl = root.querySelector('[data-zm-pct]');
+    var img = stage.querySelector('img');
+    var MIN=1, MAX=5;
+    var scale=1, tx=0, ty=0, natW=0, natH=0;
+
+    function fit(){
+      natW = img.naturalWidth || img.width;
+      natH = img.naturalHeight || img.height;
+      var box = root.getBoundingClientRect();
+      var s = Math.min(box.width/natW, box.height/natH);
+      MIN = s; scale = s;
+      tx=(box.width-natW*s)/2; ty=(box.height-natH*s)/2;
+      apply();
+    }
+    function clampPan(){
+      var box = root.getBoundingClientRect();
+      var w = natW*scale, h = natH*scale;
+      if(w<=box.width){ tx=(box.width-w)/2; } else { tx=Math.min(0, Math.max(box.width-w, tx)); }
+      if(h<=box.height){ ty=(box.height-h)/2; } else { ty=Math.min(0, Math.max(box.height-h, ty)); }
+    }
+    function apply(){
+      clampPan();
+      stage.style.transform = 'translate('+tx+'px,'+ty+'px) scale('+scale+')';
+      if(pctEl) pctEl.textContent = Math.round(scale/MIN*100)+'%';
+    }
+    function zoomAt(cx, cy, factor){
+      var box = root.getBoundingClientRect();
+      var px = cx-box.left, py = cy-box.top;
+      var newScale = Math.min(MAX, Math.max(MIN, scale*factor));
+      var ratio = newScale/scale;
+      tx = px-(px-tx)*ratio; ty = py-(py-ty)*ratio;
+      scale = newScale;
+      apply();
+    }
+
+    if (img.complete) fit(); else img.addEventListener('load', fit);
+    window.addEventListener('resize', fit);
+
+    root.addEventListener('wheel', function(e){
+      e.preventDefault();
+      zoomAt(e.clientX, e.clientY, e.deltaY<0 ? 1.18 : 1/1.18);
+    }, {passive:false});
+
+    var pts = new Map();
+    var dragging=false, lastX=0, lastY=0, pinchDist=0, pinchScale=1;
+
+    root.addEventListener('pointerdown', function(e){
+      if (e.target.closest('.zm-controls')) return;
+      root.setPointerCapture(e.pointerId);
+      pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+      if (pts.size===1){ dragging=true; lastX=e.clientX; lastY=e.clientY; root.classList.add('dragging'); }
+      if (pts.size===2){
+        dragging=false;
+        var arr=[...pts.values()];
+        pinchDist=Math.hypot(arr[0].x-arr[1].x, arr[0].y-arr[1].y);
+        pinchScale=scale;
+      }
+    });
+    root.addEventListener('pointermove', function(e){
+      if (!pts.has(e.pointerId)) return;
+      pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+      if (pts.size===2){
+        var arr=[...pts.values()];
+        var d=Math.hypot(arr[0].x-arr[1].x, arr[0].y-arr[1].y);
+        var cx=(arr[0].x+arr[1].x)/2, cy=(arr[0].y+arr[1].y)/2;
+        var target=Math.min(MAX, Math.max(MIN, pinchScale*(d/pinchDist)));
+        zoomAt(cx, cy, target/scale);
+      } else if (dragging){
+        var dx=e.clientX-lastX, dy=e.clientY-lastY;
+        lastX=e.clientX; lastY=e.clientY;
+        tx+=dx; ty+=dy; apply();
+      }
+    });
+    function up(e){
+      pts.delete(e.pointerId);
+      if (pts.size<2) pinchDist=0;
+      if (pts.size===0){ dragging=false; root.classList.remove('dragging'); }
+    }
+    root.addEventListener('pointerup', up);
+    root.addEventListener('pointercancel', up);
+    root.addEventListener('pointerleave', function(e){ if(pts.size<=1) up(e); });
+
+    root.addEventListener('dblclick', function(e){
+      if (e.target.closest('.zm-controls')) return;
+      if (scale > MIN*1.05) fit(); else zoomAt(e.clientX, e.clientY, 2.5);
+    });
+
+    var inBtn = root.querySelector('[data-zm-in]'), outBtn = root.querySelector('[data-zm-out]'), resetBtn = root.querySelector('[data-zm-reset]');
+    if (inBtn) inBtn.addEventListener('click', function(){ var b=root.getBoundingClientRect(); zoomAt(b.left+b.width/2, b.top+b.height/2, 1.4); });
+    if (outBtn) outBtn.addEventListener('click', function(){ var b=root.getBoundingClientRect(); zoomAt(b.left+b.width/2, b.top+b.height/2, 1/1.4); });
+    if (resetBtn) resetBtn.addEventListener('click', fit);
+  });
 })();
 </script>
 
