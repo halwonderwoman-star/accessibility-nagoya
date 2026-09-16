@@ -48,12 +48,26 @@
 <polyline points="435,910 190,910" fill="none" stroke="white" stroke-width="55" stroke-linejoin="round"/>
 <polyline points="1110,535 1168,535 1168,477" fill="none" stroke="#9BA098" stroke-width="54" stroke-linejoin="round"/>
 <polyline points="1110,535 1168,535 1168,477" fill="none" stroke="white" stroke-width="52" stroke-linejoin="round"/>
+<polyline points="1110,535 1260,535 1300,575" fill="none" stroke="#9BA098" stroke-width="54" stroke-linejoin="round"/>
+<polyline points="1110,535 1260,535 1300,575" fill="none" stroke="white" stroke-width="52" stroke-linejoin="round"/>
+<polyline points="930,650 1380,650" fill="none" stroke="#9BA098" stroke-width="60" stroke-linejoin="round"/>
+<polyline points="930,650 1380,650" fill="none" stroke="white" stroke-width="58" stroke-linejoin="round"/>
 <polyline points="1080,858 1180,822" fill="none" stroke="#9BA098" stroke-width="54" stroke-linejoin="round"/>
 <polyline points="1080,858 1180,822" fill="none" stroke="white" stroke-width="52" stroke-linejoin="round"/>
 <polyline points="1080,858 1130,912" fill="none" stroke="#9BA098" stroke-width="54" stroke-linejoin="round"/>
 <polyline points="1080,858 1130,912" fill="none" stroke="white" stroke-width="52" stroke-linejoin="round"/>
-<polyline points="1080,990 1160,1063" fill="none" stroke="#9BA098" stroke-width="54" stroke-linejoin="round"/>
-<polyline points="1080,990 1160,1063" fill="none" stroke="white" stroke-width="52" stroke-linejoin="round"/>
+<polyline points="1080,990 1190,990" fill="none" stroke="#9BA098" stroke-width="54" stroke-linejoin="round"/>
+<polyline points="1080,990 1190,990" fill="none" stroke="white" stroke-width="52" stroke-linejoin="round"/>
+<polyline points="930,1135 1045,1135 1045,1200" fill="none" stroke="#9BA098" stroke-width="54" stroke-linejoin="round"/>
+<polyline points="930,1135 1045,1135 1045,1200" fill="none" stroke="white" stroke-width="52" stroke-linejoin="round"/>
+<polyline points="930,288 930,430" fill="none" stroke="#9BA098" stroke-width="68" stroke-linejoin="round"/>
+<polyline points="930,288 930,430" fill="none" stroke="white" stroke-width="66" stroke-linejoin="round"/>
+<polyline points="930,340 1115,340 1115,312" fill="none" stroke="#9BA098" stroke-width="54" stroke-linejoin="round"/>
+<polyline points="930,340 1115,340 1115,312" fill="none" stroke="white" stroke-width="52" stroke-linejoin="round"/>
+<polyline points="840,457 930,457" fill="none" stroke="#9BA098" stroke-width="64" stroke-linejoin="round"/>
+<polyline points="840,457 930,457" fill="none" stroke="white" stroke-width="62" stroke-linejoin="round"/>
+<polyline points="840,661 930,661" fill="none" stroke="#9BA098" stroke-width="64" stroke-linejoin="round"/>
+<polyline points="840,661 930,661" fill="none" stroke="white" stroke-width="62" stroke-linejoin="round"/>
 <rect x="600" y="335" width="240" height="165" rx="6" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
 <rect x="600" y="615" width="240" height="183" rx="6" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
 <rect x="600" y="958" width="240" height="139" rx="6" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
@@ -66,6 +80,17 @@
 <line x1="590" y1="448" x2="610" y2="448" stroke="#171817" stroke-width="3"/>
 <line x1="590" y1="456" x2="610" y2="456" stroke="#171817" stroke-width="3"/>
 <text x="588" y="416" font-size="22" fill="#171817" font-weight="700" text-anchor="end">North Gate</text>
+<rect x="851" y="502" width="207" height="52" rx="0" fill="white" stroke="none" stroke-width="1.5"/>
+<rect x="828" y="427" width="24" height="60" rx="0" fill="white" stroke="none" stroke-width="1.5"/>
+<line x1="830" y1="433" x2="850" y2="433" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="441" x2="850" y2="441" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="449" x2="850" y2="449" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="457" x2="850" y2="457" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="465" x2="850" y2="465" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="473" x2="850" y2="473" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="481" x2="850" y2="481" stroke="#171817" stroke-width="3"/>
+<text x="861" y="525" font-size="22" fill="#171817" font-weight="700" text-anchor="start">North Gate</text>
+<text x="861" y="548" font-size="15" fill="#747872" font-weight="400" text-anchor="start">East side</text>
 <rect x="678" y="603" width="60" height="24" rx="0" fill="white" stroke="none" stroke-width="1.5"/>
 <line x1="684" y1="605" x2="684" y2="625" stroke="#171817" stroke-width="3"/>
 <line x1="692" y1="605" x2="692" y2="625" stroke="#171817" stroke-width="3"/>
@@ -86,6 +111,16 @@
 <line x1="732" y1="788" x2="732" y2="808" stroke="#171817" stroke-width="3"/>
 <text x="733" y="834" font-size="22" fill="#171817" font-weight="700" text-anchor="start">Central Gate</text>
 <text x="733" y="857" font-size="15" fill="#747872" font-weight="400" text-anchor="start">South side</text>
+<rect x="828" y="631" width="24" height="60" rx="0" fill="white" stroke="none" stroke-width="1.5"/>
+<line x1="830" y1="637" x2="850" y2="637" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="645" x2="850" y2="645" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="653" x2="850" y2="653" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="661" x2="850" y2="661" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="669" x2="850" y2="669" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="677" x2="850" y2="677" stroke="#171817" stroke-width="3"/>
+<line x1="830" y1="685" x2="850" y2="685" stroke="#171817" stroke-width="3"/>
+<text x="870" y="708" font-size="22" fill="#171817" font-weight="700" text-anchor="start">Central Gate</text>
+<text x="870" y="731" font-size="15" fill="#747872" font-weight="400" text-anchor="start">East side</text>
 <rect x="828" y="995" width="24" height="60" rx="0" fill="white" stroke="none" stroke-width="1.5"/>
 <line x1="830" y1="1001" x2="850" y2="1001" stroke="#171817" stroke-width="3"/>
 <line x1="830" y1="1009" x2="850" y2="1009" stroke="#171817" stroke-width="3"/>
@@ -121,10 +156,10 @@
 <text x="660" y="462" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
 </g>
 <g><title>Central platform lift: B1 to B2</title>
-<rect x="741" y="641" width="40" height="40" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
-<text x="761" y="666" font-size="14" fill="white" font-weight="700" text-anchor="middle">EV</text>
-<rect x="784" y="649" width="47" height="25" rx="4" fill="white" stroke="#1F5BFF" stroke-width="1.5"/>
-<text x="809.0" y="667" font-size="15" fill="#1F5BFF" font-weight="700" text-anchor="middle">EV.6</text>
+<rect x="708" y="641" width="40" height="40" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="728" y="666" font-size="14" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<rect x="751" y="649" width="47" height="25" rx="4" fill="white" stroke="#1F5BFF" stroke-width="1.5"/>
+<text x="776.0" y="667" font-size="15" fill="#1F5BFF" font-weight="700" text-anchor="middle">EV.6</text>
 </g>
 <g><title>Central platform stairs</title>
 <rect x="741" y="731" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
@@ -170,12 +205,12 @@
 </g>
 <text x="1020" y="398" font-size="17" fill="#8354C8" font-weight="400" text-anchor="start">Accessible toilet</text>
 <text x="1020" y="422" font-size="17" fill="#8354C8" font-weight="400" text-anchor="start">North / Central gates</text>
-<g><title>Locker bank J outside North Gate</title>
-<rect x="936" y="372" width="40" height="40" rx="6" fill="#555C67" stroke="white" stroke-width="2"/>
-<rect x="946" y="383" width="20" height="24" rx="2" fill="none" stroke="white" stroke-width="1.7"/>
-<path d="M951 383v-5h10v5M952 387v15M960 387v15" fill="none" stroke="white" stroke-width="1.5"/>
-<rect x="979" y="380" width="30" height="25" rx="4" fill="white" stroke="#555C67" stroke-width="1.5"/>
-<text x="995.5" y="398" font-size="15" fill="#555C67" font-weight="700" text-anchor="middle">J</text>
+<g><title>Locker bank J outside the east side of North Gate, beside the EV.3 area; user-corrected position</title>
+<rect x="849" y="343" width="40" height="40" rx="6" fill="#555C67" stroke="white" stroke-width="2"/>
+<rect x="859" y="354" width="20" height="24" rx="2" fill="none" stroke="white" stroke-width="1.7"/>
+<path d="M864 354v-5h10v5M865 358v15M873 358v15" fill="none" stroke="white" stroke-width="1.5"/>
+<rect x="892" y="351" width="30" height="25" rx="4" fill="white" stroke="#555C67" stroke-width="1.5"/>
+<text x="908.5" y="369" font-size="15" fill="#555C67" font-weight="700" text-anchor="middle">J</text>
 </g>
 <g><title>Accessible toilet outside South Gate, near Exit 7</title>
 <rect x="1060" y="970" width="40" height="40" rx="6" fill="#8354C8" stroke="white" stroke-width="2"/>
@@ -184,7 +219,7 @@
 <rect x="1103" y="978" width="30" height="25" rx="4" fill="white" stroke="#8354C8" stroke-width="1.5"/>
 <text x="1119.5" y="996" font-size="15" fill="#8354C8" font-weight="700" text-anchor="middle">T2</text>
 </g>
-<text x="1098" y="1038" font-size="16" fill="#8354C8" font-weight="400" text-anchor="start">Toilet / Exit 7</text>
+<text x="1080" y="1045" font-size="16" fill="#8354C8" font-weight="400" text-anchor="start">Toilet / Exit 7</text>
 <g><title>South Gate side, next to stairs</title>
 <rect x="510" y="1030" width="40" height="40" rx="6" fill="#555C67" stroke="white" stroke-width="2"/>
 <rect x="520" y="1041" width="20" height="24" rx="2" fill="none" stroke="white" stroke-width="1.7"/>
@@ -206,7 +241,7 @@
 <rect x="950" y="1123" width="30" height="25" rx="4" fill="white" stroke="#555C67" stroke-width="1.5"/>
 <text x="966.5" y="1141" font-size="15" fill="#555C67" font-weight="700" text-anchor="middle">H</text>
 </g>
-<polyline points="981,921 1188,921 1188,677" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="981,921 1375,921 1375,793" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
 <g><title>Stairs down toward public Sakura-dori connection</title>
 <rect x="975" y="901" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
 <text x="995" y="926" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
@@ -215,23 +250,28 @@
 <rect x="1041" y="901" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
 <text x="1061" y="926" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
 </g>
-<rect x="1053" y="600" width="325" height="128" rx="8" fill="white" stroke="#9BA098" stroke-width="1.5"/>
+<rect x="1053" y="705" width="325" height="88" rx="8" fill="white" stroke="#9BA098" stroke-width="1.5"/>
 <g><title>Stairs from South Gate toward Sakura-dori; on the connecting passage</title>
-<rect x="1061" y="616" width="40" height="40" rx="6" fill="#555C67" stroke="white" stroke-width="2"/>
-<rect x="1071" y="627" width="20" height="24" rx="2" fill="none" stroke="white" stroke-width="1.7"/>
-<path d="M1076 627v-5h10v5M1077 631v15M1085 631v15" fill="none" stroke="white" stroke-width="1.5"/>
-<rect x="1104" y="624" width="30" height="25" rx="4" fill="white" stroke="#555C67" stroke-width="1.5"/>
-<text x="1120.5" y="642" font-size="15" fill="#555C67" font-weight="700" text-anchor="middle">I</text>
+<rect x="1061" y="715" width="40" height="40" rx="6" fill="#555C67" stroke="white" stroke-width="2"/>
+<rect x="1071" y="726" width="20" height="24" rx="2" fill="none" stroke="white" stroke-width="1.7"/>
+<path d="M1076 726v-5h10v5M1077 730v15M1085 730v15" fill="none" stroke="white" stroke-width="1.5"/>
+<rect x="1104" y="723" width="30" height="25" rx="4" fill="white" stroke="#555C67" stroke-width="1.5"/>
+<text x="1120.5" y="741" font-size="15" fill="#555C67" font-weight="700" text-anchor="middle">I</text>
 </g>
-<text x="1150" y="641" font-size="18" fill="#C89400" font-weight="700" text-anchor="start">Sakura-dori link</text>
-<text x="1073" y="678" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Downstairs in the public passage</text>
-<text x="1073" y="702" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Locker bank I is below B1.</text>
+<text x="1150" y="740" font-size="18" fill="#C89400" font-weight="700" text-anchor="start">Sakura-dori link</text>
+<text x="1073" y="768" font-size="15" fill="#747872" font-weight="400" text-anchor="start">Downstairs in the public passage</text>
+<text x="1073" y="788" font-size="15" fill="#747872" font-weight="400" text-anchor="start">Locker bank I is below B1.</text>
 <polyline points="435,318 435,273" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
-<rect x="488" y="272" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
-<text x="506" y="297" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">1</text>
 <rect x="532" y="272" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
 <text x="550" y="297" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">10</text>
-<text x="488" y="337" font-size="17" fill="#747872" font-weight="400" text-anchor="start">Via the north passage</text>
+<text x="532" y="337" font-size="17" fill="#747872" font-weight="400" text-anchor="start">Via the north passage</text>
+<rect x="912" y="254" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
+<text x="930" y="279" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">1</text>
+<text x="976" y="274" font-size="16" fill="#747872" font-weight="400" text-anchor="start">North passage</text>
+<rect x="1097" y="276" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
+<text x="1115" y="301" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">2</text>
+<text x="1146" y="301" font-size="17" fill="#747872" font-weight="700" text-anchor="start">CLOSED</text>
+<line x1="990" y1="312" x2="990" y2="367" stroke="#747872" stroke-width="4"/>
 <rect x="174" y="577" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
 <text x="192" y="602" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">9</text>
 <text x="174" y="642" font-size="17" fill="#747872" font-weight="400" text-anchor="start">JR Station / Gate Walk</text>
@@ -240,23 +280,25 @@
 <text x="174" y="957" font-size="17" fill="#747872" font-weight="400" text-anchor="start">JR Station / Sakuradori side</text>
 <rect x="1172" y="447" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
 <text x="1190" y="472" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">3</text>
-<rect x="1216" y="447" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
-<text x="1234" y="472" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">4</text>
 <text x="1172" y="512" font-size="17" fill="#747872" font-weight="400" text-anchor="start">Dainagoya Building</text>
+<rect x="1282" y="569" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
+<text x="1300" y="594" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">4</text>
+<polyline points="1180,650 1375,650" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1120" y="634" font-size="23" fill="#171817" font-weight="700" text-anchor="start">Unimall</text>
 <rect x="1173" y="799" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
 <text x="1191" y="824" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">5</text>
 <rect x="1120" y="898" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
 <text x="1138" y="923" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">6</text>
 <text x="1200" y="865" font-size="20" fill="#171817" font-weight="700" text-anchor="start">Meichika</text>
 <text x="1200" y="892" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Midland Square</text>
-<rect x="1142" y="1065" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
-<text x="1160" y="1090" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">7</text>
+<rect x="1172" y="972" width="36" height="36" rx="5" fill="white" stroke="#171817" stroke-width="1.5"/>
+<text x="1190" y="997" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">7</text>
 <text x="360" y="767" font-size="19" fill="#747872" font-weight="400" text-anchor="end">Gate Walk</text>
 <polyline points="435,1135 312,1196" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
 <text x="73" y="1176" font-size="20" fill="#E5332A" font-weight="700" text-anchor="start">Meitetsu Line</text>
 <text x="73" y="1204" font-size="20" fill="#FF7A1A" font-weight="700" text-anchor="start">Kintetsu Line</text>
-<polyline points="945,1135 1084,1196" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
-<text x="1110" y="1193" font-size="20" fill="#171817" font-weight="700" text-anchor="start">Sun Road</text>
+<polyline points="1045,1135 1045,1220" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1090" y="1193" font-size="20" fill="#171817" font-weight="700" text-anchor="start">Sun Road</text>
 <rect x="1620" y="354" width="220" height="739" rx="28" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
 <line x1="1598" y1="374" x2="1598" y2="1074" stroke="#C89400" stroke-width="4"/>
 <line x1="1862" y1="374" x2="1862" y2="1074" stroke="#C89400" stroke-width="4"/>
