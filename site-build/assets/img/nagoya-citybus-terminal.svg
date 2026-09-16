@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" lang="en" role="img" aria-labelledby="title desc">
+<title id="title">Nagoya City Bus Terminal</title><desc id="desc">North-up English schematic of Nagoya City Bus Terminal. Boarding bays 1 to 11 surround the terminal bus lane. Bay 12 is not in service. Facilities and transfers are shown schematically.</desc>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 6 L0 12 Z" fill="#171817"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="2000" height="1400" rx="0" fill="#F3F2EE" stroke="none" stroke-width="1.5"/>
+<text x="60" y="78" font-size="17" fill="#6C706B" font-weight="700" text-anchor="start" letter-spacing="2">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="145" font-size="49" fill="#171817" font-weight="700" text-anchor="start">NAGOYA CITY BUS TERMINAL</text>
+<text x="64" y="186" font-size="19" fill="#6C706B" font-weight="400" text-anchor="start">Boarding bays, arrivals, transfer directions, restrooms and coin lockers</text>
+<text x="1730" y="94" font-size="34" fill="#171817" font-weight="700" text-anchor="end">1F / SAKURADORI SIDE</text>
+<line x1="1875" y1="148" x2="1875" y2="102" stroke="#171817" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="1875" y="87" font-size="20" fill="#171817" font-weight="700" text-anchor="middle">N</text>
+<line x1="60" y1="217" x2="1940" y2="217" stroke="#A8AAA5" stroke-width="1"/>
+<rect x="70" y="258" width="1240" height="875" rx="14" fill="#FFFFFF" stroke="#A8AAA5" stroke-width="2"/>
+<text x="105" y="306" font-size="23" fill="#16C2B0" font-weight="700" text-anchor="start">TERMINAL PLAN</text>
+<text x="105" y="335" font-size="16" fill="#6C706B" font-weight="400" text-anchor="start">Bays 1–11 surround the departure loop. Bay 12 is not in service.</text>
+<rect x="335" y="390" width="195" height="250" rx="6" fill="#E8E7E2" stroke="#A8AAA5" stroke-width="1.5"/>
+<rect x="335" y="686" width="195" height="360" rx="6" fill="#E8E7E2" stroke="#A8AAA5" stroke-width="1.5"/>
+<text x="432" y="835" font-size="18" fill="#6C706B" font-weight="700" text-anchor="middle">JR GATE TOWER</text>
+<text x="432" y="858" font-size="18" fill="#6C706B" font-weight="700" text-anchor="middle">B1 lift / station access</text>
+<rect x="1075" y="690" width="190" height="356" rx="6" fill="#E8E7E2" stroke="#A8AAA5" stroke-width="1.5"/>
+<text x="1170" y="840" font-size="22" fill="#6C706B" font-weight="700" text-anchor="middle">JP TOWER</text>
+<text x="1170" y="865" font-size="22" fill="#6C706B" font-weight="700" text-anchor="middle">KITTE Nagoya</text>
+<rect x="550" y="350" width="520" height="540" rx="9" fill="#FFFDF8" stroke="#A8AAA5" stroke-width="2"/>
+<rect x="680" y="510" width="250" height="225" rx="6" fill="#D6D7D2" stroke="#A8AAA5" stroke-width="1.5"/>
+<text x="805" y="603" font-size="18" fill="#6C706B" font-weight="700" text-anchor="middle">BUS-ONLY</text>
+<text x="805" y="626" font-size="18" fill="#6C706B" font-weight="700" text-anchor="middle">MANEUVERING LANE</text>
+<text x="810" y="388" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle">NORTH WALKWAY</text>
+<text x="588" y="613" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle" transform="rotate(-90 588 613)">ARRIVALS</text>
+<text x="810" y="852" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle">DEPARTURE WALKWAY</text>
+<text x="1034" y="613" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle" transform="rotate(-90 1034 613)">EAST WALKWAY</text>
+<rect x="530" y="692" width="20" height="156" rx="4" fill="#FFFDF8" stroke="#A8AAA5" stroke-width="1.2"/>
+<line x1="530" y1="760" x2="550" y2="760" stroke="#16C2B0" stroke-width="5"/>
+<text x="540" y="905" font-size="15" fill="#12B85A" font-weight="700" text-anchor="middle">Walk to JR Station / Gate Tower</text>
+<line x1="660" y1="890" x2="660" y2="914" stroke="#16C2B0" stroke-width="5"/>
+<line x1="840" y1="890" x2="840" y2="914" stroke="#16C2B0" stroke-width="5"/>
+<text x="750" y="944" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle">Gate Tower entrances</text>
+<line x1="1070" y1="495" x2="1090" y2="495" stroke="#16C2B0" stroke-width="5"/>
+<text x="1104" y="501" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">KITTE north entrance</text>
+<line x1="1070" y1="614" x2="1090" y2="614" stroke="#16C2B0" stroke-width="5"/>
+<text x="1104" y="620" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">KITTE middle entrance</text>
+<line x1="1070" y1="748" x2="1090" y2="748" stroke="#16C2B0" stroke-width="5"/>
+<text x="1104" y="754" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">KITTE south entrance</text>
+<text x="810" y="427" font-size="18" fill="#6C706B" font-weight="700" text-anchor="middle">BOARDING BAYS</text>
+<rect x="655" y="443" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="680" y="474" font-size="25" fill="white" font-weight="700" text-anchor="middle">11</text>
+<rect x="720" y="443" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="745" y="474" font-size="25" fill="white" font-weight="700" text-anchor="middle">10</text>
+<rect x="785" y="443" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="810" y="474" font-size="25" fill="white" font-weight="700" text-anchor="middle">9</text>
+<rect x="850" y="443" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="875" y="474" font-size="25" fill="white" font-weight="700" text-anchor="middle">8</text>
+<rect x="915" y="443" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="940" y="474" font-size="25" fill="white" font-weight="700" text-anchor="middle">7</text>
+<rect x="975" y="523" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="1000" y="554" font-size="25" fill="white" font-weight="700" text-anchor="middle">6</text>
+<rect x="655" y="773" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="680" y="804" font-size="25" fill="white" font-weight="700" text-anchor="middle">1</text>
+<rect x="720" y="773" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="745" y="804" font-size="25" fill="white" font-weight="700" text-anchor="middle">2</text>
+<rect x="785" y="773" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="810" y="804" font-size="25" fill="white" font-weight="700" text-anchor="middle">3</text>
+<rect x="850" y="773" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="875" y="804" font-size="25" fill="white" font-weight="700" text-anchor="middle">4</text>
+<rect x="915" y="773" width="50" height="44" rx="8" fill="#16C2B0" stroke="white" stroke-width="2"/>
+<text x="940" y="804" font-size="25" fill="white" font-weight="700" text-anchor="middle">5</text>
+<rect x="586" y="646" width="38" height="38" rx="7" fill="#8354C8" stroke="white" stroke-width="2"/>
+<text x="605" y="670" font-size="13" fill="white" font-weight="700" text-anchor="middle">WC</text>
+<text x="605" y="694" font-size="12" fill="#8354C8" font-weight="700" text-anchor="middle">Accessible</text>
+<rect x="586" y="711" width="38" height="38" rx="7" fill="#555C67" stroke="white" stroke-width="2"/>
+<text x="605" y="735" font-size="13" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="605" y="757" font-size="12" fill="#555C67" font-weight="700" text-anchor="middle">Lockers · 89</text>
+<rect x="1006" y="816" width="38" height="38" rx="7" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1025" y="840" font-size="13" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="92" y="377" font-size="18" fill="#12B85A" font-weight="700" text-anchor="start">JR LINES / SHINKANSEN</text>
+<text x="92" y="401" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Via JR Central Towers</text>
+<text x="92" y="424" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">and JR Station</text>
+<polyline points="335,438 92,438" fill="none" stroke="#171817" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="92" y="472" font-size="17" fill="#C89400" font-weight="700" text-anchor="start">SUBWAY SAKURADORI LINE</text>
+<polyline points="335,490 92,490" fill="none" stroke="#171817" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="92" y="524" font-size="17" fill="#0FC3E4" font-weight="700" text-anchor="start">AONAMI LINE</text>
+<polyline points="335,542 92,542" fill="none" stroke="#171817" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="335,994 92,994" fill="none" stroke="#171817" stroke-width="2.6" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="92" y="971" font-size="17" fill="#E5332A" font-weight="700" text-anchor="start">MEITETSU / KINTETSU</text>
+<text x="92" y="1018" font-size="15" fill="#C89400" font-weight="700" text-anchor="start">Subway Higashiyama Line</text>
+<rect x="570" y="1064" width="220" height="52" rx="6" fill="#FFFDF8" stroke="#A8AAA5" stroke-width="1"/>
+<rect x="581" y="1071" width="38" height="38" rx="7" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="600" y="1095" font-size="13" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="630" y="1085" font-size="15" fill="#C89400" font-weight="700" text-anchor="start">Subway Exit 9</text>
+<text x="630" y="1104" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Gate Tower B1 lift</text>
+<rect x="810" y="1064" width="220" height="52" rx="6" fill="#FFFDF8" stroke="#A8AAA5" stroke-width="1"/>
+<text x="830" y="1085" font-size="15" fill="#C89400" font-weight="700" text-anchor="start">Subway Exit 10</text>
+<text x="830" y="1104" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">via KITTE Nagoya</text>
+<rect x="1350" y="258" width="580" height="875" rx="12" fill="#FFFFFF" stroke="#A8AAA5" stroke-width="1.5"/>
+<text x="1385" y="312" font-size="25" fill="#16C2B0" font-weight="700" text-anchor="start">BAY GUIDE</text>
+<text x="1385" y="341" font-size="16" fill="#6C706B" font-weight="400" text-anchor="start">Route patterns change — check the departure display.</text>
+<rect x="1385" y="370" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="397" font-size="21" fill="white" font-weight="700" text-anchor="middle">1</text>
+<text x="1450" y="391" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Meieki 25 / 29</text>
+<text x="1450" y="411" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Local terminal loop</text>
+<rect x="1385" y="428" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="455" font-size="21" fill="white" font-weight="700" text-anchor="middle">2</text>
+<text x="1450" y="449" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Meieki 22–24</text>
+<text x="1450" y="469" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Nakamura Ward / Iwatsuka</text>
+<rect x="1385" y="486" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="513" font-size="21" fill="white" font-weight="700" text-anchor="middle">3</text>
+<text x="1450" y="507" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Meieki 17–19</text>
+<text x="1450" y="527" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Fukiage / Nagoya University</text>
+<rect x="1385" y="544" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="571" font-size="21" fill="white" font-weight="700" text-anchor="middle">4</text>
+<text x="1450" y="565" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Kan-Meieki 2 / Meieki 20</text>
+<text x="1450" y="585" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Sasashima / Tokai-dori</text>
+<rect x="1385" y="602" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="629" font-size="21" fill="white" font-weight="700" text-anchor="middle">5</text>
+<text x="1450" y="623" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Meieki 11 / 26</text>
+<text x="1450" y="643" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Nishi area / Hirata</text>
+<rect x="1385" y="660" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="687" font-size="21" fill="white" font-weight="700" text-anchor="middle">6</text>
+<text x="1450" y="681" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Meieki 13</text>
+<text x="1450" y="701" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Kamiida / Nakagiri</text>
+<rect x="1385" y="718" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="745" font-size="21" fill="white" font-weight="700" text-anchor="middle">7</text>
+<text x="1450" y="739" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Meieki 12 / 15</text>
+<text x="1450" y="759" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Nishi Ward / Kurokawa</text>
+<rect x="1385" y="776" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="803" font-size="21" fill="white" font-weight="700" text-anchor="middle">8</text>
+<text x="1450" y="797" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Kan-Meieki 1 / Meieki 12</text>
+<text x="1450" y="817" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Via Gate Tower side</text>
+<rect x="1385" y="834" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="861" font-size="21" fill="white" font-weight="700" text-anchor="middle">9</text>
+<text x="1450" y="855" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Meieki 15 / C-758</text>
+<text x="1450" y="875" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Central-city routes</text>
+<rect x="1385" y="892" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="919" font-size="21" fill="white" font-weight="700" text-anchor="middle">10</text>
+<text x="1450" y="913" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Kikan 2</text>
+<text x="1450" y="933" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">North-east routes</text>
+<rect x="1385" y="950" width="44" height="40" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="1407" y="977" font-size="21" fill="white" font-weight="700" text-anchor="middle">11</text>
+<text x="1450" y="971" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Me~guru</text>
+<text x="1450" y="991" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Sightseeing loop</text>
+<rect x="1385" y="1008" width="44" height="40" rx="7" fill="#E6E7E2" stroke="#A8AAA5" stroke-width="1.5"/>
+<text x="1407" y="1035" font-size="21" fill="#6C706B" font-weight="700" text-anchor="middle">12</text>
+<text x="1450" y="1029" font-size="17" fill="#6C706B" font-weight="700" text-anchor="start">Not in service</text>
+<text x="1450" y="1049" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">No departure bay</text>
+<line x1="1385" y1="1090" x2="1895" y2="1090" stroke="#A8AAA5" stroke-width="1"/>
+<text x="1385" y="1120" font-size="15" fill="#6C706B" font-weight="400" text-anchor="start">Terminal is north of Higashiyama Line Nagoya Station.</text>
+<line x1="60" y1="1185" x2="1940" y2="1185" stroke="#A8AAA5" stroke-width="1"/>
+<rect x="71" y="1223" width="38" height="38" rx="7" fill="#8354C8" stroke="white" stroke-width="2"/>
+<text x="90" y="1247" font-size="13" fill="white" font-weight="700" text-anchor="middle">WC</text>
+<text x="122" y="1249" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Accessible toilet</text>
+<rect x="346" y="1223" width="38" height="38" rx="7" fill="#555C67" stroke="white" stroke-width="2"/>
+<text x="365" y="1247" font-size="13" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="397" y="1249" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Coin lockers</text>
+<rect x="586" y="1223" width="38" height="38" rx="7" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="605" y="1247" font-size="13" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="637" y="1249" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Elevator</text>
+<rect x="786" y="1223" width="38" height="38" rx="7" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="805" y="1247" font-size="13" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="837" y="1249" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Escalator</text>
+<rect x="960" y="1220" width="43" height="39" rx="7" fill="#16C2B0" stroke="white" stroke-width="1.5"/>
+<text x="981" y="1247" font-size="22" fill="white" font-weight="700" text-anchor="middle">1</text>
+<text x="1015" y="1249" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Boarding bay</text>
+<rect x="1235" y="1223" width="31" height="31" rx="2" fill="#FFFDF8" stroke="#A8AAA5" stroke-width="1"/>
+<text x="1280" y="1249" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Pedestrian area</text>
+<rect x="1510" y="1223" width="31" height="31" rx="2" fill="#D6D7D2" stroke="none" stroke-width="1"/>
+<text x="1555" y="1249" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Bus-only lane</text>
+<text x="65" y="1320" font-size="16" fill="#6C706B" font-weight="400" text-anchor="start">North up • Schematic / not to scale • Facility positions are approximate</text>
+<text x="1935" y="1320" font-size="14" fill="#6C706B" font-weight="700" text-anchor="end">ACCESSIBILITY MAP NAGOYA</text>
+<text x="65" y="1351" font-size="14" fill="#8354C8" font-weight="700" text-anchor="start">All toilets shown are wheelchair-accessible.</text>
+</g></svg>

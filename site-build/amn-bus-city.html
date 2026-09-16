@@ -476,6 +476,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .zm-controls button:active{transform:scale(.94);}
 .amn .zm-controls .zm-reset{font-size:11px;letter-spacing:.05em;text-transform:uppercase;}
 .amn .zm-pct{position:absolute;left:10px;bottom:10px;background:rgba(17,17,17,.8);color:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;padding:5px 10px;border-radius:999px;pointer-events:none;z-index:2;}
+@media (min-width:820px){.amn .zoommap-shell{max-width:1100px;margin:0 auto;border-left:1.5px solid var(--line);border-right:1.5px solid var(--line);border-radius:12px;overflow:hidden;}}
 
 /* ---------------------------------------------------------------
    6. MAP  [MAP] — pins are <button>s positioned in % of the map box
@@ -660,19 +661,27 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <h2 id="illust-title">Where the letters are</h2>
         <div class="meta"><span class="label">Schematic</span><b>Not to scale</b></div>
       </div>
-      <div class="illust-shell">
-        <p class="hint">AI-drawn from the sources cited below, checked against them &middot; badge letters match the categories below</p>
-        <div class="illust">
-          <div class="illust-inner">
-          <img alt="Schematic step-free floor plan for the City Bus terminal, with lettered badges matching the Elevator and Accessible toilet categories below" src="assets/img/bbd7a330a8a8270f.png" width="2000" height="1400" loading="lazy">
-        </div>
+      <div class="zoommap-shell" id="citybus-map" aria-labelledby="citybus-map-title">
+        <p class="hint" id="citybus-map-title">1F, Sakuradori side &middot; north up &middot; pinch, scroll-wheel, or the buttons to zoom &middot; drag to pan</p>
+        <div class="zoommap" style="aspect-ratio:10/7" data-zoommap>
+          <div class="zm-stage" data-zm-stage>
+            <img alt="Nagoya City Bus Terminal schematic: boarding bays 11-7 on the north side, 6 on the east side and 1-5 on the south side around the bus-only maneuvering lane; bay 12 is not in service. An elevator and escalator are on the JR Gate Tower side, with an accessible toilet and coin lockers in the arrivals area; KITTE Nagoya entrances are on the east side." src="assets/img/nagoya-citybus-terminal.svg" width="2000" height="1400" loading="lazy">
+          </div>
+          <div class="zm-pct" data-zm-pct>100%</div>
+          <div class="zm-controls">
+            <button type="button" data-zm-in aria-label="Zoom in">+</button>
+            <button type="button" data-zm-out aria-label="Zoom out">&minus;</button>
+            <button type="button" class="zm-reset" data-zm-reset aria-label="Reset zoom">1:1</button>
+          </div>
         </div>
         <div class="illust-legend" aria-label="How to read the illustration">
           <span><i style="background:var(--bus)"></i>Boarding bay</span>
-          <span><i style="background:var(--toilet)"></i>Accessible toilet</span>
+          <span><i style="background:#8354C8"></i>Accessible toilet</span>
           <span><i style="background:#1F5BFF"></i>Elevator</span>
+          <span><i style="background:#4D6865"></i>Escalator</span>
+          <span><i style="background:#555C67"></i>Coin lockers</span>
         </div>
-        <p class="illust-note">Redrawn from the city&rsquo;s current stop map and its official written accessibility directions. Facility positions are simplified location markers, not a measured plan.</p>
+        <p class="illust-note">Redrawn from the city&rsquo;s current stop map and its official written accessibility directions, matched to an on-site reference. Facility positions are simplified location markers, not a measured plan. Checked 16 September 2026.</p>
       </div>
     </div>
   </section>
@@ -690,26 +699,25 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <!-- ===================== A / B / C CATEGORIES ===================== -->
     <div class="cats">
     <section class="cat" style="--c:var(--bus-city)" id="cat-a" aria-labelledby="h-a">
-      <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">Two, at the edges</span></h3>
+      <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">One lift</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">There is <b>no lift inside the boarding loop itself</b> &mdash; the two nearest lifts are at the concourse&rsquo;s two connections: <b>JR Gate Tower</b> to the south, and <b>KITTE</b> to the east.</p>
+          <p class="lead">There is <b>no lift inside the boarding loop itself</b>. The one confirmed lift is on the <b>JR Gate Tower</b> side, at Subway Exit 9; the terminal&rsquo;s <b>KITTE</b> side (Subway Exit 10) has an escalator but no elevator marked on the station&rsquo;s own diagram.</p>
           <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--bus-city)">A</span>JR Gate Tower, south side</dt><dd>Down to B1F, next to the arrivals / drop-off concourse.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--bus-city)">B</span>KITTE 1F</dt><dd>East side. Enter here for bays 1&ndash;6.</dd></div>
-            <div><dt>Also nearby</dt><dd>A further lift continues down to the <b>Higashiyama Line</b> via B1 / GateWalk &mdash; a subway connection, not part of the bus terminal itself.</dd></div>
+            <div><dt>JR Gate Tower, south side</dt><dd>Down to B1F, next to the arrivals / drop-off concourse &mdash; also the route toward the Higashiyama Line subway.</dd></div>
+            <div><dt>Gate Tower 2F escalator</dt><dd>Connects the arrivals concourse up to Gate Tower 2F &mdash; an escalator, not a lift.</dd></div>
+            <div><dt>KITTE side</dt><dd>Subway Exit 10, via KITTE Nagoya &mdash; no elevator is marked here on the city&rsquo;s diagram.</dd></div>
           </dl>
         </div>
       </div>
     </section>
     <section class="cat light" style="--c:var(--toilet)" id="cat-b" aria-labelledby="h-b">
-      <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">Two locations</span></h3>
+      <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">One location</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">One accessible toilet at each end of the concourse.</p>
+          <p class="lead">One accessible toilet, in the arrivals concourse on the Gate Tower side.</p>
           <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">A</span>South arrival concourse, west end</dt><dd>Confirmed by the city&rsquo;s official written accessibility guide.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">B</span>KITTE side, north of bays 1&ndash;6</dt><dd>By the JP Tower / KITTE Nagoya entrance.</dd></div>
+            <div><dt>Arrivals concourse, west end</dt><dd>Confirmed by the city&rsquo;s official written accessibility guide, next to the coin lockers.</dd></div>
           </dl>
         </div>
       <div class="pshow">
@@ -733,7 +741,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt>For the subway</dt><dd>Higashiyama Line, via B1 / GateWalk.</dd></div>
             <div><dt>For the Aonami Line</dt><dd>Via the JR concourse, Taikodori side.</dd></div>
             <div><dt>Not on this map</dt><dd>Curbside stops 21/22 and the Taikodori-side stops 33/34 sit outside this main loop concourse.</dd></div>
-            <div><dt>Coin lockers</dt><dd>Yes &mdash; inside the terminal, south side: 89 lockers (small &times;32, medium &times;15, large &times;26/8, extra-large &times;8), cash or IC card. Two more banks are just outside, on the Sakuradori side near Dotour and inside Takashimaya 1F.</dd></div>
+            <div><dt>Coin lockers</dt><dd>Yes &mdash; 89 lockers in the arrivals concourse (small &times;32, medium &times;15, large &times;26/8, extra-large &times;8), cash or IC card, next to the accessible toilet. Two more banks are just outside, on the Sakuradori side near Dotour and inside Takashimaya 1F.</dd></div>
           </dl>
         </div>
               <figure><img src="assets/img/nagoya-citybus-exit.jpg" alt="Sign for the City Bus Terminal at Nagoya Station, at the entrance from the JR Gate Tower concourse." width="1448" height="1086" loading="lazy"><figcaption>City Bus Terminal entrance</figcaption></figure>
@@ -743,10 +751,10 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Boarding</span><span class="tag">Bays 1&ndash;11</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">Eleven numbered boarding bays around one loop, following the current (28 March 2026) official stop map.</p>
+          <p class="lead">Eleven numbered boarding bays around one loop: <b>11&ndash;7</b> along the north side, <b>6</b> on the east side, and <b>1&ndash;5</b> along the south side.</p>
           <dl>
             <div><dt>Bay 11</dt><dd>Also serves the <b>Me~guru</b> sightseeing loop bus.</dd></div>
-            <div><dt>Older numbering</dt><dd>Older written guidance mentions a bay 12; it is not used on the current map.</dd></div>
+            <div><dt>Bay 12</dt><dd>Not in service &mdash; no departure bay.</dd></div>
           </dl>
         </div>
       </div>
@@ -889,6 +897,105 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('amn-in'); io.unobserve(en.target); } });
   },{rootMargin:'0px 0px -8% 0px', threshold:.1});
   items.forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+<script>
+(function(){
+  document.querySelectorAll('[data-zoommap]').forEach(function(root){
+    var stage = root.querySelector('[data-zm-stage]');
+    var pctEl = root.querySelector('[data-zm-pct]');
+    var img = stage.querySelector('img');
+    var MIN=1, MAX=5;
+    var scale=1, tx=0, ty=0, natW=0, natH=0;
+
+    function fit(){
+      natW = img.naturalWidth || img.width;
+      natH = img.naturalHeight || img.height;
+      var box = root.getBoundingClientRect();
+      var s = Math.min(box.width/natW, box.height/natH);
+      MIN = s; scale = s;
+      tx=(box.width-natW*s)/2; ty=(box.height-natH*s)/2;
+      apply();
+    }
+    function clampPan(){
+      var box = root.getBoundingClientRect();
+      var w = natW*scale, h = natH*scale;
+      if(w<=box.width){ tx=(box.width-w)/2; } else { tx=Math.min(0, Math.max(box.width-w, tx)); }
+      if(h<=box.height){ ty=(box.height-h)/2; } else { ty=Math.min(0, Math.max(box.height-h, ty)); }
+    }
+    function apply(){
+      clampPan();
+      stage.style.transform = 'translate('+tx+'px,'+ty+'px) scale('+scale+')';
+      if(pctEl) pctEl.textContent = Math.round(scale/MIN*100)+'%';
+    }
+    function zoomAt(cx, cy, factor){
+      var box = root.getBoundingClientRect();
+      var px = cx-box.left, py = cy-box.top;
+      var newScale = Math.min(MAX, Math.max(MIN, scale*factor));
+      var ratio = newScale/scale;
+      tx = px-(px-tx)*ratio; ty = py-(py-ty)*ratio;
+      scale = newScale;
+      apply();
+    }
+
+    if (img.complete) fit(); else img.addEventListener('load', fit);
+    window.addEventListener('resize', fit);
+
+    root.addEventListener('wheel', function(e){
+      e.preventDefault();
+      zoomAt(e.clientX, e.clientY, e.deltaY<0 ? 1.18 : 1/1.18);
+    }, {passive:false});
+
+    var pts = new Map();
+    var dragging=false, lastX=0, lastY=0, pinchDist=0, pinchScale=1;
+
+    root.addEventListener('pointerdown', function(e){
+      if (e.target.closest('.zm-controls')) return;
+      root.setPointerCapture(e.pointerId);
+      pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+      if (pts.size===1){ dragging=true; lastX=e.clientX; lastY=e.clientY; root.classList.add('dragging'); }
+      if (pts.size===2){
+        dragging=false;
+        var arr=[...pts.values()];
+        pinchDist=Math.hypot(arr[0].x-arr[1].x, arr[0].y-arr[1].y);
+        pinchScale=scale;
+      }
+    });
+    root.addEventListener('pointermove', function(e){
+      if (!pts.has(e.pointerId)) return;
+      pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+      if (pts.size===2){
+        var arr=[...pts.values()];
+        var d=Math.hypot(arr[0].x-arr[1].x, arr[0].y-arr[1].y);
+        var cx=(arr[0].x+arr[1].x)/2, cy=(arr[0].y+arr[1].y)/2;
+        var target=Math.min(MAX, Math.max(MIN, pinchScale*(d/pinchDist)));
+        zoomAt(cx, cy, target/scale);
+      } else if (dragging){
+        var dx=e.clientX-lastX, dy=e.clientY-lastY;
+        lastX=e.clientX; lastY=e.clientY;
+        tx+=dx; ty+=dy; apply();
+      }
+    });
+    function up(e){
+      pts.delete(e.pointerId);
+      if (pts.size<2) pinchDist=0;
+      if (pts.size===0){ dragging=false; root.classList.remove('dragging'); }
+    }
+    root.addEventListener('pointerup', up);
+    root.addEventListener('pointercancel', up);
+    root.addEventListener('pointerleave', function(e){ if(pts.size<=1) up(e); });
+
+    root.addEventListener('dblclick', function(e){
+      if (e.target.closest('.zm-controls')) return;
+      if (scale > MIN*1.05) fit(); else zoomAt(e.clientX, e.clientY, 2.5);
+    });
+
+    var inBtn = root.querySelector('[data-zm-in]'), outBtn = root.querySelector('[data-zm-out]'), resetBtn = root.querySelector('[data-zm-reset]');
+    if (inBtn) inBtn.addEventListener('click', function(){ var b=root.getBoundingClientRect(); zoomAt(b.left+b.width/2, b.top+b.height/2, 1.4); });
+    if (outBtn) outBtn.addEventListener('click', function(){ var b=root.getBoundingClientRect(); zoomAt(b.left+b.width/2, b.top+b.height/2, 1/1.4); });
+    if (resetBtn) resetBtn.addEventListener('click', fit);
+  });
 })();
 </script>
 
