@@ -486,6 +486,9 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .zm-controls button:active{transform:scale(.94);}
 .amn .zm-controls .zm-reset{font-size:11px;letter-spacing:.05em;text-transform:uppercase;}
 .amn .zm-pct{position:absolute;left:10px;bottom:10px;background:rgba(17,17,17,.8);color:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;padding:5px 10px;border-radius:999px;pointer-events:none;z-index:2;}
+@media (min-width:820px){
+  .amn .zoommap-shell{max-width:1100px;margin:0 auto;border-left:1.5px solid var(--line);border-right:1.5px solid var(--line);border-radius:12px;overflow:hidden;}
+}
 
 /* ---------------------------------------------------------------
    6. MAP  [MAP] — pins are <button>s positioned in % of the map box
@@ -677,21 +680,26 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <h2 id="illust-title">Where the letters are</h2>
         <div class="meta"><span class="label">Schematic</span><b>Not to scale</b></div>
       </div>
-      <div class="illust-shell">
-        <p class="hint">AI-drawn from the sources cited below, checked against them &middot; badge letters match the categories below</p>
-        <div class="illust">
-          <div class="illust-inner">
-          <img alt="Schematic step-free floor plan for JR lines, with lettered badges matching the Elevator and Accessible toilet categories below" src="assets/img/bfb8e8928dabd5fa.png" width="1586" height="992" loading="lazy">
-          <div class="illust-ring" style="left:4%;top:39.6%;width:90.5%;height:6.3%"></div>
-          <div class="illust-flag" style="left:71%;top:42.7%">No escalator</div>
-        </div>
+      <div class="zoommap-shell" id="jr-conventional-map" aria-labelledby="jr-conventional-map-title">
+        <p class="hint" id="jr-conventional-map-title">Pinch, scroll-wheel, or the buttons to zoom &middot; drag to pan &middot; double-tap to reset</p>
+        <div class="zoommap" style="aspect-ratio:10/7" data-zoommap>
+          <div class="zm-stage" data-zm-stage>
+            <img alt="Schematic step-free floor plan for JR conventional lines at Nagoya Station, with badges for elevators, toilets and coin lockers" src="assets/img/nagoya-jr-conventional.svg">
+          </div>
+          <div class="zm-pct" data-zm-pct>100%</div>
+          <div class="zm-controls">
+            <button type="button" data-zm-in aria-label="Zoom in">+</button>
+            <button type="button" data-zm-out aria-label="Zoom out">&minus;</button>
+            <button type="button" class="zm-reset" data-zm-reset aria-label="Reset zoom">1:1</button>
+          </div>
         </div>
         <div class="illust-legend" aria-label="How to read the illustration">
-          <span><i style="background:var(--jr)"></i>Elevator A&ndash;F</span>
-          <span><i style="background:var(--toilet)"></i>Accessible toilet A&ndash;C</span>
-          <span><i style="background:#B4001F"></i>No escalator</span>
+          <span><i style="background:#1F5BFF"></i>Elevator</span>
+          <span><i style="background:#8354C8"></i>Toilet, outside gates</span>
+          <span><i style="background:#FF66C4"></i>Toilet, inside gates</span>
+          <span><i style="background:#555C67"></i>Coin lockers</span>
         </div>
-        <p class="illust-note">Simplified schematic, not the official floor plan &mdash; wall and gate positions are approximate. Toilet B is inside the Shinkansen gates, only reachable from there; see the Shinkansen page. The drawing marks elevators only: platform 12&ndash;13 (Kansai Line, lift F) is the one platform with <b>no escalator at all</b> &mdash; flagged in red below since the illustration can&rsquo;t otherwise show it.</p>
+        <p class="illust-note">Simplified schematic, not the official floor plan &mdash; wall and gate positions are approximate. Platform 12&ndash;13 (Kansai Line) is the one platform with <b class="no">no escalator at all</b>, lift or stairs only. Coin-locker numbers (1&ndash;10) follow the NSK operator&rsquo;s own numbering, separate from this site&rsquo;s A&ndash;F platform letters below.</p>
       </div>
     </div>
   </section>
@@ -726,21 +734,23 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       </div>
     </section>
     <section class="cat light" style="--c:var(--toilet)" id="cat-b" aria-labelledby="h-b">
-      <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">Three locations</span></h3>
+      <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">Eight locations, Shinkansen included</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead"><span class="yes">JR Central lists wheelchair-accessible toilets in three places</span> at this station &mdash; not just one. All three have a baby seat and an ostomate fitting.</p>
+          <p class="lead">The station&rsquo;s own diagram marks <span class="yes">wheelchair-accessible toilets in eight places</span> in and around this station, counting the Shinkansen side &mdash; not just one. All have a baby seat and an ostomate fitting.</p>
           <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">A</span>Inside the JR local-line gates</dt><dd>Wheelchair-accessible, baby seat, ostomate fitting.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">B</span>Inside the Shinkansen gates</dt><dd>Same three fittings &mdash; only reachable if you are already through the Shinkansen barrier. Full detail on the Shinkansen page.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">C</span>Outside all the gates</dt><dd>Same three fittings. No ticket or gate needed.</dd></div>
-            <div><dt>Exact position</dt><dd>Not published in text for any of the three. Illustrated once we have walked it.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--toilet)">A</span>Inside the local-line gates, North Passage</dt><dd>Wheelchair-accessible, baby seat, ostomate fitting.</dd></div>
+            <div><dt>Also inside the local-line gates</dt><dd>A <b>second</b> accessible toilet, on the Central Passage &mdash; the diagram marks both, not just one.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--toilet)">B</span>Inside the Shinkansen gates</dt><dd>Same fittings &mdash; only reachable if you are already through the Shinkansen barrier. Full detail on the Shinkansen page.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--toilet)">C</span>Central Concourse, outside all the gates</dt><dd>Near the Central Exit (Chuo-guchi) &mdash; the one personally checked and photographed below.</dd></div>
+            <div><dt>Also outside the gates</dt><dd>One at the <b>City Bus Terminal</b>, just outside JR; one on the <b>Hirokoji side</b>; and one on <b>Sakura-dori</b> (photographed further down this section).</dd></div>
+            <div><dt>Exact position</dt><dd>Not published in text by JR Central. Positions above come from the station&rsquo;s own diagram, cross-checked against what we found on site.</dd></div>
             <div><dt>Nearby</dt><dd>Lost &amp; Found is on the North Passage.</dd></div>
           </dl>
         </div>
         <figure><img src="assets/img/jr-toilet-sakuradoriexit.jpg" alt="Accessible toilet stall with wheelchair, baby-seat and ostomate pictograms near the Sakura-dori side of Nagoya Station." width="1448" height="1086" loading="lazy"><figcaption>Toilet near the Sakura-dori Exit</figcaption></figure>
       </div>
-      <p style="margin:16px 0 0;font-size:14px;line-height:1.6;color:var(--ink-2)"><b>Personally checked, 16 Sep 2026:</b> two more accessible toilets outside the gates were found on site &mdash; one near the Central Exit (Chuo-guchi) and one on Umaimon Street, near the Taikodori side. Both have the standard wheelchair, baby-seat and ostomate pictograms.</p>
+      <p style="margin:16px 0 0;font-size:14px;line-height:1.6;color:var(--ink-2)"><b>Personally checked, 16 Sep 2026:</b> the Central Exit (Chuo-guchi) and Umaimon Street toilets below were found on site and match the station&rsquo;s own diagram (Central Concourse and Umaimon Street). Both have the standard wheelchair, baby-seat and ostomate pictograms.</p>
       <div class="pshow">
         <p class="pshow-hint">Toilet near the Central Exit (Chuo-guchi) &middot; swipe for both angles</p>
         <div class="pshow-track">
@@ -941,6 +951,105 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('amn-in'); io.unobserve(en.target); } });
   },{rootMargin:'0px 0px -8% 0px', threshold:.1});
   items.forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+<script>
+(function(){
+  document.querySelectorAll('[data-zoommap]').forEach(function(root){
+    var stage = root.querySelector('[data-zm-stage]');
+    var pctEl = root.querySelector('[data-zm-pct]');
+    var img = stage.querySelector('img');
+    var MIN=1, MAX=5;
+    var scale=1, tx=0, ty=0, natW=0, natH=0;
+
+    function fit(){
+      natW = img.naturalWidth || img.width;
+      natH = img.naturalHeight || img.height;
+      var box = root.getBoundingClientRect();
+      var s = Math.min(box.width/natW, box.height/natH);
+      MIN = s; scale = s;
+      tx=(box.width-natW*s)/2; ty=(box.height-natH*s)/2;
+      apply();
+    }
+    function clampPan(){
+      var box = root.getBoundingClientRect();
+      var w = natW*scale, h = natH*scale;
+      if(w<=box.width){ tx=(box.width-w)/2; } else { tx=Math.min(0, Math.max(box.width-w, tx)); }
+      if(h<=box.height){ ty=(box.height-h)/2; } else { ty=Math.min(0, Math.max(box.height-h, ty)); }
+    }
+    function apply(){
+      clampPan();
+      stage.style.transform = 'translate('+tx+'px,'+ty+'px) scale('+scale+')';
+      if(pctEl) pctEl.textContent = Math.round(scale/MIN*100)+'%';
+    }
+    function zoomAt(cx, cy, factor){
+      var box = root.getBoundingClientRect();
+      var px = cx-box.left, py = cy-box.top;
+      var newScale = Math.min(MAX, Math.max(MIN, scale*factor));
+      var ratio = newScale/scale;
+      tx = px-(px-tx)*ratio; ty = py-(py-ty)*ratio;
+      scale = newScale;
+      apply();
+    }
+
+    if (img.complete) fit(); else img.addEventListener('load', fit);
+    window.addEventListener('resize', fit);
+
+    root.addEventListener('wheel', function(e){
+      e.preventDefault();
+      zoomAt(e.clientX, e.clientY, e.deltaY<0 ? 1.18 : 1/1.18);
+    }, {passive:false});
+
+    var pts = new Map();
+    var dragging=false, lastX=0, lastY=0, pinchDist=0, pinchScale=1;
+
+    root.addEventListener('pointerdown', function(e){
+      if (e.target.closest('.zm-controls')) return;
+      root.setPointerCapture(e.pointerId);
+      pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+      if (pts.size===1){ dragging=true; lastX=e.clientX; lastY=e.clientY; root.classList.add('dragging'); }
+      if (pts.size===2){
+        dragging=false;
+        var arr=[...pts.values()];
+        pinchDist=Math.hypot(arr[0].x-arr[1].x, arr[0].y-arr[1].y);
+        pinchScale=scale;
+      }
+    });
+    root.addEventListener('pointermove', function(e){
+      if (!pts.has(e.pointerId)) return;
+      pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+      if (pts.size===2){
+        var arr=[...pts.values()];
+        var d=Math.hypot(arr[0].x-arr[1].x, arr[0].y-arr[1].y);
+        var cx=(arr[0].x+arr[1].x)/2, cy=(arr[0].y+arr[1].y)/2;
+        var target=Math.min(MAX, Math.max(MIN, pinchScale*(d/pinchDist)));
+        zoomAt(cx, cy, target/scale);
+      } else if (dragging){
+        var dx=e.clientX-lastX, dy=e.clientY-lastY;
+        lastX=e.clientX; lastY=e.clientY;
+        tx+=dx; ty+=dy; apply();
+      }
+    });
+    function up(e){
+      pts.delete(e.pointerId);
+      if (pts.size<2) pinchDist=0;
+      if (pts.size===0){ dragging=false; root.classList.remove('dragging'); }
+    }
+    root.addEventListener('pointerup', up);
+    root.addEventListener('pointercancel', up);
+    root.addEventListener('pointerleave', function(e){ if(pts.size<=1) up(e); });
+
+    root.addEventListener('dblclick', function(e){
+      if (e.target.closest('.zm-controls')) return;
+      if (scale > MIN*1.05) fit(); else zoomAt(e.clientX, e.clientY, 2.5);
+    });
+
+    var inBtn = root.querySelector('[data-zm-in]'), outBtn = root.querySelector('[data-zm-out]'), resetBtn = root.querySelector('[data-zm-reset]');
+    if (inBtn) inBtn.addEventListener('click', function(){ var b=root.getBoundingClientRect(); zoomAt(b.left+b.width/2, b.top+b.height/2, 1.4); });
+    if (outBtn) outBtn.addEventListener('click', function(){ var b=root.getBoundingClientRect(); zoomAt(b.left+b.width/2, b.top+b.height/2, 1/1.4); });
+    if (resetBtn) resetBtn.addEventListener('click', fit);
+  });
 })();
 </script>
 

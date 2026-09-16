@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" lang="en" role="img" aria-labelledby="title desc">
+<title id="title">Nagoya Station — Tokaido Shinkansen</title><desc id="desc">Floor-separated north-up schematic with ticket gates, platforms, elevators, accessible toilets and coin lockers. Geometry is simplified.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 5L0 10Z" fill="#171817"/></marker><marker id="bluearrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 5L0 10Z" fill="#1F5BFF"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="2000" height="1400" rx="0" fill="#F3F2EE" stroke="none" stroke-width="1.5"/>
+<text x="60" y="52" font-size="16" fill="#747872" font-weight="700" text-anchor="start" letter-spacing="2">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="119" font-size="48" fill="#171817" font-weight="700" text-anchor="start">NAGOYA STATION</text>
+<text x="1940" y="63" font-size="18" fill="#747872" font-weight="700" text-anchor="end">1F / STREET LEVEL</text>
+<text x="1940" y="115" font-size="41" fill="#12B85A" font-weight="700" text-anchor="end">Tokaido Shinkansen</text>
+<text x="60" y="167" font-size="21" fill="#747872" font-weight="400" text-anchor="start">North Gate for elevators  /  Platforms 14–17 on 2F  /  Toilets &amp; nearby coin lockers</text>
+<line x1="60" y1="198" x2="1940" y2="198" stroke="#9BA098" stroke-width="1.4"/>
+<text x="60" y="244" font-size="27" fill="#171817" font-weight="700" text-anchor="start">1F / CONCOURSES</text>
+<text x="60" y="271" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Two gate areas. Use the North Gate for step-free platform access.</text>
+<text x="1330" y="235" font-size="20" fill="#171817" font-weight="700" text-anchor="middle">N</text>
+<polyline points="1330,288 1330,249" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<line x1="1430" y1="223" x2="1430" y2="1217" stroke="#9BA098" stroke-width="1.4"/>
+<polyline points="266,337 266,1133" fill="none" stroke="#9BA098" stroke-width="112" stroke-linejoin="round"/>
+<polyline points="266,337 266,1133" fill="none" stroke="white" stroke-width="110" stroke-linejoin="round"/>
+<polyline points="266,708 1351,708" fill="none" stroke="#9BA098" stroke-width="194" stroke-linejoin="round"/>
+<polyline points="266,708 1351,708" fill="none" stroke="white" stroke-width="192" stroke-linejoin="round"/>
+<polyline points="266,510 140,510" fill="none" stroke="#9BA098" stroke-width="72" stroke-linejoin="round"/>
+<polyline points="266,510 140,510" fill="none" stroke="white" stroke-width="70" stroke-linejoin="round"/>
+<line x1="211" y1="337" x2="321" y2="337" stroke="#171817" stroke-width="4"/>
+<text x="330" y="343" font-size="15" fill="#747872" font-weight="400" text-anchor="start">Wall</text>
+<rect x="1110" y="438" width="230" height="76" rx="0" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
+<rect x="1110" y="883" width="230" height="76" rx="0" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
+<rect x="430" y="355" width="680" height="257" rx="6" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
+<rect x="430" y="804" width="680" height="258" rx="6" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
+<text x="770" y="390" font-size="21" fill="#747872" font-weight="700" text-anchor="middle">NORTH CONCOURSE</text>
+<text x="610" y="423" font-size="23" fill="#171817" font-weight="700" text-anchor="middle">16 / 17</text>
+<g><title>Platform 16 / 17: EV access</title>
+<rect x="544" y="444" width="40" height="40" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="564" y="469" font-size="14" fill="white" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g><title>Platform 16 / 17: ST access</title>
+<rect x="590" y="444" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="610" y="469" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g><title>Platform 16 / 17: ES access</title>
+<rect x="636" y="444" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="656" y="469" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<text x="900" y="423" font-size="23" fill="#171817" font-weight="700" text-anchor="middle">14 / 15</text>
+<g><title>Platform 14 / 15: EV access</title>
+<rect x="834" y="444" width="40" height="40" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="854" y="469" font-size="14" fill="white" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g><title>Platform 14 / 15: ST access</title>
+<rect x="880" y="444" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="900" y="469" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g><title>Platform 14 / 15: ES access</title>
+<rect x="926" y="444" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="946" y="469" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<rect x="700" y="600" width="60" height="24" rx="0" fill="white" stroke="none" stroke-width="1.5"/>
+<line x1="706" y1="602" x2="706" y2="622" stroke="#171817" stroke-width="3"/>
+<line x1="714" y1="602" x2="714" y2="622" stroke="#171817" stroke-width="3"/>
+<line x1="722" y1="602" x2="722" y2="622" stroke="#171817" stroke-width="3"/>
+<line x1="730" y1="602" x2="730" y2="622" stroke="#171817" stroke-width="3"/>
+<line x1="738" y1="602" x2="738" y2="622" stroke="#171817" stroke-width="3"/>
+<line x1="746" y1="602" x2="746" y2="622" stroke="#171817" stroke-width="3"/>
+<line x1="754" y1="602" x2="754" y2="622" stroke="#171817" stroke-width="3"/>
+<text x="790" y="575" font-size="22" fill="#171817" font-weight="700" text-anchor="start">North Gate</text>
+<text x="790" y="599" font-size="17" fill="#1F5BFF" font-weight="700" text-anchor="start">Elevator access</text>
+<rect x="1098" y="446" width="24" height="60" rx="0" fill="white" stroke="none" stroke-width="1.5"/>
+<line x1="1100" y1="452" x2="1120" y2="452" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="460" x2="1120" y2="460" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="468" x2="1120" y2="468" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="476" x2="1120" y2="476" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="484" x2="1120" y2="484" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="492" x2="1120" y2="492" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="500" x2="1120" y2="500" stroke="#171817" stroke-width="3"/>
+<text x="1138" y="399" font-size="22" fill="#171817" font-weight="700" text-anchor="start">North Transfer Gate</text>
+<text x="1138" y="422" font-size="15" fill="#747872" font-weight="400" text-anchor="start">JR conventional lines · inside gates</text>
+<polyline points="1180,476 1300,476" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<g><title>Accessible toilet</title>
+<rect x="1020" y="377" width="40" height="40" rx="6" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<circle cx="1038" cy="387" r="3.3" fill="white"/>
+<path d="M1038 392v10h10l4 7M1038 397h9M1034 398a8 8 0 1 0 9 12" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1040" y="432" font-size="16" fill="#FF66C4" font-weight="700" text-anchor="middle">Accessible toilet</text>
+<polyline points="730,637 730,542 564,542 564,492" fill="none" stroke="#1F5BFF" stroke-width="3" stroke-linejoin="round" marker-end="url(#bluearrow)" stroke-dasharray="7 5"/>
+<text x="768" y="856" font-size="21" fill="#747872" font-weight="700" text-anchor="middle">SOUTH CONCOURSE</text>
+<text x="610" y="889" font-size="23" fill="#171817" font-weight="700" text-anchor="middle">16 / 17</text>
+<g><title>Platform 16 / 17: ST access</title>
+<rect x="567" y="910" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="587" y="935" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g><title>Platform 16 / 17: ES access</title>
+<rect x="613" y="910" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="633" y="935" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<text x="900" y="889" font-size="23" fill="#171817" font-weight="700" text-anchor="middle">14 / 15</text>
+<g><title>Platform 14 / 15: ST access</title>
+<rect x="857" y="910" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="877" y="935" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g><title>Platform 14 / 15: ES access</title>
+<rect x="903" y="910" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="923" y="935" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<rect x="700" y="792" width="60" height="24" rx="0" fill="white" stroke="none" stroke-width="1.5"/>
+<line x1="706" y1="794" x2="706" y2="814" stroke="#171817" stroke-width="3"/>
+<line x1="714" y1="794" x2="714" y2="814" stroke="#171817" stroke-width="3"/>
+<line x1="722" y1="794" x2="722" y2="814" stroke="#171817" stroke-width="3"/>
+<line x1="730" y1="794" x2="730" y2="814" stroke="#171817" stroke-width="3"/>
+<line x1="738" y1="794" x2="738" y2="814" stroke="#171817" stroke-width="3"/>
+<line x1="746" y1="794" x2="746" y2="814" stroke="#171817" stroke-width="3"/>
+<line x1="754" y1="794" x2="754" y2="814" stroke="#171817" stroke-width="3"/>
+<text x="790" y="833" font-size="22" fill="#171817" font-weight="700" text-anchor="start">South Gate</text>
+<rect x="1098" y="891" width="24" height="60" rx="0" fill="white" stroke="none" stroke-width="1.5"/>
+<line x1="1100" y1="897" x2="1120" y2="897" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="905" x2="1120" y2="905" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="913" x2="1120" y2="913" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="921" x2="1120" y2="921" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="929" x2="1120" y2="929" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="937" x2="1120" y2="937" stroke="#171817" stroke-width="3"/>
+<line x1="1100" y1="945" x2="1120" y2="945" stroke="#171817" stroke-width="3"/>
+<text x="1138" y="844" font-size="22" fill="#171817" font-weight="700" text-anchor="start">South Transfer Gate</text>
+<text x="1138" y="867" font-size="15" fill="#747872" font-weight="400" text-anchor="start">JR conventional lines · inside gates</text>
+<polyline points="1180,921 1300,921" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<g><title>South Concourse</title>
+<rect x="998" y="997" width="40" height="40" rx="6" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<circle cx="1016" cy="1007" r="3.3" fill="white"/>
+<path d="M1016 1012v10h10l4 7M1016 1017h9M1012 1018a8 8 0 1 0 9 12" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1045" y="1093" font-size="16" fill="#FF66C4" font-weight="700" text-anchor="end">South Concourse</text>
+<text x="755" y="981" font-size="18" fill="#747872" font-weight="400" text-anchor="middle">Stairs / escalators to platforms</text>
+<text x="755" y="1021" font-size="18" fill="#1F5BFF" font-weight="700" text-anchor="middle">For elevators, enter via the North Gate.</text>
+<text x="740" y="697" font-size="26" fill="#171817" font-weight="700" text-anchor="middle">CENTRAL CONCOURSE</text>
+<text x="740" y="727" font-size="18" fill="#747872" font-weight="400" text-anchor="middle">Outside gates · East–west public passage</text>
+<circle cx="375" cy="709" r="16" fill="#C9CDCA" stroke="#747872" stroke-width="1.5"/>
+<text x="375" y="682" font-size="16" fill="#171817" font-weight="700" text-anchor="middle">Silver Clock</text>
+<g><title>NSK locker 5: Central Concourse, east of Shinkansen gates</title>
+<rect x="1060" y="646" width="40" height="40" rx="6" fill="#555C67" stroke="white" stroke-width="2"/>
+<rect x="1070" y="657" width="20" height="24" rx="2" fill="none" stroke="white" stroke-width="1.7"/>
+<path d="M1075 657v-5h10v5M1076 661v15M1084 661v15" fill="none" stroke="white" stroke-width="1.5"/>
+<rect x="1103" y="654" width="30" height="25" rx="4" fill="white" stroke="#555C67" stroke-width="1.5"/>
+<text x="1119.5" y="672" font-size="15" fill="#555C67" font-weight="700" text-anchor="middle">5</text>
+</g>
+<g><title>NSK locker 6: Central Concourse south side, east of Shinkansen gates</title>
+<rect x="1170" y="646" width="40" height="40" rx="6" fill="#555C67" stroke="white" stroke-width="2"/>
+<rect x="1180" y="657" width="20" height="24" rx="2" fill="none" stroke="white" stroke-width="1.7"/>
+<path d="M1185 657v-5h10v5M1186 661v15M1194 661v15" fill="none" stroke="white" stroke-width="1.5"/>
+<rect x="1213" y="654" width="30" height="25" rx="4" fill="white" stroke="#555C67" stroke-width="1.5"/>
+<text x="1229.5" y="672" font-size="15" fill="#555C67" font-weight="700" text-anchor="middle">6</text>
+</g>
+<g><title>Public lift to Fashion One B1 and the subway passage</title>
+<rect x="1060" y="734" width="40" height="40" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1080" y="759" font-size="14" fill="white" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<text x="1080" y="791" font-size="15" fill="#1F5BFF" font-weight="400" text-anchor="middle">To B1</text>
+<g><title>Central Concourse</title>
+<rect x="1170" y="734" width="40" height="40" rx="6" fill="#8354C8" stroke="white" stroke-width="2"/>
+<circle cx="1188" cy="744" r="3.3" fill="white"/>
+<path d="M1188 749v10h10l4 7M1188 754h9M1184 755a8 8 0 1 0 9 12" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1222" y="760" font-size="16" fill="#8354C8" font-weight="700" text-anchor="start">Central Concourse</text>
+<text x="1200" y="635" font-size="22" fill="#171817" font-weight="700" text-anchor="start">Sakuradori Exit</text>
+<text x="1400" y="666" font-size="16" fill="#747872" font-weight="400" text-anchor="end">East side</text>
+<polyline points="1255,706 1400,706" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1120" y="573" font-size="20" fill="#C89400" font-weight="700" text-anchor="start">Subway lines via B1</text>
+<polyline points="266,510 140,510 140,365 165,342" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="60" y="297" font-size="22" fill="#16C2B0" font-weight="700" text-anchor="start">JR Highway Bus</text>
+<text x="60" y="322" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Exit west, then head north</text>
+<polyline points="266,707 86,707" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="61" y="631" font-size="22" fill="#171817" font-weight="700" text-anchor="start">Taikodori Exit</text>
+<text x="61" y="656" font-size="16" fill="#747872" font-weight="400" text-anchor="start">WEST / STREET</text>
+<text x="78" y="766" font-size="21" fill="#171817" font-weight="700" text-anchor="start">ESCA</text>
+<text x="78" y="791" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Down to B1</text>
+<g><title>Umaimon Street</title>
+<rect x="246" y="1076" width="40" height="40" rx="6" fill="#8354C8" stroke="white" stroke-width="2"/>
+<circle cx="264" cy="1086" r="3.3" fill="white"/>
+<path d="M264 1091v10h10l4 7M264 1096h9M260 1097a8 8 0 1 0 9 12" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="310" y="1102" font-size="16" fill="#8354C8" font-weight="700" text-anchor="start">Umaimon Street</text>
+<g><title>NSK locker 10: Taikodori Exit / Umaimon Street</title>
+<rect x="246" y="1150" width="40" height="40" rx="6" fill="#555C67" stroke="white" stroke-width="2"/>
+<rect x="256" y="1161" width="20" height="24" rx="2" fill="none" stroke="white" stroke-width="1.7"/>
+<path d="M261 1161v-5h10v5M262 1165v15M270 1165v15" fill="none" stroke="white" stroke-width="1.5"/>
+<rect x="289" y="1158" width="30" height="25" rx="4" fill="white" stroke="#555C67" stroke-width="1.5"/>
+<text x="305.5" y="1176" font-size="15" fill="#555C67" font-weight="700" text-anchor="middle">10</text>
+</g>
+<text x="344" y="1176" font-size="18" fill="#747872" font-weight="400" text-anchor="start">Taikodori-side lockers</text>
+<polyline points="266,1197 266,1220" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="60" y="1142" font-size="22" fill="#0FC3E4" font-weight="700" text-anchor="start">Aonami Line</text>
+<text x="60" y="1167" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Head south</text>
+<text x="1040" y="1139" font-size="18" fill="#171817" font-weight="700" text-anchor="start">More lockers: Sakuradori / Hirokoji</text>
+<text x="1040" y="1168" font-size="17" fill="#747872" font-weight="400" text-anchor="start">Continue east along the public concourse.</text>
+<text x="1040" y="1202" font-size="19" fill="#E5332A" font-weight="700" text-anchor="start">Meitetsu</text>
+<text x="1167" y="1202" font-size="19" fill="#FF7A1A" font-weight="700" text-anchor="start">Kintetsu</text>
+<text x="1286" y="1202" font-size="16" fill="#747872" font-weight="400" text-anchor="start">via east side</text>
+<text x="1470" y="244" font-size="27" fill="#171817" font-weight="700" text-anchor="start">2F / PLATFORMS</text>
+<text x="1470" y="271" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Match platform numbers with the 1F map.</text>
+<text x="1905" y="287" font-size="20" fill="#171817" font-weight="700" text-anchor="middle">N</text>
+<polyline points="1905,340 1905,301" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1510" y="379" width="173" height="595" rx="6" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
+<line x1="1500" y1="392" x2="1500" y2="959" stroke="#12B85A" stroke-width="4"/>
+<line x1="1693" y1="392" x2="1693" y2="959" stroke="#12B85A" stroke-width="4"/>
+<text x="1596" y="420" font-size="29" fill="#171817" font-weight="700" text-anchor="middle">16 / 17</text>
+<g><title>Platforms 16 / 17: lift to North Concourse</title>
+<rect x="1576" y="447" width="40" height="40" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1596" y="472" font-size="14" fill="white" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g><title>Platforms 16 / 17: north stairs</title>
+<rect x="1542" y="508" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1562" y="533" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g><title>Platforms 16 / 17: north escalator</title>
+<rect x="1611" y="508" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1631" y="533" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<text x="1596" y="578" font-size="15" fill="#747872" font-weight="400" text-anchor="middle">North Concourse</text>
+<text x="1596" y="674" font-size="18" fill="#12B85A" font-weight="700" text-anchor="middle">Shin-Osaka</text>
+<text x="1596" y="701" font-size="18" fill="#12B85A" font-weight="700" text-anchor="middle">Hakata direction</text>
+<g><title>Platforms 16 / 17: south stairs</title>
+<rect x="1542" y="817" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1562" y="842" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g><title>Platforms 16 / 17: south escalator</title>
+<rect x="1611" y="817" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1631" y="842" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<text x="1596" y="889" font-size="15" fill="#747872" font-weight="400" text-anchor="middle">South Concourse</text>
+<rect x="1762" y="379" width="173" height="595" rx="6" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
+<line x1="1752" y1="392" x2="1752" y2="959" stroke="#12B85A" stroke-width="4"/>
+<line x1="1945" y1="392" x2="1945" y2="959" stroke="#12B85A" stroke-width="4"/>
+<text x="1848" y="420" font-size="29" fill="#171817" font-weight="700" text-anchor="middle">14 / 15</text>
+<g><title>Platforms 14 / 15: lift to North Concourse</title>
+<rect x="1828" y="447" width="40" height="40" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1848" y="472" font-size="14" fill="white" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<g><title>Platforms 14 / 15: north stairs</title>
+<rect x="1794" y="508" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1814" y="533" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g><title>Platforms 14 / 15: north escalator</title>
+<rect x="1863" y="508" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1883" y="533" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<text x="1848" y="578" font-size="15" fill="#747872" font-weight="400" text-anchor="middle">North Concourse</text>
+<text x="1848" y="674" font-size="18" fill="#12B85A" font-weight="700" text-anchor="middle">Shin-Yokohama</text>
+<text x="1848" y="701" font-size="18" fill="#12B85A" font-weight="700" text-anchor="middle">Tokyo direction</text>
+<g><title>Platforms 14 / 15: south stairs</title>
+<rect x="1794" y="817" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="1814" y="842" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<g><title>Platforms 14 / 15: south escalator</title>
+<rect x="1863" y="817" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1883" y="842" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<text x="1848" y="889" font-size="15" fill="#747872" font-weight="400" text-anchor="middle">South Concourse</text>
+<rect x="1466" y="1030" width="476" height="171" rx="8" fill="#E8EDF8" stroke="none" stroke-width="1.5"/>
+<text x="1486" y="1069" font-size="20" fill="#1F5BFF" font-weight="700" text-anchor="start">STEP-FREE PLATFORM ACCESS</text>
+<text x="1486" y="1110" font-size="19" fill="#1F5BFF" font-weight="400" text-anchor="start">North Gate or North Transfer Gate</text>
+<text x="1486" y="1139" font-size="19" fill="#1F5BFF" font-weight="400" text-anchor="start">→ North Concourse elevators</text>
+<text x="1486" y="1168" font-size="19" fill="#1F5BFF" font-weight="400" text-anchor="start">→ Platforms 14 / 15 or 16 / 17</text>
+<rect x="60" y="1233" width="1880" height="28" rx="4" fill="#E9EAE5" stroke="none" stroke-width="1.5"/>
+<text x="76" y="1253" font-size="18" fill="#171817" font-weight="700" text-anchor="start">The Central Concourse is outside ticket gates. All coin lockers shown on this map are outside the Shinkansen gates.</text>
+<line x1="60" y1="1273" x2="1940" y2="1273" stroke="#9BA098" stroke-width="1.4"/>
+<g><title>EV </title>
+<rect x="60" y="1293" width="40" height="40" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="80" y="1318" font-size="14" fill="white" font-weight="700" text-anchor="middle">EV</text>
+</g>
+<text x="109" y="1319" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Elevator</text>
+<g><title>ES </title>
+<rect x="240" y="1293" width="40" height="40" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="260" y="1318" font-size="14" fill="white" font-weight="700" text-anchor="middle">ES</text>
+</g>
+<text x="289" y="1319" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Escalator</text>
+<g><title>ST </title>
+<rect x="445" y="1293" width="40" height="40" rx="6" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="465" y="1318" font-size="14" fill="white" font-weight="700" text-anchor="middle">ST</text>
+</g>
+<text x="494" y="1319" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Stairs</text>
+<g><title>WC </title>
+<rect x="630" y="1293" width="40" height="40" rx="6" fill="#8354C8" stroke="white" stroke-width="2"/>
+<circle cx="648" cy="1303" r="3.3" fill="white"/>
+<path d="M648 1308v10h10l4 7M648 1313h9M644 1314a8 8 0 1 0 9 12" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="679" y="1319" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Outside gates</text>
+<g><title>WC </title>
+<rect x="880" y="1293" width="40" height="40" rx="6" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<circle cx="898" cy="1303" r="3.3" fill="white"/>
+<path d="M898 1308v10h10l4 7M898 1313h9M894 1314a8 8 0 1 0 9 12" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="929" y="1319" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Inside gates</text>
+<g><title>LK </title>
+<rect x="1110" y="1293" width="40" height="40" rx="6" fill="#555C67" stroke="white" stroke-width="2"/>
+<rect x="1120" y="1304" width="20" height="24" rx="2" fill="none" stroke="white" stroke-width="1.7"/>
+<path d="M1125 1304v-5h10v5M1126 1308v15M1134 1308v15" fill="none" stroke="white" stroke-width="1.5"/>
+</g>
+<text x="1159" y="1319" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Coin lockers</text>
+<rect x="1358" y="1299" width="32" height="28" rx="0" fill="#E4E6DF" stroke="#9BA098" stroke-width="1.5"/>
+<text x="1401" y="1320" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Paid area</text>
+<rect x="1530" y="1299" width="32" height="28" rx="0" fill="white" stroke="#9BA098" stroke-width="1.5"/>
+<text x="1573" y="1320" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Public area</text>
+<text x="1940" y="1320" font-size="16" fill="#747872" font-weight="400" text-anchor="end">North up / Not to scale</text>
+<text x="60" y="1369" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Wheelchair icons = accessible toilets. Locker numbers = official NSK banks. Schematic locations.</text>
+<line x1="1415" y1="1353" x2="1415" y2="1371" stroke="#171817" stroke-width="3"/>
+<line x1="1423" y1="1353" x2="1423" y2="1371" stroke="#171817" stroke-width="3"/>
+<line x1="1431" y1="1353" x2="1431" y2="1371" stroke="#171817" stroke-width="3"/>
+<line x1="1439" y1="1353" x2="1439" y2="1371" stroke="#171817" stroke-width="3"/>
+<line x1="1447" y1="1353" x2="1447" y2="1371" stroke="#171817" stroke-width="3"/>
+<line x1="1455" y1="1353" x2="1455" y2="1371" stroke="#171817" stroke-width="3"/>
+<line x1="1463" y1="1353" x2="1463" y2="1371" stroke="#171817" stroke-width="3"/>
+<text x="1478" y="1369" font-size="16" fill="#747872" font-weight="400" text-anchor="start">Ticket / transfer gates</text>
+</g></svg>
