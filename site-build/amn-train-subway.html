@@ -671,20 +671,39 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <h2 id="illust-title">Where the letters are</h2>
         <div class="meta"><span class="label">Schematic</span><b>Not to scale</b></div>
       </div>
-      <div class="illust-shell">
-        <p class="hint">AI-drawn from the sources cited below, checked against them &middot; badge letters match the categories below</p>
-        <div class="illust">
-          <div class="illust-inner">
-          <img alt="Schematic step-free floor plan for the subway, with lettered badges matching the Elevator and Accessible toilet categories below" src="assets/img/df0ea452d5158865.png" width="1586" height="992" loading="lazy">
+      <p class="hint" style="padding:0 0 clamp(16px,4vw,22px)">Two separate diagrams, one per line &mdash; each drawn floor by floor, with the platform on its own sheet below the concourse, so a lift or stairs between floors is never mistaken for a corridor on the same level.</p>
+    </div>
+    <div class="illust-shell">
+      <p class="hint">Higashiyama Line (H08) &middot; AI-drawn from the sources cited below, checked against them</p>
+      <div class="illust">
+        <div class="illust-inner">
+          <img alt="Schematic step-free floor plan for the Higashiyama Line at Nagoya Station: B1 gates, with a separate B2 platform plan, and badges for elevators, toilets and coin lockers" src="assets/img/nagoya-subway-higashiyama.svg" loading="lazy">
         </div>
-        </div>
-        <div class="illust-legend" aria-label="How to read the illustration">
-          <span><i style="background:var(--subway)"></i>Elevator EV.1&ndash;EV.7</span>
-          <span><i style="background:var(--toilet)"></i>Accessible toilet A&ndash;D</span>
-          <span><i style="background:#9A9890"></i>Not wheelchair-accessible</span>
-        </div>
-        <p class="illust-note">Simplified schematic, not the official floor plan. B and C are two toilets side by side in one shared spot near the Higashiyama North / Central-North gates, not two separate locations.</p>
       </div>
+      <div class="illust-legend" aria-label="How to read the illustration">
+        <span><i style="background:#1F5BFF"></i>Elevator</span>
+        <span><i style="background:#8354C8"></i>Toilet, outside gates</span>
+        <span><i style="background:#FF66C4"></i>Toilet, inside gates</span>
+        <span><i style="background:#555C67"></i>Coin lockers</span>
+        <span><i style="background:#858780"></i>Not wheelchair-accessible</span>
+      </div>
+      <p class="illust-note">Simplified schematic, not the official floor plan. T1 is two toilets side by side in one shared spot near the North / Central-North gates, not two separate locations. EV.7 is the inside-gates transfer lift toward the Sakura-dori line, shown on both diagrams.</p>
+    </div>
+    <div class="illust-shell" style="margin-top:clamp(20px,5vw,28px)">
+      <p class="hint">Sakura-dori Line (S02) &middot; AI-drawn from the sources cited below, checked against them</p>
+      <div class="illust">
+        <div class="illust-inner">
+          <img alt="Schematic step-free floor plan for the Sakura-dori Line at Nagoya Station: B2 gates, with a separate B3 platform plan, and badges for elevators, toilets and coin lockers" src="assets/img/nagoya-subway-sakuradori.svg" loading="lazy">
+        </div>
+      </div>
+      <div class="illust-legend" aria-label="How to read the illustration">
+        <span><i style="background:#1F5BFF"></i>Elevator</span>
+        <span><i style="background:#8354C8"></i>Toilet, outside gates</span>
+        <span><i style="background:#FF66C4"></i>Toilet, inside gates</span>
+        <span><i style="background:#555C67"></i>Coin lockers</span>
+        <span><i style="background:#858780"></i>Not wheelchair-accessible</span>
+      </div>
+      <p class="illust-note">Simplified schematic, not the official floor plan. Platforms sit one floor down (B3) from the concourse (B2). T4, inside the East Gate, gained an accessible cubicle in a September 2025 renovation &mdash; this drawing uses that update rather than the older, outdated guide.</p>
     </div>
   </section>
 
@@ -710,8 +729,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt><span class="ibadge" style="--bc:var(--subway)">EV.6</span>Higashiyama platform &rarr; Central Gate</dt><dd>Nearest doors: 17 towards Takabata, 18 towards Fujigaoka. Also used continuing on to Sakura-dori.</dd></div>
             <div><dt><span class="ibadge" style="--bc:var(--subway)">EV.1</span>Sakura-dori platform &rarr; West Gate</dt><dd>First leg of the Sakura-dori step-free route.</dd></div>
             <div><dt><span class="ibadge" style="--bc:var(--subway)">EV.2</span>West Gate &rarr; JR concourse</dt><dd>Second leg, continuing up from EV.1.<small>Nearest doors for this route: 9 towards Taikodori, 20 towards Tokushige.</small></dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--subway)">EV.5</span>Sakura-dori Central Gate &rarr; platform</dt><dd>Used when transferring in from Higashiyama.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--subway)">EV.7</span>Sakura-dori Central Gate &rarr; East Gate</dt><dd>Used when transferring in from Higashiyama, after EV.6.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--subway)">EV.7</span>Higashiyama Central Gate &rarr; Sakura-dori East Gate</dt><dd>Inside-gates transfer lift, continuing from EV.6.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--subway)">EV.5</span>Sakura-dori East Gate &rarr; platform</dt><dd>Final leg when transferring in from Higashiyama, after EV.6 and EV.7.</dd></div>
           </dl>
         </div>
       <div class="pshow">
@@ -731,17 +750,15 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       </div>
     </section>
     <section class="cat light" style="--c:var(--toilet)" id="cat-b" aria-labelledby="h-b">
-      <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">3 areas, outside the gates</span></h3>
+      <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">4 areas, 1 inside the gates</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">There are <b>three</b> toilet areas outside the gates, plus one inside that is not step-free: <span class="no">the one inside the Sakura-dori East gate has no barrier-free cubicle</span>, and steps at both entrances. The city&rsquo;s own text access guide describes the other three area by area.</p>
+          <p class="lead">There are <b>four</b> accessible toilet areas: three outside the gates, plus one inside the Sakura-dori East gate that <span class="yes">gained an accessible cubicle in a September 2025 renovation</span>. The city&rsquo;s own text access guide predates that renovation and only describes the outside-gate toilets in detail.</p>
           <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">A</span>By the Sakura-dori West-Central gate</dt><dd>Outside the gates, accessible.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">B</span>By the Higashiyama North gate or Central-North gate</dt><dd>Two accessible toilets side by side in <b>one shared spot</b> &mdash; reached from either the North gate or the north side of the Central gate, not two separate locations.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">C</span>The second toilet, same spot as B</dt><dd>Right beside B, at the same signboard &mdash; one is signed to the left, one to the right.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">D</span>By the Higashiyama South gate</dt><dd>Outside the gates, accessible.</dd></div>
-            <div><dt>Not accessible</dt><dd>Inside the Sakura-dori East gate &mdash; no barrier-free cubicle, steps at both entrances.</dd></div>
-            <div><dt>What this means</dt><dd>If you need a barrier-free toilet, plan to pass back through the barrier for it.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--toilet)">T1</span>Outside the Higashiyama North / Central gates</dt><dd>One shared spot with <b>two toilets side by side</b> &mdash; reached from either the North gate or the north side of the Central gate.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--toilet)">T2</span>Outside the Higashiyama South gate, near Exit 7</dt><dd>Outside the gates, accessible.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--toilet)">T3</span>Outside the Sakura-dori West-Central / East gate area</dt><dd>Outside the gates, accessible.</dd></div>
+            <div><dt><span class="ibadge" style="--bc:var(--toilet)">T4</span>Inside the Sakura-dori East gate</dt><dd><span class="yes">Accessible</span> since a September 2025 renovation added a barrier-free cubicle &mdash; previously this was the one toilet at Nagoya Station with no step-free option.</dd></div>
             <div><dt>Finding them</dt><dd>A voice announcement plays as you approach each one.</dd></div>
           </dl>
         </div>
@@ -768,6 +785,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <div><dt>Exit 13</dt><dd>The Taikodori side.</dd></div>
             <div><dt>Building lifts</dt><dd>JP Tower Nagoya, JR Gate Tower, Dai Nagoya Building, Midland Square, and Nagoya Lucent Tower (limited hours).</dd></div>
           </dl>
+          <p style="margin:16px 0 0;font-size:14px;line-height:1.6;color:var(--ink-2)"><b>Current closure, as of 16 Sep 2026:</b> Exit 13, on the Taikodori side, is closed for canopy construction &mdash; scheduled 5 Nov 2025 to 15 Mar 2027. Exit 2 is also currently closed. Neither is used in the step-free routes above.</p>
         </div>
         <div class="pshow">
           <p class="pshow-hint">Street-level elevator, Central Gate (Sakura-dori side) &middot; swipe for both angles</p>
@@ -805,7 +823,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     </div>
 
     <div class="wrap">
-      <p class="srcline"><b>Source</b> &middot; Nagoya City Transportation Bureau: station information, barrier-free routes, and the text access guide for screen readers (kotsu.city.nagoya.jp/rp/reader/trp0004209.htm, gates &amp; exits; trp0004211.htm, toilets); Nagoya Station Map (meieki.com), B1F sheet. Re-verified September 2026.</p>
+      <p class="srcline"><b>Source</b> &middot; Nagoya City Transportation Bureau: station information, barrier-free routes, and the text access guide for screen readers (kotsu.city.nagoya.jp/rp/reader/trp0004209.htm, gates &amp; exits; trp0004211.htm, toilets; TRP0005372.htm, Exit 13 closure; TRP0003976.htm, Exit 2 closure); Nagoya&rsquo;s disability welfare federation (meishinren.or.jp), September 2025 toilet-renovation notice; coin-locker operator&rsquo;s station guide (nagoya-locker.com). Re-verified September 2026.</p>
     </div>
   </section>
 
@@ -862,7 +880,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 <div class="verify">
     <div class="wrap">
       <svg aria-hidden="true"><use href="#i-check"/></svg>
-      <span><b>Verified</b> against official sources &middot; Last updated 12 Sep 2026</span>
+      <span><b>Verified</b> against official sources &middot; Last updated 16 Sep 2026</span>
     </div>
   </div>
 
