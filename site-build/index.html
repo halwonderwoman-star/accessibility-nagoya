@@ -278,10 +278,10 @@ a.amn .plancard{cursor:pointer;}
 .amn .plancard p{font-size:13.5px;line-height:1.55;color:var(--ink-2);margin:0;}
 .amn .plancard .pc-cta{display:inline-flex;align-items:center;gap:8px;margin-top:auto;padding-top:6px;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);}
 .amn .plancard .pc-cta svg{width:15px;height:15px;}
+.amn .plancard .pc-cta img{display:block;max-width:100%;height:auto;}
 .amn .plan .pc-note{margin-top:14px;font-size:12.5px;line-height:1.6;color:var(--ink-2);}
 .amn .plan .pc-note a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
-.amn .plancard-banner{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--line);border-radius:var(--r);padding:12px 14px;}
-.amn .plancard-banner img{display:block;max-width:100%;height:auto;}
+
 @media (max-width:1000px){.amn .plangrid{grid-template-columns:repeat(2,1fr);}}
 @media (max-width:640px){.amn .plangrid{grid-template-columns:1fr;}}
 /* ---------------------------------------------------------------
@@ -447,24 +447,13 @@ a.amn .plancard{cursor:pointer;}
       <div class="head"><h2 id="plan-title">Plan your trip to Nagoya</h2><span class="label">Partners</span></div>
       <div class="plangrid">
 
-        <!-- Sakura Mobile affiliate link: replace SAKURA_MOBILE_AFFILIATE_URL below with the approved affiliate URL -->
-        <a class="plancard" href="SAKURA_MOBILE_AFFILIATE_URL" target="_blank" rel="sponsored noopener" aria-describedby="plan-affiliate-note">
+        <!-- Sakura Mobile affiliate link (approved, id=637_7_1_3 / banner A234x60-1) -->
+        <a class="plancard" href="https://p.sakuramobile.jp/idevaffiliate.php?id=637_7_1_3" target="_blank" rel="sponsored noopener" aria-describedby="plan-affiliate-note">
           <span class="pc-top"><span>Stay connected</span><span class="pc-badge">Partner</span></span>
           <h3>Stay connected in Japan</h3>
           <p>Need mobile data for maps, translation and transport apps while you get around? Sakura Mobile offers eSIM, SIM cards and Pocket WiFi for visitors to Japan.</p>
-          <span class="pc-cta">View Japan eSIM &amp; WiFi <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+          <span class="pc-cta"><img src="https://p.sakuramobile.jp/media/banners/A234x60-1.png" width="234" height="60" loading="lazy" alt="Sakura Mobile — Japan Travel SIM, unlimited 4G/LTE for visitors to Japan"></span>
         </a>
-        <!-- To use a Sakura Mobile BANNER instead of the text card above, replace the <a class="plancard">
-             block with the snippet below (kept out of the page by default). Fixed width/height avoid layout
-             shift; loading="lazy" defers it; alt describes the offer instead of being empty; rel="sponsored"
-             marks it as a paid link. Keep it inside .plancard-banner so it never grows larger than a small card.
-        <div class="plancard-banner">
-          <a href="SAKURA_MOBILE_AFFILIATE_URL" target="_blank" rel="sponsored noopener" aria-label="Sakura Mobile — Japan eSIM and Pocket WiFi for visitors (affiliate link)">
-            <img src="SAKURA_MOBILE_BANNER_IMAGE_URL" width="234" height="60" loading="lazy" alt="Sakura Mobile — Japan eSIM, SIM cards and Pocket WiFi for visitors">
-          </a>
-          <span class="pc-badge">Partner</span>
-        </div>
-        -->
 
         <!-- AFFILIATE_SLOT: hotels — add a live plancard here once a hotel-booking partner is approved -->
         <div class="plancard soon">
