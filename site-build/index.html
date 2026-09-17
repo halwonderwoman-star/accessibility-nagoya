@@ -256,6 +256,34 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   .amn .area .foot b{font-size:34px;}
   .amn footer .logo .l1{font-size:26px;} .amn footer .logo .l2{font-size:30px;}
 }
+
+/* ---------------------------------------------------------------
+   PLAN YOUR TRIP — small partner cards, kept visually separate from
+   the accessibility content above. Same card language as .area
+   (rounded corners, 1.5px rule, Gibson headline) but a neutral
+   paper/card colour, never one of the vivid area colours, so it
+   never reads as a 6th destination.
+   --------------------------------------------------------------- */
+.amn .plan{padding:clamp(28px,7vw,48px) 0 clamp(20px,5vw,32px);}
+.amn .plan .head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:clamp(14px,4vw,18px) 0 clamp(20px,5vw,26px);border-top:1.5px solid var(--line);}
+.amn .plan .head h2{font-family:var(--display);font-weight:700;font-size:clamp(28px,7.4vw,56px);letter-spacing:-.015em;line-height:.92;text-transform:uppercase;}
+.amn .plangrid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(12px,1.4vw,18px);}
+.amn .plancard{display:flex;flex-direction:column;gap:10px;background:var(--card);border:1.5px solid var(--line);border-radius:var(--r);padding:18px 18px 20px;text-decoration:none;color:var(--ink);transition:transform .25s;}
+a.amn .plancard{cursor:pointer;}
+.amn .plancard.soon{opacity:.62;}
+@media (hover:hover){a.plancard:hover{transform:translateY(-4px);}}
+.amn .plancard .pc-top{display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .plancard .pc-badge{padding:4px 9px;border-radius:999px;border:1.5px solid var(--line);font-size:10px;white-space:nowrap;}
+.amn .plancard h3{font-family:var(--display);font-weight:700;font-size:clamp(17px,2.1vw,21px);letter-spacing:-.01em;line-height:1.15;}
+.amn .plancard p{font-size:13.5px;line-height:1.55;color:var(--ink-2);margin:0;}
+.amn .plancard .pc-cta{display:inline-flex;align-items:center;gap:8px;margin-top:auto;padding-top:6px;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);}
+.amn .plancard .pc-cta svg{width:15px;height:15px;}
+.amn .plan .pc-note{margin-top:14px;font-size:12.5px;line-height:1.6;color:var(--ink-2);}
+.amn .plan .pc-note a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
+.amn .plancard-banner{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--line);border-radius:var(--r);padding:12px 14px;}
+.amn .plancard-banner img{display:block;max-width:100%;height:auto;}
+@media (max-width:1000px){.amn .plangrid{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:640px){.amn .plangrid{grid-template-columns:1fr;}}
 /* ---------------------------------------------------------------
    7. FOOTER — black, like the TOP page
    --------------------------------------------------------------- */
@@ -410,6 +438,60 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     </div>
   </section>
 
+  <!-- 4.5 PLAN YOUR TRIP — affiliate section. Kept below all accessibility
+       content, in its own visually distinct block. Only "Stay connected"
+       (Sakura Mobile, approved) is a live link; the other three categories
+       are placeholders for future partners and carry no link at all. -->
+  <section class="plan" id="plan-trip" aria-labelledby="plan-title">
+    <div class="wrap">
+      <div class="head"><h2 id="plan-title">Plan your trip to Nagoya</h2><span class="label">Partners</span></div>
+      <div class="plangrid">
+
+        <!-- Sakura Mobile affiliate link: replace SAKURA_MOBILE_AFFILIATE_URL below with the approved affiliate URL -->
+        <a class="plancard" href="SAKURA_MOBILE_AFFILIATE_URL" target="_blank" rel="sponsored noopener" aria-describedby="plan-affiliate-note">
+          <span class="pc-top"><span>Stay connected</span><span class="pc-badge">Partner</span></span>
+          <h3>Stay connected in Japan</h3>
+          <p>Need mobile data for maps, translation and transport apps while you get around? Sakura Mobile offers eSIM, SIM cards and Pocket WiFi for visitors to Japan.</p>
+          <span class="pc-cta">View Japan eSIM &amp; WiFi <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        </a>
+        <!-- To use a Sakura Mobile BANNER instead of the text card above, replace the <a class="plancard">
+             block with the snippet below (kept out of the page by default). Fixed width/height avoid layout
+             shift; loading="lazy" defers it; alt describes the offer instead of being empty; rel="sponsored"
+             marks it as a paid link. Keep it inside .plancard-banner so it never grows larger than a small card.
+        <div class="plancard-banner">
+          <a href="SAKURA_MOBILE_AFFILIATE_URL" target="_blank" rel="sponsored noopener" aria-label="Sakura Mobile — Japan eSIM and Pocket WiFi for visitors (affiliate link)">
+            <img src="SAKURA_MOBILE_BANNER_IMAGE_URL" width="234" height="60" loading="lazy" alt="Sakura Mobile — Japan eSIM, SIM cards and Pocket WiFi for visitors">
+          </a>
+          <span class="pc-badge">Partner</span>
+        </div>
+        -->
+
+        <!-- AFFILIATE_SLOT: hotels — add a live plancard here once a hotel-booking partner is approved -->
+        <div class="plancard soon">
+          <span class="pc-top"><span>Hotels</span><span class="pc-badge">Coming soon</span></span>
+          <h3>Accessible hotels</h3>
+          <p>Step-free entrances, accessible rooms and nearby stations &mdash; coming soon.</p>
+        </div>
+
+        <!-- AFFILIATE_SLOT: airport-taxi-transfers — add a live plancard here once a transfer partner is approved -->
+        <div class="plancard soon">
+          <span class="pc-top"><span>Airport &amp; taxi transfers</span><span class="pc-badge">Coming soon</span></span>
+          <h3>Airport &amp; taxi transfers</h3>
+          <p>Step-free transfers between Chubu Centrair Airport, Nagoya Station and hotels &mdash; coming soon.</p>
+        </div>
+
+        <!-- AFFILIATE_SLOT: tickets-activities — add a live plancard here once a tickets partner (e.g. Klook) is approved -->
+        <div class="plancard soon">
+          <span class="pc-top"><span>Tickets &amp; activities</span><span class="pc-badge">Coming soon</span></span>
+          <h3>Tickets &amp; activities</h3>
+          <p>Accessible attractions and things to do in Nagoya &mdash; coming soon.</p>
+        </div>
+
+      </div>
+      <p class="pc-note" id="plan-affiliate-note">Affiliate link &mdash; we may earn a commission if you book through this link, at no extra cost to you. <a href="amn-affiliate-disclosure.html">Affiliate Disclosure</a>.</p>
+    </div>
+  </section>
+
   <!-- 5. FOOTER -->
   
 </main>
@@ -423,7 +505,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <footer>
     <div class="wrap">
       <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="wheel"></span></span></span> <span class="l2" aria-hidden="true">NAGOYA</span></span>
-      <nav aria-label="Footer"><a href="amn-about.html">About us</a><a href="amn-sources.html">Sources</a><a href="amn-privacy.html">Privacy</a><a href="amn-terms.html">Terms</a><a href="amn-contact.html">Contact</a></nav>
+      <nav aria-label="Footer"><a href="amn-about.html">About us</a><a href="amn-sources.html">Sources</a><a href="amn-privacy.html">Privacy</a><a href="amn-terms.html">Terms</a><a href="amn-affiliate-disclosure.html">Affiliate Disclosure</a><a href="amn-contact.html">Contact</a></nav>
       <small>Accessibility information may change. Please check official sources before visiting.<br>This is an independent accessibility guide.<br>© 2026 Accessibility Map NAGOYA</small>
     </div>
   </footer>

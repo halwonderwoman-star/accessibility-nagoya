@@ -177,6 +177,26 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .backrow{border-top:1.5px solid var(--line);}
 .amn .backrow .wrap{padding-top:18px;padding-bottom:18px;}
 .amn .back{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;}
+
+/* ---------------------------------------------------------------
+   PLAN YOUR TRIP — a single small partner card, deliberately quieter
+   than the accessibility content above (smaller type, no big
+   uppercase h2) so it never competes with venue/route information.
+   --------------------------------------------------------------- */
+.amn .plan{padding:clamp(20px,5vw,30px) 0 clamp(28px,6vw,40px);border-top:1.5px solid var(--line);}
+.amn .plan .col{max-width:38em;}
+.amn .plan h2{font-family:var(--display);font-weight:700;font-size:clamp(19px,3.4vw,24px);letter-spacing:-.01em;line-height:1.25;text-transform:none;margin-top:8px;}
+.amn .plan .plan-lead{margin-top:6px;font-size:14px;line-height:1.6;color:var(--ink-2);}
+.amn .plancard{display:flex;flex-direction:column;gap:10px;background:var(--card);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 18px 18px;text-decoration:none;color:var(--ink);margin-top:14px;max-width:420px;transition:transform .25s;}
+@media (hover:hover){a.plancard:hover{transform:translateY(-3px);}}
+.amn .plancard .pc-top{display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .plancard .pc-badge{padding:4px 9px;border-radius:999px;border:1.5px solid var(--line);font-size:10px;white-space:nowrap;}
+.amn .plancard h3{font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:-.01em;line-height:1.2;margin:0;}
+.amn .plancard p{font-size:13.5px;line-height:1.55;color:var(--ink-2);margin:0;}
+.amn .plancard .pc-cta{display:inline-flex;align-items:center;gap:8px;padding-top:4px;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);}
+.amn .plancard .pc-cta svg{width:15px;height:15px;}
+.amn .plan .pc-note{margin-top:10px;font-size:12.5px;line-height:1.6;color:var(--ink-2);max-width:420px;}
+.amn .plan .pc-note a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
 .amn .back svg{width:16px;height:16px;transform:scaleX(-1);}
 /* ---------------------------------------------------------------
    7. FOOTER — black, like the TOP page
@@ -299,6 +319,24 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     </div></div>
   </section>
 
+  <!-- STAY CONNECTED — Sakura Mobile affiliate. Placed after all venue and
+       accessibility content, in its own small, clearly labelled block. -->
+  <section class="plan" aria-labelledby="plan-title">
+    <div class="wrap col">
+      <span class="label">Partner</span>
+      <h2 id="plan-title">Traveling with luggage or a stroller?</h2>
+      <p class="plan-lead">Stay connected while you use maps and transport apps to plan step-free routes between venues.</p>
+      <!-- Sakura Mobile affiliate link: replace SAKURA_MOBILE_AFFILIATE_URL below with the approved affiliate URL -->
+      <a class="plancard" href="SAKURA_MOBILE_AFFILIATE_URL" target="_blank" rel="sponsored noopener" aria-describedby="plan-affiliate-note">
+        <span class="pc-top"><span>Stay connected</span><span class="pc-badge">Partner</span></span>
+        <h3>Stay connected in Japan</h3>
+        <p>Need mobile data for Google Maps, translation and transport apps? Sakura Mobile offers eSIM, SIM cards and Pocket WiFi for visitors to Japan.</p>
+        <span class="pc-cta">View Japan eSIM &amp; WiFi <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+      </a>
+      <p class="pc-note" id="plan-affiliate-note">Affiliate link &mdash; we may earn a commission if you book through this link, at no extra cost to you. <a href="amn-affiliate-disclosure.html">Affiliate Disclosure</a>.</p>
+    </div>
+  </section>
+
   <div class="backrow">
     <div class="wrap">
       <a class="back" href="index.html"><svg aria-hidden="true"><use href="#i-arrow"/></svg> Back to top page</a>
@@ -317,7 +355,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <footer>
     <div class="wrap">
       <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="wheel"></span></span></span> <span class="l2" aria-hidden="true">NAGOYA</span></span>
-      <nav aria-label="Footer"><a href="amn-about.html">About us</a><a href="amn-sources.html">Sources</a><a href="amn-privacy.html">Privacy</a><a href="amn-terms.html">Terms</a><a href="amn-contact.html">Contact</a></nav>
+      <nav aria-label="Footer"><a href="amn-about.html">About us</a><a href="amn-sources.html">Sources</a><a href="amn-privacy.html">Privacy</a><a href="amn-terms.html">Terms</a><a href="amn-affiliate-disclosure.html">Affiliate Disclosure</a><a href="amn-contact.html">Contact</a></nav>
       <small>Accessibility information may change. Please check official sources before visiting.<br>This is an independent accessibility guide.<br>&copy; 2026 Accessibility Map NAGOYA</small>
     </div>
   </footer>
