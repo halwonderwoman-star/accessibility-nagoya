@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" lang="en" role="img" aria-labelledby="title desc">
+<title id="title">Nagoya Station — Aonami Line</title>
+<desc id="desc">Three gates: JR at lower left, Aonami to its right, and a vertical JR to Aonami transfer gate on the boundary above. First-floor facilities from left to right: stairs, escalator, accessible toilet with baby care and ostomate facilities, toilets, elevator. Between Platforms 1 and 2: stairs, escalator, elevator at far right.</desc>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 6 L0 12 Z" fill="#F0782C"/></marker></defs>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="2000" height="1400" rx="0" fill="#F3F2EE" stroke="none" stroke-width="1.5"/>
+<text x="60" y="78" font-size="17" fill="#6C706B" font-weight="700" text-anchor="start" letter-spacing="2">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="145" font-size="49" fill="#171817" font-weight="700" text-anchor="start">NAGOYA STATION</text>
+<text x="64" y="186" font-size="19" fill="#6C706B" font-weight="400" text-anchor="start">Aonami Line / AN01 • Flat station plan</text>
+<text x="1935" y="94" font-size="32" fill="#0FC3E4" font-weight="700" text-anchor="end">PLATFORM &amp; CONCOURSE</text>
+<text x="1935" y="130" font-size="17" fill="#6C706B" font-weight="700" text-anchor="end">Flat-plan view</text>
+<line x1="60" y1="217" x2="1940" y2="217" stroke="#A8AAA5" stroke-width="1"/>
+<rect x="70" y="260" width="1860" height="850" rx="14" fill="#FFFFFF" stroke="#A8AAA5" stroke-width="2"/>
+<text x="110" y="310" font-size="24" fill="#0FC3E4" font-weight="700" text-anchor="start">PLATFORMS &amp; 1F CONCOURSE</text>
+<text x="110" y="341" font-size="17" fill="#6C706B" font-weight="400" text-anchor="start">Enter through the Aonami Line gate; the first-floor facilities are to the right.</text>
+<rect x="510" y="385" width="1170" height="88" rx="8" fill="#D7E1E6" stroke="#A8AAA5" stroke-width="1.5"/>
+<rect x="545" y="403" width="1120" height="52" rx="5" fill="#E9EFEA" stroke="#A8AAA5" stroke-width="1"/>
+<text x="580" y="438" font-size="21" fill="#171817" font-weight="700" text-anchor="start">PLATFORM 1</text>
+<text x="1630" y="438" font-size="17" fill="#0FC3E4" font-weight="700" text-anchor="end">To Kinjō-futō →</text>
+<rect x="510" y="610" width="1170" height="88" rx="8" fill="#D7E1E6" stroke="#A8AAA5" stroke-width="1.5"/>
+<rect x="545" y="628" width="1120" height="52" rx="5" fill="#E9EFEA" stroke="#A8AAA5" stroke-width="1"/>
+<text x="580" y="663" font-size="21" fill="#171817" font-weight="700" text-anchor="start">PLATFORM 2</text>
+<text x="1630" y="663" font-size="17" fill="#0FC3E4" font-weight="700" text-anchor="end">To Kinjō-futō →</text>
+<rect x="790" y="481" width="725" height="120" rx="7" fill="#E9EFEA" stroke="#A8AAA5" stroke-width="1.5"/>
+<text x="815" y="506" font-size="16" fill="#6C706B" font-weight="700" text-anchor="start">BETWEEN PLATFORMS 1 &amp; 2</text>
+<line x1="855" y1="473" x2="855" y2="481" stroke="#0FC3E4" stroke-width="4"/>
+<line x1="855" y1="601" x2="855" y2="610" stroke="#0FC3E4" stroke-width="4"/>
+<rect x="831" y="520" width="48" height="44" rx="7" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="855" y="548" font-size="15" fill="white" font-weight="700" text-anchor="middle">ST</text>
+<text x="855" y="585" font-size="15" fill="#6C706B" font-weight="700" text-anchor="middle">Stairs</text>
+<line x1="965" y1="473" x2="965" y2="481" stroke="#0FC3E4" stroke-width="4"/>
+<line x1="965" y1="601" x2="965" y2="610" stroke="#0FC3E4" stroke-width="4"/>
+<rect x="941" y="520" width="48" height="44" rx="7" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="965" y="548" font-size="15" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="965" y="585" font-size="15" fill="#6C706B" font-weight="700" text-anchor="middle">Escalator</text>
+<line x1="1440" y1="473" x2="1440" y2="481" stroke="#0FC3E4" stroke-width="4"/>
+<line x1="1440" y1="601" x2="1440" y2="610" stroke="#0FC3E4" stroke-width="4"/>
+<rect x="1416" y="520" width="48" height="44" rx="7" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1440" y="548" font-size="15" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="1440" y="585" font-size="15" fill="#6C706B" font-weight="700" text-anchor="middle">Elevator to 1F</text>
+<rect x="110" y="727" width="205" height="232" rx="7" fill="#E8E7E2" stroke="#A8AAA5" stroke-width="1.5"/>
+<rect x="315" y="745" width="1365" height="190" rx="7" fill="#A9DCE8" stroke="#A8AAA5" stroke-width="1.5"/>
+<text x="194" y="795" font-size="18" fill="#6C706B" font-weight="700" text-anchor="middle">JR LINE</text>
+<text x="194" y="819" font-size="18" fill="#6C706B" font-weight="700" text-anchor="middle">PAID AREA</text>
+<rect x="283" y="753" width="64" height="139" rx="6" fill="#12B85A" stroke="white" stroke-width="2"/>
+<line x1="297" y1="775" x2="333" y2="775" stroke="white" stroke-width="4"/>
+<line x1="297" y1="797" x2="333" y2="797" stroke="white" stroke-width="4"/>
+<line x1="297" y1="819" x2="333" y2="819" stroke="white" stroke-width="4"/>
+<line x1="297" y1="841" x2="333" y2="841" stroke="white" stroke-width="4"/>
+<line x1="297" y1="863" x2="333" y2="863" stroke="white" stroke-width="4"/>
+<text x="375" y="786" font-size="17" fill="#12B85A" font-weight="700" text-anchor="start">JR → Aonami</text>
+<text x="375" y="810" font-size="17" fill="#12B85A" font-weight="700" text-anchor="start">Transfer Gate</text>
+<rect x="136" y="928" width="155" height="67" rx="6" fill="#12B85A" stroke="white" stroke-width="2"/>
+<line x1="160" y1="944" x2="160" y2="979" stroke="white" stroke-width="4"/>
+<line x1="184" y1="944" x2="184" y2="979" stroke="white" stroke-width="4"/>
+<line x1="208" y1="944" x2="208" y2="979" stroke="white" stroke-width="4"/>
+<line x1="232" y1="944" x2="232" y2="979" stroke="white" stroke-width="4"/>
+<line x1="256" y1="944" x2="256" y2="979" stroke="white" stroke-width="4"/>
+<text x="213" y="1026" font-size="17" fill="#12B85A" font-weight="700" text-anchor="middle">JR Line Gate</text>
+<rect x="430" y="928" width="165" height="67" rx="6" fill="#0FC3E4" stroke="white" stroke-width="2"/>
+<line x1="454" y1="944" x2="454" y2="979" stroke="white" stroke-width="4"/>
+<line x1="478" y1="944" x2="478" y2="979" stroke="white" stroke-width="4"/>
+<line x1="502" y1="944" x2="502" y2="979" stroke="white" stroke-width="4"/>
+<line x1="526" y1="944" x2="526" y2="979" stroke="white" stroke-width="4"/>
+<line x1="550" y1="944" x2="550" y2="979" stroke="white" stroke-width="4"/>
+<line x1="574" y1="944" x2="574" y2="979" stroke="white" stroke-width="4"/>
+<text x="512" y="1026" font-size="17" fill="#0FC3E4" font-weight="700" text-anchor="middle">Aonami Line Gate</text>
+<text x="700" y="779" font-size="18" fill="#171817" font-weight="700" text-anchor="start">1F CONCOURSE</text>
+<path d="M 512 928 L 512 903 L 1520 903 L 1520 822 L 1475 822" fill="none" stroke="#F0782C" stroke-width="3" stroke-dasharray="10 9" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="915" y="927" font-size="14" fill="#F0782C" font-weight="700" text-anchor="middle">Wheelchair route to elevator</text>
+<rect x="831" y="800" width="48" height="44" rx="7" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="855" y="828" font-size="15" fill="white" font-weight="700" text-anchor="middle">ST</text>
+<text x="855" y="866" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle">Stairs</text>
+<rect x="941" y="800" width="48" height="44" rx="7" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="965" y="828" font-size="15" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="965" y="866" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle">Escalator</text>
+<rect x="1266" y="800" width="48" height="44" rx="7" fill="#8354C8" stroke="white" stroke-width="2"/>
+<text x="1290" y="828" font-size="15" fill="white" font-weight="700" text-anchor="middle">WC</text>
+<text x="1290" y="866" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle">Toilets</text>
+<rect x="1416" y="800" width="48" height="44" rx="7" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1440" y="828" font-size="15" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="1440" y="866" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle">Elevator</text>
+<rect x="1096" y="800" width="48" height="44" rx="7" fill="#8354C8" stroke="white" stroke-width="2"/>
+<text x="1120" y="828" font-size="15" fill="white" font-weight="700" text-anchor="middle">WC</text>
+<text x="1120" y="866" font-size="15" fill="#8354C8" font-weight="700" text-anchor="middle">Accessible toilet</text>
+<text x="1120" y="886" font-size="15" fill="#8354C8" font-weight="700" text-anchor="middle">Baby care / ostomate</text>
+<text x="1440" y="886" font-size="14" fill="#6C706B" font-weight="400" text-anchor="middle">To platforms</text>
+<text x="1230" y="779" font-size="16" fill="#6C706B" font-weight="700" text-anchor="middle">1F TOILETS &amp; ELEVATOR</text>
+<text x="110" y="1077" font-size="16" fill="#6C706B" font-weight="700" text-anchor="start">PUBLIC ENTRANCE</text>
+<text x="695" y="1077" font-size="17" fill="#6C706B" font-weight="400" text-anchor="start">Toilets are on 1F, inside the Aonami Line gates.</text>
+<line x1="60" y1="1160" x2="1940" y2="1160" stroke="#A8AAA5" stroke-width="1"/>
+<rect x="66" y="1194" width="48" height="44" rx="7" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="90" y="1222" font-size="15" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="128" y="1223" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Elevator</text>
+<rect x="286" y="1194" width="48" height="44" rx="7" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="310" y="1222" font-size="15" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="348" y="1223" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Escalator</text>
+<rect x="526" y="1194" width="48" height="44" rx="7" fill="#858780" stroke="white" stroke-width="2"/>
+<text x="550" y="1222" font-size="15" fill="white" font-weight="700" text-anchor="middle">ST</text>
+<text x="588" y="1223" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Stairs</text>
+<rect x="726" y="1194" width="48" height="44" rx="7" fill="#8354C8" stroke="white" stroke-width="2"/>
+<text x="750" y="1222" font-size="15" fill="white" font-weight="700" text-anchor="middle">WC</text>
+<text x="788" y="1223" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Toilets</text>
+<rect x="1005" y="1199" width="32" height="32" rx="2" fill="#E9EFEA" stroke="#A8AAA5" stroke-width="1"/>
+<text x="1051" y="1223" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Paid area</text>
+<rect x="1245" y="1199" width="32" height="32" rx="2" fill="#A9DCE8" stroke="#A8AAA5" stroke-width="1"/>
+<text x="1291" y="1223" font-size="18" fill="#171817" font-weight="400" text-anchor="start">1F concourse</text>
+<line x1="1575" y1="1216" x2="1620" y2="1216" stroke="#F0782C" stroke-width="3" stroke-dasharray="10 9"/>
+<text x="1640" y="1223" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Wheelchair route</text>
+<text x="65" y="1300" font-size="16" fill="#6C706B" font-weight="400" text-anchor="start">Flat plan / not to scale • Accessible toilet includes baby-care and ostomate facilities.</text>
+<text x="1935" y="1300" font-size="14" fill="#6C706B" font-weight="700" text-anchor="end">ACCESSIBILITY MAP NAGOYA</text>
+<text x="65" y="1334" font-size="14" fill="#6C706B" font-weight="400" text-anchor="start">Coin lockers are not marked on the supplied Aonami Line station diagram.</text>
+</g></svg>
