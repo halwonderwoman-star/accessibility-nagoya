@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://accessibilitynagoya.com/amn-nagoya-station">
+<link rel="canonical" href="https://accessibilitynagoya.com/amn-taxi">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23111'/%3E%3Ccircle cx='10' cy='17' r='4' fill='none' stroke='%23fff' stroke-width='2'/%3E%3Ccircle cx='12' cy='4' r='1.5' fill='%23fff'/%3E%3Cpath d='M12 8v5h5l2 5' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Accessibility Map NAGOYA">
-<meta property="og:title" content="Nagoya Station Wheelchair Access Guide | Elevators, Toilets & Step-Free Routes">
-<meta property="og:description" content="Is Nagoya Station wheelchair accessible? Step-free routes, elevators and accessible toilets for JR, Shinkansen, Meitetsu, Kintetsu, the subway, Aonami Line and bus terminals.">
-<meta property="og:url" content="https://accessibilitynagoya.com/amn-nagoya-station">
+<meta property="og:title" content="Nagoya Station Taxi Stands & Wheelchair-Accessible Taxi | 5 Ranks Mapped">
+<meta property="og:description" content="Where to catch a taxi at Nagoya Station: five taxi stands mapped, plus how to book a wheelchair-accessible vehicle in advance.">
+<meta property="og:url" content="https://accessibilitynagoya.com/amn-taxi">
 <meta name="twitter:card" content="summary">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X0VG068H8B"></script>
@@ -19,19 +19,17 @@
   gtag('js', new Date());
   gtag('config', 'G-X0VG068H8B');
 </script>
-<title>Nagoya Station Wheelchair Access Guide | Elevators, Toilets & Step-Free Routes</title>
-<meta name="description" content="Is Nagoya Station wheelchair accessible? Step-free routes, elevators and accessible toilets for JR, Shinkansen, Meitetsu, Kintetsu, the subway, Aonami Line and bus terminals.">
+<title>Nagoya Station Taxi Stands & Wheelchair-Accessible Taxi | 5 Ranks Mapped</title>
+<meta name="description" content="Where to catch a taxi at Nagoya Station: five taxi stands mapped, plus how to book a wheelchair-accessible vehicle in advance.">
 <!--
   =====================================================================
-  ACCESSIBILITY MAP NAGOYA — Nagoya Station
+  ACCESSIBILITY MAP NAGOYA — Nagoya Station > Taxi
   ---------------------------------------------------------------------
-  Paste into a WordPress Custom HTML block. Everything is scoped under
-  the wrapper element with the class "amn".
-  Markers: [FONT] Gibson · [LINK] page targets · [TEXT] copy to edit
+  Paste this whole file into a WordPress "Custom HTML" block.
+  Everything is scoped under the wrapper element with the class "amn".
   =====================================================================
 -->
 <style>
-
 /* [FONT] Option B — self-hosted Gibson. Un-comment and fix the paths.
 @font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Regular.woff2") format("woff2");font-weight:400;font-display:swap;}
 @font-face{font-family:"Gibson";src:url("/wp-content/uploads/fonts/Gibson-Medium.woff2") format("woff2");font-weight:500;font-display:swap;}
@@ -47,7 +45,7 @@
   /* railway lines */
   --shinkansen:#1F5BFF;  --jr:#12B85A;  --meitetsu:#E5332A;  --kintetsu:#FF7A1A;
   --subway:#FFC71F;      --aonami:#0FC3E4;  --toilet:#FF66C4;  --bus:#16C2B0;
-  --taxi:#7C5CFC;
+  --bus-city:#1F5BFF;    --bus-meitetsu:#E5332A;  --bus-highway:#FF7A1A;  --taxi:#7C5CFC;
   /* site palette (from the TOP page) */
   --area:#D4FF3A;        /* Nagoya Station area card colour */
   --sky:#3CC1F3;         /* logo dot */
@@ -172,9 +170,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn h1{font-family:var(--display);font-weight:700;font-size:clamp(54px,15vw,180px);line-height:.86;letter-spacing:-.02em;text-transform:uppercase;margin-top:14px;}
 .amn h1 span{display:block;}
 .amn h1 .hl{color:var(--shinkansen);}
+.amn h1 .hl.long{font-size:clamp(40px,11.4vw,148px);}   /* a long line name still fits the gutter */
 .amn .hero p{margin:clamp(16px,4vw,22px) 0 clamp(20px,5vw,26px);font-size:clamp(16px,4vw,24px);font-weight:500;color:var(--ink);max-width:28em;}
-.amn .hero .qa{margin:0 0 clamp(18px,4.5vw,24px);font-size:clamp(14px,3.6vw,16px);font-weight:500;color:var(--ink-2);max-width:32em;line-height:1.5;}
-.amn .hero .qa b{color:var(--ink);font-weight:700;}
 /* index rows — like a table of contents */
 .amn .index{border-top:1.5px solid var(--line);}
 .amn .index a{display:grid;grid-template-columns:clamp(32px,9vw,52px) 1fr auto clamp(36px,10vw,40px);align-items:center;gap:clamp(10px,2.5vw,16px);padding:clamp(14px,4vw,18px) 0;border-bottom:1.5px solid var(--line);text-decoration:none;transition:padding-left .25s;}
@@ -242,9 +239,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .file .body .name{font-family:var(--display);font-weight:700;font-size:clamp(30px,7.6vw,68px);letter-spacing:-.02em;line-height:.9;text-transform:uppercase;}
 .amn .file .body .sub{font-weight:500;font-size:clamp(14px,3.4vw,20px);margin-top:6px;opacity:.9;}
 .amn .file .body .start{margin-top:22px;display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:15px;letter-spacing:.04em;text-transform:uppercase;
-  background:#fff;color:var(--c);padding:10px 16px;border-radius:999px;border:0;cursor:pointer;transition:transform .2s var(--ease),box-shadow .2s var(--ease);}
-.amn .file .body .start:hover,.amn .file .body .start:focus-visible{box-shadow:0 6px 16px rgba(0,0,0,.22);transform:translateY(-2px);}
-.amn .file .body .start:focus-visible{outline:2px solid #fff;outline-offset:2px;}
+  background:#fff;color:var(--c);padding:10px 16px;border-radius:999px;border:0;}
 .amn .file .body .start svg{width:18px;height:18px;transition:transform .3s var(--ease);}
 .amn .file .body .ja{display:block;text-align:center;font-weight:700;font-size:clamp(22px,5.4vw,46px);line-height:1.02;align-self:end;}   /* one character per line; its last line sits on the CTA's bottom edge */
 .amn .file.soon .body .start{background:rgba(255,255,255,.85);color:var(--c);}
@@ -290,12 +285,229 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .block.pink{background:var(--toilet);}
 @media (hover:hover){.amn .block:hover{transform:translateY(-3px);}}
 
+
+/* ---------------------------------------------------------------
+   FACTS — the readable detail under each line's four blocks.
+   One fact per row, label left, plain sentence right.
+   --------------------------------------------------------------- */
+.amn .facts{margin:0;border-bottom:1.5px solid var(--line);}
+.amn .facts .r{display:grid;grid-template-columns:clamp(100px,24vw,200px) 1fr;
+  gap:clamp(10px,3vw,28px);padding:clamp(13px,3.4vw,18px) 0;border-top:1.5px solid var(--line);align-items:baseline;}
+.amn .facts .r:first-child{border-top:0;}
+.amn .facts dt{font-weight:500;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2);line-height:1.5;}
+.amn .facts dd{margin:0;font-size:clamp(15px,3.9vw,19px);font-weight:500;line-height:1.55;}
+.amn .facts dd b{font-weight:700;}
+.amn .facts dd .no{color:#B4001F;font-weight:700;}
+.amn .facts dd .yes{color:#0B7A3B;font-weight:700;}
+.amn .facts dd em{font-style:normal;font-weight:700;color:var(--c,var(--ink));}
+.amn .facts dd small{display:block;font-size:13px;font-weight:400;color:var(--ink-2);margin-top:4px;line-height:1.5;}
+@media (max-width:560px){
+  .amn .facts .r{grid-template-columns:1fr;gap:6px;}
+}
+
+/* PLATFORM TABLE — JR runs thirteen platforms; a table is the honest way to show it */
+.amn .ptwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:clamp(18px,4.5vw,26px);}
+.amn .ptab{width:100%;min-width:520px;border-collapse:collapse;}
+.amn .ptab caption{text-align:left;font-size:12px;font-weight:500;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-2);padding-bottom:10px;}
+.amn .ptab th,.amn .ptab td{border-bottom:1.5px solid var(--line);padding:clamp(11px,2.8vw,15px) 10px clamp(11px,2.8vw,15px) 0;text-align:left;vertical-align:baseline;}
+.amn .ptab thead th{border-top:1.5px solid var(--line);font-weight:500;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .ptab tbody th{font-family:var(--display);font-weight:700;font-size:clamp(17px,4.4vw,23px);letter-spacing:-.01em;white-space:nowrap;}
+.amn .ptab td{font-size:clamp(14px,3.6vw,17px);font-weight:500;}
+.amn .ptab .y{color:#0B7A3B;font-weight:700;}
+.amn .ptab .n{color:#B4001F;font-weight:700;}
+.amn .ptab tbody tr:last-child th,.amn .ptab tbody tr:last-child td{border-bottom:0;}
+
+/* SOURCE LINE — every section says where it came from and when we checked */
+.amn .srcline{margin-top:clamp(16px,4vw,22px);font-size:12px;font-weight:500;letter-spacing:.05em;color:var(--ink-2);line-height:1.6;}
+.amn .srcline b{font-weight:700;letter-spacing:.13em;text-transform:uppercase;}
+
+
+/* ---------------------------------------------------------------
+   PHOTOS  [IMG] — every slot is an empty <figure> with a striped
+   placeholder. To fill one: delete the .ph div and put an <img>
+   in its place, keeping the same class on the figure.
+     <img src="/wp-content/uploads/2026/xx/name.jpg" alt="…">
+   Always write a real alt text: what a person needs to know if
+   they cannot see the photo ("Lift doors on platform 14, sign
+   above reads 14-15").
+   --------------------------------------------------------------- */
+.amn .ph{display:grid;place-items:center;text-align:center;
+  background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
+  color:var(--ink-2);font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:20px;}
+
+/* A. hero band — one wide photo directly under the headline */
+.amn .band{margin:clamp(20px,5vw,30px) 0 0;border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);}
+.amn .band .ph,.amn .band img{display:block;width:100%;height:clamp(180px,42vw,420px);object-fit:cover;}
+.amn .band figcaption{padding:12px var(--gut) 14px;font-size:13px;font-weight:500;color:var(--ink-2);
+  border-top:1.5px solid var(--line);}
+
+/* B. three captioned shots — the things you actually have to find */
+.amn .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1.5px;background:var(--line);
+  border-top:1.5px solid var(--line);border-bottom:1.5px solid var(--line);margin-top:clamp(20px,5vw,28px);}
+.amn .shot{background:var(--grey);margin:0;display:flex;flex-direction:column;}
+.amn .shot .ph,.amn .shot img{display:block;width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;}
+.amn .shot figcaption{padding:clamp(13px,3.4vw,17px);display:grid;gap:7px;}
+.amn .shot .t{font-family:var(--display);font-weight:700;font-size:clamp(16px,4.2vw,19px);letter-spacing:-.01em;line-height:1.2;}
+.amn .shot .d{font-size:14px;font-weight:400;color:var(--ink-2);line-height:1.5;}
+.amn .shot .n{font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--c,var(--ink));}
+
+
+
+/* ---------------------------------------------------------------
+   CATEGORIES — the same three on every line page, in the same
+   order, with the same letter:
+     A  Elevator
+     B  Accessible toilet
+     C  Entrances & exits
+   D and after vary by line. Each category is a coloured header bar
+   followed by its explanation and, where useful, one photo.
+   [IMG] to fill a photo, replace <div class="ph">…</div> with
+     <img src="/wp-content/uploads/…/name.jpg" alt="…">
+   Keep the data-mk letter on the <figure>: it draws the badge that
+   ties the photo to its category.
+   --------------------------------------------------------------- */
+.amn .cats{border-top:1.5px solid var(--line);margin-top:clamp(20px,5vw,28px);}
+.amn .cat{border-bottom:1.5px solid var(--line);}
+.amn .cathead{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:clamp(12px,3vw,18px);
+  align-items:center;background:var(--c);color:#fff;margin:0;
+  padding:clamp(12px,3.2vw,16px) var(--gut);}
+.amn .cat.light .cathead{color:#111;}
+.amn .cathead .mk{width:clamp(32px,7.4vw,40px);height:clamp(32px,7.4vw,40px);border-radius:50%;
+  background:#fff;color:var(--c);display:grid;place-items:center;flex:none;}
+.amn .cathead .mk svg{width:56%;height:56%;}
+.amn .cat.light .cathead .mk{background:#111;color:var(--c);}
+.amn .cathead .ttl{font-family:var(--display);font-weight:700;font-size:clamp(19px,4.8vw,27px);
+  letter-spacing:-.015em;line-height:1.05;}
+.amn .cathead .ttl i{display:block;font-style:normal;font-weight:500;font-size:clamp(11px,2.9vw,13px);
+  letter-spacing:.1em;margin-top:4px;opacity:.9;}
+.amn .cathead .tag{font-weight:700;font-size:clamp(11px,2.8vw,12px);letter-spacing:.11em;
+  text-transform:uppercase;text-align:right;line-height:1.3;}
+.amn .catbody{display:grid;grid-template-columns:minmax(0,1fr) clamp(230px,34%,430px);
+  gap:clamp(16px,4vw,40px);align-items:start;padding:clamp(20px,5vw,30px) var(--gut);}
+.amn .catbody.solo{grid-template-columns:minmax(0,1fr);}
+.amn .catbody .lead{font-size:clamp(17px,4.4vw,22px);font-weight:500;line-height:1.45;margin:0 0 clamp(14px,3.5vw,18px);}
+.amn .catbody .lead b{font-weight:700;}
+.amn .catbody .lead .no{color:#B4001F;font-weight:700;}
+.amn .catbody .lead .yes{color:#0B7A3B;font-weight:700;}
+.amn .catbody dl{margin:0;display:grid;gap:0;}
+.amn .catbody dl>div{display:grid;grid-template-columns:clamp(96px,22%,170px) minmax(0,1fr);
+  gap:clamp(10px,3vw,22px);padding:clamp(11px,2.9vw,15px) 0;border-top:1.5px solid var(--line);align-items:baseline;}
+.amn .catbody dt{font-weight:500;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);line-height:1.5;
+  display:flex;align-items:center;gap:9px;}
+.amn .catbody dt .ibadge{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 6px;border-radius:11px;flex:none;
+  background:var(--bc,var(--ink));color:#fff;font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:0;text-transform:none;white-space:nowrap;}
+.amn .catbody dd{margin:0;font-size:clamp(15px,3.8vw,17px);font-weight:500;line-height:1.55;}
+.amn .catbody dd b{font-weight:700;}
+.amn .catbody dd .no{color:#B4001F;font-weight:700;}
+.amn .catbody dd .yes{color:#0B7A3B;font-weight:700;}
+.amn .catbody dd small{display:block;font-size:13px;font-weight:400;color:var(--ink-2);margin-top:5px;line-height:1.5;}
+/* the photo */
+.amn .catbody figure{margin:0;position:relative;}
+.amn .catbody figure figcaption{margin-top:8px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.5;}
+.amn .pshow{border:1.5px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;}
+.amn .pshow-hint{font-size:12px;font-weight:500;color:var(--ink-2);padding:9px 14px 0;}
+.amn .pshow-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-top:6px;}
+.amn .pshow-track::-webkit-scrollbar{display:none;}
+.amn .pshow-track figure{flex:0 0 100%;scroll-snap-align:start;margin:0;}
+.amn .pshow-track img{display:block;width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;}
+.amn .pshow-track figcaption{padding:10px 14px 12px;font-size:12.5px;line-height:1.55;color:var(--ink-2);border-top:1.5px solid var(--line);}
+.amn .catbody .ph,.amn .catbody img{display:block;width:100%;aspect-ratio:3/2;height:auto;object-fit:cover;}
+.amn .catbody .ph{display:grid;place-items:center;align-content:center;gap:8px;text-align:center;padding:16px;
+  background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
+  color:var(--ink-2);font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;}
+@media (max-width:720px){
+  .amn .catbody{grid-template-columns:minmax(0,1fr);gap:18px;}
+  .amn .catbody dl>div{grid-template-columns:minmax(0,1fr);gap:5px;}
+  .amn .cathead{grid-template-columns:auto minmax(0,1fr);}
+  .amn .cathead .tag{grid-column:2;text-align:left;}
+}
+
+.amn .stands{display:grid;gap:clamp(22px,5.5vw,32px);}
+.amn .stand{border-top:1.5px solid var(--line);padding-top:clamp(16px,4vw,22px);}
+.amn .stand:first-child{border-top:0;padding-top:0;}
+.amn .stand h4{font-family:var(--display);font-weight:700;font-size:clamp(16px,4vw,19px);margin:0 0 12px;letter-spacing:-.01em;}
+.amn .stand .stand-media{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(14px,3.5vw,20px);align-items:start;}
+.amn .stand .map{border:1.5px solid var(--line);border-radius:10px;overflow:hidden;position:relative;height:210px;background:var(--card);}
+.amn .stand .map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.amn .stand figure{margin:0;}
+.amn .stand figure figcaption{margin-top:8px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.5;}
+.amn .stand .ph{height:210px;}
+.amn .stand .open{display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-weight:700;font-size:13px;letter-spacing:.02em;color:var(--c);text-decoration:none;}
+.amn .stand .open svg{width:14px;height:14px;}
+.amn .stand.tbd .stand-media{grid-template-columns:minmax(0,1fr);}
+.amn .stand.tbd .note{margin:0;font-size:14px;color:var(--ink-2);background:var(--card);border:1.5px dashed var(--line);border-radius:10px;padding:14px 16px;}
+@media (max-width:640px){
+  .amn .stand .stand-media{grid-template-columns:minmax(0,1fr);}
+}
+
+/* ON THIS PAGE — the colour blocks are the contents list. One per
+   category, same letter, and each one jumps to it. */
+.amn .blocks{grid-template-columns:repeat(var(--n,4),1fr);}
+.amn .blocks .filler{background:var(--grey);display:none;}   /* keeps the last row square when the count is odd */
+@media (max-width:900px){.amn .blocks{grid-template-columns:repeat(2,1fr);} .amn .blocks .filler{display:block;}}
+.amn .blocks li{display:contents;}
+.amn a.block{text-decoration:none;color:inherit;}
+.amn a.block .v em{display:block;font-style:normal;font-weight:500;font-size:clamp(12px,3vw,14px);
+  letter-spacing:.06em;margin-top:6px;opacity:.75;}
+.amn a.block .k svg{width:18px;height:18px;}
+@media (hover:hover){.amn a.block:hover .foot .ic{transform:translateY(-2px);}}
+.amn a.block .foot .ic{transition:transform .25s;}
+
+/* OTHER LINES — now at the foot of the page, after the content */
+.amn .others{border-top:1.5px solid var(--line);padding-top:clamp(22px,5vw,30px);}
+.amn .others .label{display:block;margin-bottom:clamp(12px,3vw,16px);}
+
+/* ---------------------------------------------------------------
+   ILLUSTRATION — the hand-drawn (AI-generated, source-checked) floor
+   schematic for this line. One PNG, badges baked in, so no interactive
+   pins are needed here (unlike the whole-station photo map below).
+   --------------------------------------------------------------- */
+.amn .illust-shell{border:1.5px solid var(--line);border-left:0;border-right:0;padding:0;}
+.amn .illust-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .illust{position:relative;overflow:auto;background:#fff;-webkit-overflow-scrolling:touch;}
+.amn .illust-inner{position:relative;width:100%;min-width:640px;}
+.amn .illust-inner img{display:block;width:100%;height:auto;}
+/* a called-out fact the drawing itself doesn't show (e.g. "no escalator") —
+   a dashed ring around the relevant badge/row plus a small red tag beside it.
+   Positioned in % of the image box via .illust-inner, so it tracks the
+   image exactly at any width. */
+.amn .illust-ring{position:absolute;border:2px dashed #B4001F;border-radius:10px;pointer-events:none;transform:translate(-0%,-0%);}
+.amn .illust-flag{position:absolute;transform:translateY(-50%);background:#B4001F;color:#fff;font-weight:700;font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:5px 10px;border-radius:999px;white-space:nowrap;pointer-events:none;box-shadow:0 2px 6px rgba(0,0,0,.25);}
+.amn .illust-legend{display:flex;flex-wrap:wrap;gap:10px 18px;padding:12px 16px;border-top:1.5px solid var(--line);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);}
+.amn .illust-legend span{display:inline-flex;align-items:center;gap:8px;}
+.amn .illust-legend i{width:14px;height:14px;border-radius:50%;display:inline-block;flex:none;}
+.amn .illust-note{padding:12px 16px 16px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.6;border-top:1.5px solid var(--line);}
+
+/* ---------------------------------------------------------------
+   ZOOM MAP — the whole-station illustration (much denser than a
+   single line), so it gets a real pinch/wheel/drag zoom viewer
+   instead of the per-line illustration's plain horizontal scroll.
+   --------------------------------------------------------------- */
+.amn .zoommap-shell{border:1.5px solid var(--line);border-left:0;border-right:0;padding:0;}
+.amn .zoommap-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .zoommap{position:relative;overflow:hidden;background:#fff;touch-action:none;aspect-ratio:4/3;}
+.amn .zoommap .zm-stage{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;cursor:grab;}
+.amn .zoommap.dragging .zm-stage{cursor:grabbing;}
+.amn .zoommap img{display:block;max-width:none;-webkit-user-drag:none;user-select:none;}
+.amn .zm-controls{position:absolute;right:10px;bottom:10px;display:flex;flex-direction:column;gap:6px;z-index:2;}
+.amn .zm-controls button{width:38px;height:38px;border-radius:50%;border:0;background:var(--ink);color:#fff;font-size:20px;font-weight:700;line-height:1;display:grid;place-items:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);}
+.amn .zm-controls button:active{transform:scale(.94);}
+.amn .zm-controls .zm-reset{font-size:11px;letter-spacing:.05em;text-transform:uppercase;}
+.amn .zm-pct{position:absolute;left:10px;bottom:10px;background:rgba(17,17,17,.8);color:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;padding:5px 10px;border-radius:999px;pointer-events:none;z-index:2;}
+@media (min-width:820px){.amn .zoommap-shell{max-width:1100px;margin:0 auto;border-left:1.5px solid var(--line);border-right:1.5px solid var(--line);border-radius:12px;overflow:hidden;}}
+
 /* ---------------------------------------------------------------
    6. MAP  [MAP] — pins are <button>s positioned in % of the map box
    --------------------------------------------------------------- */
 .amn .map-shell{border:1.5px solid var(--line);border-left:0;border-right:0;padding:0;}  /* edge to edge */
-.amn .map{position:relative;overflow:hidden;background:#fff;}
+.amn .map{position:relative;overflow:auto;background:#fff;-webkit-overflow-scrolling:touch;}
+/* the plan is dense, so on a phone it keeps a readable width and the box scrolls
+   sideways. Pins sit inside .mapinner, so their % coordinates stay on the image. */
+.amn .mapinner{position:relative;width:100%;min-width:720px;}
 .amn .map img,.amn .map svg{display:block;width:100%;height:auto;}
+.amn .map-shell .hint .swipe{display:none;}
+@media (max-width:760px){.amn .map-shell .hint .swipe{display:inline;}}
+.amn .map-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
 .amn .pin{--c:var(--shinkansen);position:absolute;transform:translate(-50%,-100%);display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:0;padding:6px;cursor:pointer;}
 .amn .pin .dot{width:38px;height:38px;border-radius:50% 50% 50% 4px;transform:rotate(-45deg);background:var(--c);border:3px solid #fff;box-shadow:0 4px 10px rgba(0,0,0,.25);display:grid;place-items:center;color:#fff;transition:transform .25s;}
 .amn .pin .dot svg{width:20px;height:20px;transform:rotate(45deg);}
@@ -363,99 +575,9 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 }
 
 /* ---------------------------------------------------------------
-   AREA PAGE — same folder stack as the Train page, then one section
-   per folder. Each section lists the pages underneath it as index
-   rows, or shows the facility blocks where the area has no deeper
-   pages yet.
-   --------------------------------------------------------------- */
-.amn .areahead{padding:clamp(30px,8vw,56px) 0 0;}
-.amn .areahead .top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;}
-.amn h1{font-family:var(--display);font-weight:700;font-size:clamp(46px,13vw,140px);line-height:.9;letter-spacing:-.02em;text-transform:uppercase;margin-top:clamp(10px,3vw,16px);}
-.amn h1 span{display:block;}
-.amn .areahead p.stand{margin:clamp(16px,4vw,22px) 0 clamp(20px,5vw,26px);font-size:clamp(16px,4vw,22px);font-weight:500;max-width:28em;}
-/* the area's colour as a rule under the title */
-.amn .areahead .colourrule{height:8px;border-radius:4px;background:var(--area-c);margin-bottom:clamp(4px,2vw,10px);}
-
-/* index rows (same pattern as the Train page hero) */
-.amn .index{border-top:1.5px solid var(--line);}
-.amn .index a{display:grid;grid-template-columns:clamp(32px,9vw,52px) 1fr auto clamp(36px,10vw,40px);align-items:center;gap:clamp(10px,2.5vw,16px);padding:clamp(14px,4vw,18px) 0;border-bottom:1.5px solid var(--line);text-decoration:none;transition:padding-left .25s;}
-.amn .index a .n{font-weight:700;font-size:14px;letter-spacing:.06em;}
-.amn .index a .t{font-family:var(--display);font-weight:700;font-size:clamp(22px,6vw,34px);letter-spacing:-.015em;text-transform:uppercase;line-height:1;}
-.amn .index a .t small{display:block;font-weight:500;font-size:13px;letter-spacing:.08em;margin-top:6px;color:var(--ink-2);text-transform:none;}
-.amn .index a .pf{font-weight:700;font-size:clamp(13px,3.4vw,15px);letter-spacing:.1em;text-transform:uppercase;text-align:right;}
-.amn .index a .ar{width:36px;height:36px;border-radius:50%;background:var(--c);display:grid;place-items:center;color:#fff;}
-.amn .index a .ar svg{width:18px;height:18px;transition:transform .25s;}
-.amn .index a.dark .ar{color:#111;}
-.amn .index a.soon{cursor:default;}
-.amn .index a.soon .ar{background:transparent;border:1.5px solid var(--ink);color:var(--ink);}
-@media (hover:hover){.amn .index a:not(.soon):hover{padding-left:8px;} .amn .index a:not(.soon):hover .ar svg{transform:translate(2px,-2px);}}
-
-
-/* ---------------------------------------------------------------
    GETTING THERE — Google Map embed. Keyless embed URL, so it needs
    no API key; swap the q= value to move the pin.
    --------------------------------------------------------------- */
-/* ---------------------------------------------------------------
-   CATEGORIES (Taxi section) — same fact-block pattern used on the
-   line detail pages (e.g. amn-bus-city.html), copied in here since
-   the Taxi topic has no separate page of its own.
-   --------------------------------------------------------------- */
-.amn .cats{border-top:1.5px solid var(--line);margin-top:clamp(20px,5vw,28px);}
-.amn .cat{border-bottom:1.5px solid var(--line);}
-.amn .cathead{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:clamp(12px,3vw,18px);
-  align-items:center;background:var(--c);color:#fff;margin:0;
-  padding:clamp(12px,3.2vw,16px) var(--gut);}
-.amn .cat.light .cathead{color:#111;}
-.amn .cathead .mk{width:clamp(32px,7.4vw,40px);height:clamp(32px,7.4vw,40px);border-radius:50%;
-  background:#fff;color:var(--c);display:grid;place-items:center;flex:none;}
-.amn .cathead .mk svg{width:56%;height:56%;}
-.amn .cat.light .cathead .mk{background:#111;color:var(--c);}
-.amn .cathead .ttl{font-family:var(--display);font-weight:700;font-size:clamp(19px,4.8vw,27px);
-  letter-spacing:-.015em;line-height:1.05;}
-.amn .cathead .tag{font-weight:700;font-size:clamp(11px,2.8vw,12px);letter-spacing:.11em;
-  text-transform:uppercase;text-align:right;line-height:1.3;}
-.amn .catbody{display:grid;grid-template-columns:minmax(0,1fr) clamp(230px,34%,430px);
-  gap:clamp(16px,4vw,40px);align-items:start;padding:clamp(20px,5vw,30px) var(--gut);}
-.amn .catbody.solo{grid-template-columns:minmax(0,1fr);}
-.amn .catbody .lead{font-size:clamp(17px,4.4vw,22px);font-weight:500;line-height:1.45;margin:0 0 clamp(14px,3.5vw,18px);}
-.amn .catbody .lead b{font-weight:700;}
-.amn .catbody dl{margin:0;display:grid;gap:0;}
-.amn .catbody dl>div{display:grid;grid-template-columns:clamp(96px,22%,170px) minmax(0,1fr);
-  gap:clamp(10px,3vw,22px);padding:clamp(11px,2.9vw,15px) 0;border-top:1.5px solid var(--line);align-items:baseline;}
-.amn .catbody dt{font-weight:500;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);line-height:1.5;}
-.amn .catbody dd{margin:0;font-size:clamp(15px,3.8vw,17px);font-weight:500;line-height:1.55;}
-.amn .catbody dd b{font-weight:700;}
-.amn .catbody figure{margin:0;position:relative;}
-.amn .catbody figure figcaption{margin-top:8px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.5;}
-.amn .catbody .ph,.amn .catbody img{display:block;width:100%;aspect-ratio:3/2;height:auto;object-fit:cover;}
-.amn .catbody .ph{display:grid;place-items:center;align-content:center;gap:8px;text-align:center;padding:16px;
-  background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
-  color:var(--ink-2);font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;}
-@media (max-width:720px){
-  .amn .catbody{grid-template-columns:minmax(0,1fr);gap:18px;}
-  .amn .catbody dl>div{grid-template-columns:minmax(0,1fr);gap:5px;}
-  .amn .cathead{grid-template-columns:auto minmax(0,1fr);}
-  .amn .cathead .tag{grid-column:2;text-align:left;}
-}
-
-.amn .stands{display:grid;gap:clamp(22px,5.5vw,32px);}
-.amn .stand{border-top:1.5px solid var(--line);padding-top:clamp(16px,4vw,22px);}
-.amn .stand:first-child{border-top:0;padding-top:0;}
-.amn .stand h4{font-family:var(--display);font-weight:700;font-size:clamp(16px,4vw,19px);margin:0 0 12px;letter-spacing:-.01em;}
-.amn .stand .stand-media{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(14px,3.5vw,20px);align-items:start;}
-.amn .stand .map{border:1.5px solid var(--line);border-radius:10px;overflow:hidden;position:relative;height:210px;background:var(--card);}
-.amn .stand .map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
-.amn .stand figure{margin:0;}
-.amn .stand figure figcaption{margin-top:8px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.5;}
-.amn .stand .ph{height:210px;}
-.amn .stand .open{display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-weight:700;font-size:13px;letter-spacing:.02em;color:var(--c);text-decoration:none;}
-.amn .stand .open svg{width:14px;height:14px;}
-.amn .stand.tbd .stand-media{grid-template-columns:minmax(0,1fr);}
-.amn .stand.tbd .note{margin:0;font-size:14px;color:var(--ink-2);background:var(--card);border:1.5px dashed var(--line);border-radius:10px;padding:14px 16px;}
-@media (max-width:640px){
-  .amn .stand .stand-media{grid-template-columns:minmax(0,1fr);}
-}
-
 .amn .gmap{border:1.5px solid var(--line);border-left:0;border-right:0;}
 .amn .gmap .frame{position:relative;height:clamp(300px,52vw,460px);display:grid;place-items:center;
   background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E7E4DC 14px 28px);}
@@ -464,65 +586,10 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .gmap .row{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;
   padding:clamp(12px,3.5vw,16px) var(--gut);border-top:1.5px solid var(--line);}
 .amn .gmap .addr{font-weight:500;font-size:14px;color:var(--ink-2);}
-
-/* ---------------------------------------------------------------
-   PLAN YOUR TRIP — a single small partner card, deliberately quieter
-   than the accessibility sections above it (smaller type, no idx
-   number, no chiprow) so it never competes with elevator/toilet/
-   route information. Shared .plancard look with the top page.
-   --------------------------------------------------------------- */
-.amn .plan{padding:clamp(24px,6vw,36px) 0 clamp(32px,7vw,48px);border-top:1.5px solid var(--line);}
-.amn .plan .inner{max-width:640px;}
-.amn .plan h2{font-family:var(--display);font-weight:700;font-size:clamp(19px,3.4vw,24px);letter-spacing:-.01em;line-height:1.25;text-transform:none;margin-top:8px;}
-.amn .plan .plan-lead{margin-top:6px;font-size:14px;line-height:1.6;color:var(--ink-2);}
-.amn .plancard{display:flex;flex-direction:column;gap:10px;background:var(--card);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 18px 18px;text-decoration:none;color:var(--ink);margin-top:14px;max-width:420px;transition:transform .25s;}
-@media (hover:hover){a.plancard:hover{transform:translateY(-3px);}}
-.amn .plancard .pc-top{display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
-.amn .plancard .pc-badge{padding:4px 9px;border-radius:999px;border:1.5px solid var(--line);font-size:10px;white-space:nowrap;}
-.amn .plancard h3{font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:-.01em;line-height:1.2;margin:0;}
-.amn .plancard p{font-size:13.5px;line-height:1.55;color:var(--ink-2);margin:0;}
-.amn .plancard .pc-cta{display:inline-flex;align-items:center;gap:8px;padding-top:4px;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);}
-.amn .plancard .pc-cta svg{width:15px;height:15px;}
-.amn .plancard .pc-cta img{display:block;max-width:100%;height:auto;}
-.amn .plan .pc-note{margin-top:10px;font-size:12.5px;line-height:1.6;color:var(--ink-2);max-width:420px;}
-.amn .plan .pc-note a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
 .amn .gmap .open{display:inline-flex;align-items:center;gap:10px;text-decoration:none;background:var(--ink);color:#fff;
   border-radius:999px;padding:12px 20px;font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;transition:transform .25s;}
 .amn .gmap .open svg{width:16px;height:16px;transition:transform .25s;}
 @media (hover:hover){.amn .gmap .open:hover{transform:translateY(-2px);} .amn .gmap .open:hover svg{transform:translate(2px,-2px);}}
-
-/* ---------------------------------------------------------------
-   ZOOM MAP — the whole-station illustration (every operator, not
-   just one line), with a real pinch/wheel/drag zoom viewer.
-   --------------------------------------------------------------- */
-.amn .zoommap-shell{border:1.5px solid var(--line);border-left:0;border-right:0;padding:0;margin-top:clamp(20px,5vw,28px);}
-.amn .zoommap-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
-.amn .zoommap{position:relative;overflow:hidden;background:#fff;touch-action:none;aspect-ratio:10/7;}
-.amn .zoommap .zm-stage{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;cursor:grab;}
-.amn .zoommap.dragging .zm-stage{cursor:grabbing;}
-.amn .zoommap img{display:block;max-width:none;-webkit-user-drag:none;user-select:none;}
-.amn .zm-controls{position:absolute;right:10px;bottom:10px;display:flex;flex-direction:column;gap:6px;z-index:2;}
-.amn .zm-controls button{width:38px;height:38px;border-radius:50%;border:0;background:var(--ink);color:#fff;font-size:20px;font-weight:700;line-height:1;display:grid;place-items:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.25);}
-.amn .zm-controls button:active{transform:scale(.94);}
-.amn .zm-controls .zm-reset{font-size:11px;letter-spacing:.05em;text-transform:uppercase;}
-.amn .zm-pct{position:absolute;left:10px;bottom:10px;background:rgba(17,17,17,.8);color:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;padding:5px 10px;border-radius:999px;pointer-events:none;z-index:2;}
-.amn .illust-legend{display:flex;flex-wrap:wrap;gap:10px 18px;padding:12px 16px;border-top:1.5px solid var(--line);font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);}
-.amn .illust-legend span{display:inline-flex;align-items:center;gap:8px;}
-.amn .illust-legend i{width:14px;height:14px;border-radius:50%;display:inline-block;flex:none;}
-.amn .illust-note{padding:12px 16px 16px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.6;border-top:1.5px solid var(--line);}
-.amn .toi-cat{padding:clamp(18px,4.5vw,26px) 0;border-top:1.5px solid var(--line);}
-.amn .toi-cat:first-of-type{border-top:none;padding-top:0;}
-.amn .toi-cat h3{font-family:var(--display);font-weight:700;font-size:clamp(16px,4vw,19px);letter-spacing:-.01em;line-height:1.25;margin:0 0 8px;}
-.amn .toi-cat p{font-size:clamp(14px,3.6vw,16px);line-height:1.7;color:var(--ink);margin:0 0 .7em;}
-.amn .toi-cat p:last-child{margin-bottom:0;}
-.amn .toi-cat .note{font-size:13px;line-height:1.6;color:var(--ink-2);border-left:3px solid var(--line);padding-left:14px;margin-top:.6em;}
-.amn .map-shell{border:1.5px solid var(--line);border-left:0;border-right:0;padding:0;margin-top:clamp(18px,4.5vw,26px);}
-.amn .map{position:relative;overflow:auto;background:#fff;-webkit-overflow-scrolling:touch;}
-.amn .mapinner{position:relative;width:100%;min-width:720px;}
-.amn .map img,.amn .map svg{display:block;width:100%;height:auto;}
-.amn .map-shell .hint .swipe{display:none;}
-@media (max-width:760px){.amn .map-shell .hint .swipe{display:inline;}}
-.amn .map-shell .hint{padding:12px 16px 10px;font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
 .amn .verify{border-top:1.5px solid var(--line);}
 .amn .verify .wrap{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;padding:16px var(--gut);text-align:center;}
 .amn .verify svg{width:17px;height:17px;color:#1F9254;flex-shrink:0;}
@@ -536,22 +603,23 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 @media (max-width:480px){.amn .totop{right:12px;bottom:12px;width:42px;height:42px;}.amn .totop svg{width:18px;height:18px;}}
 @media print{.amn .totop{display:none;}}
 
+.amn .official{border-top:1.5px solid var(--line);}
+.amn .official .wrap{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;padding:clamp(12px,3.5vw,16px) var(--gut);}
+.amn .official .lbl{font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .official .links{display:flex;flex-wrap:wrap;gap:10px;}
+.amn .official .links a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;background:var(--ink);color:#fff;border-radius:999px;padding:10px 16px;font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;transition:transform .2s;}
+.amn .official .links a svg{width:14px;height:14px;transition:transform .2s;flex-shrink:0;}
+@media (hover:hover){.amn .official .links a:hover{transform:translateY(-2px);}.amn .official .links a:hover svg{transform:translate(2px,-2px);}}
+@media (max-width:480px){.amn .official .wrap{flex-direction:column;align-items:flex-start;}}
+
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
-.amn .pshow{border:1.5px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;margin:14px 0 0;}
-.amn .pshow-hint{font-size:12px;font-weight:500;color:var(--ink-2);padding:9px 14px 0;}
-.amn .pshow-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-top:6px;}
-.amn .pshow-track::-webkit-scrollbar{display:none;}
-.amn .pshow-track figure{flex:0 0 100%;scroll-snap-align:start;margin:0;}
-.amn .pshow-track img{display:block;width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;}
-.amn .pshow-track figcaption{padding:10px 14px 12px;font-size:12.5px;line-height:1.55;color:var(--ink-2);border-top:1.5px solid var(--line);}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station Wheelchair Access Guide | Elevators, Toilets & Step-Free Routes","url":"https://accessibilitynagoya.com/amn-nagoya-station","description":"Is Nagoya Station wheelchair accessible? Step-free routes, elevators and accessible toilets for JR, Shinkansen, Meitetsu, Kintetsu, the subway, Aonami Line and bus terminals.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station Taxi Stands & Wheelchair-Accessible Taxi | 5 Ranks Mapped","url":"https://accessibilitynagoya.com/amn-taxi","description":"Where to catch a taxi at Nagoya Station: five taxi stands mapped, plus how to book a wheelchair-accessible vehicle in advance.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"},{"@type":"ListItem","position":3,"name":"Taxi","item":"https://accessibilitynagoya.com/amn-taxi"}]}</script>
 </head>
 <body>
 <a href="#main" class="skip-link">Skip to content</a>
-<!-- SVG icon sprite -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M12 6v3l2 1.5M12 15v6M9 21h6"/></symbol>
   <symbol id="i-gate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="6" height="16" rx="2"/><rect x="15" y="4" width="6" height="16" rx="2"/><path d="M9 12h6"/></symbol>
@@ -561,21 +629,17 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <symbol id="i-train" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 10h14M9 21l1.5-3M15 21l-1.5-3"/><circle cx="9" cy="14" r="1"/><circle cx="15" cy="14" r="1"/></symbol>
   <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
-  <symbol id="i-locker" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 12h16M9 7.5h2M9 16.5h2"/></symbol>
-  <symbol id="i-bus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="14" rx="3"/><path d="M4 10h16M8 21l1-2M16 21l-1-2"/><circle cx="8" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></symbol>
-  <symbol id="i-baby" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M5 21c0-3.5 3.1-6 7-6s7 2.5 7 6"/></symbol>
-  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
   <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></symbol>
 </svg>
 
-<div class="amn" style="--area-c:#D4FF3A">
+<div class="amn">
 
 
-  <!-- HEADER — logo alone and centred -->
   <header class="site-head">
     <div class="wrap">
-      <a class="logo" href="/" aria-label="Accessibility Map NAGOYA — home"><!-- [LINK] home -->
+      <!-- [IMG] logo → <img src="..." alt="Accessibility Map NAGOYA"> -->
+      <a class="logo" href="/" aria-label="Accessibility Map NAGOYA — home">
         <span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="wheel"></span></span></span>
         <span class="l2" aria-hidden="true">NAGOYA</span>
       </a>
@@ -585,197 +649,120 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <div class="wrap">
       <nav class="crumbs" aria-label="You are here">
         <a href="/">Top</a><span aria-hidden="true">&rsaquo;</span>
-        <span aria-current="page">Nagoya Station</span>
+        <a href="amn-nagoya-station">Nagoya Station</a><span aria-hidden="true">&rsaquo;</span>
+        <span aria-current="page">Taxi</span>
       </nav>
     </div>
   </div>
 <main id="main">
 
 
-  <!-- TITLE -->
-  <section class="areahead" aria-labelledby="a-title">
+  <!-- ============================== HERO ============================== -->
+  <section class="hero" aria-labelledby="hero-title">
     <div class="wrap">
       <div class="top">
-        <span class="label">Area 01 · Nagoya Station</span>
-        <span class="label">Step-free</span>
+        <span class="label">Nagoya Station &middot; Taxi</span>
+        <span class="label">Book ahead recommended</span>
       </div>
       <hr class="rule">
-      <h1 id="a-title"><span>Nagoya</span><span>Station</span></h1>
-      <p class="stand">Trains, buses and the underground streets — where to go before you move.</p>
-      <p class="qa"><b>Is Nagoya Station wheelchair accessible?</b> Yes — step-free routes, elevators and accessible toilets exist across JR, Shinkansen, Meitetsu, Kintetsu, the subway and the Aonami Line, though the easiest route depends on which operator and exit you use. This guide is also useful for wheelchair users, families with strollers, travelers with large luggage, and anyone who prefers step-free routes through Japan’s busiest transfer hub.</p>
-      <p class="qa"><b>Traveling with luggage or a stroller?</b> Elevators connect every platform to street level across JR, Shinkansen, Meitetsu, Kintetsu, the subway and the Aonami Line, and a taxi rank is available near the Kintetsu gate.</p>
-      <p class="qa"><b>Wheelchair-accessible taxi?</b> Booking an accessible vehicle in advance is recommended if you need to remain seated in your wheelchair — some operators require booking by phone rather than through a taxi app. See the Taxi section below.</p>
-      <div class="colourrule" aria-hidden="true"></div>
+      <h1 id="hero-title"><span>Nagoya</span><span>Station</span><span class="hl" style="color:var(--taxi)">Taxi</span></h1>
+      <p>Five taxi stands around Nagoya Station, plus how to book a wheelchair-accessible vehicle in advance.</p>
     </div>
   </section>
 
-
-  <!-- FOLDER STACK — pick a section -->
-  <section class="files" aria-labelledby="pick">
-    <div class="wrap">
-      <h2 id="pick" class="sr">Choose a section</h2>
-      <p class="intro"><svg width="18" height="18" aria-hidden="true"><use href="#i-wheel"/></svg> Pick a section</p>
-      <div class="stack" style="--n:4">
-        <a class="file" href="#train" data-target="train" style="--i:0;--c:var(--shinkansen)">
-          <span class="tab">Train</span>
-          <span class="body">
-            <span><span class="name">Train</span><br><span class="sub">Six lines, one station · 6 pages</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
-            <span class="ja" lang="en" aria-hidden="true">T<br>R<br>A<br>I<br>N</span>
-          </span>
-        </a>
-        <a class="file" href="#bus" data-target="bus" style="--i:1;--c:var(--bus)">
-          <span class="tab">Bus</span>
-          <span class="body">
-            <span><span class="name">Bus</span><br><span class="sub">City bus &amp; highway bus · 3 pages</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
-            <span class="ja" lang="en" aria-hidden="true">B<br>U<br>S</span>
-          </span>
-        </a>
-        <a class="file" href="#taxi" data-target="taxi" style="--i:2;--c:var(--taxi)">
-          <span class="tab">Taxi</span>
-          <span class="body">
-            <span><span class="name">Taxi</span><br><span class="sub">Taxi rank &amp; wheelchair-accessible booking</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
-            <span class="ja" lang="en" aria-hidden="true">T<br>A<br>X<br>I</span>
-          </span>
-        </a>
-        <a class="file dark" href="#underground" data-target="underground" style="--i:3;--c:#B0289B">
-          <span class="tab">Underground</span>
-          <span class="body">
-            <span><span class="name">Underground Streets</span><br><span class="sub">ESCA, Fashion One, Gate Walk, Dainard, Unimall, Sun Road, Miyako &amp; Kitachika · 8 of 8</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
-            <span class="ja" lang="en" aria-hidden="true">M<br>A<br>L<br>L</span>
-          </span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section id="train" class="line" style="--c:var(--shinkansen)" aria-labelledby="train-t">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="chiprow" style="--cc:var(--shinkansen)"><span class="chip" style="color:#fff">Train</span><i></i><i></i></span>
-        <span class="idx">01</span>
-        <h2 id="train-t">Train</h2>
-        <div class="meta"><span class="label">Lines</span><b>6</b></div>
-      </div>
-      <nav class="index" aria-label="Pages in this section">
-        <a href="amn-train-shinkansen" style="--c:var(--shinkansen)"><span class="n">01</span><span class="t">Shinkansen<small>Lift on every platform &middot; start from the Silver Clock</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-train-jr" class="dark" style="--c:var(--jr)"><span class="n">02</span><span class="t">JR<small>Lift on every platform &middot; start from the Gold Clock</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-train-meitetsu" style="--c:var(--meitetsu)"><span class="n">03</span><span class="t">Meitetsu<small>One platform, many destinations &mdash; read the door sign</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-train-kintetsu" style="--c:var(--kintetsu)"><span class="n">04</span><span class="t">Kintetsu<small>Step-free transfer routes published</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-train-subway" class="dark" style="--c:var(--subway)"><span class="n">05</span><span class="t">Subway<small>Higashiyama &amp; Sakura-dori &middot; route given lift by lift</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-train-aonami" class="dark" style="--c:var(--aonami)"><span class="n">06</span><span class="t">Aonami<small>Lift and accessible toilet at every station</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-      </nav>
-
-      <p class="note" style="margin-top:10px;margin-bottom:8px;font-size:14px;color:var(--ink-2)">Whole-station map, every operator &mdash; not specific to one line.</p>
-      <div class="zoommap-shell" id="station-1f" aria-labelledby="station-1f-title">
-        <p class="hint" id="station-1f-title">1F / Street level &middot; pinch, scroll-wheel, or the buttons to zoom &middot; drag to pan &middot; double-tap to reset</p>
-        <div class="zoommap" style="aspect-ratio:10/7" data-zoommap>
-          <div class="zm-stage" data-zm-stage>
-            <img alt="1F / Street level" src="assets/img/3275d4408ff7d2b0.svg" loading="lazy">
-          </div>
-          <div class="zm-pct" data-zm-pct>100%</div>
-          <div class="zm-controls">
-            <button type="button" data-zm-in aria-label="Zoom in">+</button>
-            <button type="button" data-zm-out aria-label="Zoom out">&minus;</button>
-            <button type="button" class="zm-reset" data-zm-reset aria-label="Reset zoom">1:1</button>
-          </div>
-        </div>
-        <div class="illust-legend" aria-label="How to read the illustration">
-          <span><i style="background:#12B85A"></i>JR &amp; Shinkansen</span>
-          <span><i style="background:#E5332A"></i>Meitetsu</span>
-          <span><i style="background:#FF7A1A"></i>Kintetsu</span>
-          <span><i style="background:#C89400"></i>Subway (Higashiyama / Sakura-dori)</span>
-          <span><i style="background:#16C2B0"></i>Bus</span>
-          <span><i style="background:#0FC3E4"></i>Aonami Line</span>
-        </div>
-        <p class="illust-note">Whole-station schematic, generated from published station maps and cross-checked against JR Central&rsquo;s own platform-by-platform elevator/escalator tables (confirmed: platform 12&ndash;13 has no escalator at all; platform 2&rsquo;s escalator runs up only). Route names are colour-coded to the line they belong to; building names (JR Takashimaya, JR Gate Tower, Meitetsu Building, etc.) are not lines and are left uncoloured. Not an on-site survey &mdash; gate positions and passage lengths are schematic.</p>
-      </div>
-      <div class="zoommap-shell" id="station-b1" aria-labelledby="station-b1-title">
-        <p class="hint" id="station-b1-title">B1F / Underground &middot; pinch, scroll-wheel, or the buttons to zoom &middot; drag to pan &middot; double-tap to reset</p>
-        <div class="zoommap" style="aspect-ratio:10/7" data-zoommap>
-          <div class="zm-stage" data-zm-stage>
-            <img alt="B1F / Underground" src="assets/img/ff37eae63b2baa68.svg" loading="lazy">
-          </div>
-          <div class="zm-pct" data-zm-pct>100%</div>
-          <div class="zm-controls">
-            <button type="button" data-zm-in aria-label="Zoom in">+</button>
-            <button type="button" data-zm-out aria-label="Zoom out">&minus;</button>
-            <button type="button" class="zm-reset" data-zm-reset aria-label="Reset zoom">1:1</button>
-          </div>
-        </div>
-        <div class="illust-legend" aria-label="How to read the illustration">
-          <span><i style="background:#12B85A"></i>JR &amp; Shinkansen</span>
-          <span><i style="background:#E5332A"></i>Meitetsu</span>
-          <span><i style="background:#FF7A1A"></i>Kintetsu</span>
-          <span><i style="background:#C89400"></i>Subway (Higashiyama / Sakura-dori)</span>
-          <span><i style="background:#16C2B0"></i>Bus</span>
-          <span><i style="background:#0FC3E4"></i>Aonami Line</span>
-        </div>
-        <p class="illust-note">Whole-station schematic, generated from published station maps and cross-checked against JR Central&rsquo;s own platform-by-platform elevator/escalator tables (confirmed: platform 12&ndash;13 has no escalator at all; platform 2&rsquo;s escalator runs up only). Route names are colour-coded to the line they belong to; building names (JR Takashimaya, JR Gate Tower, Meitetsu Building, etc.) are not lines and are left uncoloured. Not an on-site survey &mdash; gate positions and passage lengths are schematic.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="bus" class="line" style="--c:var(--bus)" aria-labelledby="bus-t">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="chiprow" style="--cc:var(--bus)"><span class="chip" style="color:#111">Bus</span><i></i><i></i></span>
-        <span class="idx">02</span>
-        <h2 id="bus-t">Bus</h2>
-        <div class="meta"><span class="label">Services</span><b>3</b></div>
-      </div>
-      <nav class="index" aria-label="Pages in this section">
-        <a href="amn-bus-city" style="--c:var(--bus-city)"><span class="n">01</span><span class="t">City Bus<small>Eleven bays, one loop concourse</small></span><span class="pf">1&ndash;11</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-bus-meitetsu" style="--c:var(--bus-meitetsu)"><span class="n">02</span><span class="t">Meitetsu Bus<small>Two floors, five lifts</small></span><span class="pf">3F &middot; 4F</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-bus-highway" style="--c:var(--bus-highway)"><span class="n">03</span><span class="t">JR Highway Bus<small>No lift or toilet on site</small></span><span class="pf">1&ndash;4</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-      </nav>
-    </div>
-  </section>
-
-
-  <!-- TAXI -->
-  <section id="taxi" class="line" style="--c:var(--taxi)" aria-labelledby="taxi-t">
+  <section id="taxi" class="line" style="--c:var(--taxi)" aria-labelledby="sec-title">
     <div class="wrap">
       <div class="section-head">
         <span class="chiprow" style="--cc:var(--taxi)"><span class="chip" style="color:#fff">Taxi</span><i></i><i></i></span>
-        <span class="idx">03</span>
-        <h2 id="taxi-t">Taxi</h2>
+        <span class="idx">01</span>
+        <h2 id="sec-title">Taxi</h2>
         <div class="meta"><span class="label">Rank</span><b>5 stands</b></div>
       </div>
-      <nav class="index" aria-label="Pages in this section">
-        <a href="amn-taxi" style="--c:var(--taxi)"><span class="n">01</span><span class="t">Taxi<small>5 stands, mapped &middot; wheelchair-accessible booking</small></span><span class="pf">Ready</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-      </nav>
     </div>
-  </section>
 
-  <!-- UNDERGROUND STREETS -->
-  <section id="underground" class="line" style="--c:#B0289B" aria-labelledby="underground-t">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="chiprow" style="--cc:#B0289B"><span class="chip" style="color:#fff">Underground Streets</span><i></i><i></i></span>
-        <span class="idx">04</span>
-        <h2 id="underground-t">Underground Streets</h2>
-        <div class="meta"><span class="label">Malls</span><b>8 of 8</b></div>
+    <div class="cats">
+    <section class="cat" style="--c:var(--taxi)" id="cat-taxi-a" aria-labelledby="h-taxi-a">
+      <h3 class="cathead" id="h-taxi-a"><span class="mk"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><span class="ttl">Taxi rank</span><span class="tag">5 stands</span></h3>
+      <div class="catbody solo">
+        <p class="lead">Nagoya Station has taxi stands at several exits &mdash; the closest one depends on which gate you come out of.</p>
+        <div class="stands">
+      <div class="stand">
+        <h4>Sakura-dori Exit taxi stand</h4>
+        <div class="stand-media">
+          <div class="map">
+            <iframe title="Sakura-dori Exit taxi stand on Google Maps" src="https://maps.google.com/maps?q=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E6%A1%9C%E9%80%9A%E5%8F%A3%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4&amp;z=18&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <figure><div class="ph">Photo</div><figcaption>Sakura-dori Exit taxi stand — photo coming soon.</figcaption></figure>
+        </div>
+        <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E6%A1%9C%E9%80%9A%E5%8F%A3%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
       </div>
-      <p class="subhead">Eight malls connect near Nagoya Station &mdash; ESCA, Fashion One, Gate Walk, Dainard, Unimall, Sun Road, Miyako Underground Street and Kitachika are all mapped.</p>
-      <nav class="index" aria-label="Malls near Nagoya Station">
-        <a href="amn-underground#esca" style="--c:#B0289B"><span class="n">01</span><span class="t">ESCA<small>JR Nagoya Station, Taiko-dori side</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#fashion-one" style="--c:#B0289B"><span class="n">02</span><span class="t">Fashion One<small>JR Nagoya Station, Sakura-dori side</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#gatewalk" style="--c:#B0289B"><span class="n">03</span><span class="t">Gate Walk<small>Toward Meitetsu &amp; Kintetsu</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#dainard" style="--c:#B0289B"><span class="n">04</span><span class="t">Dainard<small>Dai Nagoya Building, B1</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#unimall" style="--c:#B0289B"><span class="n">05</span><span class="t">Unimall<small>Toward Meieki-dori</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#sunroad" style="--c:#B0289B"><span class="n">06</span><span class="t">Sun Road<small>Toward Sasashima</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#miyako" style="--c:#B0289B"><span class="n">07</span><span class="t">Miyako Underground Street &amp; Kitachika<small>Nagoya Station area</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-      </nav>
-      <p class="note" style="margin-top:18px;font-size:14px;color:var(--ink-2)"><a href="amn-underground">See the full Underground Streets page</a> for elevators, toilets, coin lockers and the floor-plan maps for each mall.</p>
+      <div class="stand">
+        <h4>Midland Square taxi stand</h4>
+        <div class="stand-media">
+          <div class="map">
+            <iframe title="Midland Square taxi stand on Google Maps" src="https://maps.google.com/maps?q=%E3%83%9F%E3%83%83%E3%83%89%E3%83%A9%E3%83%B3%E3%83%89%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%20%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4&amp;z=18&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <figure><div class="ph">Photo</div><figcaption>Midland Square taxi stand — photo coming soon.</figcaption></figure>
+        </div>
+        <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=%E3%83%9F%E3%83%83%E3%83%89%E3%83%A9%E3%83%B3%E3%83%89%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%20%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
+      </div>
+      <div class="stand">
+        <h4>Kintetsu / Meitetsu taxi stand</h4>
+        <div class="stand-media">
+          <div class="map">
+            <iframe title="Kintetsu / Meitetsu taxi stand on Google Maps" src="https://maps.google.com/maps?q=%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%20%E5%90%8D%E9%89%84%E3%83%BB%E8%BF%91%E9%89%84%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4&amp;z=18&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <figure><div class="ph">Photo</div><figcaption>Kintetsu / Meitetsu taxi stand — photo coming soon.</figcaption></figure>
+        </div>
+        <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%20%E5%90%8D%E9%89%84%E3%83%BB%E8%BF%91%E9%89%84%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
+      </div>
+      <div class="stand">
+        <h4>Kintetsu Passe taxi stand</h4>
+        <div class="stand-media">
+          <div class="map">
+            <iframe title="Kintetsu Passe taxi stand on Google Maps" src="https://maps.google.com/maps?q=%E5%90%8D%E5%8F%A4%E5%B1%8B%E8%BF%91%E9%89%84%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%20%E8%BF%91%E9%89%84%E3%83%91%E3%83%83%E3%82%BB%E4%B9%97%E5%A0%B4&amp;z=18&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <figure><div class="ph">Photo</div><figcaption>Kintetsu Passe taxi stand — photo coming soon.</figcaption></figure>
+        </div>
+        <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%90%8D%E5%8F%A4%E5%B1%8B%E8%BF%91%E9%89%84%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%20%E8%BF%91%E9%89%84%E3%83%91%E3%83%83%E3%82%BB%E4%B9%97%E5%A0%B4" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
+      </div>
+      <div class="stand">
+        <h4>Taiko-dori Exit taxi stand</h4>
+        <div class="stand-media">
+          <div class="map">
+            <iframe title="Taiko-dori Exit taxi stand on Google Maps" src="https://maps.google.com/maps?q=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%A4%AA%E9%96%A4%E9%80%9A%E5%8F%A3%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4&amp;z=18&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <figure><div class="ph">Photo</div><figcaption>Taiko-dori Exit taxi stand — photo coming soon.</figcaption></figure>
+        </div>
+        <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%A4%AA%E9%96%A4%E9%80%9A%E5%8F%A3%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
+      </div>
+        </div>
+      </div>
+    </section>
+    <section class="cat light" style="--c:var(--taxi)" id="cat-taxi-b" aria-labelledby="h-taxi-b">
+      <h3 class="cathead" id="h-taxi-b"><span class="mk"><svg aria-hidden="true"><use href="#i-wheel"/></svg></span><span class="ttl">Wheelchair-accessible taxi</span><span class="tag">Book ahead recommended</span></h3>
+      <div class="catbody">
+        <div>
+          <p class="lead">If you need to remain seated in your wheelchair, booking an accessible vehicle in advance is recommended &mdash; some operators require booking by phone rather than through a taxi app.</p>
+          <dl>
+            <div><dt>Nagoya MK</dt><dd>Wheelchair-accessible Noah vans, at the <b>same metered fare</b> as a standard taxi &mdash; no vehicle-designation surcharge. Same-day requests are possible if a vehicle is available, but the accessible fleet is limited, so booking ahead is recommended. Accessible-vehicle requests must be made <b>by phone</b>, not through the app. <a href="https://mktaxi-japan.com/nagoya/" target="_blank" rel="noopener" style="color:inherit">Nagoya MK</a></dd></div>
+            <div><dt>Same-day, any vehicle</dt><dd>Ride-hailing apps such as <a href="https://go.goinc.jp/en" target="_blank" rel="noopener" style="color:inherit">GO</a> and <a href="https://www.uber.com/jp/en/" target="_blank" rel="noopener" style="color:inherit">Uber</a> can call a nearby taxi on short notice, but do not guarantee a wheelchair-accessible vehicle.</dd></div>
+          </dl>
+        </div>
+        <div>
+          <figure data-mk="B"><div class="ph">Photo 1</div><figcaption>Wheelchair-accessible taxi — coming soon.</figcaption></figure>
+          <figure data-mk="B" style="margin-top:16px"><div class="ph">Photo 2</div><figcaption>Wheelchair-accessible taxi — coming soon.</figcaption></figure>
+        </div>
+      </div>
+    </section>
     </div>
   </section>
 
-  <!-- GETTING THERE — Google Map [LINK] [TEXT] -->
   <section id="getting-there" aria-labelledby="gt-t">
     <div class="wrap">
       <div class="section-head">
         <span class="chiprow" style="--cc:var(--ink)"><span class="chip" style="color:#fff">Getting there</span><i></i><i></i></span>
-        <span class="idx">05</span>
+        <span class="idx">02</span>
         <h2 id="gt-t">On the map</h2>
         <div class="meta"><span class="label">Open in</span><b>Google Maps</b></div>
       </div>
@@ -797,21 +784,15 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     </div>
   </section>
 
-  <!-- STAY CONNECTED — Sakura Mobile affiliate. Placed after all accessibility
-       content and the station map, in its own small, clearly labelled block. -->
-  <section class="plan" aria-labelledby="plan-title">
-    <div class="wrap inner">
-      <span class="label">Partner</span>
-      <h2 id="plan-title">Traveling with luggage or a stroller?</h2>
-      <p class="plan-lead">Stay connected while you use maps and transport apps to find your step-free route through the station.</p>
-      <!-- Sakura Mobile affiliate link (approved, id=637_7_1_3 / banner A234x60-1) -->
-      <a class="plancard" href="https://p.sakuramobile.jp/idevaffiliate.php?id=637_7_1_3" target="_blank" rel="sponsored noopener" aria-describedby="plan-affiliate-note">
-        <span class="pc-top"><span>Stay connected</span><span class="pc-badge">Partner</span></span>
-        <h3>Stay connected in Japan</h3>
-        <p>Need mobile data for Google Maps, translation and transport apps? Sakura Mobile offers eSIM, SIM cards and Pocket WiFi for visitors to Japan.</p>
-        <span class="pc-cta"><img src="https://p.sakuramobile.jp/media/banners/A234x60-1.png" width="234" height="60" loading="lazy" alt="Sakura Mobile — Japan Travel SIM, unlimited 4G/LTE for visitors to Japan"></span>
-      </a>
-      <p class="pc-note" id="plan-affiliate-note">Affiliate link &mdash; we may earn a commission if you book through this link, at no extra cost to you. <a href="amn-affiliate-disclosure">Affiliate Disclosure</a>.</p>
+  <!-- ========================== OTHER WAYS TO GET TO NAGOYA STATION ========================== -->
+  <section aria-labelledby="others-t">
+    <div class="wrap others">
+      <span class="label" id="others-t">Other ways around Nagoya Station</span>
+      <nav class="index" aria-labelledby="others-t">
+        <a href="amn-nagoya-station#train" style="--c:var(--shinkansen)"><span class="n">01</span><span class="t">Train<small>Shinkansen, JR, Meitetsu, Kintetsu, Subway, Aonami</small></span><span class="pf">6 lines</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-nagoya-station#bus" style="--c:var(--bus)"><span class="n">02</span><span class="t">Bus<small>City Bus, Meitetsu Bus, JR Highway Bus</small></span><span class="pf">3 services</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-underground" class="dark" style="--c:#B0289B"><span class="n">03</span><span class="t">Underground<small>ESCA, Unimall and six other connected malls</small></span><span class="pf">8 malls</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+      </nav>
     </div>
   </section>
 
@@ -820,15 +801,17 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 <div class="verify">
     <div class="wrap">
       <svg aria-hidden="true"><use href="#i-check"/></svg>
-      <span><b>Verified</b> against official sources &middot; Last updated 12 Sep 2026</span>
+      <span><b>Verified</b> against official sources &middot; Last updated 18 Sep 2026</span>
     </div>
   </div>
 
   <footer>
     <div class="wrap">
       <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="wheel"></span></span></span> <span class="l2" aria-hidden="true">NAGOYA</span></span>
-      <nav aria-label="Footer"><a href="amn-about">About us</a><a href="amn-sources">Sources</a><a href="amn-privacy">Privacy</a><a href="amn-terms">Terms</a><a href="amn-affiliate-disclosure">Affiliate Disclosure</a><a href="amn-contact">Contact</a></nav><!-- [LINK] -->
-      <small>Accessibility information may change. Please check official sources before visiting.<br>This is an independent accessibility guide.<br>&copy; 2026 Accessibility Map NAGOYA</small>
+      <!-- [LINK] -->
+      <nav aria-label="Footer"><a href="amn-about">About us</a><a href="amn-sources">Sources</a><a href="amn-privacy">Privacy</a><a href="amn-terms">Terms</a><a href="amn-affiliate-disclosure">Affiliate Disclosure</a><a href="amn-contact">Contact</a></nav>
+      <!-- [TEXT] -->
+      <small>Accessibility information may change. Please check official sources before visiting.<br>This is an independent accessibility guide.</small>
     </div>
   </footer>
   <button type="button" class="totop" aria-label="Back to top" title="Back to top"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 15l6-6 6 6"/></svg></button>
@@ -838,56 +821,67 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 
 <script>
-/* folder stack + smooth scroll — identical behaviour to the Train page */
+/* ---------------------------------------------------------------
+   Accessibility Map NAGOYA — behaviour
+   1) internal links smooth-scroll (respects reduced motion)
+   2) wallet stack: click/tap = .is-active (front + open) + scroll
+   3) map pins scroll to their block and flash it
+   4) light entrance animation
+   --------------------------------------------------------------- */
 (function(){
-  var root=document.querySelector('.amn'); if(!root) return;
-  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var root = document.querySelector('.amn'); if(!root) return;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
   function goTo(id){
-    var el=document.getElementById(id); if(!el) return;
-    el.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+    var el = document.getElementById(id); if(!el) return;
+    el.scrollIntoView({behavior: reduce ? 'auto' : 'smooth', block: 'start'});
     if(!el.hasAttribute('tabindex')) el.setAttribute('tabindex','-1');
     el.focus({preventScroll:true});
     el.classList.remove('is-target'); void el.offsetWidth; el.classList.add('is-target');
     if(history.replaceState) history.replaceState(null,'','#'+id);
   }
+
+  /* 1) plain internal links */
   root.querySelectorAll('a[href^="#"]:not(.file)').forEach(function(a){
     a.addEventListener('click',function(e){
-      var id=a.getAttribute('href').slice(1);
-      if(!id){e.preventDefault();return;}
-      if(document.getElementById(id)){e.preventDefault();goTo(id);}
+      var id = a.getAttribute('href').slice(1);
+      if(!id){ e.preventDefault(); return; }               /* [LINK] placeholders */
+      if(document.getElementById(id)){ e.preventDefault(); goTo(id); }
     });
   });
-  var stack=root.querySelector('.stack');
-  var files=Array.prototype.slice.call(root.querySelectorAll('.stack .file'));
+
+  /* 2) folder stack — click a tab / folder to pull it to the front */
+  var stack = root.querySelector('.stack');
+  var files = Array.prototype.slice.call(root.querySelectorAll('.stack .file'));
   function activate(f){
-    files.forEach(function(o){o.classList.remove('is-active');o.removeAttribute('aria-current');o.style.removeProperty('--z');});
-    f.classList.add('is-active'); f.setAttribute('aria-current','true'); f.style.setProperty('--z',40);
+    files.forEach(function(o){ o.classList.remove('is-active'); o.removeAttribute('aria-current'); o.style.removeProperty('--z'); });
+    f.classList.add('is-active'); f.setAttribute('aria-current','true'); f.style.setProperty('--z', 40);
     if(stack) stack.classList.add('has-active');
   }
   files.forEach(function(f){
-    var cta=f.querySelector('.start');
-    if(cta){
-      cta.setAttribute('role','button');
-      cta.setAttribute('tabindex','0');
-      cta.addEventListener('click',function(e){
-        e.stopPropagation(); e.preventDefault();
-        activate(f);
-        var id=f.getAttribute('data-target');
-        if(id) goTo(id);
-      });
-      cta.addEventListener('keydown',function(e){
-        if(e.key==='Enter'||e.key===' '){ e.preventDefault(); cta.click(); }
-      });
-    }
     f.addEventListener('click',function(e){
-      e.preventDefault(); activate(f);
+      e.preventDefault();
+      activate(f);
+      var id = f.getAttribute('data-target');
+      if(id) setTimeout(function(){ goTo(id); }, reduce ? 0 : 260);
     });
   });
-  if(location.hash){var hid=location.hash.slice(1);var hmatch=files.filter(function(f){return f.getAttribute('data-target')===hid;})[0];if(hmatch){activate(hmatch);goTo(hid);}}
-  var items=root.querySelectorAll('.anim');
-  if(reduce||!('IntersectionObserver' in window)){items.forEach(function(el){el.classList.add('amn-in');});return;}
-  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('amn-in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -8% 0px',threshold:.1});
-  items.forEach(function(el){io.observe(el);});
+  if(location.hash){
+    files.forEach(function(f){ if(f.getAttribute('data-target')===location.hash.slice(1)) activate(f); });
+  }
+
+  /* 3) map pins */
+  root.querySelectorAll('.pin[data-target]').forEach(function(btn){
+    btn.addEventListener('click',function(){ goTo(btn.getAttribute('data-target')); });
+  });
+
+  /* 4) entrance animation */
+  var items = root.querySelectorAll('.anim');
+  if(reduce || !('IntersectionObserver' in window)){ items.forEach(function(el){ el.classList.add('amn-in'); }); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('amn-in'); io.unobserve(en.target); } });
+  },{rootMargin:'0px 0px -8% 0px', threshold:.1});
+  items.forEach(function(el){ io.observe(el); });
 })();
 </script>
 
