@@ -47,6 +47,7 @@
   /* railway lines */
   --shinkansen:#1F5BFF;  --jr:#12B85A;  --meitetsu:#E5332A;  --kintetsu:#FF7A1A;
   --subway:#FFC71F;      --aonami:#0FC3E4;  --toilet:#FF66C4;  --bus:#16C2B0;
+  --taxi:#7C5CFC;
   /* site palette (from the TOP page) */
   --area:#D4FF3A;        /* Nagoya Station area card colour */
   --sky:#3CC1F3;         /* logo dot */
@@ -394,6 +395,49 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
    GETTING THERE — Google Map embed. Keyless embed URL, so it needs
    no API key; swap the q= value to move the pin.
    --------------------------------------------------------------- */
+/* ---------------------------------------------------------------
+   CATEGORIES (Taxi section) — same fact-block pattern used on the
+   line detail pages (e.g. amn-bus-city.html), copied in here since
+   the Taxi topic has no separate page of its own.
+   --------------------------------------------------------------- */
+.amn .cats{border-top:1.5px solid var(--line);margin-top:clamp(20px,5vw,28px);}
+.amn .cat{border-bottom:1.5px solid var(--line);}
+.amn .cathead{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:clamp(12px,3vw,18px);
+  align-items:center;background:var(--c);color:#fff;margin:0;
+  padding:clamp(12px,3.2vw,16px) var(--gut);}
+.amn .cat.light .cathead{color:#111;}
+.amn .cathead .mk{width:clamp(32px,7.4vw,40px);height:clamp(32px,7.4vw,40px);border-radius:50%;
+  background:#fff;color:var(--c);display:grid;place-items:center;flex:none;}
+.amn .cathead .mk svg{width:56%;height:56%;}
+.amn .cat.light .cathead .mk{background:#111;color:var(--c);}
+.amn .cathead .ttl{font-family:var(--display);font-weight:700;font-size:clamp(19px,4.8vw,27px);
+  letter-spacing:-.015em;line-height:1.05;}
+.amn .cathead .tag{font-weight:700;font-size:clamp(11px,2.8vw,12px);letter-spacing:.11em;
+  text-transform:uppercase;text-align:right;line-height:1.3;}
+.amn .catbody{display:grid;grid-template-columns:minmax(0,1fr) clamp(230px,34%,430px);
+  gap:clamp(16px,4vw,40px);align-items:start;padding:clamp(20px,5vw,30px) var(--gut);}
+.amn .catbody.solo{grid-template-columns:minmax(0,1fr);}
+.amn .catbody .lead{font-size:clamp(17px,4.4vw,22px);font-weight:500;line-height:1.45;margin:0 0 clamp(14px,3.5vw,18px);}
+.amn .catbody .lead b{font-weight:700;}
+.amn .catbody dl{margin:0;display:grid;gap:0;}
+.amn .catbody dl>div{display:grid;grid-template-columns:clamp(96px,22%,170px) minmax(0,1fr);
+  gap:clamp(10px,3vw,22px);padding:clamp(11px,2.9vw,15px) 0;border-top:1.5px solid var(--line);align-items:baseline;}
+.amn .catbody dt{font-weight:500;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);line-height:1.5;}
+.amn .catbody dd{margin:0;font-size:clamp(15px,3.8vw,17px);font-weight:500;line-height:1.55;}
+.amn .catbody dd b{font-weight:700;}
+.amn .catbody figure{margin:0;position:relative;}
+.amn .catbody figure figcaption{margin-top:8px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.5;}
+.amn .catbody .ph,.amn .catbody img{display:block;width:100%;aspect-ratio:3/2;height:auto;object-fit:cover;}
+.amn .catbody .ph{display:grid;place-items:center;align-content:center;gap:8px;text-align:center;padding:16px;
+  background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E4E2DC 14px 28px);
+  color:var(--ink-2);font-weight:700;font-size:11px;letter-spacing:.13em;text-transform:uppercase;}
+@media (max-width:720px){
+  .amn .catbody{grid-template-columns:minmax(0,1fr);gap:18px;}
+  .amn .catbody dl>div{grid-template-columns:minmax(0,1fr);gap:5px;}
+  .amn .cathead{grid-template-columns:auto minmax(0,1fr);}
+  .amn .cathead .tag{grid-column:2;text-align:left;}
+}
+
 .amn .gmap{border:1.5px solid var(--line);border-left:0;border-right:0;}
 .amn .gmap .frame{position:relative;height:clamp(300px,52vw,460px);display:grid;place-items:center;
   background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E7E4DC 14px 28px);}
@@ -542,6 +586,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <p class="stand">Trains, buses and the underground streets — where to go before you move.</p>
       <p class="qa"><b>Is Nagoya Station wheelchair accessible?</b> Yes — step-free routes, elevators and accessible toilets exist across JR, Shinkansen, Meitetsu, Kintetsu, the subway and the Aonami Line, though the easiest route depends on which operator and exit you use. This guide is also useful for wheelchair users, families with strollers, travelers with large luggage, and anyone who prefers step-free routes through Japan’s busiest transfer hub.</p>
       <p class="qa"><b>Traveling with luggage or a stroller?</b> Elevators connect every platform to street level across JR, Shinkansen, Meitetsu, Kintetsu, the subway and the Aonami Line, and a taxi rank is available near the Kintetsu gate.</p>
+      <p class="qa"><b>Wheelchair-accessible taxi?</b> Booking an accessible vehicle in advance is recommended if you need to remain seated in your wheelchair — some operators require booking by phone rather than through a taxi app. See the Taxi section below.</p>
       <div class="colourrule" aria-hidden="true"></div>
     </div>
   </section>
@@ -552,7 +597,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <div class="wrap">
       <h2 id="pick" class="sr">Choose a section</h2>
       <p class="intro"><svg width="18" height="18" aria-hidden="true"><use href="#i-wheel"/></svg> Pick a section</p>
-      <div class="stack" style="--n:3">
+      <div class="stack" style="--n:4">
         <a class="file" href="#train" data-target="train" style="--i:0;--c:var(--shinkansen)">
           <span class="tab">Train</span>
           <span class="body">
@@ -572,6 +617,13 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
           <span class="body">
             <span><span class="name">Underground Streets</span><br><span class="sub">ESCA, Fashion One, Gate Walk, Dainard, Unimall, Sun Road, Miyako &amp; Kitachika · 8 of 8</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="en" aria-hidden="true">M<br>A<br>L<br>L</span>
+          </span>
+        </a>
+        <a class="file" href="#taxi" data-target="taxi" style="--i:3;--c:var(--taxi)">
+          <span class="tab">Taxi</span>
+          <span class="body">
+            <span><span class="name">Taxi</span><br><span class="sub">Taxi rank &amp; wheelchair-accessible booking</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span class="ja" lang="en" aria-hidden="true">T<br>A<br>X<br>I</span>
           </span>
         </a>
       </div>
@@ -685,12 +737,55 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     </div>
   </section>
 
+  <!-- TAXI -->
+  <section id="taxi" class="line" style="--c:var(--taxi)" aria-labelledby="taxi-t">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="chiprow" style="--cc:var(--taxi)"><span class="chip" style="color:#fff">Taxi</span><i></i><i></i></span>
+        <span class="idx">04</span>
+        <h2 id="taxi-t">Taxi</h2>
+        <div class="meta"><span class="label">Rank</span><b>Kintetsu gate</b></div>
+      </div>
+
+      <div class="cats">
+      <section class="cat" style="--c:var(--taxi)" id="cat-taxi-a" aria-labelledby="h-taxi-a">
+        <h3 class="cathead" id="h-taxi-a"><span class="mk"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><span class="ttl">Taxi rank</span><span class="tag">Kintetsu gate</span></h3>
+        <div class="catbody">
+          <div>
+            <p class="lead">The taxi rank for Nagoya Station is near the <b>Kintetsu gate</b>.</p>
+            <dl>
+              <div><dt>Location</dt><dd>Near the Kintetsu gate, at street level.</dd></div>
+            </dl>
+          </div>
+          <figure data-mk="A"><div class="ph">Diagram</div><figcaption>Taxi rank diagram — coming soon.</figcaption></figure>
+        </div>
+      </section>
+      <section class="cat light" style="--c:var(--taxi)" id="cat-taxi-b" aria-labelledby="h-taxi-b">
+        <h3 class="cathead" id="h-taxi-b"><span class="mk"><svg aria-hidden="true"><use href="#i-wheel"/></svg></span><span class="ttl">Wheelchair-accessible taxi</span><span class="tag">Book ahead recommended</span></h3>
+        <div class="catbody">
+          <div>
+            <p class="lead">If you need to remain seated in your wheelchair, booking an accessible vehicle in advance is recommended &mdash; some operators require booking by phone rather than through a taxi app.</p>
+            <dl>
+              <div><dt>Nagoya MK</dt><dd>Wheelchair-accessible Noah vans, at the <b>same metered fare</b> as a standard taxi &mdash; no vehicle-designation surcharge. Same-day requests are possible if a vehicle is available, but the accessible fleet is limited, so booking ahead is recommended. Accessible-vehicle requests must be made <b>by phone</b>, not through the app. <a href="https://mktaxi-japan.com/nagoya/" target="_blank" rel="noopener" style="color:inherit">Nagoya MK</a></dd></div>
+              <div><dt>Same-day, any vehicle</dt><dd>Ride-hailing apps such as <a href="https://go.goinc.jp/en" target="_blank" rel="noopener" style="color:inherit">GO</a> and <a href="https://www.uber.com/jp/en/" target="_blank" rel="noopener" style="color:inherit">Uber</a> can call a nearby taxi on short notice, but do not guarantee a wheelchair-accessible vehicle.</dd></div>
+            </dl>
+          </div>
+          <div>
+            <figure data-mk="B"><div class="ph">Photo 1</div><figcaption>Wheelchair-accessible taxi — coming soon.</figcaption></figure>
+            <figure data-mk="B" style="margin-top:16px"><div class="ph">Photo 2</div><figcaption>Wheelchair-accessible taxi — coming soon.</figcaption></figure>
+          </div>
+        </div>
+      </section>
+      </div>
+    </div>
+  </section>
+
   <!-- GETTING THERE — Google Map [LINK] [TEXT] -->
   <section id="getting-there" aria-labelledby="gt-t">
     <div class="wrap">
       <div class="section-head">
         <span class="chiprow" style="--cc:var(--ink)"><span class="chip" style="color:#fff">Getting there</span><i></i><i></i></span>
-        <span class="idx">04</span>
+        <span class="idx">05</span>
         <h2 id="gt-t">On the map</h2>
         <div class="meta"><span class="label">Open in</span><b>Google Maps</b></div>
       </div>
