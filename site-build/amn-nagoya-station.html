@@ -438,6 +438,24 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   .amn .cathead .tag{grid-column:2;text-align:left;}
 }
 
+.amn .stands{display:grid;gap:clamp(22px,5.5vw,32px);}
+.amn .stand{border-top:1.5px solid var(--line);padding-top:clamp(16px,4vw,22px);}
+.amn .stand:first-child{border-top:0;padding-top:0;}
+.amn .stand h4{font-family:var(--display);font-weight:700;font-size:clamp(16px,4vw,19px);margin:0 0 12px;letter-spacing:-.01em;}
+.amn .stand .stand-media{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(14px,3.5vw,20px);align-items:start;}
+.amn .stand .map{border:1.5px solid var(--line);border-radius:10px;overflow:hidden;position:relative;height:210px;background:var(--card);}
+.amn .stand .map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.amn .stand figure{margin:0;}
+.amn .stand figure figcaption{margin-top:8px;font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.5;}
+.amn .stand .ph{height:210px;}
+.amn .stand .open{display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-weight:700;font-size:13px;letter-spacing:.02em;color:var(--c);text-decoration:none;}
+.amn .stand .open svg{width:14px;height:14px;}
+.amn .stand.tbd .stand-media{grid-template-columns:minmax(0,1fr);}
+.amn .stand.tbd .note{margin:0;font-size:14px;color:var(--ink-2);background:var(--card);border:1.5px dashed var(--line);border-radius:10px;padding:14px 16px;}
+@media (max-width:640px){
+  .amn .stand .stand-media{grid-template-columns:minmax(0,1fr);}
+}
+
 .amn .gmap{border:1.5px solid var(--line);border-left:0;border-right:0;}
 .amn .gmap .frame{position:relative;height:clamp(300px,52vw,460px);display:grid;place-items:center;
   background:repeating-linear-gradient(-45deg,#EFEDE7 0 14px,#E7E4DC 14px 28px);}
@@ -612,18 +630,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
             <span class="ja" lang="en" aria-hidden="true">B<br>U<br>S</span>
           </span>
         </a>
-        <a class="file dark" href="#underground" data-target="underground" style="--i:2;--c:#B0289B">
-          <span class="tab">Underground</span>
-          <span class="body">
-            <span><span class="name">Underground Streets</span><br><span class="sub">ESCA, Fashion One, Gate Walk, Dainard, Unimall, Sun Road, Miyako &amp; Kitachika · 8 of 8</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
-            <span class="ja" lang="en" aria-hidden="true">M<br>A<br>L<br>L</span>
-          </span>
-        </a>
-        <a class="file" href="#taxi" data-target="taxi" style="--i:3;--c:var(--taxi)">
+        <a class="file" href="#taxi" data-target="taxi" style="--i:2;--c:var(--taxi)">
           <span class="tab">Taxi</span>
           <span class="body">
             <span><span class="name">Taxi</span><br><span class="sub">Taxi rank &amp; wheelchair-accessible booking</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
             <span class="ja" lang="en" aria-hidden="true">T<br>A<br>X<br>I</span>
+          </span>
+        </a>
+        <a class="file dark" href="#underground" data-target="underground" style="--i:3;--c:#B0289B">
+          <span class="tab">Underground</span>
+          <span class="body">
+            <span><span class="name">Underground Streets</span><br><span class="sub">ESCA, Fashion One, Gate Walk, Dainard, Unimall, Sun Road, Miyako &amp; Kitachika · 8 of 8</span><br><span class="start">Open <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></span>
+            <span class="ja" lang="en" aria-hidden="true">M<br>A<br>L<br>L</span>
           </span>
         </a>
       </div>
@@ -714,50 +732,63 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   </section>
 
 
-  <!-- UNDERGROUND STREETS -->
-  <section id="underground" class="line" style="--c:#B0289B" aria-labelledby="underground-t">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="chiprow" style="--cc:#B0289B"><span class="chip" style="color:#fff">Underground Streets</span><i></i><i></i></span>
-        <span class="idx">03</span>
-        <h2 id="underground-t">Underground Streets</h2>
-        <div class="meta"><span class="label">Malls</span><b>8 of 8</b></div>
-      </div>
-      <p class="subhead">Eight malls connect near Nagoya Station &mdash; ESCA, Fashion One, Gate Walk, Dainard, Unimall, Sun Road, Miyako Underground Street and Kitachika are all mapped.</p>
-      <nav class="index" aria-label="Malls near Nagoya Station">
-        <a href="amn-underground#esca" style="--c:#B0289B"><span class="n">01</span><span class="t">ESCA<small>JR Nagoya Station, Taiko-dori side</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#fashion-one" style="--c:#B0289B"><span class="n">02</span><span class="t">Fashion One<small>JR Nagoya Station, Sakura-dori side</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#gatewalk" style="--c:#B0289B"><span class="n">03</span><span class="t">Gate Walk<small>Toward Meitetsu &amp; Kintetsu</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#dainard" style="--c:#B0289B"><span class="n">04</span><span class="t">Dainard<small>Dai Nagoya Building, B1</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#unimall" style="--c:#B0289B"><span class="n">05</span><span class="t">Unimall<small>Toward Meieki-dori</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#sunroad" style="--c:#B0289B"><span class="n">06</span><span class="t">Sun Road<small>Toward Sasashima</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-        <a href="amn-underground#miyako" style="--c:#B0289B"><span class="n">07</span><span class="t">Miyako Underground Street &amp; Kitachika<small>Nagoya Station area</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
-      </nav>
-      <p class="note" style="margin-top:18px;font-size:14px;color:var(--ink-2)"><a href="amn-underground">See the full Underground Streets page</a> for elevators, toilets, coin lockers and the floor-plan maps for each mall.</p>
-    </div>
-  </section>
-
   <!-- TAXI -->
   <section id="taxi" class="line" style="--c:var(--taxi)" aria-labelledby="taxi-t">
     <div class="wrap">
       <div class="section-head">
         <span class="chiprow" style="--cc:var(--taxi)"><span class="chip" style="color:#fff">Taxi</span><i></i><i></i></span>
-        <span class="idx">04</span>
+        <span class="idx">03</span>
         <h2 id="taxi-t">Taxi</h2>
-        <div class="meta"><span class="label">Rank</span><b>Kintetsu gate</b></div>
+        <div class="meta"><span class="label">Rank</span><b>4 stands</b></div>
       </div>
 
       <div class="cats">
       <section class="cat" style="--c:var(--taxi)" id="cat-taxi-a" aria-labelledby="h-taxi-a">
-        <h3 class="cathead" id="h-taxi-a"><span class="mk"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><span class="ttl">Taxi rank</span><span class="tag">Kintetsu gate</span></h3>
-        <div class="catbody">
-          <div>
-            <p class="lead">The taxi rank for Nagoya Station is near the <b>Kintetsu gate</b>.</p>
-            <dl>
-              <div><dt>Location</dt><dd>Near the Kintetsu gate, at street level.</dd></div>
-            </dl>
+        <h3 class="cathead" id="h-taxi-a"><span class="mk"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><span class="ttl">Taxi rank</span><span class="tag">4 stands</span></h3>
+        <div class="catbody solo">
+          <p class="lead">Nagoya Station has taxi stands at several exits &mdash; the closest one depends on which gate you come out of.</p>
+          <div class="stands">
+        <div class="stand">
+          <h4>Sakura-dori Exit taxi stand</h4>
+          <div class="stand-media">
+            <div class="map">
+              <iframe title="Sakura-dori Exit taxi stand on Google Maps" src="https://maps.google.com/maps?q=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E6%A1%9C%E9%80%9A%E5%8F%A3%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4&amp;z=18&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+            <figure><div class="ph">Photo</div><figcaption>Sakura-dori Exit taxi stand — photo coming soon.</figcaption></figure>
           </div>
-          <figure data-mk="A"><div class="ph">Diagram</div><figcaption>Taxi rank diagram — coming soon.</figcaption></figure>
+          <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E6%A1%9C%E9%80%9A%E5%8F%A3%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
+        </div>
+        <div class="stand">
+          <h4>Midland Square taxi stand</h4>
+          <div class="stand-media">
+            <div class="map">
+              <iframe title="Midland Square taxi stand on Google Maps" src="https://maps.google.com/maps?q=%E3%83%9F%E3%83%83%E3%83%89%E3%83%A9%E3%83%B3%E3%83%89%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%20%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4&amp;z=18&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+            <figure><div class="ph">Photo</div><figcaption>Midland Square taxi stand — photo coming soon.</figcaption></figure>
+          </div>
+          <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=%E3%83%9F%E3%83%83%E3%83%89%E3%83%A9%E3%83%B3%E3%83%89%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2%20%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
+        </div>
+        <div class="stand">
+          <h4>Kintetsu / Meitetsu taxi stand</h4>
+          <div class="stand-media">
+            <div class="map">
+              <iframe title="Kintetsu / Meitetsu taxi stand on Google Maps" src="https://maps.google.com/maps?q=%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%20%E5%90%8D%E9%89%84%E3%83%BB%E8%BF%91%E9%89%84%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4&amp;z=18&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+            <figure><div class="ph">Photo</div><figcaption>Kintetsu / Meitetsu taxi stand — photo coming soon.</figcaption></figure>
+          </div>
+          <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%90%8D%E9%89%84%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%20%E5%90%8D%E9%89%84%E3%83%BB%E8%BF%91%E9%89%84%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
+        </div>
+        <div class="stand">
+          <h4>Taiko-dori Exit taxi stand</h4>
+          <div class="stand-media">
+            <div class="map">
+              <iframe title="Taiko-dori Exit taxi stand on Google Maps" src="https://maps.google.com/maps?q=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%A4%AA%E9%96%A4%E9%80%9A%E5%8F%A3%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4&amp;z=18&amp;hl=en&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+            <figure><div class="ph">Photo</div><figcaption>Taiko-dori Exit taxi stand — photo coming soon.</figcaption></figure>
+          </div>
+          <a class="open" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85%E5%A4%AA%E9%96%A4%E9%80%9A%E5%8F%A3%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E4%B9%97%E3%82%8A%E5%A0%B4" target="_blank" rel="noopener">Open in Google Maps <svg aria-hidden="true"><use href="#i-up"/></svg></a>
+        </div>
+          </div>
         </div>
       </section>
       <section class="cat light" style="--c:var(--taxi)" id="cat-taxi-b" aria-labelledby="h-taxi-b">
@@ -777,6 +808,29 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         </div>
       </section>
       </div>
+    </div>
+  </section>
+
+  <!-- UNDERGROUND STREETS -->
+  <section id="underground" class="line" style="--c:#B0289B" aria-labelledby="underground-t">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="chiprow" style="--cc:#B0289B"><span class="chip" style="color:#fff">Underground Streets</span><i></i><i></i></span>
+        <span class="idx">04</span>
+        <h2 id="underground-t">Underground Streets</h2>
+        <div class="meta"><span class="label">Malls</span><b>8 of 8</b></div>
+      </div>
+      <p class="subhead">Eight malls connect near Nagoya Station &mdash; ESCA, Fashion One, Gate Walk, Dainard, Unimall, Sun Road, Miyako Underground Street and Kitachika are all mapped.</p>
+      <nav class="index" aria-label="Malls near Nagoya Station">
+        <a href="amn-underground#esca" style="--c:#B0289B"><span class="n">01</span><span class="t">ESCA<small>JR Nagoya Station, Taiko-dori side</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-underground#fashion-one" style="--c:#B0289B"><span class="n">02</span><span class="t">Fashion One<small>JR Nagoya Station, Sakura-dori side</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-underground#gatewalk" style="--c:#B0289B"><span class="n">03</span><span class="t">Gate Walk<small>Toward Meitetsu &amp; Kintetsu</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-underground#dainard" style="--c:#B0289B"><span class="n">04</span><span class="t">Dainard<small>Dai Nagoya Building, B1</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-underground#unimall" style="--c:#B0289B"><span class="n">05</span><span class="t">Unimall<small>Toward Meieki-dori</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-underground#sunroad" style="--c:#B0289B"><span class="n">06</span><span class="t">Sun Road<small>Toward Sasashima</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-underground#miyako" style="--c:#B0289B"><span class="n">07</span><span class="t">Miyako Underground Street &amp; Kitachika<small>Nagoya Station area</small></span><span class="pf">Mapped</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+      </nav>
+      <p class="note" style="margin-top:18px;font-size:14px;color:var(--ink-2)"><a href="amn-underground">See the full Underground Streets page</a> for elevators, toilets, coin lockers and the floor-plan maps for each mall.</p>
     </div>
   </section>
 
