@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="2000" height="1400" viewBox="0 0 2000 1400" lang="en" role="img" aria-labelledby="title desc"><title id="title">Kanayama Station — JR</title><desc id="desc">English north-up schematic. The 1F concourse is shown separately from the lower JR platforms. Two elevators link the JR paid concourse to Chuo Line platforms 1 and 2 and Tokaido Line platforms 3 and 4. Includes escalators, stairs, accessible toilet inside the JR gates, coin lockers outside the gates, and transfer directions.</desc><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 5L0 10Z" fill="#171817"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<rect x="0" y="0" width="2000" height="1400" rx="0" fill="#F3F2EE" stroke="none"/>
+<text x="60" y="61" font-size="17" fill="#777A76" font-weight="700" text-anchor="start" letter-spacing="2">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="125" font-size="54" fill="#171817" font-weight="700" text-anchor="start">Kanayama Station</text>
+<text x="615" y="125" font-size="54" fill="#12B85A" font-weight="700" text-anchor="start" data-route="jr">JR</text>
+<text x="1940" y="101" font-size="29" fill="#171817" font-weight="700" text-anchor="end">Concourse + Platforms</text>
+<text x="60" y="168" font-size="20" fill="#777A76" font-weight="400" text-anchor="start">Chuo Line / Tokaido Line • Elevators, escalators, stairs, toilets and lockers</text>
+<line x1="60" y1="202" x2="1940" y2="202" stroke="#999C95" stroke-width="1.5"/>
+<g id="concourse-base" inkscape:groupmode="layer" inkscape:label="1F concourse — north up">
+<text x="70" y="248" font-size="24" fill="#171817" font-weight="700" text-anchor="start">1F / CONCOURSE</text>
+<text x="70" y="277" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">JR area and public connecting passage</text>
+<polyline points="1150,283 1150,244" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1150" y="231" font-size="18" fill="#171817" font-weight="700" text-anchor="middle">N</text>
+<rect x="142" y="409" width="971" height="690" rx="3" fill="#E8E7E2" stroke="#C5C7C0"/>
+<rect x="163" y="459" width="477" height="105" rx="0" fill="#F6F6EC" stroke="#999C95"/>
+<rect x="330" y="459" width="310" height="524" rx="0" fill="#F6F6EC" stroke="#999C95"/>
+<rect x="163" y="930" width="477" height="105" rx="0" fill="#F6F6EC" stroke="#999C95"/>
+<rect x="640" y="687" width="470" height="300" rx="0" fill="#E4E5DF" stroke="#CCCEC6"/>
+<rect x="329" y="506" width="69" height="478" rx="0" fill="#F6F6EC" stroke="none"/>
+<rect x="398" y="564" width="242" height="366" rx="0" fill="#F6F6EC" stroke="none"/>
+<rect x="640" y="529" width="240" height="96" rx="0" fill="white" stroke="none"/>
+<rect x="771" y="354" width="110" height="770" rx="0" fill="white" stroke="none"/>
+<rect x="726" y="354" width="45" height="96" rx="0" fill="white" stroke="none"/>
+<rect x="693" y="398" width="78" height="66" rx="0" fill="white" stroke="none"/>
+<rect x="881" y="1047" width="100" height="61" rx="0" fill="white" stroke="none"/>
+<rect x="550" y="398" width="143" height="113" rx="0" fill="#E8E7E2" stroke="#C5C7C0"/>
+<rect x="650" y="633" width="86" height="107" rx="0" fill="#E8E7E2" stroke="#C5C7C0"/>
+<rect x="891" y="451" width="193" height="208" rx="0" fill="#E8E7E2" stroke="#C5C7C0"/>
+<text x="613" y="445" font-size="16" fill="#777A76" font-weight="400" text-anchor="middle">Station</text>
+<text x="613" y="466" font-size="16" fill="#777A76" font-weight="400" text-anchor="middle">services</text>
+<text x="692" y="680" font-size="14" fill="#777A76" font-weight="400" text-anchor="middle">Tickets /</text>
+<text x="692" y="700" font-size="14" fill="#777A76" font-weight="400" text-anchor="middle">services</text>
+<text x="976" y="551" font-size="16" fill="#777A76" font-weight="400" text-anchor="middle">Shops / services</text>
+<text x="824" y="730" font-size="16" fill="#777A76" font-weight="400" text-anchor="middle" transform="rotate(-90 824 730)" letter-spacing="2">PUBLIC PASSAGE</text>
+<text x="493" y="740" font-size="24" fill="#12B85A" font-weight="700" text-anchor="middle" data-route="jr">JR PAID</text>
+<text x="493" y="771" font-size="21" fill="#12B85A" font-weight="700" text-anchor="middle" data-route="jr">CONCOURSE</text>
+<text x="493" y="799" font-size="15" fill="#777A76" font-weight="400" text-anchor="middle">Inside the JR gates</text>
+</g>
+<g id="jr-facilities" inkscape:groupmode="layer" inkscape:label="JR elevators, escalators, stairs and accessible toilet">
+<rect x="239" y="412" width="89" height="153" rx="5" fill="#F6F6EC" stroke="#999C95"/>
+<g id="1F-E1"><title>Elevator between 1F JR concourse and Chuo Line platforms 1–2</title>
+<rect x="249" y="418" width="42" height="42" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="270" y="444" font-size="13" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="298" y="445" font-size="14" fill="#1F5BFF" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">E1</text>
+</g>
+<g id="1F-S1"><title>Escalator connection to Chuo Line platforms 1–2; both directions available</title>
+<rect x="249" y="497" width="42" height="42" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="270" y="523" font-size="13" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="298" y="524" font-size="14" fill="#4D6865" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">S1</text>
+</g>
+<g transform="rotate(90 592 536)">
+<rect x="568.0" y="518.5" width="48" height="35" rx="0" fill="white" stroke="#999C95"/>
+<line x1="568.0" y1="523" x2="616.0" y2="523" stroke="#999C95" stroke-width="1.2"/>
+<line x1="568.0" y1="529" x2="616.0" y2="529" stroke="#999C95" stroke-width="1.2"/>
+<line x1="568.0" y1="535" x2="616.0" y2="535" stroke="#999C95" stroke-width="1.2"/>
+<line x1="568.0" y1="541" x2="616.0" y2="541" stroke="#999C95" stroke-width="1.2"/>
+<line x1="568.0" y1="547" x2="616.0" y2="547" stroke="#999C95" stroke-width="1.2"/>
+</g>
+<text x="350" y="502" font-size="20" fill="#12B85A" font-weight="700" text-anchor="start" data-route="jr">↓ Chuo Line 1–2</text>
+<text x="350" y="533" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">To lower platforms</text>
+<g id="1F-S2"><title>Escalator connection to Tokaido Line platforms 3–4; both directions available</title>
+<rect x="249" y="979" width="42" height="42" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="270" y="1005" font-size="13" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="298" y="1006" font-size="14" fill="#4D6865" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">S2</text>
+</g>
+<g transform="rotate(90 270 945)">
+<rect x="249.0" y="930.5" width="42" height="29" rx="0" fill="white" stroke="#999C95"/>
+<line x1="249.0" y1="935" x2="291.0" y2="935" stroke="#999C95" stroke-width="1.2"/>
+<line x1="249.0" y1="941" x2="291.0" y2="941" stroke="#999C95" stroke-width="1.2"/>
+<line x1="249.0" y1="947" x2="291.0" y2="947" stroke="#999C95" stroke-width="1.2"/>
+<line x1="249.0" y1="953" x2="291.0" y2="953" stroke="#999C95" stroke-width="1.2"/>
+</g>
+<g transform="rotate(90 592 981)">
+<rect x="568.0" y="963.5" width="48" height="35" rx="0" fill="white" stroke="#999C95"/>
+<line x1="568.0" y1="968" x2="616.0" y2="968" stroke="#999C95" stroke-width="1.2"/>
+<line x1="568.0" y1="974" x2="616.0" y2="974" stroke="#999C95" stroke-width="1.2"/>
+<line x1="568.0" y1="980" x2="616.0" y2="980" stroke="#999C95" stroke-width="1.2"/>
+<line x1="568.0" y1="986" x2="616.0" y2="986" stroke="#999C95" stroke-width="1.2"/>
+<line x1="568.0" y1="992" x2="616.0" y2="992" stroke="#999C95" stroke-width="1.2"/>
+</g>
+<g id="1F-E2"><title>Elevator between 1F JR concourse and Tokaido Line platforms 3–4</title>
+<rect x="497" y="986" width="42" height="42" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="518" y="1012" font-size="13" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="546" y="1013" font-size="14" fill="#1F5BFF" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">E2</text>
+</g>
+<text x="350" y="963" font-size="19" fill="#12B85A" font-weight="700" text-anchor="start" data-route="jr">↓ Tokaido Line 3–4</text>
+<text x="350" y="1010" font-size="14" fill="#777A76" font-weight="400" text-anchor="start">To platforms</text>
+<rect x="389" y="399" width="139" height="60" rx="5" fill="white" stroke="#FF66C4"/>
+<g id="1F-T1"><title>JR accessible toilet inside the ticket gates; wheelchair, ostomate and baby-changing facilities</title>
+<rect x="395" y="408" width="42" height="42" rx="6" fill="#FF66C4" stroke="white" stroke-width="2"/>
+<text x="416" y="434" font-size="13" fill="white" font-weight="700" text-anchor="middle">WC</text>
+<text x="444" y="435" font-size="14" fill="#FF66C4" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">T1</text>
+</g>
+<rect x="483" y="410" width="34" height="35" rx="4" fill="#FF66C4" stroke="none"/>
+<circle cx="497" cy="415" r="3" fill="white"/>
+<path d="M496 421v10h11l5 9M496 426h9M492 428a9 9 0 1 0 12 10" fill="none" stroke="white" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="434" y1="396" x2="434" y2="361" stroke="#FF66C4" stroke-width="1.5"/>
+<text x="435" y="327" font-size="23" fill="#FF66C4" font-weight="700" text-anchor="middle">Accessible toilet</text>
+<text x="435" y="352" font-size="17" fill="#777A76" font-weight="400" text-anchor="middle">Inside JR gates</text>
+</g>
+<g id="gates" inkscape:groupmode="layer" inkscape:label="JR gate and Meitetsu transfer gate">
+<rect x="628" y="548" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="557" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="566" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="575" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="584" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="593" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="602" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<text x="579" y="610" font-size="20" fill="#12B85A" font-weight="700" text-anchor="end" data-route="jr">JR Ticket Gate</text>
+<polyline points="748,575 668,575" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="628" y="786" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="795" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="804" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="813" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="822" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="831" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="628" y="840" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<text x="420" y="858" font-size="19" fill="#E5332A" font-weight="700" text-anchor="start" data-route="meitetsu">JR–Meitetsu</text>
+<text x="420" y="884" font-size="19" fill="#E5332A" font-weight="700" text-anchor="start" data-route="meitetsu">Transfer Gate →</text>
+<polyline points="691,848 714,848" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="759" y="786" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="759" y="795" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="759" y="804" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="759" y="813" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="759" y="822" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="759" y="831" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="759" y="840" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="869" y="786" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="869" y="795" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="869" y="804" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="869" y="813" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="869" y="822" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="869" y="831" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<rect x="869" y="840" width="24" height="4" rx="1" fill="#171817" stroke="none"/>
+<text x="704" y="769" font-size="14" fill="#E5332A" font-weight="700" text-anchor="middle">Meitetsu</text>
+<text x="704" y="788" font-size="14" fill="#E5332A" font-weight="700" text-anchor="middle">West Gate</text>
+<text x="987" y="772" font-size="17" fill="#E5332A" font-weight="700" text-anchor="middle">Meitetsu</text>
+<text x="987" y="795" font-size="17" fill="#E5332A" font-weight="700" text-anchor="middle">Central Gate</text>
+<text x="705" y="916" font-size="15" fill="#E5332A" font-weight="700" text-anchor="middle" data-route="meitetsu">MEITETSU</text>
+<text x="705" y="941" font-size="14" fill="#777A76" font-weight="400" text-anchor="middle">Paid area</text>
+<text x="986" y="925" font-size="21" fill="#E5332A" font-weight="700" text-anchor="middle" data-route="meitetsu">MEITETSU AREA</text>
+<text x="986" y="951" font-size="16" fill="#777A76" font-weight="400" text-anchor="middle">Inside Meitetsu gates</text>
+</g>
+<g id="public-facilities" inkscape:groupmode="layer" inkscape:label="Public entrance, escalator and lockers">
+<polyline points="826,391 826,316" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="825" y="292" font-size="24" fill="#171817" font-weight="700" text-anchor="middle">North Exit</text>
+<text x="827" y="1166" font-size="23" fill="#171817" font-weight="700" text-anchor="middle">South Exit</text>
+<polyline points="826,1085 826,1129" fill="none" stroke="#171817" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="827" y="1194" font-size="16" fill="#777A76" font-weight="400" text-anchor="middle">Kanayama Plaza / taxi stands</text>
+<g id="1F-L1"><title>Coin lockers on the North Exit side, beside the escalator</title>
+<rect x="698" y="461" width="42" height="42" rx="6" fill="#7356A8" stroke="white" stroke-width="2"/>
+<text x="719" y="487" font-size="13" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="747" y="488" font-size="14" fill="#7356A8" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">L1</text>
+</g>
+<g id="1F-S3"><title>Public escalator on the North Exit side; adjoining retail access</title>
+<rect x="697" y="403" width="42" height="42" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="718" y="429" font-size="13" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="746" y="430" font-size="14" fill="#4D6865" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">S3</text>
+</g>
+<text x="866" y="414" font-size="16" fill="#C89400" font-weight="700" text-anchor="start" data-route="subway">↓ Subway</text>
+<text x="940" y="688" font-size="15" fill="#7356A8" font-weight="700" text-anchor="middle">Coin lockers: north side</text>
+<text x="940" y="711" font-size="14" fill="#777A76" font-weight="400" text-anchor="middle">outside the JR gates</text>
+</g>
+<g id="platforms" inkscape:groupmode="layer" inkscape:label="Lower JR platform level — schematic overview">
+<line x1="1220" y1="235" x2="1220" y2="1220" stroke="#999C95" stroke-width="1.5"/>
+<text x="1270" y="248" font-size="23" fill="#171817" font-weight="700" text-anchor="start">LOWER LEVEL / JR PLATFORMS</text>
+<text x="1270" y="277" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Same E1 / E2 elevators as the concourse map</text>
+<text x="1270" y="322" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">North-side island</text>
+<text x="1270" y="355" font-size="26" fill="#12B85A" font-weight="700" text-anchor="start" data-route="jr">JR Chuo Line</text>
+<line x1="1283" y1="412" x2="1903" y2="412" stroke="#C5C8C0" stroke-width="3"/>
+<line x1="1283" y1="600" x2="1903" y2="600" stroke="#C5C8C0" stroke-width="3"/>
+<rect x="1290" y="431" width="610" height="150" rx="18" fill="#F6F6EC" stroke="#999C95"/>
+<rect x="1303" y="433" width="36" height="36" rx="5" fill="white" stroke="#12B85A" stroke-width="2"/>
+<text x="1321" y="459" font-size="24" fill="#12B85A" font-weight="700" text-anchor="middle">1</text>
+<text x="1354" y="458" font-size="20" fill="#12B85A" font-weight="700" text-anchor="start" data-route="jr">→ Tajimi</text>
+<rect x="1303" y="543" width="36" height="36" rx="5" fill="white" stroke="#12B85A" stroke-width="2"/>
+<text x="1321" y="569" font-size="24" fill="#12B85A" font-weight="700" text-anchor="middle">2</text>
+<text x="1354" y="568" font-size="20" fill="#12B85A" font-weight="700" text-anchor="start" data-route="jr">← Nagoya</text>
+<g id="platform-E1"><title>Same elevator E1 to the 1F concourse</title>
+<rect x="1489" y="445" width="42" height="42" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1510" y="471" font-size="13" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="1538" y="472" font-size="14" fill="#1F5BFF" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">E1</text>
+</g>
+<g id="platform-S1"><title>Same Chuo Line escalator connection</title>
+<rect x="1489" y="514" width="42" height="42" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1510" y="540" font-size="13" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="1538" y="541" font-size="14" fill="#4D6865" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">S1</text>
+</g>
+<g transform="rotate(90 1820 508)">
+<rect x="1797.5" y="492.0" width="45" height="32" rx="0" fill="white" stroke="#999C95"/>
+<line x1="1797.5" y1="497" x2="1842.5" y2="497" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1797.5" y1="503" x2="1842.5" y2="503" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1797.5" y1="509" x2="1842.5" y2="509" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1797.5" y1="515" x2="1842.5" y2="515" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1797.5" y1="521" x2="1842.5" y2="521" stroke="#999C95" stroke-width="1.2"/>
+</g>
+<text x="1705" y="512" font-size="17" fill="#777A76" font-weight="400" text-anchor="middle">↑ 1F concourse</text>
+<text x="1270" y="799" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">South-side island</text>
+<text x="1270" y="832" font-size="26" fill="#12B85A" font-weight="700" text-anchor="start" data-route="jr">JR Tokaido Line</text>
+<line x1="1283" y1="875" x2="1903" y2="875" stroke="#C5C8C0" stroke-width="3"/>
+<line x1="1283" y1="1063" x2="1903" y2="1063" stroke="#C5C8C0" stroke-width="3"/>
+<rect x="1290" y="894" width="610" height="150" rx="18" fill="#F6F6EC" stroke="#999C95"/>
+<rect x="1303" y="896" width="36" height="36" rx="5" fill="white" stroke="#12B85A" stroke-width="2"/>
+<text x="1321" y="922" font-size="24" fill="#12B85A" font-weight="700" text-anchor="middle">3</text>
+<text x="1354" y="921" font-size="20" fill="#12B85A" font-weight="700" text-anchor="start" data-route="jr">→ Toyohashi</text>
+<rect x="1303" y="1006" width="36" height="36" rx="5" fill="white" stroke="#12B85A" stroke-width="2"/>
+<text x="1321" y="1032" font-size="24" fill="#12B85A" font-weight="700" text-anchor="middle">4</text>
+<text x="1354" y="1031" font-size="20" fill="#12B85A" font-weight="700" text-anchor="start" data-route="jr">← Nagoya</text>
+<g transform="rotate(90 1510 927)">
+<rect x="1489.0" y="912.5" width="42" height="29" rx="0" fill="white" stroke="#999C95"/>
+<line x1="1489.0" y1="917" x2="1531.0" y2="917" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1489.0" y1="923" x2="1531.0" y2="923" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1489.0" y1="929" x2="1531.0" y2="929" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1489.0" y1="935" x2="1531.0" y2="935" stroke="#999C95" stroke-width="1.2"/>
+</g>
+<g id="platform-S2"><title>Same Tokaido Line escalator connection</title>
+<rect x="1489" y="979" width="42" height="42" rx="6" fill="#4D6865" stroke="white" stroke-width="2"/>
+<text x="1510" y="1005" font-size="13" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="1538" y="1006" font-size="14" fill="#4D6865" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">S2</text>
+</g>
+<g transform="rotate(90 1820 974)">
+<rect x="1797.5" y="958.0" width="45" height="32" rx="0" fill="white" stroke="#999C95"/>
+<line x1="1797.5" y1="963" x2="1842.5" y2="963" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1797.5" y1="969" x2="1842.5" y2="969" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1797.5" y1="975" x2="1842.5" y2="975" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1797.5" y1="981" x2="1842.5" y2="981" stroke="#999C95" stroke-width="1.2"/>
+<line x1="1797.5" y1="987" x2="1842.5" y2="987" stroke="#999C95" stroke-width="1.2"/>
+</g>
+<g id="platform-E2"><title>Same elevator E2 to the 1F concourse</title>
+<rect x="1699" y="986" width="42" height="42" rx="6" fill="#1F5BFF" stroke="white" stroke-width="2"/>
+<text x="1720" y="1012" font-size="13" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="1748" y="1013" font-size="14" fill="#1F5BFF" font-weight="700" text-anchor="start" paint-order="stroke" stroke="white" stroke-width="3">E2</text>
+</g>
+<text x="1700" y="943" font-size="17" fill="#777A76" font-weight="400" text-anchor="middle">↑ 1F concourse</text>
+<text x="1270" y="1110" font-size="17" fill="#4D6865" font-weight="700" text-anchor="start">S1 / S2: up and down escalators available.</text>
+<text x="1270" y="1141" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Each island serves two numbered tracks.</text>
+<text x="1270" y="1169" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Diagrams are separate levels; tracks are straightened.</text>
+</g>
+<g id="transit-guide" inkscape:groupmode="layer" inkscape:label="Color-coded directions">
+<line x1="60" y1="1232" x2="1940" y2="1232" stroke="#999C95" stroke-width="1.5"/>
+<text x="70" y="1269" font-size="21" fill="#C89400" font-weight="700" text-anchor="start" data-route="subway">↑ Subway Meijo / Meiko Lines</text>
+<text x="70" y="1294" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Via the North Exit side</text>
+<text x="717" y="1269" font-size="21" fill="#E5332A" font-weight="700" text-anchor="start" data-route="meitetsu">↗ Meitetsu</text>
+<text x="717" y="1294" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Transfer gate or public concourse gates</text>
+<text x="1320" y="1269" font-size="21" fill="#16C2B0" font-weight="700" text-anchor="start" data-route="bus">↖ City Bus Terminal</text>
+<text x="1320" y="1294" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Outside North Exit • northwest side</text>
+</g>
+<g id="legend" inkscape:groupmode="layer" inkscape:label="Legend">
+<circle cx="80" cy="1335" r="17" fill="#1F5BFF" stroke="white" stroke-width="1.5"/>
+<text x="80" y="1339.5" font-size="12" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="107" y="1341" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Elevator</text>
+<rect x="274" y="1321" width="32" height="28" rx="4" fill="#4D6865" stroke="white" stroke-width="1.2"/>
+<text x="290" y="1339.5" font-size="12" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="317" y="1341" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Escalator</text>
+<circle cx="990" cy="1335" r="17" fill="#FF66C4" stroke="white" stroke-width="1.5"/>
+<text x="990" y="1339.5" font-size="12" fill="white" font-weight="700" text-anchor="middle">WC</text>
+<text x="1017" y="1341" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Restrooms</text>
+<rect x="1304" y="1321" width="32" height="28" rx="4" fill="#7356A8" stroke="white" stroke-width="1.2"/>
+<text x="1320" y="1339.5" font-size="12" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="1347" y="1341" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Coin lockers</text>
+<rect x="508" y="1321" width="33" height="27" rx="0" fill="white" stroke="#999C95"/>
+<line x1="508" y1="1326" x2="541" y2="1326" stroke="#999C95" stroke-width="1"/>
+<line x1="508" y1="1331" x2="541" y2="1331" stroke="#999C95" stroke-width="1"/>
+<line x1="508" y1="1336" x2="541" y2="1336" stroke="#999C95" stroke-width="1"/>
+<line x1="508" y1="1341" x2="541" y2="1341" stroke="#999C95" stroke-width="1"/>
+<text x="553" y="1341" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Stairs</text>
+<rect x="686" y="1319" width="32" height="32" rx="4" fill="#FF66C4" stroke="none"/>
+<circle cx="700" cy="1323" r="3" fill="white"/>
+<path d="M699 1329v10h11l5 9M699 1334h9M695 1336a9 9 0 1 0 12 10" fill="none" stroke="white" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="730" y="1341" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Accessible toilet</text>
+<rect x="1560" y="1321" width="32" height="27" rx="0" fill="#F6F6EC" stroke="#999C95"/>
+<text x="1604" y="1341" font-size="16" fill="#171817" font-weight="400" text-anchor="start">JR paid area</text>
+<text x="60" y="1381" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">North up • Schematic / not to scale • E1/E2 repeat across levels • Arrows show connections, not a measured route.</text>
+<text x="1940" y="1381" font-size="12" fill="#777A76" font-weight="700" text-anchor="end">SEPTEMBER 2026</text>
+</g>
+</g>
+</svg>
