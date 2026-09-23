@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" lang="en" role="img" aria-labelledby="title desc">
+<title id="title">Kanayama Station South Exit — Taxi and Bus Stops</title><desc id="desc">North-up schematic. Taxi stand is ahead to the left on leaving the south exit. City bus stops 1 and 2 are south of the plaza, with stop 2 across the road to the southeast. Nippon Chuo highway bus stop is just west of city bus stop 1. JR highway bus stop is farther west. Dashed arrows show schematic walking directions.</desc>
+<defs><marker id="walk-arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L11 6L0 12Z" fill="#1F5BFF"/></marker><marker id="black-arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 5L0 10Z" fill="#171817"/></marker><clipPath id="map-clip"><rect x="60" y="240" width="1880" height="840" rx="12"/></clipPath></defs><g font-family="Arial,Helvetica,sans-serif">
+<rect x="0" y="0" width="2000" height="1400" fill="#F3F2EE" stroke="none" rx="0" stroke-width="1.5"/>
+<text x="60" y="62" font-size="17" fill="#777A76" font-weight="700" text-anchor="start" letter-spacing="2">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="126" font-size="48" fill="#171817" font-weight="700" text-anchor="start">KANAYAMA STATION</text>
+<text x="1935" y="115" font-size="34" fill="#171817" font-weight="700" text-anchor="end">SOUTH EXIT</text>
+<text x="63" y="172" font-size="23" fill="#777A76" font-weight="400" text-anchor="start">Taxi stand • City buses • Highway buses</text>
+<path d="M60 204H1940" stroke="#A8AAA5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="60" y="240" width="1880" height="840" fill="white" stroke="#A8AAA5" rx="12" stroke-width="1.5"/>
+<g clip-path="url(#map-clip)">
+<path d="M382 240V1080" stroke="#D9DCDA" stroke-width="85" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M382 240V1080" stroke="white" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 14"/>
+<path d="M420 690 L788 770 L1062 820 L1116 850 L1290 920 L1780 980 L1970 1000" stroke="#D9DCDA" stroke-width="74" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M420 690 L788 770 L1062 820 L1116 850 L1290 920 L1780 980 L1970 1000" stroke="white" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="14 15"/>
+<path d="M1290 920 L1350 782 Q1380 665 1458 708 Q1522 756 1452 827 L1380 931" stroke="#D9DCDA" stroke-width="41" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1290 920L1200 1120" stroke="#D9DCDA" stroke-width="50" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1535" y="745" width="285" height="140" fill="#E8E7E2" stroke="#A8AAA5" rx="4" stroke-width="1.5"/>
+<text x="1668" y="792" font-size="18" fill="#777A76" font-weight="400" text-anchor="middle">Shops &amp; cafés</text>
+<text x="1668" y="821" font-size="18" fill="#777A76" font-weight="400" text-anchor="middle">7-Eleven nearby</text>
+<rect x="490" y="436" width="470" height="184" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="515" y="478" font-size="23" fill="#777A76" font-weight="700" text-anchor="start">ANA Crowne Plaza</text>
+<text x="515" y="509" font-size="23" fill="#777A76" font-weight="700" text-anchor="start">Hotel Grand Court Nagoya</text>
+<text x="516" y="566" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Kanayama Minami Building</text>
+<path d="M510 260L1090 330L1800 545" stroke="#E8E7E2" stroke-width="100" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M540 244L1100 311L1800 526" stroke="#CACDC7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M525 276L1080 345L1780 561" stroke="#CACDC7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1040" y="272" width="430" height="151" fill="#E8E7E2" stroke="#A8AAA5" rx="6" stroke-width="1.5"/>
+<text x="1070" y="309" font-size="25" fill="#171817" font-weight="700" text-anchor="start">KANAYAMA STATION</text>
+<text x="1070" y="346" font-size="19" fill="#12B85A" font-weight="700" text-anchor="start">JR</text>
+<text x="1120" y="346" font-size="19" fill="#E5332A" font-weight="700" text-anchor="start">Meitetsu</text>
+<text x="1230" y="346" font-size="19" fill="#C89400" font-weight="700" text-anchor="start">Subway</text>
+<text x="1070" y="384" font-size="18" fill="#777A76" font-weight="400" text-anchor="start">Station concourse</text>
+<rect x="1175" y="412" width="112" height="84" fill="white" stroke="none" rx="0" stroke-width="1.5"/>
+<path d="M1180 436H1282" stroke="#171817" stroke-width="6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1229" y="472" font-size="19" fill="#171817" font-weight="700" text-anchor="middle">SOUTH EXIT</text>
+<text x="1100" y="574" font-size="21" fill="#777A76" font-weight="700" text-anchor="end">SOUTH EXIT PLAZA</text>
+<text x="1498" y="641" font-size="16" fill="#777A76" font-weight="700" text-anchor="start">TAXI ROTARY</text>
+<text x="315" y="508" font-size="18" fill="#777A76" font-weight="400" text-anchor="middle" transform="rotate(-90 315 508)">Fushimi-dori / Route 19</text>
+<text x="700" y="881" font-size="16" fill="#777A76" font-weight="400" text-anchor="middle" transform="rotate(13 700 881)">Street along the south side of the plaza</text>
+<g transform="translate(1290 920) rotate(8)">
+<rect x="-29" y="-44" width="58" height="7" fill="white" stroke="none" rx="0" stroke-width="1.5"/>
+<rect x="-29" y="-31" width="58" height="7" fill="white" stroke="none" rx="0" stroke-width="1.5"/>
+<rect x="-29" y="-18" width="58" height="7" fill="white" stroke="none" rx="0" stroke-width="1.5"/>
+<rect x="-29" y="-5" width="58" height="7" fill="white" stroke="none" rx="0" stroke-width="1.5"/>
+<rect x="-29" y="8" width="58" height="7" fill="white" stroke="none" rx="0" stroke-width="1.5"/>
+<rect x="-29" y="21" width="58" height="7" fill="white" stroke="none" rx="0" stroke-width="1.5"/>
+<rect x="-29" y="34" width="58" height="7" fill="white" stroke="none" rx="0" stroke-width="1.5"/>
+</g>
+<rect x="1264" y="859" width="50" height="18" fill="#171817" stroke="none" rx="6" stroke-width="1.5"/>
+<circle cx="1274" cy="868" r="5" fill="#F15552"/>
+<circle cx="1289" cy="868" r="5" fill="#EDCA61"/>
+<circle cx="1304" cy="868" r="5" fill="#36AF86"/>
+<text x="1505" y="919" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Kanayama Sogo-eki Minami</text>
+<text x="1505" y="941" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Signal crossing</text>
+<path d="M1478 922H1330" stroke="#A8AAA5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1230 498V531 L1332 563 L1380 666" stroke="white" stroke-width="10" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1230 498V531 L1332 563 L1380 666" stroke="#1F5BFF" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 9" marker-end="url(#walk-arrow)"/>
+<path d="M1211 503L1177 641L1120 767" stroke="white" stroke-width="10" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1211 503L1177 641L1120 767" stroke="#1F5BFF" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 9" marker-end="url(#walk-arrow)"/>
+<path d="M1160 666L1090 711L1062 742" stroke="white" stroke-width="10" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1160 666L1090 711L1062 742" stroke="#1F5BFF" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 9" marker-end="url(#walk-arrow)"/>
+<path d="M1177 641L1088 689L951 674L797 686" stroke="white" stroke-width="10" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1177 641L1088 689L951 674L797 686" stroke="#1F5BFF" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 9" marker-end="url(#walk-arrow)"/>
+<path d="M1260 539L1300 690L1340 760L1340 827L1290 860L1290 964L1361 974" stroke="white" stroke-width="10" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1260 539L1300 690L1340 760L1340 827L1290 860L1290 964L1361 974" stroke="#1F5BFF" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 9" marker-end="url(#walk-arrow)"/>
+<circle cx="1400" cy="685" r="24" fill="#323E48" stroke="white" stroke-width="3"/>
+<text x="1400" y="693" font-size="23" fill="white" font-weight="700" text-anchor="middle">T</text>
+<rect x="1457" y="671" width="58" height="29" fill="#323E48" stroke="none" rx="7" stroke-width="1.5"/>
+<rect x="1470" y="659" width="32" height="16" fill="#323E48" stroke="none" rx="5" stroke-width="1.5"/>
+<rect x="1476" y="663" width="20" height="8" fill="white" stroke="none" rx="2" stroke-width="1.5"/>
+<circle cx="1468" cy="700" r="6" fill="#323E48"/>
+<circle cx="1504" cy="700" r="6" fill="#323E48"/>
+<text x="1565" y="564" font-size="24" fill="#323E48" font-weight="700" text-anchor="start">TAXI STAND</text>
+<text x="1565" y="596" font-size="24" fill="#323E48" font-weight="700" text-anchor="start">Left-front after exiting</text>
+<path d="M1570 610L1495 623L1415 659" stroke="#323E48" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="788" cy="717" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="788" y="725" font-size="23" fill="white" font-weight="700" text-anchor="middle">J</text>
+<text x="538" y="654" font-size="23" fill="#16C2B0" font-weight="700" text-anchor="start">JR HIGHWAY BUS</text>
+<text x="538" y="681" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Hotel side / farther west</text>
+<path d="M721 674L774 694" stroke="#A8AAA5" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1062" cy="774" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1062" y="782" font-size="23" fill="white" font-weight="700" text-anchor="middle">N</text>
+<text x="852" y="728" font-size="19" fill="#16C2B0" font-weight="700" text-anchor="start">NIPPON CHUO BUS</text>
+<text x="858" y="750" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Silk Liner</text>
+<circle cx="1116" cy="816" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1116" y="824" font-size="23" fill="white" font-weight="700" text-anchor="middle">1</text>
+<text x="1166" y="792" font-size="20" fill="#16C2B0" font-weight="700" text-anchor="start">CITY BUS 1</text>
+<text x="1166" y="815" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">For Kanayama</text>
+<circle cx="1390" cy="974" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1390" y="982" font-size="23" fill="white" font-weight="700" text-anchor="middle">2</text>
+<text x="1440" y="1006" font-size="23" fill="#16C2B0" font-weight="700" text-anchor="start">CITY BUS 2</text>
+<text x="1440" y="1034" font-size="18" fill="#777A76" font-weight="400" text-anchor="start">For Sakae via Osu</text>
+<text x="1757" y="291" font-size="23" fill="#171817" font-weight="700" text-anchor="middle">N</text>
+<path d="M1757 369V310" stroke="#171817" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#black-arrow)"/>
+<text x="1757" y="395" font-size="13" fill="#777A76" font-weight="400" text-anchor="middle">NORTH</text>
+</g>
+<path d="M62 1120H410" stroke="#A8AAA5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="86" cy="1160" r="24" fill="#323E48" stroke="white" stroke-width="3"/>
+<text x="86" y="1168" font-size="23" fill="white" font-weight="700" text-anchor="middle">T</text>
+<text x="121" y="1168" font-size="19" fill="#323E48" font-weight="700" text-anchor="start">TAXI</text>
+<text x="62" y="1215" font-size="17" fill="#171817" font-weight="400" text-anchor="start">South Exit → left-front.</text>
+<text x="62" y="1241" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Board at the rotary.</text>
+<path d="M443 1120H791" stroke="#A8AAA5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="467" cy="1160" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="467" y="1168" font-size="23" fill="white" font-weight="700" text-anchor="middle">1</text>
+<text x="502" y="1168" font-size="19" fill="#16C2B0" font-weight="700" text-anchor="start">CITY BUS</text>
+<text x="443" y="1215" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Stop 1: for Kanayama.</text>
+<text x="443" y="1241" font-size="17" fill="#171817" font-weight="400" text-anchor="start">On the plaza-side curb.</text>
+<path d="M824 1120H1172" stroke="#A8AAA5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="848" cy="1160" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="848" y="1168" font-size="23" fill="white" font-weight="700" text-anchor="middle">2</text>
+<text x="883" y="1168" font-size="19" fill="#16C2B0" font-weight="700" text-anchor="start">CITY BUS</text>
+<text x="824" y="1215" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Stop 2: Sakae via Osu.</text>
+<text x="824" y="1241" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Use the signal crossing.</text>
+<path d="M1205 1120H1553" stroke="#A8AAA5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1229" cy="1160" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1229" y="1168" font-size="23" fill="white" font-weight="700" text-anchor="middle">J</text>
+<text x="1264" y="1168" font-size="19" fill="#16C2B0" font-weight="700" text-anchor="start">JR HIGHWAY BUS</text>
+<text x="1205" y="1215" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Turn right toward the hotel;</text>
+<text x="1205" y="1241" font-size="17" fill="#171817" font-weight="400" text-anchor="start">continue west along the curb.</text>
+<path d="M1586 1120H1934" stroke="#A8AAA5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1610" cy="1160" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1610" y="1168" font-size="23" fill="white" font-weight="700" text-anchor="middle">N</text>
+<text x="1645" y="1168" font-size="19" fill="#16C2B0" font-weight="700" text-anchor="start">NIPPON CHUO BUS</text>
+<text x="1586" y="1215" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Silk Liner boarding / alighting.</text>
+<text x="1586" y="1241" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Beside City Bus Stop 1.</text>
+<path d="M60 1275H1940" stroke="#A8AAA5" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M62 1310H116" stroke="#1F5BFF" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 9"/>
+<text x="132" y="1316" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Walking direction</text>
+<text x="415" y="1316" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">1 / 2 = city stop numbers     J / N = highway-bus map keys</text>
+<text x="1936" y="1316" font-size="16" fill="#777A76" font-weight="400" text-anchor="end">North up • Schematic / not to scale</text>
+<text x="62" y="1360" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Highway bus operators use different boarding points. Match the operator on your booking.</text>
+<text x="1936" y="1360" font-size="13" fill="#777A76" font-weight="700" text-anchor="end">SEPTEMBER 2026</text>
+</g></svg>
