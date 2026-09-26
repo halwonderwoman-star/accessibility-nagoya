@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="canonical" href="https://accessibilitynagoya.com/amn-about">
+<link rel="canonical" href="https://accessibilitynagoya.com/amn-accessible-travel">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%23111'/%3E%3Ccircle cx='10' cy='17' r='4' fill='none' stroke='%23fff' stroke-width='2'/%3E%3Ccircle cx='12' cy='4' r='1.5' fill='%23fff'/%3E%3Cpath d='M12 8v5h5l2 5' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Accessibility Map NAGOYA">
-<meta property="og:title" content="About Us — Accessibility Map NAGOYA">
-<meta property="og:description" content="Why we built Accessibility Map NAGOYA, who it&#x27;s for, and how we research step-free routes, elevators and accessible toilets.">
-<meta property="og:url" content="https://accessibilitynagoya.com/amn-about">
+<meta property="og:title" content="Accessible Travel in Nagoya | Wheelchair &amp; Step-Free Trip Planner">
+<meta property="og:description" content="Plan accessible travel in Nagoya with step-free routes, elevators and accessible toilets for the city&rsquo;s major stations, neighbourhoods and Aichi-Nagoya 2026 venues.">
+<meta property="og:url" content="https://accessibilitynagoya.com/amn-accessible-travel">
 <meta name="twitter:card" content="summary">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X0VG068H8B"></script>
@@ -20,10 +20,10 @@
   gtag('config', 'G-X0VG068H8B');
 </script>
 <script defer src="assets/js/analytics-events.js"></script>
-<title>About Us — Accessibility Map NAGOYA</title>
-<meta name="description" content="Why we built Accessibility Map NAGOYA, who it&#x27;s for, and how we research step-free routes, elevators and accessible toilets.">
+<title>Accessible Travel in Nagoya | Wheelchair &amp; Step-Free Trip Planner</title>
+<meta name="description" content="Plan accessible travel in Nagoya with step-free routes, elevators and accessible toilets for the city&rsquo;s major stations, neighbourhoods and Aichi-Nagoya 2026 venues.">
 <!--
-  ACCESSIBILITY MAP NAGOYA — About us page
+  ACCESSIBILITY MAP NAGOYA — Accessible travel index
   Paste into a WordPress Custom HTML block. Same design system as the other pages.
   Markers: [FONT] Gibson · [LINK] navigation targets · [TEXT] copy to edit
 -->
@@ -155,6 +155,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .pagehead .label{display:block;margin-bottom:clamp(10px,3vw,14px);}
 .amn h1{font-family:var(--display);font-weight:700;font-size:clamp(44px,12vw,104px);line-height:.92;letter-spacing:-.02em;text-transform:uppercase;}
 .amn .standfirst{margin-top:clamp(16px,4vw,24px);font-size:clamp(18px,4.6vw,26px);font-weight:500;line-height:1.35;max-width:26em;}
+.amn .qa{margin-top:clamp(10px,3vw,14px);font-size:15px;font-weight:500;color:var(--ink-2);max-width:34em;line-height:1.5;}
+.amn .qa b{color:var(--ink);font-weight:700;}
 
 .amn .prose{padding:clamp(24px,6vw,40px) 0 clamp(48px,10vw,80px);border-top:1.5px solid var(--line);}
 .amn .prose .col{max-width:38em;}
@@ -176,6 +178,27 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .backrow{border-top:1.5px solid var(--line);}
 .amn .backrow .wrap{padding-top:18px;padding-bottom:18px;}
 .amn .back{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;}
+
+/* ---------------------------------------------------------------
+   PLAN YOUR TRIP — a single small partner card, deliberately quieter
+   than the accessibility content above (smaller type, no big
+   uppercase h2) so it never competes with venue/route information.
+   --------------------------------------------------------------- */
+.amn .plan{padding:clamp(20px,5vw,30px) 0 clamp(28px,6vw,40px);border-top:1.5px solid var(--line);}
+.amn .plan .col{max-width:38em;}
+.amn .plan h2{font-family:var(--display);font-weight:700;font-size:clamp(19px,3.4vw,24px);letter-spacing:-.01em;line-height:1.25;text-transform:none;margin-top:8px;}
+.amn .plan .plan-lead{margin-top:6px;font-size:14px;line-height:1.6;color:var(--ink-2);}
+.amn .plancard{display:flex;flex-direction:column;gap:10px;background:var(--card);border:1.5px solid var(--line);border-radius:var(--r);padding:16px 18px 18px;text-decoration:none;color:var(--ink);margin-top:14px;max-width:420px;transition:transform .25s;}
+@media (hover:hover){a.plancard:hover{transform:translateY(-3px);}}
+.amn .plancard .pc-top{display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);}
+.amn .plancard .pc-badge{padding:4px 9px;border-radius:999px;border:1.5px solid var(--line);font-size:10px;white-space:nowrap;}
+.amn .plancard h3{font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:-.01em;line-height:1.2;margin:0;}
+.amn .plancard p{font-size:13.5px;line-height:1.55;color:var(--ink-2);margin:0;}
+.amn .plancard .pc-cta{display:inline-flex;align-items:center;gap:8px;padding-top:4px;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);}
+.amn .plancard .pc-cta svg{width:15px;height:15px;}
+.amn .plancard .pc-cta img{display:block;max-width:100%;height:auto;}
+.amn .plan .pc-note{margin-top:10px;font-size:12.5px;line-height:1.6;color:var(--ink-2);max-width:420px;}
+.amn .plan .pc-note a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
 .amn .back svg{width:16px;height:16px;transform:scaleX(-1);}
 /* ---------------------------------------------------------------
    7. FOOTER — black, like the TOP page
@@ -190,6 +213,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn footer nav a{text-decoration:none;}
 .amn footer small{font-size:13px;color:#CFCFCF;font-weight:400;}
 
+
+.amn .index{border-top:1.5px solid var(--line);}
+.amn .index a{display:grid;grid-template-columns:clamp(32px,9vw,52px) 1fr auto clamp(36px,10vw,40px);align-items:center;gap:clamp(10px,2.5vw,16px);padding:clamp(14px,4vw,18px) 0;border-bottom:1.5px solid var(--line);text-decoration:none;transition:padding-left .25s;}
+.amn .index a .n{font-weight:700;font-size:14px;letter-spacing:.06em;}
+.amn .index a .t{font-family:var(--display);font-weight:700;font-size:clamp(20px,5.4vw,30px);letter-spacing:-.015em;text-transform:uppercase;line-height:1;}
+.amn .index a .t small{display:block;font-weight:500;font-size:13px;letter-spacing:.08em;margin-top:6px;color:var(--ink-2);text-transform:none;}
+.amn .index a .pf{font-weight:700;font-size:clamp(13px,3.4vw,15px);letter-spacing:.1em;text-transform:uppercase;text-align:right;max-width:14em;}
+.amn .index a .ar{width:36px;height:36px;border-radius:50%;background:var(--c);display:grid;place-items:center;color:#fff;flex-shrink:0;}
+.amn .index a .ar svg{width:18px;height:18px;transition:transform .25s;}
+.amn .index a.dark .ar{color:#111;}
+@media (hover:hover){.amn .index a:hover{padding-left:8px;} .amn .index a:hover .ar svg{transform:translate(2px,-2px);}}
+@media (max-width:520px){.amn .index a{grid-template-columns:32px 1fr auto 36px;} .amn .index a .pf{display:none;}}
 
 @media (prefers-reduced-motion:reduce){.amn *,.amn *::before,.amn *::after{transition:none!important;animation:none!important;}}
 .amn .verify{border-top:1.5px solid var(--line);}
@@ -208,8 +243,9 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"About Us — Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/amn-about","description":"Why we built Accessibility Map NAGOYA, who it&#x27;s for, and how we research step-free routes, elevators and accessible toilets.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"About","item":"https://accessibilitynagoya.com/amn-about"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Accessible Travel in Nagoya | Wheelchair & Step-Free Trip Planner","url":"https://accessibilitynagoya.com/amn-accessible-travel","description":"Plan accessible travel in Nagoya with step-free routes, elevators and accessible toilets for major stations, neighbourhoods and Aichi-Nagoya 2026 venues.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/"},{"@type":"ListItem","position":2,"name":"Accessible travel in Nagoya","item":"https://accessibilitynagoya.com/amn-accessible-travel"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Nagoya wheelchair accessible?","acceptedAnswer":{"@type":"Answer","text":"Major stations and venues have step-free routes, lifts and accessible toilets, but the right route depends on the station, line and exit. Use the guide for the exact place you are visiting."}},{"@type":"Question","name":"Where can I find wheelchair access information for Nagoya Station?","acceptedAnswer":{"@type":"Answer","text":"The Nagoya Station guide covers JR, Shinkansen, Meitetsu, Kintetsu, the subway, Aonami Line, bus terminals and underground streets, including route maps and accessible toilets."}},{"@type":"Question","name":"Does this guide cover Aichi-Nagoya 2026 venues?","acceptedAnswer":{"@type":"Answer","text":"Yes. The Aichi-Nagoya 2026 guide covers each venue's nearest accessible station, step-free route, elevators and accessible toilets."}}]}</script>
 </head>
 <body>
 <a href="#main" class="skip-link">Skip to content</a>
@@ -241,11 +277,12 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       </a>
     </div>
   </header>
+
   <div class="navrow">
     <div class="wrap">
       <nav class="crumbs" aria-label="You are here">
         <a href="/">Top</a><span aria-hidden="true">&rsaquo;</span>
-        <span aria-current="page">About</span>
+        <span aria-current="page">Accessible travel in Nagoya</span>
       </nav>
     </div>
   </div>
@@ -254,40 +291,51 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
   <section class="pagehead" aria-labelledby="pg-title">
     <div class="wrap">
-      <span class="label">About us</span>
-      <h1 id="pg-title">We made the map we could not find.</h1>
-      <p class="standfirst">A small, independent guide to getting around Nagoya without steps.</p>
+      <span class="label">Wheelchair &amp; step-free trip planner</span>
+      <h1 id="pg-title">Accessible travel in Nagoya</h1>
+      <p class="standfirst">Choose the station, neighbourhood or event venue you are visiting. Each guide brings together step-free routes, elevators and accessible toilets from official sources in one practical place.</p>
+      <p class="qa"><b>Is Nagoya wheelchair accessible?</b> Major stations and venues have step-free routes, lifts and accessible toilets, but the best route depends on the station, line and exit. Check the guide for the exact place you are visiting before you travel.</p>
+      <p class="qa"><b>Where should I start?</b> If Nagoya Station is part of your journey, begin there. It has separate guidance for trains, buses and underground streets; otherwise, choose the destination or event venue below.</p>
+      <nav class="index" aria-label="Accessible travel guides">
+        <a href="amn-nagoya-station" style="--c:var(--area)"><span class="n">01</span><span class="t">Nagoya Station<small>JR, Shinkansen, Meitetsu, Kintetsu, subway, Aonami Line, buses &amp; underground streets</small></span><span class="pf">Major arrival point</span><span class="ar dark"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-sakae" style="--c:#3AE6F2"><span class="n">02</span><span class="t">Sakae &amp; Hisaya-odori<small>Station, lifts, bus terminal routes and nearby facilities</small></span><span class="pf">Central Nagoya</span><span class="ar dark"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-kanayama" style="--c:var(--kintetsu)"><span class="n">03</span><span class="t">Kanayama Station<small>JR, Meitetsu, subway, buses, taxis and Asunal Kanayama</small></span><span class="pf">Major interchange</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-yabacho" style="--c:var(--toilet)"><span class="n">04</span><span class="t">Yaba-cho<small>Station access and nearby facilities around the shopping area</small></span><span class="pf">Shopping &amp; museums</span><span class="ar dark"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-osu" style="--c:#FF3B0F"><span class="n">05</span><span class="t">Osu<small>Osu Kannon, Kamimaezu, the shopping street and accessible toilets</small></span><span class="pf">Temples &amp; arcade</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+        <a href="amn-venues" style="--c:var(--shinkansen)"><span class="n">06</span><span class="t">Aichi-Nagoya 2026 venues<small>Nearest accessible station, step-free route, lifts and toilets for each venue</small></span><span class="pf">Asian Games &amp; Para Games</span><span class="ar"><svg aria-hidden="true"><use href="#i-up"/></svg></span></a>
+      </nav>
     </div>
   </section>
 
   <section class="prose">
     <div class="wrap"><div class="col">
-      <h2>We looked for this map. It didn&rsquo;t exist.</h2>
-      <p>A friend visiting Nagoya in a wheelchair asked a simple question: which exit at Nagoya Station has a lift? We spent an evening on it &mdash; official pages, forum posts, blurry photos, three different floor plans &mdash; and still could not give a straight answer.</p>
-      <p>So we made one. Accessibility Map NAGOYA is a small, independent guide to moving around this city without steps. Not a list of everything, but the one landmark to head for, the gate with the wide lane, the lift that actually reaches the platform.</p>
-
-      <h2>Who it&rsquo;s for</h2>
-      <p>Anyone for whom a flight of stairs changes the plan.</p>
-      <div class="who">
-        <div><svg aria-hidden="true"><use href="#i-wheel"/></svg><b>Wheelchair users</b></div>
-        <div><svg aria-hidden="true"><use href="#i-stroller"/></svg><b>Families with strollers</b></div>
-        <div><svg aria-hidden="true"><use href="#i-bag"/></svg><b>Travellers with luggage</b></div>
-        <div><svg aria-hidden="true"><use href="#i-clock"/></svg><b>Anyone taking it slow</b></div>
-      </div>
-
-      <h2>How we work</h2>
-      <p>We start from official floor plans and barrier-free information, then go and look. If we have not seen something ourselves, we say so rather than guessing. Where a route is complicated, we name a landmark you can find from a distance &mdash; the Silver Clock, the Gold Clock &mdash; instead of writing directions nobody can follow in a crowd.</p>
-      <p>The guide grows one area at a time. Nagoya Station first, because almost every trip starts there, then Sakae and Hisaya-odori, Yaba-cho and Osu.</p>
-
-      <h2>Where this can go wrong</h2>
-      <p>A lift breaks. A gate closes for building work. A toilet moves. Anything on this site can go out of date without us knowing, so please check official signage on the day.</p>
-      <p class="note">This is an independent project. It is not affiliated with any railway company, venue or public body.</p>
+      <h2>Plan before you move</h2>
+      <p>Use the page for your destination first, then identify the lift route and exit before you leave. Where a connection or route is not documented officially, the guide says so rather than guessing.</p>
+      <p class="note">This is an independent project. It is not affiliated with any railway company, venue or public body. <a href="amn-sources">Read how sources are used</a>.</p>
     </div></div>
+  </section>
+
+  <!-- STAY CONNECTED — Sakura Mobile affiliate. Placed after all venue and
+       accessibility content, in its own small, clearly labelled block. -->
+  <section class="plan" aria-labelledby="plan-title">
+    <div class="wrap col">
+      <span class="label">Partner</span>
+      <h2 id="plan-title">Traveling with luggage or a stroller?</h2>
+      <p class="plan-lead">Stay connected while you use maps, translation and transport apps to plan step-free routes around Nagoya.</p>
+      <!-- Sakura Mobile affiliate link (approved, id=637_7_1_3 / banner A234x60-1) -->
+      <a class="plancard" href="https://p.sakuramobile.jp/idevaffiliate.php?id=637_7_1_3" target="_blank" rel="sponsored noopener" aria-describedby="plan-affiliate-note">
+        <span class="pc-top"><span>Stay connected</span><span class="pc-badge">Partner</span></span>
+        <h3>Stay connected in Japan</h3>
+        <p>Need mobile data for Google Maps, translation and transport apps? Sakura Mobile offers eSIM, SIM cards and Pocket WiFi for visitors to Japan.</p>
+        <span class="pc-cta"><img src="https://p.sakuramobile.jp/media/banners/A234x60-1.png" width="234" height="60" loading="lazy" alt="Sakura Mobile — Japan Travel SIM, unlimited 4G/LTE for visitors to Japan"></span>
+      </a>
+      <p class="pc-note" id="plan-affiliate-note">Affiliate link &mdash; we may earn a commission if you book through this link, at no extra cost to you. <a href="amn-affiliate-disclosure">Affiliate Disclosure</a>.</p>
+    </div>
   </section>
 
   <div class="backrow">
     <div class="wrap">
-      <a class="back" href="/"><svg aria-hidden="true"><use href="#i-arrow"/></svg> Back to top page</a><!-- [LINK] -->
+      <a class="back" href="/"><svg aria-hidden="true"><use href="#i-arrow"/></svg> Back to top page</a>
     </div>
   </div>
 
@@ -296,14 +344,14 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 <div class="verify">
     <div class="wrap">
       <svg aria-hidden="true"><use href="#i-check"/></svg>
-      <span><b>Verified</b> against official sources &middot; Last updated 12 Sep 2026</span>
+      <span><b>Verified</b> against official sources &middot; Last updated 26 Sep 2026</span>
     </div>
   </div>
 
   <footer>
     <div class="wrap">
       <span class="logo" role="img" aria-label="Accessibility Map NAGOYA"><span class="l1" aria-hidden="true">Accessibility Ma<span class="p"><span class="glyph">p</span><span class="wheel"></span></span></span> <span class="l2" aria-hidden="true">NAGOYA</span></span>
-      <nav aria-label="Footer"><a href="amn-accessible-travel">Plan your trip</a><a href="amn-about">About us</a><a href="amn-sources">Sources</a><a href="amn-privacy">Privacy</a><a href="amn-terms">Terms</a><a href="amn-affiliate-disclosure">Affiliate Disclosure</a><a href="amn-contact">Contact</a></nav><!-- [LINK] -->
+      <nav aria-label="Footer"><a href="amn-accessible-travel">Plan your trip</a><a href="amn-about">About us</a><a href="amn-sources">Sources</a><a href="amn-privacy">Privacy</a><a href="amn-terms">Terms</a><a href="amn-affiliate-disclosure">Affiliate Disclosure</a><a href="amn-contact">Contact</a></nav>
       <small>Accessibility information may change. Please check official sources before visiting.<br>This is an independent accessibility guide.<br>&copy; 2026 Accessibility Map NAGOYA</small>
     </div>
   </footer>
