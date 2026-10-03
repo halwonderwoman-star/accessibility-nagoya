@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" role="img" lang="en">
+<title>Centrair — Airport bus route map</title><desc>English bus wayfinding schematic. Selected facilities. Not to scale.</desc>
+<defs><marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L11 6L0 12Z" fill="#1F5BFF"/></marker><marker id="black" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 5L0 10Z" fill="#171817"/></marker></defs><g font-family="Arial,Helvetica,sans-serif">
+<rect x="0" y="0" width="2000" height="1400" fill="#F3F2EE" stroke="#F3F2EE" rx="0" stroke-width="1.5"/>
+<text x="60" y="58" font-size="17" fill="#777A76" font-weight="700" text-anchor="start" letter-spacing="2">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="120" font-size="48" fill="#171817" font-weight="700" text-anchor="start">CENTRAIR</text>
+<text x="1940" y="115" font-size="36" fill="#16C2B0" font-weight="700" text-anchor="end">BUS NETWORK</text>
+<text x="60" y="170" font-size="29" fill="#171817" font-weight="700" text-anchor="start">Airport bus route map</text>
+<text x="1940" y="165" font-size="19" fill="#777A76" font-weight="400" text-anchor="end">Main destinations • departures from the airport</text>
+<path d="M60 200H1940" fill="none" stroke="#A8AAA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="231" width="425" height="758" fill="white" stroke="#A8AAA5" rx="10" stroke-width="1.5"/>
+<text x="89" y="273" font-size="20" fill="#777A76" font-weight="700" text-anchor="start">START HERE</text>
+<rect x="88" y="313" width="366" height="128" fill="#E3F7F3" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="271.0" y="371.0" font-size="26" fill="#171817" font-weight="600" text-anchor="middle">CENTRAIR</text>
+<text x="271.0" y="397.0" font-size="26" fill="#171817" font-weight="600" text-anchor="middle">Access Plaza / T1 • 1F</text>
+<text x="271" y="478" font-size="28" fill="#16C2B0" font-weight="700" text-anchor="middle">BAYS 1–7</text>
+<path d="M454 378H495V1075" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<path d="M495 378V305" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<rect x="88" y="617" width="366" height="95" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="271.0" y="658.5" font-size="22" fill="#171817" font-weight="600" text-anchor="middle">TERMINAL 2</text>
+<text x="271.0" y="684.5" font-size="22" fill="#171817" font-weight="600" text-anchor="middle">1F • near taxi drop-off</text>
+<path d="M271 610V501" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9"/>
+<text x="287" y="548" font-size="20" fill="#16C2B0" font-weight="700" text-anchor="start">Free shuttle</text>
+<text x="287" y="577" font-size="20" fill="#16C2B0" font-weight="700" text-anchor="start">to bay 7</text>
+<text x="88" y="773" font-size="19" fill="#777A76" font-weight="400" text-anchor="start">Choose the bay number first.</text>
+<text x="88" y="803" font-size="19" fill="#777A76" font-weight="400" text-anchor="start">Each horizontal line is a bus service;</text>
+<text x="88" y="833" font-size="19" fill="#777A76" font-weight="400" text-anchor="start">it is not a geographic road map.</text>
+<text x="88" y="893" font-size="18" fill="#777A76" font-weight="400" text-anchor="start">Main stops only.</text>
+<text x="88" y="922" font-size="18" fill="#777A76" font-weight="400" text-anchor="start">Stops and return routes may differ.</text>
+<path d="M495 305H1850" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<circle cx="581" cy="305" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="581" y="315" font-size="28" fill="white" font-weight="700" text-anchor="middle">1</text>
+<text x="630" y="335" font-size="15" fill="#777A76" font-weight="600" text-anchor="start">e-wing / Entetsu</text>
+<circle cx="850" cy="305" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="850" y="285" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Tomei Toyokawa</text>
+<circle cx="1150" cy="305" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1150" y="261" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Hamamatsu</text>
+<text x="1150" y="285" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">West IC</text>
+<circle cx="1770" cy="305" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1770" y="285" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Hamamatsu Station</text>
+<path d="M1270 305L1320 360H1850" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<circle cx="1490" cy="360" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1490" y="390" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Iwata IC</text>
+<circle cx="1790" cy="360" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1790" y="390" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Kakegawa IC</text>
+<text x="1240" y="278" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Some services require a transfer.</text>
+<path d="M495 445H1850" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<circle cx="581" cy="445" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="581" y="455" font-size="28" fill="white" font-weight="700" text-anchor="middle">3</text>
+<text x="630" y="475" font-size="15" fill="#777A76" font-weight="600" text-anchor="start">Meitetsu Bus</text>
+<circle cx="1020" cy="445" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1020" y="425" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Fujigaoka</text>
+<circle cx="1700" cy="445" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1700" y="425" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Ghibli Park</text>
+<text x="1510" y="480" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Selected service • park opening days only</text>
+<path d="M495 550H1850" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<circle cx="581" cy="550" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="581" y="560" font-size="28" fill="white" font-weight="700" text-anchor="middle">4</text>
+<text x="630" y="580" font-size="15" fill="#777A76" font-weight="600" text-anchor="start">Meitetsu Bus</text>
+<circle cx="1470" cy="550" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1470" y="530" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Toyota-shi Station</text>
+<path d="M495 655H1850" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<circle cx="581" cy="655" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="581" y="665" font-size="28" fill="white" font-weight="700" text-anchor="middle">5</text>
+<text x="630" y="685" font-size="15" fill="#777A76" font-weight="600" text-anchor="start">Chita Bus / Kariya–Chiryu</text>
+<circle cx="930" cy="655" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="930" y="635" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Ogawa Station</text>
+<circle cx="1310" cy="655" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1310" y="635" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Kariya Station</text>
+<circle cx="1740" cy="655" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1740" y="635" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Chiryu Station</text>
+<text x="1320" y="690" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Limited service — check the timetable</text>
+<path d="M495 760H1850" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<circle cx="581" cy="760" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="581" y="770" font-size="28" fill="white" font-weight="700" text-anchor="middle">5</text>
+<text x="630" y="790" font-size="15" fill="#777A76" font-weight="600" text-anchor="start">Chita Bus / Handa–Tokoname</text>
+<circle cx="930" cy="760" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="930" y="740" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Tokoname Station</text>
+<circle cx="1310" cy="760" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1310" y="740" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Itayama area</text>
+<circle cx="1740" cy="760" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1740" y="740" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Chita-Handa Station</text>
+<path d="M495 865H1850" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<circle cx="581" cy="865" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="581" y="875" font-size="28" fill="white" font-weight="700" text-anchor="middle">6</text>
+<text x="630" y="895" font-size="15" fill="#777A76" font-weight="600" text-anchor="start">Centrair Limousine / Meitetsu Bus</text>
+<circle cx="855" cy="865" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="855" y="821" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Nagoya Tokyu</text>
+<text x="855" y="845" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Hotel</text>
+<circle cx="1130" cy="865" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1130" y="845" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Sakae</text>
+<circle cx="1400" cy="865" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1400" y="821" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Nishiki-dori</text>
+<text x="1400" y="845" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Hommachi</text>
+<circle cx="1750" cy="865" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1750" y="821" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Fushimi area</text>
+<text x="1750" y="845" font-size="18" fill="#171817" font-weight="600" text-anchor="middle">Nagoya Kanko Hotel</text>
+<path d="M495 970H1850" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<circle cx="581" cy="970" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="581" y="980" font-size="28" fill="white" font-weight="700" text-anchor="middle">7</text>
+<text x="630" y="1000" font-size="15" fill="#777A76" font-weight="600" text-anchor="start">Nagoya Bus</text>
+<circle cx="1430" cy="970" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1430" y="950" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Nagoya Station West Exit</text>
+<text x="1300" y="1005" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Late-night / early-morning service</text>
+<path d="M495 1075H1850" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<circle cx="581" cy="1075" r="24" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="581" y="1085" font-size="28" fill="white" font-weight="700" text-anchor="middle">7</text>
+<text x="630" y="1105" font-size="15" fill="#777A76" font-weight="600" text-anchor="start">VIP Liner / overnight</text>
+<circle cx="1150" cy="1075" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1150" y="1055" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Toyama Station</text>
+<circle cx="1720" cy="1075" r="7" fill="white" stroke="#16C2B0" stroke-width="4"/>
+<text x="1720" y="1055" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">Kanazawa Station</text>
+<rect x="60" y="1012" width="425" height="221" fill="#E3F7F3" stroke="#E3F7F3" rx="5" stroke-width="1.5"/>
+<text x="82" y="1047" font-size="20" fill="#16C2B0" font-weight="700" text-anchor="start">TOKONAME SHUTTLE / FREE</text>
+<text x="82" y="1079" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Separate stop under the airport</text>
+<text x="82" y="1106" font-size="17" fill="#171817" font-weight="400" text-anchor="start">walkway, near Comfort Hotel.</text>
+<text x="82" y="1133" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Airport island ↔ Tokoname city</text>
+<text x="82" y="1160" font-size="17" fill="#171817" font-weight="400" text-anchor="start">via Aichi Sky Expo; routing varies.</text>
+<text x="82" y="1212" font-size="17" fill="#777A76" font-weight="600" text-anchor="start">Not the bay 5 scheduled bus.</text>
+<rect x="530" y="1125" width="1410" height="108" fill="#E8E7E2" stroke="#E8E7E2" rx="5" stroke-width="1.5"/>
+<text x="555" y="1157" font-size="19" fill="#777A76" font-weight="700" text-anchor="start">SUSPENDED / NOT SHOWN AS ACTIVE ROUTES</text>
+<text x="555" y="1187" font-size="18" fill="#777A76" font-weight="400" text-anchor="start">Meitetsu Bus Center (Nagoya Station) • Kinjo-futo • Kintetsu-Yokkaichi • Kuwana • Nagashima Onsen</text>
+<text x="555" y="1215" font-size="18" fill="#777A76" font-weight="400" text-anchor="start">No current regional departures from T2 bays 21 / 22. Hotel and charter shuttles are not included.</text>
+<path d="M60 1260H1940" fill="none" stroke="#A8AAA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 1290H120" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none"/>
+<text x="138" y="1297" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Airport bus</text>
+<path d="M350 1290H410" fill="none" stroke="#16C2B0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9"/>
+<text x="428" y="1297" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Terminal shuttle</text>
+<circle cx="770" cy="1290" r="21" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="770" y="1300" font-size="28" fill="white" font-weight="700" text-anchor="middle">5</text>
+<text x="805" y="1297" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Access Plaza bay number</text>
+<text x="1200" y="1297" font-size="18" fill="#777A76" font-weight="400" text-anchor="start">Selected stops • Check each operator’s timetable</text>
+<text x="60" y="1350" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Schematic / not to scale • Boarding locations and service status checked 3 Oct 2026.</text>
+<text x="1940" y="1350" font-size="15" fill="#777A76" font-weight="700" text-anchor="end">ACCESSIBILITY MAP NAGOYA</text>
+</g>
+</svg>

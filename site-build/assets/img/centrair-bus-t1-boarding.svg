@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" role="img" lang="en">
+<title>Centrair — Bus boarding / Terminal 1</title><desc>English bus wayfinding schematic. Selected facilities. Not to scale.</desc>
+<defs><marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L11 6L0 12Z" fill="#1F5BFF"/></marker><marker id="black" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 5L0 10Z" fill="#171817"/></marker></defs><g font-family="Arial,Helvetica,sans-serif">
+<rect x="0" y="0" width="2000" height="1400" fill="#F3F2EE" stroke="#F3F2EE" rx="0" stroke-width="1.5"/>
+<text x="60" y="58" font-size="17" fill="#777A76" font-weight="700" text-anchor="start" letter-spacing="2">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="120" font-size="48" fill="#171817" font-weight="700" text-anchor="start">CENTRAIR</text>
+<text x="1940" y="115" font-size="36" fill="#16C2B0" font-weight="700" text-anchor="end">BUS / T1</text>
+<text x="60" y="170" font-size="29" fill="#171817" font-weight="700" text-anchor="start">Bus boarding / Terminal 1</text>
+<text x="1940" y="165" font-size="19" fill="#777A76" font-weight="400" text-anchor="end">Access Plaza 1F • via the 2F connecting passage</text>
+<path d="M60 200H1940" fill="none" stroke="#A8AAA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(60 235) scale(1)">
+<rect x="0" y="0" width="1200" height="680" fill="white" stroke="#A8AAA5" rx="10" stroke-width="1.5"/>
+<text x="26" y="43" font-size="27" fill="#171817" font-weight="700" text-anchor="start">1F / ACCESS PLAZA BUS BAYS</text>
+<text x="26" y="74" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Airside at top • geographic north to the right</text>
+<text x="1150" y="49" font-size="17" fill="#171817" font-weight="700" text-anchor="start">N</text>
+<path d="M1097 43H1139" fill="none" stroke="#171817" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#black)"/>
+<rect x="45" y="115" width="1110" height="85" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="600.0" y="151.5" font-size="21" fill="#777A76" font-weight="600" text-anchor="middle">TERMINAL 1</text>
+<text x="600.0" y="177.5" font-size="21" fill="#777A76" font-weight="600" text-anchor="middle">Airport-bus drop-off at the terminal curb</text>
+<rect x="45" y="216" width="1110" height="75" fill="#E8E7E2" stroke="#E8E7E2" rx="0" stroke-width="1.5"/>
+<text x="600" y="260" font-size="19" fill="#777A76" font-weight="700" text-anchor="middle">ROADWAY • USE THE 2F CONNECTING PASSAGE</text>
+<rect x="46" y="356" width="1110" height="158" fill="white" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<rect x="480" y="311" width="555" height="71" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="768" y="338" font-size="19" fill="#777A76" font-weight="700" text-anchor="middle">ACCESS PLAZA ABOVE / 2F</text>
+<rect x="582" y="365" width="37" height="37" fill="#4D6865" stroke="white" rx="6" stroke-width="2"/>
+<text x="600.5" y="389.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<rect x="726" y="365" width="37" height="37" fill="#1F5BFF" stroke="white" rx="6" stroke-width="2"/>
+<text x="744.5" y="389.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="600" y="429" font-size="16" fill="#4D6865" font-weight="700" text-anchor="middle">From 2F</text>
+<text x="785" y="415" font-size="16" fill="#1F5BFF" font-weight="700" text-anchor="start">From 2F</text>
+<rect x="885" y="355" width="37" height="37" fill="#777A76" stroke="white" rx="5" stroke-width="1.5"/>
+<text x="903.5" y="380" font-size="14" fill="white" font-weight="700" text-anchor="middle">WC</text>
+<text x="950" y="374" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Restrooms</text>
+<text x="950" y="396" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Bus tickets</text>
+<path d="M744 405V454H400" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M744 405V454H400" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" marker-end="url(#arr)"/>
+<path d="M767 454H1090" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M767 454H1090" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" marker-end="url(#arr)"/>
+<circle cx="94" cy="500" r="26" fill="#777A76" stroke="white" stroke-width="3"/>
+<text x="94" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">10</text>
+<circle cx="205" cy="500" r="26" fill="#777A76" stroke="white" stroke-width="3"/>
+<text x="205" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">9</text>
+<circle cx="316" cy="500" r="26" fill="#777A76" stroke="white" stroke-width="3"/>
+<text x="316" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">8</text>
+<circle cx="427" cy="500" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="427" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">7</text>
+<circle cx="538" cy="500" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="538" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">6</text>
+<circle cx="649" cy="500" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="649" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">5</text>
+<circle cx="760" cy="500" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="760" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">4</text>
+<circle cx="871" cy="500" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="871" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">3</text>
+<circle cx="982" cy="500" r="26" fill="#777A76" stroke="white" stroke-width="3"/>
+<text x="982" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">2</text>
+<circle cx="1093" cy="500" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1093" y="510" font-size="28" fill="white" font-weight="700" text-anchor="middle">1</text>
+<text x="600" y="556" font-size="18" fill="#777A76" font-weight="600" text-anchor="middle">BUS ROADWAY</text>
+<rect x="455" y="578" width="640" height="62" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="775.0" y="616.0" font-size="18" fill="#777A76" font-weight="600" text-anchor="middle">TAXI BOARDING ISLAND • separate access</text>
+<text x="60" y="666" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">8–10: other / unassigned bays in the current airport route list.</text>
+</g>
+<g transform="translate(60 940) scale(1)">
+<rect x="0" y="0" width="1200" height="292" fill="white" stroke="#A8AAA5" rx="10" stroke-width="1.5"/>
+<text x="26" y="43" font-size="27" fill="#171817" font-weight="700" text-anchor="start">HOW TO REACH THE BAYS</text>
+<text x="26" y="74" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">T1 arrivals and the train station connect to Access Plaza on 2F.</text>
+<rect x="30" y="116" width="220" height="83" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="140.0" y="151.5" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">T1 ARRIVALS</text>
+<text x="140.0" y="177.5" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">2F</text>
+<path d="M264 158H338" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M264 158H338" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" marker-end="url(#arr)"/>
+<rect x="350" y="113" width="300" height="89" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="500.0" y="151.5" font-size="20" fill="#171817" font-weight="600" text-anchor="middle">ACCESS PLAZA • 2F</text>
+<text x="500.0" y="177.5" font-size="20" fill="#171817" font-weight="600" text-anchor="middle">Near FamilyMart</text>
+<rect x="693" y="132" width="37" height="37" fill="#1F5BFF" stroke="white" rx="6" stroke-width="2"/>
+<text x="711.5" y="156.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<rect x="737" y="132" width="37" height="37" fill="#4D6865" stroke="white" rx="6" stroke-width="2"/>
+<text x="755.5" y="156.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<path d="M800 158H863" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M800 158H863" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" marker-end="url(#arr)"/>
+<rect x="875" y="114" width="290" height="88" fill="#E3F7F3" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="1020.0" y="152.0" font-size="23" fill="#171817" font-weight="600" text-anchor="middle">BUS BAYS • 1F</text>
+<text x="1020.0" y="178.0" font-size="23" fill="#171817" font-weight="600" text-anchor="middle">1–7</text>
+<rect x="355" y="226" width="37" height="37" fill="#8654C6" stroke="white" rx="6" stroke-width="2"/>
+<g transform="translate(355 226) scale(1.0)">
+<circle cx="17" cy="8" r="3.1" fill="white"/>
+<path d="M16 14V23H25L29 31H33" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 16H24" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 19A9 9 0 1 0 24 29" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="403" y="252" font-size="17" fill="#8654C6" font-weight="400" text-anchor="start">Accessible toilet: 2F</text>
+<rect x="701" y="226" width="37" height="37" fill="#665471" stroke="white" rx="6" stroke-width="2"/>
+<text x="719.5" y="250.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="749" y="252" font-size="17" fill="#665471" font-weight="400" text-anchor="start">Lockers: Access Plaza 2F</text>
+</g>
+<g transform="translate(1290 235) scale(1)">
+<rect x="0" y="0" width="650" height="997" fill="white" stroke="#A8AAA5" rx="10" stroke-width="1.5"/>
+<text x="26" y="43" font-size="27" fill="#171817" font-weight="700" text-anchor="start">CHOOSE YOUR BAY</text>
+<text x="26" y="74" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Destination names match the route map.</text>
+</g>
+<circle cx="1348" cy="360" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1348" y="370" font-size="28" fill="white" font-weight="700" text-anchor="middle">1</text>
+<text x="1392" y="352" font-size="23" fill="#16C2B0" font-weight="700" text-anchor="start">Toyokawa / Hamamatsu</text>
+<text x="1392" y="381" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">e-wing • Shizuoka region</text>
+<circle cx="1348" cy="464" r="26" fill="#777A76" stroke="white" stroke-width="3"/>
+<text x="1348" y="474" font-size="28" fill="white" font-weight="700" text-anchor="middle">2</text>
+<text x="1392" y="456" font-size="23" fill="#777A76" font-weight="700" text-anchor="start">Routes suspended</text>
+<text x="1392" y="485" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Mie / Kinjo-futo</text>
+<circle cx="1348" cy="568" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1348" y="578" font-size="28" fill="white" font-weight="700" text-anchor="middle">3</text>
+<text x="1392" y="560" font-size="23" fill="#16C2B0" font-weight="700" text-anchor="start">Fujigaoka / Ghibli Park</text>
+<text x="1392" y="589" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Ghibli Park: selected service / opening days</text>
+<circle cx="1348" cy="672" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1348" y="682" font-size="28" fill="white" font-weight="700" text-anchor="middle">4</text>
+<text x="1392" y="664" font-size="23" fill="#16C2B0" font-weight="700" text-anchor="start">Toyota-shi Station</text>
+<text x="1392" y="693" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Meitetsu Bus</text>
+<circle cx="1348" cy="776" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1348" y="786" font-size="28" fill="white" font-weight="700" text-anchor="middle">5</text>
+<text x="1392" y="768" font-size="23" fill="#16C2B0" font-weight="700" text-anchor="start">Kariya / Chiryu · Handa</text>
+<text x="1392" y="797" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Via Ogawa / via Tokoname respectively</text>
+<circle cx="1348" cy="880" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1348" y="890" font-size="28" fill="white" font-weight="700" text-anchor="middle">6</text>
+<text x="1392" y="872" font-size="23" fill="#16C2B0" font-weight="700" text-anchor="start">Sakae / Fushimi</text>
+<text x="1392" y="901" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Centrair Limousine</text>
+<circle cx="1348" cy="984" r="26" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1348" y="994" font-size="28" fill="white" font-weight="700" text-anchor="middle">7</text>
+<text x="1392" y="976" font-size="23" fill="#16C2B0" font-weight="700" text-anchor="start">Nagoya Station West Exit</text>
+<text x="1392" y="1005" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Late-night / early-morning service</text>
+<text x="1392" y="1047" font-size="19" fill="#16C2B0" font-weight="600" text-anchor="start">Toyama / Kanazawa • overnight</text>
+<text x="1392" y="1077" font-size="19" fill="#16C2B0" font-weight="600" text-anchor="start">Terminal 2 • free terminal shuttle</text>
+<rect x="1320" y="1120" width="590" height="83" fill="#F3F2EE" stroke="#F3F2EE" rx="5" stroke-width="1.5"/>
+<text x="1340" y="1152" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Board via Access Plaza, not the T1 drop-off curb.</text>
+<text x="1340" y="1179" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Bay 7 is shared: check the destination on the bus.</text>
+<path d="M60 1260H1940" fill="none" stroke="#A8AAA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="1280" width="37" height="37" fill="#1F5BFF" stroke="white" rx="6" stroke-width="2"/>
+<text x="78.5" y="1304.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="108" y="1305" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Elevator</text>
+<rect x="260" y="1280" width="37" height="37" fill="#4D6865" stroke="white" rx="6" stroke-width="2"/>
+<text x="278.5" y="1304.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="308" y="1305" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Escalator</text>
+<rect x="490" y="1280" width="37" height="37" fill="#858780" stroke="white" rx="6" stroke-width="2"/>
+<text x="508.5" y="1304.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">ST</text>
+<text x="538" y="1305" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Stairs</text>
+<rect x="670" y="1280" width="37" height="37" fill="#665471" stroke="white" rx="6" stroke-width="2"/>
+<text x="688.5" y="1304.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="718" y="1305" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Coin lockers</text>
+<rect x="930" y="1280" width="37" height="37" fill="#8654C6" stroke="white" rx="6" stroke-width="2"/>
+<g transform="translate(930 1280) scale(1.0)">
+<circle cx="17" cy="8" r="3.1" fill="white"/>
+<path d="M16 14V23H25L29 31H33" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 16H24" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 19A9 9 0 1 0 24 29" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="980" y="1305" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Accessible toilet / public area</text>
+<path d="M1390 1300H1440" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="1455" y="1305" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Walking direction</text>
+<circle cx="1800" cy="1298" r="21" fill="#16C2B0" stroke="white" stroke-width="3"/>
+<text x="1800" y="1308" font-size="28" fill="white" font-weight="700" text-anchor="middle">7</text>
+<text x="1833" y="1305" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Bus bay</text>
+<text x="60" y="1350" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Schematic / not to scale • Boarding locations and service status checked 3 Oct 2026.</text>
+<text x="1940" y="1350" font-size="15" fill="#777A76" font-weight="700" text-anchor="end">ACCESSIBILITY MAP NAGOYA</text>
+</g>
+</svg>
