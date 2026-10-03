@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" role="img" lang="en">
+<title>Centrair Terminal 2 — Public floors &amp; terminal access</title><desc>English schematic wayfinding map with floor levels, accessible toilets, elevators, escalators, stairs and locker information. Airside is at the top and north is to the right. Not to scale.</desc>
+<defs><marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L11 6L0 12Z" fill="#1F5BFF"/></marker><marker id="black" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 5L0 10Z" fill="#171817"/></marker></defs><g font-family="Arial,Helvetica,sans-serif">
+<rect x="0" y="0" width="2000" height="1400" fill="#F3F2EE" stroke="#F3F2EE" rx="0" stroke-width="1.5"/>
+<text x="60" y="58" font-size="17" fill="#777A76" font-weight="700" text-anchor="start" letter-spacing="2">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="120" font-size="48" fill="#171817" font-weight="700" text-anchor="start">CENTRAIR</text>
+<text x="1940" y="115" font-size="36" fill="#188F9A" font-weight="700" text-anchor="end">TERMINAL 2</text>
+<text x="60" y="170" font-size="29" fill="#171817" font-weight="700" text-anchor="start">Public floors &amp; terminal access</text>
+<text x="1940" y="165" font-size="19" fill="#777A76" font-weight="400" text-anchor="end">2F departures / 1F arrivals / nearby facilities</text>
+<path d="M60 200H1940" fill="none" stroke="#A8AAA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(60 230) scale(1)">
+<rect x="0" y="0" width="920" height="610" fill="white" stroke="#A8AAA5" rx="10" stroke-width="1.5"/>
+<text x="26" y="43" font-size="27" fill="#171817" font-weight="700" text-anchor="start">2F / PUBLIC DEPARTURE LOBBY</text>
+<text x="26" y="74" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Entrance from the pedestrian walkway</text>
+<rect x="109" y="125" width="665" height="305" fill="white" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<rect x="168" y="137" width="465" height="55" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="400.5" y="171.5" font-size="20" fill="#777A76" font-weight="600" text-anchor="middle">CHECK-IN B</text>
+<rect x="168" y="338" width="465" height="55" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="400.5" y="372.5" font-size="20" fill="#777A76" font-weight="600" text-anchor="middle">CHECK-IN A</text>
+<rect x="40" y="181" width="140" height="80" fill="#E7ECE7" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="110.0" y="215.0" font-size="17" fill="#171817" font-weight="600" text-anchor="middle">International</text>
+<text x="110.0" y="241.0" font-size="17" fill="#171817" font-weight="600" text-anchor="middle">security</text>
+<rect x="40" y="315" width="117" height="95" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="98.5" y="343.5" font-size="16" fill="#777A76" font-weight="600" text-anchor="middle">Former</text>
+<text x="98.5" y="369.5" font-size="16" fill="#777A76" font-weight="600" text-anchor="middle">domestic</text>
+<text x="98.5" y="395.5" font-size="16" fill="#777A76" font-weight="600" text-anchor="middle">security</text>
+<rect x="688" y="170" width="37" height="37" fill="#8654C6" stroke="white" rx="6" stroke-width="2"/>
+<g transform="translate(688 170) scale(1.0)">
+<circle cx="17" cy="8" r="3.1" fill="white"/>
+<path d="M16 14V23H25L29 31H33" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 16H24" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 19A9 9 0 1 0 24 29" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="729" y="447" width="37" height="37" fill="#1F5BFF" stroke="white" rx="6" stroke-width="2"/>
+<text x="747.5" y="471.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<rect x="639" y="443" width="37" height="37" fill="#858780" stroke="white" rx="6" stroke-width="2"/>
+<text x="657.5" y="467.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">ST</text>
+<text x="450" y="277" font-size="27" fill="#171817" font-weight="700" text-anchor="middle">DEPARTURE LOBBY</text>
+<path d="M822 509V286H535" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M822 509V286H535" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" marker-end="url(#arr)"/>
+<text x="548" y="530" font-size="19" fill="#188F9A" font-weight="700" text-anchor="middle">From FLIGHT OF DREAMS / Access Plaza</text>
+<text x="548" y="563" font-size="18" fill="#1F5BFF" font-weight="700" text-anchor="middle">Public elevator / ramp connects with 1F</text>
+<text x="860" y="108" font-size="17" fill="#171817" font-weight="700" text-anchor="start">N</text>
+<path d="M807 102H849" fill="none" stroke="#171817" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#black)"/>
+</g>
+<g transform="translate(60 870) scale(1)">
+<rect x="0" y="0" width="920" height="322" fill="white" stroke="#A8AAA5" rx="10" stroke-width="1.5"/>
+<text x="26" y="43" font-size="27" fill="#171817" font-weight="700" text-anchor="start">1F / PUBLIC ARRIVAL LOBBY</text>
+<text x="26" y="74" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Exit customs before entering the public area</text>
+<rect x="63" y="111" width="550" height="74" fill="#E7ECE7" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="338.0" y="155.0" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">International customs / arrival exit</text>
+<rect x="63" y="186" width="708" height="64" fill="white" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<rect x="78" y="198" width="37" height="37" fill="#8654C6" stroke="white" rx="6" stroke-width="2"/>
+<g transform="translate(78 198) scale(1.0)">
+<circle cx="17" cy="8" r="3.1" fill="white"/>
+<path d="M16 14V23H25L29 31H33" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 16H24" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 19A9 9 0 1 0 24 29" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="728" y="257" width="37" height="37" fill="#1F5BFF" stroke="white" rx="6" stroke-width="2"/>
+<text x="746.5" y="281.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="423" y="226" font-size="21" fill="#171817" font-weight="700" text-anchor="middle">PUBLIC ARRIVALS LOBBY</text>
+<text x="230" y="290" font-size="22" fill="#16C2B0" font-weight="700" text-anchor="start">Buses ↓</text>
+<text x="467" y="290" font-size="22" fill="#171817" font-weight="700" text-anchor="start">Taxis →</text>
+</g>
+<g transform="translate(1020 230) scale(1)">
+<rect x="0" y="0" width="920" height="610" fill="white" stroke="#A8AAA5" rx="10" stroke-width="1.5"/>
+<text x="26" y="43" font-size="27" fill="#171817" font-weight="700" text-anchor="start">WALKWAY / NEARBY FACILITIES</text>
+<text x="26" y="74" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">The station is at Access Plaza, not inside Terminal 2</text>
+<g transform="translate(12 105) scale(0.97)">
+<rect x="24" y="33" width="265" height="113" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="156.5" y="83.5" font-size="19" fill="#171817" font-weight="600" text-anchor="middle">TERMINAL 2</text>
+<text x="156.5" y="109.5" font-size="19" fill="#171817" font-weight="600" text-anchor="middle">2F departures / 1F arrivals</text>
+<rect x="572" y="33" width="266" height="113" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="705.0" y="83.5" font-size="19" fill="#171817" font-weight="600" text-anchor="middle">TERMINAL 1</text>
+<text x="705.0" y="109.5" font-size="19" fill="#171817" font-weight="600" text-anchor="middle">3F departures / 2F arrivals</text>
+<rect x="24" y="246" width="265" height="115" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="156.5" y="297.5" font-size="19" fill="#777A76" font-weight="600" text-anchor="middle">FLIGHT OF DREAMS</text>
+<text x="156.5" y="323.5" font-size="19" fill="#777A76" font-weight="600" text-anchor="middle">Public facilities</text>
+<rect x="572" y="246" width="266" height="115" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="705.0" y="297.5" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">ACCESS PLAZA</text>
+<text x="705.0" y="323.5" font-size="21" fill="#171817" font-weight="600" text-anchor="middle">2F</text>
+<path d="M55 148V245" fill="none" stroke="#A8AAA5" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M55 148V245" fill="none" stroke="white" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M288 335H572" fill="none" stroke="#A8AAA5" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M288 335H572" fill="none" stroke="white" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M815 148V245" fill="none" stroke="#A8AAA5" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M815 148V245" fill="none" stroke="white" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M838 305H917" fill="none" stroke="#E5332A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="916" y="273" font-size="19" fill="#E5332A" font-weight="700" text-anchor="end">Meitetsu</text>
+<text x="916" y="295" font-size="17" fill="#E5332A" font-weight="600" text-anchor="end">train station</text>
+<text x="430" y="302" font-size="18" fill="#777A76" font-weight="400" text-anchor="middle">2F connecting walkway</text>
+<text x="433" y="385" font-size="17" fill="#777A76" font-weight="400" text-anchor="middle">Via P1 / moving walkways</text>
+<path d="M815 203V335H55V174" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M815 203V335H55V174" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" marker-end="url(#arr)"/>
+<text x="708" y="402" font-size="18" fill="#777A76" font-weight="400" text-anchor="middle">T1 ↔ T2: about 10 min on foot</text>
+<rect x="82" y="382" width="37" height="37" fill="#665471" stroke="white" rx="6" stroke-width="2"/>
+<text x="100.5" y="406.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="129" y="402" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Lockers: 3F</text>
+<text x="129" y="426" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Go up inside FLIGHT OF DREAMS</text>
+<text x="870" y="29" font-size="17" fill="#171817" font-weight="700" text-anchor="start">N</text>
+<path d="M817 23H859" fill="none" stroke="#171817" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#black)"/>
+</g>
+<text x="42" y="566" font-size="20" fill="#188F9A" font-weight="700" text-anchor="start">Use the 2F walkway for T1, train connections and parking.</text>
+</g>
+<g transform="translate(1020 870) scale(1)">
+<rect x="0" y="0" width="920" height="322" fill="white" stroke="#A8AAA5" rx="10" stroke-width="1.5"/>
+<text x="26" y="43" font-size="27" fill="#171817" font-weight="700" text-anchor="start">LOCKERS &amp; ACCESSIBILITY</text>
+<text x="26" y="74" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Public facilities near Terminal 2</text>
+<rect x="31" y="104" width="37" height="37" fill="#665471" stroke="white" rx="6" stroke-width="2"/>
+<text x="49.5" y="128.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="89" y="126" font-size="23" fill="#665471" font-weight="700" text-anchor="start">FLIGHT OF DREAMS — 3F</text>
+<text x="89" y="162" font-size="23" fill="#665471" font-weight="700" text-anchor="start">Access Plaza — 2F</text>
+<text x="89" y="208" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">No coin-locker location inside T2 is confirmed in the official guide.</text>
+<rect x="31" y="236" width="37" height="37" fill="#1F5BFF" stroke="white" rx="6" stroke-width="2"/>
+<text x="49.5" y="260.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="89" y="259" font-size="19" fill="#171817" font-weight="400" text-anchor="start">Use the public elevator / ramp between T2 1F and 2F.</text>
+<text x="89" y="288" font-size="19" fill="#171817" font-weight="400" text-anchor="start">For aircraft boarding assistance, contact your airline.</text>
+</g>
+<path d="M60 1220H1940" fill="none" stroke="#A8AAA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="1242" width="37" height="37" fill="#1F5BFF" stroke="white" rx="6" stroke-width="2"/>
+<text x="78.5" y="1266.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="108" y="1268" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Elevator</text>
+<rect x="265" y="1242" width="37" height="37" fill="#4D6865" stroke="white" rx="6" stroke-width="2"/>
+<text x="283.5" y="1266.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="313" y="1268" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Escalator</text>
+<rect x="490" y="1242" width="37" height="37" fill="#858780" stroke="white" rx="6" stroke-width="2"/>
+<text x="508.5" y="1266.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">ST</text>
+<text x="538" y="1268" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Stairs</text>
+<rect x="680" y="1242" width="37" height="37" fill="#665471" stroke="white" rx="6" stroke-width="2"/>
+<text x="698.5" y="1266.05" font-size="13.69" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="728" y="1268" font-size="18" fill="#171817" font-weight="400" text-anchor="start">Coin lockers</text>
+<rect x="940" y="1242" width="37" height="37" fill="#8654C6" stroke="white" rx="6" stroke-width="2"/>
+<g transform="translate(940 1242) scale(1.0)">
+<circle cx="17" cy="8" r="3.1" fill="white"/>
+<path d="M16 14V23H25L29 31H33" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 16H24" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 19A9 9 0 1 0 24 29" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="989" y="1257" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Accessible toilet</text>
+<text x="989" y="1280" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Public area</text>
+<rect x="1210" y="1242" width="37" height="37" fill="#F454B9" stroke="white" rx="6" stroke-width="2"/>
+<g transform="translate(1210 1242) scale(1.0)">
+<circle cx="17" cy="8" r="3.1" fill="white"/>
+<path d="M16 14V23H25L29 31H33" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 16H24" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13 19A9 9 0 1 0 24 29" fill="none" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1259" y="1257" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Accessible toilet</text>
+<text x="1259" y="1280" font-size="16" fill="#171817" font-weight="400" text-anchor="start">Restricted area</text>
+<rect x="1488" y="1247" width="28" height="28" fill="#E7ECE7" stroke="#A8AAA5" rx="5" stroke-width="1.5"/>
+<text x="1527" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Restricted area</text>
+<path d="M1740 1261H1783" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr)"/>
+<text x="1797" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Direction</text>
+<text x="60" y="1330" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Public toilets shown include wheelchair-accessible facilities. Locker symbols identify the published floor, not a specific bank.</text>
+<text x="60" y="1366" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Schematic / not to scale • Airside at top / north to the right • Facilities are shown on their own floor.</text>
+<text x="1940" y="1366" font-size="14" fill="#777A76" font-weight="700" text-anchor="end">CHECKED 3 OCT 2026</text>
+</g>
+</svg>
