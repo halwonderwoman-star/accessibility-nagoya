@@ -322,6 +322,31 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .illust-note{padding:12px 16px 16px;font-size:12px;line-height:1.6;color:var(--ink-2);border-top:1.5px solid var(--line);}
 
 /* ---------------------------------------------------------------
+   ROUTE COMPARE — at-a-glance diagram for "Best route to Nagoya":
+   one row per option, a time bar scaled to a shared minute axis,
+   plus fare. Bus has no number (suspended) so it gets a hatched
+   placeholder bar instead of a width, never a fabricated value.
+   --------------------------------------------------------------- */
+.amn .routecompare{border:1.5px solid var(--line);border-radius:18px;overflow:hidden;margin:20px 0 28px;background:#fff;}
+.amn .rc-row{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(12px,3.4vw,18px);padding:clamp(14px,3.6vw,20px) clamp(16px,4vw,22px);border-top:1.5px solid var(--line);}
+.amn .rc-row:first-child{border-top:none;}
+.amn .rc-icon{width:44px;height:44px;border-radius:50%;background:var(--c);color:#fff;display:grid;place-items:center;flex-shrink:0;}
+.amn .rc-icon svg{width:22px;height:22px;}
+.amn .rc-top{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-bottom:9px;}
+.amn .rc-name{font-family:var(--display);font-weight:700;font-size:clamp(16px,4vw,18px);letter-spacing:-.01em;}
+.amn .rc-badge{font-weight:700;font-size:11px;letter-spacing:.09em;text-transform:uppercase;padding:4px 10px;border-radius:999px;}
+.amn .rc-badge.good{background:#E4F7EE;color:#0F7A4D;}
+.amn .rc-badge.warn{background:#FDEBEC;color:#B4001F;}
+.amn .rc-badge.mid{background:#F1EEE7;color:var(--ink-2);}
+.amn .rc-track{position:relative;height:30px;border-radius:8px;background:#F1EEE7;overflow:hidden;}
+.amn .rc-fill{position:absolute;left:0;top:0;bottom:0;border-radius:8px;background:var(--c);display:flex;align-items:center;justify-content:flex-end;padding-right:10px;}
+.amn .rc-fill span{font-size:12px;font-weight:700;color:#fff;white-space:nowrap;}
+.amn .rc-track.dashed{background:repeating-linear-gradient(135deg,#F1EEE7 0 10px,#E7E2D7 10px 20px);display:flex;align-items:center;padding-left:12px;}
+.amn .rc-track.dashed span{font-size:12px;font-weight:700;color:var(--ink-2);text-transform:uppercase;letter-spacing:.07em;}
+.amn .rc-fare{margin-top:9px;font-size:13px;color:var(--ink-2);}
+.amn .rc-scale{padding:10px clamp(16px,4vw,22px);font-size:11px;color:var(--ink-2);letter-spacing:.03em;border-top:1.5px solid var(--line);background:#FAF8F3;}
+
+/* ---------------------------------------------------------------
    7. FOOTER — black, like the TOP page
    --------------------------------------------------------------- */
 .amn footer{background:#111;color:#fff;padding:clamp(44px,10vw,64px) 0 clamp(36px,8vw,48px);margin-top:clamp(24px,6vw,40px);}
@@ -470,6 +495,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <symbol id="i-shop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1 11H5L4 9zM4 9l1.4-4.2A1 1 0 0 1 6.3 4h11.4a1 1 0 0 1 .9.8L20 9"/><path d="M9 13a3 3 0 0 0 6 0"/></symbol>
   <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16V11l2-5h12l2 5v5"/><path d="M4 16h16M6 16v2M18 16v2"/><circle cx="8" cy="16" r="1.4"/><circle cx="16" cy="16" r="1.4"/></symbol>
 </svg>
 
 <div class="amn" style="--area-c:var(--centrair)">
@@ -572,6 +598,35 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <div class="meta"><span class="label">Options</span><b>3</b></div>
       </div>
       <p class="qa"><b>Our take, for wheelchair users:</b> the Meitetsu &mu;SKY Limited Express is the fastest and most reliable step-free route into central Nagoya right now. The airport limousine bus to Nagoya Station is currently suspended, and taxi is the simplest option but the most expensive. See each Access page above for full detail.</p>
+
+      <div class="routecompare" role="img" aria-label="Route comparison: Meitetsu mySKY takes 28 to 35 minutes for 1,250 yen and is recommended; the airport bus route to Nagoya Station is suspended; taxi takes about 50 minutes for about 12,000 yen.">
+        <div class="rc-row" style="--c:var(--meitetsu)">
+          <div class="rc-icon"><svg aria-hidden="true"><use href="#i-train"/></svg></div>
+          <div class="rc-body">
+            <div class="rc-top"><span class="rc-name">Meitetsu &mu;SKY</span><span class="rc-badge good">Recommended</span></div>
+            <div class="rc-track"><div class="rc-fill" style="width:63%"><span>28&ndash;35 min</span></div></div>
+            <p class="rc-fare">&yen;890 + &yen;360 reserved-seat surcharge &middot; &yen;1,250 total &middot; direct, step-free to the platform</p>
+          </div>
+        </div>
+        <div class="rc-row" style="--c:var(--centrair-bus)">
+          <div class="rc-icon"><svg aria-hidden="true"><use href="#i-bus"/></svg></div>
+          <div class="rc-body">
+            <div class="rc-top"><span class="rc-name">Airport bus</span><span class="rc-badge warn">Suspended</span></div>
+            <div class="rc-track dashed"><span>Route to Nagoya Station suspended</span></div>
+            <p class="rc-fare">Fare and time not applicable while suspended &mdash; confirm the current timetable before planning around it.</p>
+          </div>
+        </div>
+        <div class="rc-row" style="--c:var(--taxi)">
+          <div class="rc-icon"><svg aria-hidden="true"><use href="#i-car"/></svg></div>
+          <div class="rc-body">
+            <div class="rc-top"><span class="rc-name">Taxi</span><span class="rc-badge mid">Simplest, priciest</span></div>
+            <div class="rc-track"><div class="rc-fill" style="width:100%"><span>~50 min</span></div></div>
+            <p class="rc-fare">&yen;12,000 estimate &middot; door-to-door, no transfers &middot; call ahead to request a wheelchair-accessible (UD) vehicle</p>
+          </div>
+        </div>
+        <p class="rc-scale">Bar length &asymp; travel time to Nagoya Station, taxi&rsquo;s ~50 minutes shown as the full bar. Figures are estimates &mdash; see each Access page above for sourcing.</p>
+      </div>
+
       <div class="toi-cat">
         <h3>Meitetsu &mu;SKY &mdash; recommended</h3>
         <p>Direct from Centrair Station, beneath Terminal 1, to Nagoya Station in about 28&ndash;35 minutes. &yen;890 fare + &yen;360 reserved-seat surcharge for &mu;SKY (&yen;1,250 total). Step-free from the terminal through the ticket gates to the platform; call the station ahead (0569-34-2482) if you&rsquo;d like boarding assistance arranged.</p>
