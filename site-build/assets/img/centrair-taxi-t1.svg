@@ -16,8 +16,8 @@
 <text x="365" y="438" font-size="20" fill="#188F9A" font-weight="700" text-anchor="middle">2F ARRIVAL LOBBY</text>
 <rect x="145" y="474" width="180" height="58" fill="white" stroke="#188F9A" rx="9" stroke-width="2"/>
 <text x="163" y="505" font-size="19" fill="#188F9A" font-weight="700" text-anchor="start">Domestic arrivals</text>
-<rect x="405" y="474" width="180" height="58" fill="white" stroke="#188F9A" rx="9" stroke-width="2"/>
-<text x="423" y="505" font-size="19" fill="#188F9A" font-weight="700" text-anchor="start">International arrivals</text>
+<rect x="390" y="474" width="220" height="58" fill="white" stroke="#188F9A" rx="9" stroke-width="2"/>
+<text x="405" y="505" font-size="19" fill="#188F9A" font-weight="700" text-anchor="start">International arrivals</text>
 <rect x="700" y="387" width="305" height="132" fill="white" stroke="#1F5BFF" rx="9" stroke-width="2"/>
 <text x="852" y="426" font-size="19" fill="#1F5BFF" font-weight="700" text-anchor="middle">CONNECTING PASSAGE</text>
 <text x="852" y="458" font-size="15" fill="#777A76" font-weight="500" text-anchor="middle">Terminal 1 2F ↔ Access Plaza 2F</text>
