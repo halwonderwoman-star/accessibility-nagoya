@@ -606,6 +606,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
   <symbol id="i-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
   <symbol id="i-wheel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="17" r="4"/><circle cx="12" cy="4" r="1.5"/><path d="M12 8v5h5l2 5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9.5 18 20 6"/></symbol>
 </svg>
 
@@ -683,14 +684,71 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span class="ttl">Fare &amp; time to Nagoya</span><span class="tag">~50 min</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">About <b>50 minutes</b> and <b>&yen;12,000</b> to Nagoya Station, per the official estimate &mdash; traffic-dependent, so confirm with the driver.</p>
+          <p class="lead">About <b>50 minutes</b> and <b>&yen;16,000</b> to Nagoya Station, per Centrair&rsquo;s official fare/time estimate table &mdash; traffic-dependent, so confirm with the driver. Sakae is about 45 min / &yen;15,500.</p>
+        </div>
+      </div>
+    </section>
+    <section class="cat" style="--c:var(--taxi)" id="cat-d" aria-labelledby="h-d">
+      <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><span class="ttl">Booking a taxi</span><span class="tag">English via app</span></h3>
+      <div class="catbody solo">
+        <div>
+          <p class="lead">For English-language booking, <b>Uber Taxi</b> has served Centrair since April 2024 &mdash; book in the app (50+ languages, with in-app driver-chat translation) and meet your driver at <b>Terminal 1 Access Plaza 2F</b> or the <b>Terminal 2 taxi stand</b>.</p>
+          <dl>
+            <div><dt>Phone operators</dt><dd>Japanese-language only; call ahead to request a wheelchair-accessible (UD) vehicle, since curb availability isn&rsquo;t guaranteed. Meitetsu Chita Taxi 0569-37-1112 (24h) &middot; Anzen Taxi 0569-21-0685 (6:00&ndash;2:00) &middot; Anshin Net Nagoya 052-604-8183 / 052-604-3322 &middot; Shachi Daiichi Kotsu 052-604-2323.</dd></div>
+            <div><dt>Shared taxi</dt><dd>Aichi Airport Limousine runs jumbo taxis to sightseeing destinations; advance reservation is required.</dd></div>
+          </dl>
         </div>
       </div>
     </section>
     </div>
 
     <div class="wrap">
-      <p class="srcline"><b>Source</b> &middot; Centrair, official taxi-stand page (<a class="inline" href="https://www.centrair.jp/access/taxi.html" target="_blank" rel="noopener">centrair.jp/access/taxi.html</a>); Nagoya Concierge, Centrair access fares and times (<a class="inline" href="https://www.nagoya-info.jp/access/centrair/" target="_blank" rel="noopener">nagoya-info.jp/access/centrair</a>). Checked 2 October 2026.</p>
+      <p class="subhead" style="margin-top:28px">Terminal 1 taxi pickup &amp; drop-off</p>
+      <div class="zoommap-shell" id="map-taxi-t1" aria-labelledby="map-taxi-t1-title">
+        <p class="hint" id="map-taxi-t1-title">2F arrival lobby to Access Plaza 1F taxi stand &middot; pinch, scroll-wheel, or the buttons to zoom &middot; drag to pan</p>
+        <div class="zoommap" style="aspect-ratio:10/7" data-zoommap>
+          <div class="zm-stage" data-zm-stage>
+            <img alt="Centrair Terminal 1 taxi pickup and drop-off. 2F arrival lobby: domestic and international arrivals; return passengers cross the connecting passage to Access Plaza 2F, then take the elevator or escalator down to Access Plaza 1F — use the elevator for a step-free route. 1F Access Plaza taxi area: the Terminal 1 taxi pickup area is reached only from Access Plaza, with an accessible toilet nearby; the taxi pickup curb is the passenger queue and boarding point, with a separate taxi drop-off point and vehicle lane. How to reach the taxi: 1) leave the 2F arrival lobby and follow signs to Access Plaza, 2) cross the connecting passage staying on 2F, 3) go down to Access Plaza 1F using the elevator for step-free access, 4) follow taxi signs and board at the pickup curb. Drop-off / onward routes: taxi drop-off is on 1F; for departures or Sky Town go to 3F; to meet arrivals go to 2F — use the Access Plaza elevator." src="assets/img/centrair-taxi-t1.svg" width="2000" height="1400" loading="lazy">
+          </div>
+          <div class="zm-pct" data-zm-pct>100%</div>
+          <div class="zm-controls">
+            <button type="button" data-zm-in aria-label="Zoom in">+</button>
+            <button type="button" data-zm-out aria-label="Zoom out">&minus;</button>
+            <button type="button" class="zm-reset" data-zm-reset aria-label="Reset zoom">1:1</button>
+          </div>
+        </div>
+        <div class="illust-legend" aria-label="How to read the illustration">
+          <span><i style="background:#1F5BFF"></i>Elevator</span>
+          <span><i style="background:#4D6865"></i>Escalator</span>
+          <span><i style="background:#8654C6"></i>Accessible toilet</span>
+          <span><i style="background:#1F5BFF;opacity:.5"></i>Step-free route</span>
+        </div>
+        <p class="illust-note">Terminal 1 taxi pickup is at Access Plaza 1F; the terminal arrival lobby itself is on 2F. Schematic, not to scale &mdash; verify live taxi availability with the operator. Sourced from Centrair&rsquo;s official taxi access guide (<a class="inline" href="https://www.centrair.jp/access/taxi.html" target="_blank" rel="noopener">centrair.jp/access/taxi.html</a>), checked 3 October 2026.</p>
+      </div>
+
+      <p class="subhead" style="margin-top:28px">Terminal 2 taxi pickup &amp; drop-off</p>
+      <div class="zoommap-shell" id="map-taxi-t2" aria-labelledby="map-taxi-t2-title">
+        <p class="hint" id="map-taxi-t2-title">1F arrival lobby &amp; taxi curb &middot; call an operator for pickup &middot; pinch, scroll-wheel, or the buttons to zoom &middot; drag to pan</p>
+        <div class="zoommap" style="aspect-ratio:10/7" data-zoommap>
+          <div class="zm-stage" data-zm-stage>
+            <img alt="Centrair Terminal 2 taxi pickup and drop-off, both on 1F, same level as the arrival lobby. Domestic arrivals at door 21 and international arrivals at door 22, with an accessible toilet and an elevator to 2F departures between them. Terminal 2 has no continuous taxi queue — call one of the on-airport operators for pickup: Meitetsu Chita Taxi 0569-37-1112 (24 hours), Anzen Taxi 0569-21-0685 (6:00 to 1:00 the next day), Anshin Net Nagoya 052-604-3322 (dispatch) or 052-604-8183 (reservation), Shachi Daiichi Kotsu 052-604-2323 (call for dispatch). A step-free route runs from either arrival door down to the taxi pickup and drop-off points in the Terminal 2 taxi/vehicle lane. Onward after drop-off: 2F for departures or Flight of Dreams, 1F to meet arrivals." src="assets/img/centrair-taxi-t2.svg" width="2000" height="1400" loading="lazy">
+          </div>
+          <div class="zm-pct" data-zm-pct>100%</div>
+          <div class="zm-controls">
+            <button type="button" data-zm-in aria-label="Zoom in">+</button>
+            <button type="button" data-zm-out aria-label="Zoom out">&minus;</button>
+            <button type="button" class="zm-reset" data-zm-reset aria-label="Reset zoom">1:1</button>
+          </div>
+        </div>
+        <div class="illust-legend" aria-label="How to read the illustration">
+          <span><i style="background:#1F5BFF"></i>Elevator</span>
+          <span><i style="background:#8654C6"></i>Accessible toilet</span>
+          <span><i style="background:#1F5BFF;opacity:.5"></i>Step-free route</span>
+        </div>
+        <p class="illust-note">Terminal 2 taxi pickup and drop-off are on 1F; there is no continuous taxi queue, so call an on-airport operator for pickup. Schematic, not to scale &mdash; verify live taxi availability with the operator. Sourced from Centrair&rsquo;s official taxi access guide (<a class="inline" href="https://www.centrair.jp/access/taxi.html" target="_blank" rel="noopener">centrair.jp/access/taxi.html</a>), checked 3 October 2026.</p>
+      </div>
+
+      <p class="srcline"><b>Source</b> &middot; Centrair, official taxi access &amp; fare/time guide (<a class="inline" href="https://www.centrair.jp/en/access/taxi.html" target="_blank" rel="noopener">centrair.jp/en/access/taxi.html</a>); Uber, Centrair service-launch announcement (<a class="inline" href="https://www.uber.com/ja-JP/newsroom/centrair-airport-2024" target="_blank" rel="noopener">uber.com/newsroom</a>). Checked 3 October 2026.</p>
     </div>
   </section>
 
@@ -743,7 +801,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 <div class="verify">
     <div class="wrap">
       <svg aria-hidden="true"><use href="#i-check"/></svg>
-      <span><b>Verified</b> against official sources &middot; Last updated 2 Oct 2026</span>
+      <span><b>Verified</b> against official sources &middot; Last updated 3 Oct 2026</span>
     </div>
   </div>
 
@@ -824,6 +882,105 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('amn-in'); io.unobserve(en.target); } });
   },{rootMargin:'0px 0px -8% 0px', threshold:.1});
   items.forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+<script>
+(function(){
+  document.querySelectorAll('[data-zoommap]').forEach(function(root){
+    var stage = root.querySelector('[data-zm-stage]');
+    var pctEl = root.querySelector('[data-zm-pct]');
+    var img = stage.querySelector('img');
+    var MIN=1, MAX=5;
+    var scale=1, tx=0, ty=0, natW=0, natH=0;
+
+    function fit(){
+      natW = img.naturalWidth || img.width;
+      natH = img.naturalHeight || img.height;
+      var box = root.getBoundingClientRect();
+      var s = Math.min(box.width/natW, box.height/natH);
+      MIN = s; scale = s;
+      tx=(box.width-natW*s)/2; ty=(box.height-natH*s)/2;
+      apply();
+    }
+    function clampPan(){
+      var box = root.getBoundingClientRect();
+      var w = natW*scale, h = natH*scale;
+      if(w<=box.width){ tx=(box.width-w)/2; } else { tx=Math.min(0, Math.max(box.width-w, tx)); }
+      if(h<=box.height){ ty=(box.height-h)/2; } else { ty=Math.min(0, Math.max(box.height-h, ty)); }
+    }
+    function apply(){
+      clampPan();
+      stage.style.transform = 'translate('+tx+'px,'+ty+'px) scale('+scale+')';
+      if(pctEl) pctEl.textContent = Math.round(scale/MIN*100)+'%';
+    }
+    function zoomAt(cx, cy, factor){
+      var box = root.getBoundingClientRect();
+      var px = cx-box.left, py = cy-box.top;
+      var newScale = Math.min(MAX, Math.max(MIN, scale*factor));
+      var ratio = newScale/scale;
+      tx = px-(px-tx)*ratio; ty = py-(py-ty)*ratio;
+      scale = newScale;
+      apply();
+    }
+
+    if (img.complete) fit(); else img.addEventListener('load', fit);
+    window.addEventListener('resize', fit);
+
+    root.addEventListener('wheel', function(e){
+      e.preventDefault();
+      zoomAt(e.clientX, e.clientY, e.deltaY<0 ? 1.18 : 1/1.18);
+    }, {passive:false});
+
+    var pts = new Map();
+    var dragging=false, lastX=0, lastY=0, pinchDist=0, pinchScale=1;
+
+    root.addEventListener('pointerdown', function(e){
+      if (e.target.closest('.zm-controls')) return;
+      root.setPointerCapture(e.pointerId);
+      pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+      if (pts.size===1){ dragging=true; lastX=e.clientX; lastY=e.clientY; root.classList.add('dragging'); }
+      if (pts.size===2){
+        dragging=false;
+        var arr=[...pts.values()];
+        pinchDist=Math.hypot(arr[0].x-arr[1].x, arr[0].y-arr[1].y);
+        pinchScale=scale;
+      }
+    });
+    root.addEventListener('pointermove', function(e){
+      if (!pts.has(e.pointerId)) return;
+      pts.set(e.pointerId, {x:e.clientX, y:e.clientY});
+      if (pts.size===2){
+        var arr=[...pts.values()];
+        var d=Math.hypot(arr[0].x-arr[1].x, arr[0].y-arr[1].y);
+        var cx=(arr[0].x+arr[1].x)/2, cy=(arr[0].y+arr[1].y)/2;
+        var target=Math.min(MAX, Math.max(MIN, pinchScale*(d/pinchDist)));
+        zoomAt(cx, cy, target/scale);
+      } else if (dragging){
+        var dx=e.clientX-lastX, dy=e.clientY-lastY;
+        lastX=e.clientX; lastY=e.clientY;
+        tx+=dx; ty+=dy; apply();
+      }
+    });
+    function up(e){
+      pts.delete(e.pointerId);
+      if (pts.size<2) pinchDist=0;
+      if (pts.size===0){ dragging=false; root.classList.remove('dragging'); }
+    }
+    root.addEventListener('pointerup', up);
+    root.addEventListener('pointercancel', up);
+    root.addEventListener('pointerleave', function(e){ if(pts.size<=1) up(e); });
+
+    root.addEventListener('dblclick', function(e){
+      if (e.target.closest('.zm-controls')) return;
+      if (scale > MIN*1.05) fit(); else zoomAt(e.clientX, e.clientY, 2.5);
+    });
+
+    var inBtn = root.querySelector('[data-zm-in]'), outBtn = root.querySelector('[data-zm-out]'), resetBtn = root.querySelector('[data-zm-reset]');
+    if (inBtn) inBtn.addEventListener('click', function(){ var b=root.getBoundingClientRect(); zoomAt(b.left+b.width/2, b.top+b.height/2, 1.4); });
+    if (outBtn) outBtn.addEventListener('click', function(){ var b=root.getBoundingClientRect(); zoomAt(b.left+b.width/2, b.top+b.height/2, 1/1.4); });
+    if (resetBtn) resetBtn.addEventListener('click', fit);
+  });
 })();
 </script>
 

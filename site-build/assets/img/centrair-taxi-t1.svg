@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" role="img" lang="en">
+<title>Centrair Terminal 1 taxi stand</title><desc>English accessibility schematic showing the taxi pickup and drop-off locations and the step-free route.</desc>
+<defs><marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L11 6L0 12Z" fill="#1F5BFF"/></marker></defs><g font-family="Arial,Helvetica,sans-serif">
+<rect x="0" y="0" width="2000" height="1400" fill="#F3F2EE" stroke="#F3F2EE" rx="0" stroke-width="1.5"/>
+<text x="60" y="55" font-size="17" fill="#777A76" font-weight="700" text-anchor="start" letter-spacing="2.4">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="116" font-size="48" fill="#171817" font-weight="700" text-anchor="start">CENTRAIR</text>
+<text x="1940" y="105" font-size="36" fill="#244C73" font-weight="700" text-anchor="end">TERMINAL 1</text>
+<text x="60" y="162" font-size="27" fill="#171817" font-weight="700" text-anchor="start">Taxi pickup &amp; drop-off</text>
+<text x="1940" y="155" font-size="18" fill="#777A76" font-weight="500" text-anchor="end">Taxi pickup: Access Plaza 1F • arrivals: Terminal 1 2F</text>
+<line x1="60" y1="196" x2="1940" y2="196" stroke="#A8AAA5" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="60" y="235" width="1395" height="394" fill="#FFFFFF" stroke="#A8AAA5" rx="12" stroke-width="1.7"/>
+<text x="95" y="280" font-size="25" fill="#188F9A" font-weight="700" text-anchor="start">2F / ARRIVAL LOBBY → ACCESS PLAZA</text>
+<text x="95" y="311" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Return passengers must cross the connecting passage before going down to the taxi stand.</text>
+<rect x="105" y="352" width="520" height="205" fill="#E8E7E2" stroke="#A8AAA5" rx="9" stroke-width="1.5"/>
+<text x="365" y="402" font-size="29" fill="#171817" font-weight="700" text-anchor="middle">TERMINAL 1</text>
+<text x="365" y="438" font-size="20" fill="#188F9A" font-weight="700" text-anchor="middle">2F ARRIVAL LOBBY</text>
+<rect x="145" y="474" width="180" height="58" fill="white" stroke="#188F9A" rx="9" stroke-width="2"/>
+<text x="163" y="505" font-size="19" fill="#188F9A" font-weight="700" text-anchor="start">Domestic arrivals</text>
+<rect x="405" y="474" width="180" height="58" fill="white" stroke="#188F9A" rx="9" stroke-width="2"/>
+<text x="423" y="505" font-size="19" fill="#188F9A" font-weight="700" text-anchor="start">International arrivals</text>
+<rect x="700" y="387" width="305" height="132" fill="white" stroke="#1F5BFF" rx="9" stroke-width="2"/>
+<text x="852" y="426" font-size="19" fill="#1F5BFF" font-weight="700" text-anchor="middle">CONNECTING PASSAGE</text>
+<text x="852" y="458" font-size="15" fill="#777A76" font-weight="500" text-anchor="middle">Terminal 1 2F ↔ Access Plaza 2F</text>
+<path d="M625 455H690" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M625 455H690" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9" marker-end="url(#arr)"/>
+<rect x="1080" y="345" width="320" height="230" fill="#F7FAFF" stroke="#1F5BFF" rx="10" stroke-width="2"/>
+<text x="1240" y="386" font-size="23" fill="#171817" font-weight="700" text-anchor="middle">ACCESS PLAZA 2F</text>
+<rect x="1130" y="431" width="42" height="42" fill="#1F5BFF" stroke="white" rx="7" stroke-width="2"/>
+<text x="1151.0" y="458.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<rect x="1200" y="431" width="42" height="42" fill="#4D6865" stroke="white" rx="7" stroke-width="2"/>
+<text x="1221.0" y="458.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="1265" y="449" font-size="17" fill="#1F5BFF" font-weight="700" text-anchor="start">Go down to 1F</text>
+<text x="1130" y="509" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Use the elevator for a step-free route.</text>
+<path d="M1005 455H1070" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1005 455H1070" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9" marker-end="url(#arr)"/>
+<line x1="758" y1="629" x2="758" y2="682" stroke="#A8AAA5" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<text x="785" y="663" font-size="15" fill="#777A76" font-weight="700" text-anchor="start">ONE FLOOR DOWN</text>
+<rect x="60" y="685" width="1395" height="483" fill="#FFFFFF" stroke="#A8AAA5" rx="12" stroke-width="1.7"/>
+<text x="95" y="730" font-size="25" fill="#244C73" font-weight="700" text-anchor="start">1F / ACCESS PLAZA TAXI AREA</text>
+<text x="95" y="761" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">The Terminal 1 taxi pickup area can be reached only from Access Plaza.</text>
+<rect x="105" y="810" width="350" height="265" fill="#E8E7E2" stroke="#A8AAA5" rx="8" stroke-width="1.5"/>
+<text x="280" y="858" font-size="27" fill="#171817" font-weight="700" text-anchor="middle">ACCESS PLAZA</text>
+<text x="280" y="889" font-size="21" fill="#777A76" font-weight="700" text-anchor="middle">1F</text>
+<rect x="175" y="930" width="42" height="42" fill="#1F5BFF" stroke="white" rx="7" stroke-width="2"/>
+<text x="196.0" y="957.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<rect x="235" y="930" width="42" height="42" fill="#4D6865" stroke="white" rx="7" stroke-width="2"/>
+<text x="256.0" y="957.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="295" y="956" font-size="16" fill="#1F5BFF" font-weight="700" text-anchor="start">From 2F</text>
+<rect x="175" y="997" width="42" height="42" fill="#8654C6" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(175 997) scale(1.0)"><circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="235" y="1025" font-size="16" fill="#8654C6" font-weight="700" text-anchor="start">Accessible toilet</text>
+<rect x="500" y="820" width="865" height="228" fill="#D8D9D5" stroke="#A8AAA5" rx="6" stroke-width="1"/>
+<text x="932" y="855" font-size="17" fill="#777A76" font-weight="700" text-anchor="middle">TAXI / VEHICLE LANE</text>
+<line x1="525" y1="906" x2="1340" y2="906" stroke="white" stroke-width="5" stroke-linecap="round" stroke-dasharray="28 18"/>
+<rect x="555" y="944" width="350" height="74" fill="#F5FAFF" stroke="#244C73" rx="9" stroke-width="2"/>
+<text x="573" y="975" font-size="19" fill="#244C73" font-weight="700" text-anchor="start">TAXI PICKUP</text>
+<text x="573" y="1001" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Passenger queue / boarding point</text>
+<rect x="827" y="960" width="46" height="46" fill="#244C73" stroke="white" rx="7" stroke-width="2"/>
+<path d="M835 986H861L857 976H840Z" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="841" cy="990" r="3" fill="white"/><circle cx="856" cy="990" r="3" fill="white"/>
+<text x="848" y="974" font-size="7" fill="white" font-weight="700" text-anchor="middle">TAXI</text>
+<rect x="970" y="944" width="325" height="74" fill="#F7F7F5" stroke="#858780" rx="9" stroke-width="2"/>
+<text x="988" y="975" font-size="19" fill="#858780" font-weight="700" text-anchor="start">TAXI DROP-OFF</text>
+<text x="988" y="1001" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Alight on 1F</text>
+<rect x="1224" y="960" width="46" height="46" fill="#858780" stroke="white" rx="7" stroke-width="2"/>
+<path d="M1232 986H1258L1254 976H1237Z" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1238" cy="990" r="3" fill="white"/><circle cx="1253" cy="990" r="3" fill="white"/>
+<text x="1245" y="974" font-size="7" fill="white" font-weight="700" text-anchor="middle">TAXI</text>
+<text x="932" y="1102" font-size="19" fill="#244C73" font-weight="700" text-anchor="middle">Taxi pickup curb</text>
+<line x1="505" y1="1075" x2="1360" y2="1075" stroke="#244C73" stroke-width="7" stroke-linecap="round"/>
+<path d="M455 940H530V981H545" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M455 940H530V981H545" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9" marker-end="url(#arr)"/>
+<text x="510" y="1126" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">From the pickup point, taxis exit via the Access Plaza vehicle lane.</text>
+<rect x="1490" y="235" width="450" height="933" fill="#FFFFFF" stroke="#A8AAA5" rx="12" stroke-width="1.7"/>
+<text x="1525" y="280" font-size="24" fill="#244C73" font-weight="700" text-anchor="start">HOW TO REACH THE TAXI</text>
+<rect x="1525" y="335" width="52" height="52" fill="#1F5BFF" stroke="#1F5BFF" rx="26" stroke-width="0"/>
+<text x="1551" y="370" font-size="22" fill="white" font-weight="700" text-anchor="middle">1</text>
+<text x="1595" y="356" font-size="18" fill="#171817" font-weight="700" text-anchor="start">Leave the 2F arrival lobby</text>
+<text x="1595" y="384" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Follow signs to Access Plaza.</text>
+<rect x="1525" y="472" width="52" height="52" fill="#1F5BFF" stroke="#1F5BFF" rx="26" stroke-width="0"/>
+<text x="1551" y="507" font-size="22" fill="white" font-weight="700" text-anchor="middle">2</text>
+<text x="1595" y="493" font-size="18" fill="#171817" font-weight="700" text-anchor="start">Cross the connecting passage</text>
+<text x="1595" y="521" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Stay on 2F.</text>
+<rect x="1525" y="609" width="52" height="52" fill="#1F5BFF" stroke="#1F5BFF" rx="26" stroke-width="0"/>
+<text x="1551" y="644" font-size="22" fill="white" font-weight="700" text-anchor="middle">3</text>
+<text x="1595" y="630" font-size="18" fill="#171817" font-weight="700" text-anchor="start">Go down to Access Plaza 1F</text>
+<text x="1595" y="658" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Use the elevator for step-free access.</text>
+<rect x="1525" y="746" width="52" height="52" fill="#1F5BFF" stroke="#1F5BFF" rx="26" stroke-width="0"/>
+<text x="1551" y="781" font-size="22" fill="white" font-weight="700" text-anchor="middle">4</text>
+<text x="1595" y="767" font-size="18" fill="#171817" font-weight="700" text-anchor="start">Follow TAXI signs</text>
+<text x="1595" y="795" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Board at the taxi pickup curb.</text>
+<rect x="1525" y="875" width="380" height="205" fill="#F7FAFF" stroke="#244C73" rx="10" stroke-width="2"/>
+<text x="1550" y="911" font-size="18" fill="#244C73" font-weight="700" text-anchor="start">DROP-OFF / ONWARD ROUTES</text>
+<text x="1550" y="945" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Taxi drop-off is on 1F.</text>
+<text x="1550" y="979" font-size="16" fill="#E5332A" font-weight="700" text-anchor="start">→ Departures / Sky Town: go to 3F</text>
+<text x="1550" y="1012" font-size="16" fill="#188F9A" font-weight="700" text-anchor="start">→ Meeting arrivals: go to 2F</text>
+<text x="1550" y="1050" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Use the Access Plaza elevator.</text>
+<line x1="60" y1="1215" x2="1940" y2="1215" stroke="#A8AAA5" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="60" y="1240" width="42" height="42" fill="#777A76" stroke="white" rx="7" stroke-width="2"/>
+<path d="M68 1266H94L90 1256H73Z" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="74" cy="1270" r="3" fill="white"/><circle cx="89" cy="1270" r="3" fill="white"/>
+<text x="81" y="1254" font-size="7" fill="white" font-weight="700" text-anchor="middle">TAXI</text>
+<text x="113" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Taxi pickup</text>
+<rect x="295" y="1240" width="42" height="42" fill="#1F5BFF" stroke="white" rx="7" stroke-width="2"/>
+<text x="316.0" y="1267.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="348" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Elevator</text>
+<rect x="500" y="1240" width="42" height="42" fill="#4D6865" stroke="white" rx="7" stroke-width="2"/>
+<text x="521.0" y="1267.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="553" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Escalator</text>
+<rect x="715" y="1240" width="42" height="42" fill="#8654C6" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(715 1240) scale(1.0)"><circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="768" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Accessible toilet</text>
+<line x1="1010" y1="1261" x2="1060" y2="1261" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 8"/>
+<text x="1077" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Step-free route</text>
+<rect x="1325" y="1247" width="42" height="28" fill="#858780" stroke="#858780" rx="4" stroke-width="1.5"/>
+<text x="1383" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Taxi drop-off</text>
+<rect x="1600" y="1247" width="42" height="28" fill="#D8D9D5" stroke="#A8AAA5" rx="4" stroke-width="1.5"/>
+<text x="1658" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Vehicle lane</text>
+<text x="60" y="1326" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Terminal 1 taxi pickup is at Access Plaza 1F; the terminal arrival lobby itself is on 2F.</text>
+<text x="60" y="1358" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Schematic / not to scale • Verify live taxi availability with the operator.</text>
+<text x="1940" y="1358" font-size="14" fill="#777A76" font-weight="700" text-anchor="end">CHECKED 3 OCT 2026</text>
+</g></svg>

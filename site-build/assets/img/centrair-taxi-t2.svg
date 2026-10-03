@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" role="img" lang="en">
+<title>Centrair Terminal 2 taxi stand</title><desc>English accessibility schematic showing the taxi pickup and drop-off locations and the step-free route.</desc>
+<defs><marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L11 6L0 12Z" fill="#1F5BFF"/></marker></defs><g font-family="Arial,Helvetica,sans-serif">
+<rect x="0" y="0" width="2000" height="1400" fill="#F3F2EE" stroke="#F3F2EE" rx="0" stroke-width="1.5"/>
+<text x="60" y="55" font-size="17" fill="#777A76" font-weight="700" text-anchor="start" letter-spacing="2.4">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="116" font-size="48" fill="#171817" font-weight="700" text-anchor="start">CENTRAIR</text>
+<text x="1940" y="105" font-size="36" fill="#244C73" font-weight="700" text-anchor="end">TERMINAL 2</text>
+<text x="60" y="162" font-size="27" fill="#171817" font-weight="700" text-anchor="start">Taxi pickup &amp; drop-off</text>
+<text x="1940" y="155" font-size="18" fill="#777A76" font-weight="500" text-anchor="end">Taxi pickup &amp; drop-off: Terminal 2 1F</text>
+<line x1="60" y1="196" x2="1940" y2="196" stroke="#A8AAA5" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="60" y="235" width="1395" height="933" fill="#FFFFFF" stroke="#A8AAA5" rx="12" stroke-width="1.7"/>
+<text x="95" y="280" font-size="25" fill="#244C73" font-weight="700" text-anchor="start">1F / ARRIVAL LOBBY + TAXI CURB</text>
+<text x="95" y="311" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Arrivals and the taxi area are on the same floor. Call an on-airport taxi operator for pickup.</text>
+<rect x="115" y="355" width="1120" height="330" fill="#E8E7E2" stroke="#A8AAA5" rx="10" stroke-width="1.7"/>
+<text x="675" y="402" font-size="32" fill="#171817" font-weight="700" text-anchor="middle">TERMINAL 2</text>
+<text x="675" y="438" font-size="21" fill="#188F9A" font-weight="700" text-anchor="middle">1F ARRIVAL LOBBY</text>
+<rect x="215" y="485" width="310" height="135" fill="white" stroke="#188F9A" rx="8" stroke-width="2"/>
+<text x="370" y="527" font-size="18" fill="#188F9A" font-weight="700" text-anchor="middle">DOMESTIC ARRIVALS</text>
+<text x="370" y="560" font-size="17" fill="#171817" font-weight="700" text-anchor="middle">Door 21</text>
+<rect x="825" y="485" width="310" height="135" fill="white" stroke="#188F9A" rx="8" stroke-width="2"/>
+<text x="980" y="527" font-size="18" fill="#188F9A" font-weight="700" text-anchor="middle">INTERNATIONAL ARRIVALS</text>
+<text x="980" y="560" font-size="17" fill="#171817" font-weight="700" text-anchor="middle">Door 22</text>
+<rect x="630" y="515" width="42" height="42" fill="#8654C6" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(630 515) scale(1.0)"><circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="682" y="541" font-size="15" fill="#8654C6" font-weight="700" text-anchor="start">Accessible toilet</text>
+<rect x="630" y="566" width="42" height="42" fill="#1F5BFF" stroke="white" rx="7" stroke-width="2"/>
+<text x="651.0" y="593.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="682" y="592" font-size="15" fill="#1F5BFF" font-weight="700" text-anchor="start">Elevator to 2F departures</text>
+<line x1="290" y1="685" x2="290" y2="720" stroke="#188F9A" stroke-width="7" stroke-linecap="round"/>
+<line x1="1060" y1="685" x2="1060" y2="720" stroke="#188F9A" stroke-width="7" stroke-linecap="round"/>
+<text x="290" y="748" font-size="17" fill="#188F9A" font-weight="700" text-anchor="middle">21</text>
+<text x="1060" y="748" font-size="17" fill="#188F9A" font-weight="700" text-anchor="middle">22</text>
+<rect x="115" y="775" width="1120" height="286" fill="#D8D9D5" stroke="#A8AAA5" rx="8" stroke-width="1.5"/>
+<text x="675" y="814" font-size="17" fill="#777A76" font-weight="700" text-anchor="middle">TERMINAL 2 TAXI / VEHICLE LANE</text>
+<line x1="145" y1="900" x2="1205" y2="900" stroke="white" stroke-width="5" stroke-linecap="round" stroke-dasharray="28 18"/>
+<rect x="195" y="930" width="430" height="82" fill="#F5FAFF" stroke="#244C73" rx="9" stroke-width="2"/>
+<text x="213" y="961" font-size="19" fill="#244C73" font-weight="700" text-anchor="start">TAXI PICKUP</text>
+<text x="213" y="987" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Call an operator, then wait at the curb</text>
+<rect x="550" y="949" width="46" height="46" fill="#244C73" stroke="white" rx="7" stroke-width="2"/>
+<path d="M558 975H584L580 965H563Z" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="564" cy="979" r="3" fill="white"/><circle cx="579" cy="979" r="3" fill="white"/>
+<text x="571" y="963" font-size="7" fill="white" font-weight="700" text-anchor="middle">TAXI</text>
+<rect x="725" y="930" width="410" height="82" fill="#F7F7F5" stroke="#858780" rx="9" stroke-width="2"/>
+<text x="743" y="961" font-size="19" fill="#858780" font-weight="700" text-anchor="start">TAXI DROP-OFF</text>
+<text x="743" y="987" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">For arrivals or onward access</text>
+<rect x="1060" y="949" width="46" height="46" fill="#858780" stroke="white" rx="7" stroke-width="2"/>
+<path d="M1068 975H1094L1090 965H1073Z" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1074" cy="979" r="3" fill="white"/><circle cx="1089" cy="979" r="3" fill="white"/>
+<text x="1081" y="963" font-size="7" fill="white" font-weight="700" text-anchor="middle">TAXI</text>
+<path d="M370 620V710H400V918" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M370 620V710H400V918" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9" marker-end="url(#arr)"/>
+<path d="M980 620V710H940V918" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M980 620V710H940V918" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9" marker-end="url(#arr)"/>
+<text x="675" y="1105" font-size="18" fill="#1F5BFF" font-weight="700" text-anchor="middle">Same-level step-free route from either arrival door</text>
+<rect x="1490" y="235" width="450" height="933" fill="#FFFFFF" stroke="#A8AAA5" rx="12" stroke-width="1.7"/>
+<text x="1525" y="280" font-size="24" fill="#244C73" font-weight="700" text-anchor="start">CALL FOR A TAXI</text>
+<text x="1525" y="313" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Terminal 2 has no continuous taxi queue.</text>
+<text x="1525" y="338" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Call one of the on-airport operators.</text>
+<rect x="1525" y="385" width="380" height="112" fill="#F7FAFF" stroke="#244C73" rx="9" stroke-width="1.5"/>
+<text x="1547" y="413" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Meitetsu Chita Taxi</text>
+<text x="1547" y="448" font-size="24" fill="#244C73" font-weight="700" text-anchor="start">0569-37-1112</text>
+<text x="1547" y="476" font-size="14" fill="#777A76" font-weight="400" text-anchor="start">24 hours</text>
+<rect x="1525" y="512" width="380" height="112" fill="#F7FAFF" stroke="#244C73" rx="9" stroke-width="1.5"/>
+<text x="1547" y="540" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Anzen Taxi</text>
+<text x="1547" y="575" font-size="24" fill="#244C73" font-weight="700" text-anchor="start">0569-21-0685</text>
+<text x="1547" y="603" font-size="14" fill="#777A76" font-weight="400" text-anchor="start">06:00–01:00 next day</text>
+<rect x="1525" y="639" width="380" height="112" fill="#F7FAFF" stroke="#244C73" rx="9" stroke-width="1.5"/>
+<text x="1547" y="667" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Anshin Net Nagoya</text>
+<text x="1547" y="702" font-size="24" fill="#244C73" font-weight="700" text-anchor="start">052-604-3322</text>
+<text x="1547" y="730" font-size="14" fill="#777A76" font-weight="400" text-anchor="start">Dispatch</text>
+<rect x="1525" y="766" width="380" height="112" fill="#F7FAFF" stroke="#244C73" rx="9" stroke-width="1.5"/>
+<text x="1547" y="794" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Anshin Net Nagoya</text>
+<text x="1547" y="829" font-size="24" fill="#244C73" font-weight="700" text-anchor="start">052-604-8183</text>
+<text x="1547" y="857" font-size="14" fill="#777A76" font-weight="400" text-anchor="start">Reservation</text>
+<rect x="1525" y="893" width="380" height="112" fill="#F7FAFF" stroke="#244C73" rx="9" stroke-width="1.5"/>
+<text x="1547" y="921" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Shachi Daiichi Kotsu</text>
+<text x="1547" y="956" font-size="24" fill="#244C73" font-weight="700" text-anchor="start">052-604-2323</text>
+<text x="1547" y="984" font-size="14" fill="#777A76" font-weight="400" text-anchor="start">Call for dispatch</text>
+<rect x="1525" y="1030" width="380" height="96" fill="#FFF8F5" stroke="#E5332A" rx="9" stroke-width="1.5"/>
+<text x="1548" y="1062" font-size="17" fill="#E5332A" font-weight="700" text-anchor="start">ONWARD AFTER DROP-OFF</text>
+<text x="1548" y="1091" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">2F: Departures / Flight of Dreams</text>
+<text x="1548" y="1116" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">1F: Meeting arrivals</text>
+<line x1="60" y1="1215" x2="1940" y2="1215" stroke="#A8AAA5" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="60" y="1240" width="42" height="42" fill="#777A76" stroke="white" rx="7" stroke-width="2"/>
+<path d="M68 1266H94L90 1256H73Z" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="74" cy="1270" r="3" fill="white"/><circle cx="89" cy="1270" r="3" fill="white"/>
+<text x="81" y="1254" font-size="7" fill="white" font-weight="700" text-anchor="middle">TAXI</text>
+<text x="113" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Taxi pickup</text>
+<rect x="295" y="1240" width="42" height="42" fill="#1F5BFF" stroke="white" rx="7" stroke-width="2"/>
+<text x="316.0" y="1267.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<text x="348" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Elevator</text>
+<rect x="500" y="1240" width="42" height="42" fill="#4D6865" stroke="white" rx="7" stroke-width="2"/>
+<text x="521.0" y="1267.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="553" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Escalator</text>
+<rect x="715" y="1240" width="42" height="42" fill="#8654C6" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(715 1240) scale(1.0)"><circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="768" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Accessible toilet</text>
+<line x1="1010" y1="1261" x2="1060" y2="1261" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 8"/>
+<text x="1077" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Step-free route</text>
+<rect x="1325" y="1247" width="42" height="28" fill="#858780" stroke="#858780" rx="4" stroke-width="1.5"/>
+<text x="1383" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Taxi drop-off</text>
+<rect x="1600" y="1247" width="42" height="28" fill="#D8D9D5" stroke="#A8AAA5" rx="4" stroke-width="1.5"/>
+<text x="1658" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Vehicle lane</text>
+<text x="60" y="1326" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Terminal 2 taxi pickup and drop-off are on 1F. Passengers must call an on-airport taxi operator for pickup.</text>
+<text x="60" y="1358" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Schematic / not to scale • Verify live taxi availability with the operator.</text>
+<text x="1940" y="1358" font-size="14" fill="#777A76" font-weight="700" text-anchor="end">CHECKED 3 OCT 2026</text>
+</g></svg>
