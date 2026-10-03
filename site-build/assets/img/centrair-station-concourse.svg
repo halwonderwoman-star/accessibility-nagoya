@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1400" viewBox="0 0 2000 1400" role="img" lang="en">
+<title>Centrair — Central Japan International Airport Station</title>
+<desc>English flat-plan accessibility map for Meitetsu Central Japan International Airport Station NH36. The gates are on the right and platforms extend to the left. Platform 1 is for μSKY; platforms 2 and 3 serve other trains toward Kanayama and Meitetsu Nagoya. Accessible toilets and lockers inside the gates are shown, together with airport connections from Access Plaza.</desc>
+<defs><marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L11 6L0 12Z" fill="#1F5BFF"/></marker><marker id="redarr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L11 6L0 12Z" fill="#E5332A"/></marker></defs>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="0" y="0" width="2000" height="1400" fill="#F3F2EE" stroke="#F3F2EE" rx="0" stroke-width="1.5"/>
+<text x="60" y="55" font-size="17" fill="#777A76" font-weight="700" text-anchor="start" letter-spacing="2.4">ACCESSIBILITY MAP NAGOYA</text>
+<text x="60" y="116" font-size="48" fill="#171817" font-weight="700" text-anchor="start">CENTRAIR STATION</text>
+<text x="60" y="160" font-size="23" fill="#777A76" font-weight="600" text-anchor="start">Central Japan International Airport / NH36 • Meitetsu Airport Line</text>
+<text x="1940" y="105" font-size="31" fill="#E5332A" font-weight="700" text-anchor="end">STATION CONCOURSE + PLATFORMS</text>
+<text x="1940" y="147" font-size="18" fill="#777A76" font-weight="500" text-anchor="end">Same-level route • toilets • lockers • airport connections</text>
+<line x1="60" y1="192" x2="1940" y2="192" stroke="#A8AAA5" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="60" y="225" width="1415" height="960" fill="#FFFFFF" stroke="#A8AAA5" rx="12" stroke-width="1.7"/>
+<text x="95" y="270" font-size="24" fill="#E5332A" font-weight="700" text-anchor="start">MEITETSU STATION / SAME LEVEL</text>
+<text x="95" y="303" font-size="17" fill="#777A76" font-weight="500" text-anchor="start">Gates at right • platforms extend left • all routes inside the station are flat</text>
+<text x="98" y="347" font-size="18" fill="#E5332A" font-weight="700" text-anchor="start">← Toward Kanayama / Meitetsu Nagoya</text>
+<text x="1435" y="347" font-size="18" fill="#777A76" font-weight="700" text-anchor="end">Access Plaza →</text>
+<rect x="115" y="380" width="1040" height="62" fill="#D5D6D2" stroke="#D5D6D2" rx="3" stroke-width="1"/>
+<line x1="135" y1="392" x2="170" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="191" y1="392" x2="226" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="247" y1="392" x2="282" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="303" y1="392" x2="338" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="359" y1="392" x2="394" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="415" y1="392" x2="450" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="471" y1="392" x2="506" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="527" y1="392" x2="562" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="583" y1="392" x2="618" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="639" y1="392" x2="674" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="695" y1="392" x2="730" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="751" y1="392" x2="786" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="807" y1="392" x2="842" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="863" y1="392" x2="898" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="919" y1="392" x2="954" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="975" y1="392" x2="1010" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="1031" y1="392" x2="1066" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="1087" y1="392" x2="1122" y2="430" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<rect x="115" y="448" width="1040" height="108" fill="#EEF1EA" stroke="#A8AAA5" rx="7" stroke-width="1.5"/>
+<text x="145" y="486" font-size="29" fill="#E5332A" font-weight="700" text-anchor="start">1</text>
+<text x="190" y="485" font-size="23" fill="#171817" font-weight="700" text-anchor="start">μSKY ONLY</text>
+<text x="190" y="518" font-size="16" fill="#777A76" font-weight="500" text-anchor="start">Reserved-seat limited express</text>
+<text x="1115" y="487" font-size="15" fill="#777A76" font-weight="600" text-anchor="end">Platform doors</text>
+<line x1="785" y1="529" x2="812" y2="529" stroke="#E5332A" stroke-width="4" stroke-linecap="round"/>
+<line x1="831" y1="529" x2="858" y2="529" stroke="#E5332A" stroke-width="4" stroke-linecap="round"/>
+<line x1="877" y1="529" x2="904" y2="529" stroke="#E5332A" stroke-width="4" stroke-linecap="round"/>
+<line x1="923" y1="529" x2="950" y2="529" stroke="#E5332A" stroke-width="4" stroke-linecap="round"/>
+<line x1="969" y1="529" x2="996" y2="529" stroke="#E5332A" stroke-width="4" stroke-linecap="round"/>
+<line x1="1015" y1="529" x2="1042" y2="529" stroke="#E5332A" stroke-width="4" stroke-linecap="round"/>
+<line x1="1061" y1="529" x2="1088" y2="529" stroke="#E5332A" stroke-width="4" stroke-linecap="round"/>
+<line x1="1107" y1="529" x2="1134" y2="529" stroke="#E5332A" stroke-width="4" stroke-linecap="round"/>
+<rect x="115" y="624" width="1040" height="60" fill="#D5D6D2" stroke="#D5D6D2" rx="3" stroke-width="1"/>
+<line x1="135" y1="636" x2="170" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="191" y1="636" x2="226" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="247" y1="636" x2="282" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="303" y1="636" x2="338" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="359" y1="636" x2="394" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="415" y1="636" x2="450" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="471" y1="636" x2="506" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="527" y1="636" x2="562" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="583" y1="636" x2="618" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="639" y1="636" x2="674" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="695" y1="636" x2="730" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="751" y1="636" x2="786" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="807" y1="636" x2="842" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="863" y1="636" x2="898" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="919" y1="636" x2="954" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="975" y1="636" x2="1010" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="1031" y1="636" x2="1066" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<line x1="1087" y1="636" x2="1122" y2="672" stroke="#B7B9B5" stroke-width="3" stroke-linecap="round"/>
+<rect x="115" y="691" width="1040" height="174" fill="#EEF1EA" stroke="#A8AAA5" rx="7" stroke-width="1.5"/>
+<line x1="115" y1="778" x2="1155" y2="778" stroke="#A8AAA5" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="7 8"/>
+<text x="145" y="735" font-size="29" fill="#E5332A" font-weight="700" text-anchor="start">2</text>
+<text x="190" y="735" font-size="22" fill="#171817" font-weight="700" text-anchor="start">Airport Line</text>
+<text x="190" y="764" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Toward Otagawa / Kanayama / Meitetsu Nagoya</text>
+<text x="145" y="824" font-size="29" fill="#E5332A" font-weight="700" text-anchor="start">3</text>
+<text x="190" y="824" font-size="22" fill="#171817" font-weight="700" text-anchor="start">Airport Line</text>
+<text x="190" y="852" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Toward Otagawa / Kanayama / Meitetsu Nagoya</text>
+<rect x="1035" y="558" width="300" height="415" fill="#EEF1EA" stroke="#A8AAA5" rx="8" stroke-width="1.7"/>
+<text x="1063" y="598" font-size="19" fill="#171817" font-weight="700" text-anchor="start">PAID CONCOURSE</text>
+<text x="1063" y="624" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Inside ticket gates</text>
+<line x1="1155" y1="503" x2="1200" y2="503" stroke="#A8AAA5" stroke-width="4" stroke-linecap="round"/>
+<line x1="1155" y1="734" x2="1200" y2="734" stroke="#A8AAA5" stroke-width="4" stroke-linecap="round"/>
+<line x1="1155" y1="822" x2="1200" y2="822" stroke="#A8AAA5" stroke-width="4" stroke-linecap="round"/>
+<rect x="1210" y="414" width="106" height="111" fill="#FFF7FC" stroke="#F454B9" rx="9" stroke-width="2"/>
+<rect x="1242" y="431" width="42" height="42" fill="#F454B9" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(1242 431) scale(1.0)">
+<circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1263" y="494" font-size="14" fill="#F454B9" font-weight="700" text-anchor="middle">Platform 1</text>
+<text x="1263" y="513" font-size="13" fill="#F454B9" font-weight="700" text-anchor="middle">accessible gate</text>
+<rect x="1058" y="647" width="250" height="112" fill="white" stroke="#8654C6" rx="9" stroke-width="2"/>
+<rect x="1078" y="668" width="48" height="48" fill="#8654C6" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(1078 668) scale(1.1428571428571428)">
+<circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1140" y="687" font-size="18" fill="#8654C6" font-weight="700" text-anchor="start">Accessible toilet</text>
+<text x="1140" y="712" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Wheelchair • ostomate</text>
+<text x="1140" y="735" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">baby bed</text>
+<rect x="904" y="701" width="40" height="40" fill="#F454B9" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(904 701) scale(0.9523809523809523)">
+<circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="952" y="720" font-size="14" fill="#F454B9" font-weight="700" text-anchor="start">Boarding assistance</text>
+<rect x="904" y="791" width="40" height="40" fill="#F454B9" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(904 791) scale(0.9523809523809523)">
+<circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="952" y="810" font-size="14" fill="#F454B9" font-weight="700" text-anchor="start">Boarding assistance</text>
+<rect x="1063" y="885" width="42" height="42" fill="#665471" stroke="white" rx="7" stroke-width="2"/>
+<text x="1084.0" y="912.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="1118" y="903" font-size="17" fill="#665471" font-weight="700" text-anchor="start">Coin lockers</text>
+<text x="1118" y="925" font-size="14" fill="#777A76" font-weight="400" text-anchor="start">Inside gates / platform 3 side</text>
+<rect x="1058" y="938" width="250" height="26" fill="#E8E7E2" stroke="#A8AAA5" rx="4" stroke-width="1"/>
+<text x="1183" y="957" font-size="14" fill="#777A76" font-weight="600" text-anchor="middle">Station office / Lost &amp; found</text>
+<rect x="1332" y="685" width="44" height="116" fill="#E5332A" stroke="white" rx="7" stroke-width="2"/>
+<line x1="1341" y1="697" x2="1367" y2="697" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1341" y1="713" x2="1367" y2="713" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1341" y1="729" x2="1367" y2="729" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1341" y1="745" x2="1367" y2="745" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1341" y1="761" x2="1367" y2="761" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1341" y1="777" x2="1367" y2="777" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<text x="1354" y="668" font-size="16" fill="#E5332A" font-weight="700" text-anchor="middle">MAIN GATE</text>
+<text x="1354" y="825" font-size="14" fill="#777A76" font-weight="600" text-anchor="middle">Access Plaza side</text>
+<rect x="1378" y="728" width="76" height="92" fill="#FFFFFF" stroke="#E5332A" rx="7" stroke-width="1.7"/>
+<text x="1416" y="752" font-size="13" fill="#E5332A" font-weight="700" text-anchor="middle">TICKET</text>
+<text x="1416" y="772" font-size="13" fill="#777A76" font-weight="700" text-anchor="middle">&amp;</text>
+<text x="1416" y="792" font-size="13" fill="#E5332A" font-weight="700" text-anchor="middle">μ-TICKET</text>
+<text x="1416" y="814" font-size="12" fill="#777A76" font-weight="600" text-anchor="middle">counter</text>
+<text x="1276" y="852" font-size="13" fill="#777A76" font-weight="600" text-anchor="middle">Fare adjustment</text>
+<rect x="1246" y="860" width="61" height="39" fill="#E8E7E2" stroke="#A8AAA5" rx="5" stroke-width="1.2"/>
+<text x="1277" y="885" font-size="12" fill="#777A76" font-weight="700" text-anchor="middle">FARE</text>
+<path d="M1331 743H1260V582H1194V503H1165" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1331 743H1260V582H1194V503H1165" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9" marker-end="url(#arr)"/>
+<path d="M1331 743H1215V734H1165" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1331 743H1215V734H1165" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9" marker-end="url(#arr)"/>
+<path d="M1331 743H1215V822H1165" fill="none" stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1331 743H1215V822H1165" fill="none" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="10 9" marker-end="url(#arr)"/>
+<text x="890" y="1015" font-size="17" fill="#1F5BFF" font-weight="700" text-anchor="start">STEP-FREE ROUTE</text>
+<text x="890" y="1040" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Main gate → paid concourse → platforms 1 / 2 / 3</text>
+<rect x="95" y="1025" width="735" height="118" fill="#F3F2EE" stroke="#F3F2EE" rx="8" stroke-width="0"/>
+<text x="118" y="1056" font-size="17" fill="#171817" font-weight="700" text-anchor="start">AFTER ENTERING THE GATE</text>
+<text x="118" y="1087" font-size="18" fill="#E5332A" font-weight="700" text-anchor="start">Platform 1</text>
+<text x="245" y="1087" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">right-front / accessible gate</text>
+<text x="118" y="1117" font-size="18" fill="#E5332A" font-weight="700" text-anchor="start">Platform 2</text>
+<text x="245" y="1117" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">right-front</text>
+<text x="455" y="1117" font-size="18" fill="#E5332A" font-weight="700" text-anchor="start">Platform 3</text>
+<text x="582" y="1117" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">left-front</text>
+<rect x="1500" y="225" width="440" height="960" fill="#FFFFFF" stroke="#A8AAA5" rx="12" stroke-width="1.7"/>
+<text x="1535" y="270" font-size="25" fill="#171817" font-weight="700" text-anchor="start">ACCESS PLAZA 2F</text>
+<text x="1535" y="300" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">Outside the station gates</text>
+<rect x="1535" y="335" width="370" height="82" fill="white" stroke="#E5332A" rx="10" stroke-width="2"/>
+<text x="1553" y="366" font-size="19" fill="#E5332A" font-weight="700" text-anchor="start">Terminal 1</text>
+<text x="1553" y="391" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Departures / Arrivals</text>
+<text x="1880" y="387" font-size="30" fill="#1F5BFF" font-weight="700" text-anchor="middle">→</text>
+<rect x="1535" y="435" width="370" height="100" fill="white" stroke="#E5332A" rx="10" stroke-width="2"/>
+<text x="1553" y="466" font-size="19" fill="#E5332A" font-weight="700" text-anchor="start">Terminal 2</text>
+<text x="1553" y="491" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Via P3 / moving walkway</text>
+<text x="1880" y="492" font-size="30" fill="#1F5BFF" font-weight="700" text-anchor="middle">→</text>
+<rect x="1535" y="555" width="370" height="100" fill="white" stroke="#E5332A" rx="10" stroke-width="2"/>
+<text x="1553" y="586" font-size="19" fill="#E5332A" font-weight="700" text-anchor="start">Flight of Dreams</text>
+<text x="1553" y="611" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Aichi Sky Expo / P3–P4</text>
+<text x="1880" y="612" font-size="30" fill="#1F5BFF" font-weight="700" text-anchor="middle">→</text>
+<rect x="1535" y="680" width="370" height="143" fill="#F7FFFD" stroke="#16C2B0" rx="10" stroke-width="2"/>
+<text x="1560" y="715" font-size="22" fill="#16C2B0" font-weight="700" text-anchor="start">BUS BAYS</text>
+<text x="1560" y="743" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Access Plaza 2F → 1F</text>
+<rect x="1560" y="762" width="42" height="42" fill="#1F5BFF" stroke="white" rx="7" stroke-width="2"/>
+<text x="1581.0" y="789.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">EV</text>
+<rect x="1612" y="762" width="42" height="42" fill="#4D6865" stroke="white" rx="7" stroke-width="2"/>
+<text x="1633.0" y="789.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">ES</text>
+<text x="1668" y="790" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">Elevator / escalator down</text>
+<rect x="1535" y="850" width="370" height="138" fill="#FAF8FF" stroke="#8654C6" rx="10" stroke-width="2"/>
+<text x="1560" y="883" font-size="17" fill="#8654C6" font-weight="700" text-anchor="start">NEARBY PUBLIC FACILITIES</text>
+<rect x="1560" y="904" width="42" height="42" fill="#8654C6" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(1560 904) scale(1.0)">
+<circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1615" y="932" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Accessible toilet • Access Plaza</text>
+<rect x="1560" y="946" width="42" height="42" fill="#665471" stroke="white" rx="7" stroke-width="2"/>
+<text x="1581.0" y="973.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="1615" y="974" font-size="15" fill="#777A76" font-weight="400" text-anchor="start">Coin lockers • Access Plaza 2F</text>
+<text x="1535" y="1034" font-size="17" fill="#171817" font-weight="700" text-anchor="start">Other connections</text>
+<text x="1535" y="1066" font-size="16" fill="#777A76" font-weight="600" text-anchor="start">Taxi stand / car rental →</text>
+<text x="1535" y="1093" font-size="16" fill="#777A76" font-weight="600" text-anchor="start">High-speed boat →</text>
+<text x="1535" y="1120" font-size="16" fill="#777A76" font-weight="600" text-anchor="start">Airport information →</text>
+<line x1="60" y1="1214" x2="1940" y2="1214" stroke="#A8AAA5" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="60" y="1240" width="42" height="42" fill="#E5332A" stroke="white" rx="7" stroke-width="2"/>
+<line x1="67" y1="1247" x2="67" y2="1275" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="74" y1="1247" x2="74" y2="1275" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="81" y1="1247" x2="81" y2="1275" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="88" y1="1247" x2="88" y2="1275" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="95" y1="1247" x2="95" y2="1275" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<text x="113" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Ticket gates</text>
+<rect x="270" y="1240" width="42" height="42" fill="#8654C6" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(270 1240) scale(1.0)">
+<circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="323" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Accessible toilet</text>
+<rect x="545" y="1240" width="42" height="42" fill="#665471" stroke="white" rx="7" stroke-width="2"/>
+<text x="566.0" y="1267.72" font-size="15.12" fill="white" font-weight="700" text-anchor="middle">LK</text>
+<text x="598" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Coin lockers</text>
+<rect x="765" y="1240" width="42" height="42" fill="#E5332A" stroke="white" rx="7" stroke-width="2"/>
+<line x1="774" y1="1249" x2="774" y2="1273" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="798" y1="1249" x2="798" y2="1273" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="774" y1="1261.0" x2="798" y2="1261.0" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<text x="818" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Platform doors</text>
+<rect x="1045" y="1240" width="42" height="42" fill="#F454B9" stroke="white" rx="7" stroke-width="2"/>
+<g transform="translate(1045 1240) scale(1.0)">
+<circle cx="18" cy="9" r="3.3" fill="white"/>
+<path d="M17 15V25H27L31 34H36" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 18H26" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14 21A10 10 0 1 0 27 32" fill="none" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="1098" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Boarding assistance</text>
+<line x1="1365" y1="1261" x2="1412" y2="1261" stroke="#1F5BFF" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 8"/>
+<text x="1428" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Step-free route</text>
+<rect x="1668" y="1248" width="28" height="28" fill="#EEF1EA" stroke="#A8AAA5" rx="3" stroke-width="1"/>
+<text x="1708" y="1268" font-size="17" fill="#171817" font-weight="400" text-anchor="start">Paid area</text>
+<text x="60" y="1325" font-size="17" fill="#777A76" font-weight="400" text-anchor="start">The station gate, concourse and platforms are on the same level. No stairs, escalators or elevators are needed inside the station.</text>
+<text x="60" y="1356" font-size="16" fill="#777A76" font-weight="400" text-anchor="start">All station toilets shown include wheelchair-accessible facilities. Access Plaza facilities are outside the ticket gates. Schematic / not to scale.</text>
+<text x="1940" y="1356" font-size="14" fill="#777A76" font-weight="700" text-anchor="end">CHECKED 3 OCT 2026</text>
+</g></svg>
