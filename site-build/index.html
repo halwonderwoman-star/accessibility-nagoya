@@ -451,9 +451,11 @@ a.amn .plancard{cursor:pointer;}
   </section>
 
   <!-- 4.5 PLAN YOUR TRIP — affiliate section. Kept below all accessibility
-       content, in its own visually distinct block. Only "Stay connected"
-       (Sakura Mobile, approved) is a live link; the other three categories
-       are placeholders for future partners and carry no link at all. -->
+       content, in its own visually distinct block. "Stay connected"
+       (Sakura Mobile, approved) and "Airport & taxi transfers" (links to
+       our own Centrair guide, not an affiliate) are live; Hotels and
+       Tickets & activities are placeholders for future partners and
+       carry no link at all. -->
   <section class="plan" id="plan-trip" aria-labelledby="plan-title">
     <div class="wrap">
       <div class="head"><h2 id="plan-title">Plan your trip to Nagoya</h2><span class="label">Partners</span></div>
@@ -474,12 +476,13 @@ a.amn .plancard{cursor:pointer;}
           <p>Step-free entrances, accessible rooms and nearby stations &mdash; coming soon.</p>
         </div>
 
-        <!-- AFFILIATE_SLOT: airport-taxi-transfers — add a live plancard here once a transfer partner is approved -->
-        <div class="plancard soon">
-          <span class="pc-top"><span>Airport &amp; taxi transfers</span><span class="pc-badge">Coming soon</span></span>
+        <!-- Links to our own Centrair guide, not an affiliate partner -->
+        <a class="plancard" href="amn-centrair">
+          <span class="pc-top"><span>Airport &amp; taxi transfers</span><span class="pc-badge">Guide</span></span>
           <h3>Airport &amp; taxi transfers</h3>
-          <p>Step-free transfers between Chubu Centrair Airport, Nagoya Station and hotels &mdash; coming soon.</p>
-        </div>
+          <p>Step-free transfers between Chubu Centrair Airport, Nagoya Station and hotels &mdash; the Meitetsu &mu;SKY train, airport bus and taxi, compared.</p>
+          <span class="pc-cta">Read the guide <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+        </a>
 
         <!-- AFFILIATE_SLOT: tickets-activities — add a live plancard here once a tickets partner (e.g. Klook) is approved -->
         <div class="plancard soon">
