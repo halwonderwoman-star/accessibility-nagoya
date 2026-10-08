@@ -588,6 +588,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .catbody .kv li{padding-left:0;padding-right:0;}
+.amn .catbody .kv li:first-child{border-top:none;padding-top:0;}
+.amn .kv li small a,.amn .kv li div a{color:inherit;}
+.amn .kv li .ibadge{margin-right:6px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station Highway Bus Wheelchair Access | JR Highway Bus Terminal","url":"https://accessibilitynagoya.com/amn-bus-highway","description":"Wheelchair access at the JR Highway Bus terminal, Nagoya Station: boarding bay layout and accessibility notes, with an illustrated floor plan.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"},{"@type":"ListItem","position":3,"name":"Bus","item":"https://accessibilitynagoya.com/amn-nagoya-station.html#bus"},{"@type":"ListItem","position":4,"name":"JR Highway Bus","item":"https://accessibilitynagoya.com/amn-bus-highway"}]}</script>
@@ -685,11 +697,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">None on site</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead"><span class="no">The official terminal diagram does not show an elevator</span> at this terminal. The nearest confirmed lifts are inside the station, at the Shinkansen and JR platforms &mdash; see those pages.</p>
-          <dl>
-            <div><dt>On this map</dt><dd>Only a stairway down to the ESCA underground mall is shown &mdash; not an accessible route.</dd></div>
-            <div><dt>Nothing invented</dt><dd>No equipment has been added beyond what the official diagram shows.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Lift</span><div class="no">None shown on diagram<small>Official terminal diagram does not show an elevator</small></div></li><li><span>Nearest lifts</span><div>Inside the station<small>Shinkansen and JR platforms &mdash; see those pages</small></div></li><li><span>On this map</span><div class="no">Stairway to ESCA only<small>Underground mall &mdash; not an accessible route</small></div></li><li><span>Note</span><div>Nothing added<small>No equipment added beyond the official diagram</small></div></li></ul>
         </div>
               <figure><img src="assets/img/jr-expressbus.jpg" alt="JR Highway Bus boarding area at Nagoya Station's Shinkansen side, with a route board and waiting bays." width="1600" height="1200" loading="lazy"><figcaption>JR Highway Bus boarding area</figcaption></figure>
       </div>
@@ -698,10 +706,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">None on site</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead"><span class="no">No accessible toilet is shown on the official terminal diagram.</span> The ticket office and waiting room have no toilet listed either.</p>
-          <dl>
-            <div><dt>Nearest one</dt><dd>Inside the station, through the Shinkansen North Gate &mdash; see the Shinkansen page.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Toilet</span><div class="no">None shown on diagram<small>Official terminal diagram lists none</small></div></li><li><span>Ticket office</span><div class="no">No toilet listed<small>Waiting room: none listed either</small></div></li><li><span>Nearest</span><div>Inside the station<small>Through the Shinkansen North Gate &mdash; see the Shinkansen page</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -709,14 +714,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">Taikodori side</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">Street-level boarding, reached from the <b>JR Taikodori Exit</b>, between Bic Camera and the station building.</p>
-          <dl>
-            <div><dt>Ticket office &amp; waiting room</dt><dd>Beside bay 3&ndash;4, next to the Shinkansen North Gate.</dd></div>
-            <div><dt>Into the station</dt><dd>Shinkansen North Gate, inside the building.</dd></div>
-            <div><dt>Down to ESCA</dt><dd>A stairway near bay 2&ndash;3 leads to the ESCA underground mall, B1.</dd></div>
-            <div><dt>For the Aonami Line</dt><dd>Via the JR concourse.</dd></div>
-            <div><dt>Coin lockers</dt><dd>Large-capacity units near the bus terminal, per a third-party locker-finder site &mdash; not confirmed on an official terminal map.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Access</span><div>JR Taikodori Exit<small>Street-level boarding, between Bic Camera and the station building</small></div></li><li><span>Ticket office</span><div>Beside bay 3&ndash;4<small>Waiting room too &middot; next to the Shinkansen North Gate</small></div></li><li><span>Into station</span><div>Shinkansen North Gate<small>Inside the building</small></div></li><li><span>To ESCA</span><div>Stairway near bay 2&ndash;3<small>Leads to the ESCA underground mall, B1</small></div></li><li><span>Aonami Line</span><div>Via the JR concourse</div></li><li><span>Lockers</span><div>Large units near terminal<small>Per a third-party locker-finder site &mdash; not confirmed on an official terminal map</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -724,10 +722,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Boarding</span><span class="tag">Bays 1&ndash;4</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">Four boarding bays around one bus manoeuvring area. <b>Check the departure screens</b> for your bay &mdash; destinations are not fixed per bay.</p>
-          <dl>
-            <div><dt>Bays 1&ndash;4</dt><dd>Street-level, accessed from the Bic Camera side.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Bays</span><div class="big">4 bays, street level<small>Accessed from the Bic Camera side &middot; one bus manoeuvring area</small></div></li><li><span>Check</span><div class="no">Departure screens<small>Destinations are not fixed per bay</small></div></li></ul>
         </div>
       </div>
     </section>

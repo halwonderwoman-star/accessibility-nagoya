@@ -597,6 +597,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .catbody .kv li{padding-left:0;padding-right:0;}
+.amn .catbody .kv li:first-child{border-top:none;padding-top:0;}
+.amn .kv li small a,.amn .kv li div a{color:inherit;}
+.amn .kv li .ibadge{margin-right:6px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station City Bus Wheelchair Access | Boarding Bays & Elevators","url":"https://accessibilitynagoya.com/amn-bus-city","description":"Wheelchair access at the Nagoya Station City Bus terminal: step-free boarding bays, elevators and accessible toilets, with an illustrated floor plan.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"},{"@type":"ListItem","position":3,"name":"Bus","item":"https://accessibilitynagoya.com/amn-nagoya-station.html#bus"},{"@type":"ListItem","position":4,"name":"City Bus","item":"https://accessibilitynagoya.com/amn-bus-city"}]}</script>
@@ -703,12 +715,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">One lift</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">There is <b>no lift inside the boarding loop itself</b>. The one confirmed lift is on the <b>JR Gate Tower</b> side, at Subway Exit 9; the terminal&rsquo;s <b>KITTE</b> side (Subway Exit 10) has an escalator but no elevator marked on the station&rsquo;s own diagram.</p>
-          <dl>
-            <div><dt>JR Gate Tower, south side</dt><dd>Down to B1F, next to the arrivals / drop-off concourse &mdash; also the route toward the Higashiyama Line subway.</dd></div>
-            <div><dt>Gate Tower 2F escalator</dt><dd>Connects the arrivals concourse up to Gate Tower 2F &mdash; an escalator, not a lift.</dd></div>
-            <div><dt>KITTE side</dt><dd>Subway Exit 10, via KITTE Nagoya &mdash; no elevator is marked here on the city&rsquo;s diagram.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Inside loop</span><div class="no">No lift<small>Not inside the boarding loop itself</small></div></li><li><span>Gate Tower</span><div class="yes">South side lift, down to B1F<small>Subway Exit 9 &middot; next to arrivals / drop-off concourse &middot; also route toward Higashiyama Line subway</small></div></li><li><span>Gate Tower 2F</span><div>Escalator only<small>Arrivals concourse up to Gate Tower 2F &mdash; not a lift</small></div></li><li><span>KITTE side</span><div class="no">Escalator, no lift marked<small>Subway Exit 10, via KITTE Nagoya &middot; no elevator marked on the city&rsquo;s diagram</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -716,10 +723,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">One location</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">One accessible toilet, in the arrivals concourse on the Gate Tower side.</p>
-          <dl>
-            <div><dt>Arrivals concourse, west end</dt><dd>Confirmed by the city&rsquo;s official written accessibility guide, next to the coin lockers.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Location</span><div class="yes">Arrivals concourse, west end<small>Gate Tower side &middot; next to the coin lockers</small></div></li><li><span>Source</span><div>City&rsquo;s official written accessibility guide<small>Confirmed there &middot; one accessible toilet only</small></div></li></ul>
         </div>
       <div class="pshow">
         <p class="pshow-hint">Toilet corridor near the bus terminal &middot; swipe for both angles</p>
@@ -734,16 +738,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">Sakuradori side</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">The loop concourse sits between the <b>JR station building</b> and <b>JP Tower / KITTE Nagoya</b>, with the bus lane running through its centre.</p>
-          <dl>
-            <div><dt>Enter via KITTE</dt><dd>For bays 1&ndash;6, go in through KITTE 1F.</dd></div>
-            <div><dt>Arrivals / drop-off</dt><dd>A separate concourse below, with an overhead escalator connection up to JR Gate Tower 2F.</dd></div>
-            <div><dt>For JR &amp; Shinkansen</dt><dd>Via the JR station concourse.</dd></div>
-            <div><dt>For the subway</dt><dd>Higashiyama Line, via B1 / GateWalk.</dd></div>
-            <div><dt>For the Aonami Line</dt><dd>Via the JR concourse, Taikodori side.</dd></div>
-            <div><dt>Not on this map</dt><dd>Curbside stops 21/22 and the Taikodori-side stops 33/34 sit outside this main loop concourse.</dd></div>
-            <div><dt>Coin lockers</dt><dd>Yes &mdash; 89 lockers in the arrivals concourse (small &times;32, medium &times;15, large &times;26/8, extra-large &times;8), cash or IC card, next to the accessible toilet. Two more banks are just outside, on the Sakuradori side near Dotour and inside Takashimaya 1F.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Layout</span><div>Loop between JR station and JP Tower / KITTE<small>Bus lane runs through the centre of the concourse</small></div></li><li><span>Bays 1&ndash;6</span><div>Enter via KITTE 1F</div></li><li><span>Arrivals</span><div>Separate concourse below<small>Overhead escalator up to JR Gate Tower 2F</small></div></li><li><span>JR &amp; Shinkansen</span><div>Via the JR station concourse</div></li><li><span>Subway</span><div>Higashiyama Line, via B1 / GateWalk</div></li><li><span>Aonami Line</span><div>Via the JR concourse, Taikodori side</div></li><li><span>Not on map</span><div class="no">Curbside stops 21/22 and Taikodori stops 33/34<small>Outside this main loop concourse</small></div></li><li><span>Lockers</span><div class="yes">89 in arrivals concourse<small>Small &times;32, medium &times;15, large &times;26/8, extra-large &times;8 &middot; cash or IC card &middot; next to the accessible toilet &middot; two more banks outside, Sakuradori side near Dotour and inside Takashimaya 1F</small></div></li></ul>
         </div>
               <figure><img src="assets/img/nagoya-citybus-exit.jpg" alt="Sign for the City Bus Terminal at Nagoya Station, at the entrance from the JR Gate Tower concourse." width="1448" height="1086" loading="lazy"><figcaption>City Bus Terminal entrance</figcaption></figure>
       </div>
@@ -752,11 +747,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Boarding</span><span class="tag">Bays 1&ndash;11</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">Eleven numbered boarding bays around one loop: <b>11&ndash;7</b> along the north side, <b>6</b> on the east side, and <b>1&ndash;5</b> along the south side.</p>
-          <dl>
-            <div><dt>Bay 11</dt><dd>Also serves the <b>Me~guru</b> sightseeing loop bus.</dd></div>
-            <div><dt>Bay 12</dt><dd>Not in service &mdash; no departure bay.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Bays</span><div class="big">11 numbered bays around one loop</div></li><li><span>Bays 11&ndash;7</span><div>North side</div></li><li><span>Bay 6</span><div>East side</div></li><li><span>Bays 1&ndash;5</span><div>South side</div></li><li><span>Bay 11</span><div>Also Me~guru<small>Sightseeing loop bus</small></div></li><li><span>Bay 12</span><div class="no">Not in service<small>No departure bay</small></div></li></ul>
         </div>
       </div>
     </section>

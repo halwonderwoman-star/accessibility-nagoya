@@ -597,6 +597,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .catbody .kv li{padding-left:0;padding-right:0;}
+.amn .catbody .kv li:first-child{border-top:none;padding-top:0;}
+.amn .kv li small a,.amn .kv li div a{color:inherit;}
+.amn .kv li .ibadge{margin-right:6px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station Accessible Toilet Guide | Every Location, All Lines","url":"https://accessibilitynagoya.com/amn-toilets","description":"Every accessible toilet at Nagoya Station in one guide, covering JR, Shinkansen, Meitetsu, Kintetsu, the subway, the Aonami Line and all three bus terminals.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"},{"@type":"ListItem","position":3,"name":"Toilets","item":"https://accessibilitynagoya.com/amn-toilets"}]}</script>
@@ -674,7 +686,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-jr"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">JR &amp; Shinkansen</span><span class="tag">3 locations</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">JR Central&rsquo;s own barrier-free tables list <b>three</b> wheelchair-accessible toilets shared between the JR and Shinkansen sides of the station &mdash; all three with a baby seat and an ostomate fitting.</p>
+          <ul class="kv"><li><span>Toilets</span><div class="big">3 wheelchair-accessible<small>Shared between the JR and Shinkansen sides</small></div></li><li><span>Fittings</span><div class="yes">Baby seat + ostomate, all three</div></li><li><span>Source</span><div>JR Central&rsquo;s own barrier-free tables</div></li></ul>
       <div class="ptwrap">
         <table class="ptab toi">
           <thead><tr><th scope="col">Location</th><th scope="col">Wheelchair</th><th scope="col">Ostomate</th><th scope="col">Baby facilities</th></tr></thead>
@@ -711,7 +723,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         </div>
         <p class="illust-note">Simplified schematic, not the official floor plan. Toilet B here is the same one shown inside the Shinkansen gates above, not a fourth toilet.</p>
       </div>
-          <p class="catnote">Exact position not published in text for any of the three, hence the schematics above rather than a street-level map. Independent toilet-directory sites (motenashi-toilet.com, wc.jp47.net) list several more general-concourse toilets, but without positions to draw &mdash; left off this page for that reason.</p>
+          <ul class="kv"><li><span>Position</span><div>Not published in text<small>For any of the three &middot; hence the schematics above, not a street-level map</small></div></li><li><span>Other toilets</span><div>Left off this page<small>Independent directories (motenashi-toilet.com, wc.jp47.net) list several more general-concourse toilets, without positions to draw</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -719,7 +731,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-meitetsu"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Meitetsu</span><span class="tag">1 location</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">Meitetsu lists <b>one</b> wheelchair-accessible toilet at Meitetsu Nagoya, with an ostomate fitting and a baby changing shelf.</p>
+          <ul class="kv"><li><span>Toilets</span><div class="big">1 wheelchair-accessible<small>At Meitetsu Nagoya</small></div></li><li><span>Fittings</span><div class="yes">Ostomate + baby changing shelf</div></li></ul>
       <div class="ptwrap">
         <table class="ptab toi">
           <thead><tr><th scope="col">Location</th><th scope="col">Wheelchair</th><th scope="col">Ostomate</th><th scope="col">Baby facilities</th></tr></thead>
@@ -740,7 +752,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         </div>
         <p class="illust-note">Redrawn from Meitetsu&rsquo;s own barrier-free floor plan.</p>
       </div>
-          <p class="catnote">Exact position not published in text.</p>
+          <ul class="kv"><li><span>Position</span><div>Not published in text</div></li></ul>
         </div>
       </div>
     </section>
@@ -748,7 +760,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-kintetsu"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Kintetsu</span><span class="tag">2 locations</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead"><b>One</b> wheelchair-accessible toilet, with a baby changing shelf and an ostomate fitting. The ostomate fitting is <b>not only there</b>: it is also in the underground (B1F) women&rsquo;s toilet, which is not itself wheelchair-accessible.</p>
+          <ul class="kv"><li><span>Toilets</span><div class="big">1 wheelchair-accessible</div></li><li><span>Fittings</span><div class="yes">Baby changing shelf + ostomate</div></li><li><span>Also ostomate</span><div class="no">B1F women&rsquo;s toilet<small>Not itself wheelchair-accessible</small></div></li></ul>
       <div class="ptwrap">
         <table class="ptab toi">
           <thead><tr><th scope="col">Location</th><th scope="col">Wheelchair</th><th scope="col">Ostomate</th><th scope="col">Baby facilities</th></tr></thead>
@@ -772,7 +784,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         </div>
         <p class="illust-note">Simplified schematic, not the official floor plan.</p>
       </div>
-          <p class="catnote">Exact position of the accessible toilet not published in text. A toilet-directory listing (unchique.com) tags the main accessible toilet as a multi-purpose and all-gender facility.</p>
+          <ul class="kv"><li><span>Position</span><div>Not published in text<small>Exact position of the accessible toilet</small></div></li><li><span>Directory</span><div>Multi-purpose, all-gender<small>A toilet-directory listing (unchique.com) tags the main accessible toilet this way</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -780,7 +792,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-subway"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Subway</span><span class="tag">3 accessible &middot; 1 not</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead"><b>Three</b> toilet areas outside the gates are wheelchair-accessible; <span class="no">the one inside the Sakura-dori East gate is not</span> &mdash; no barrier-free cubicle, and steps at both entrances. Ostomate and baby facilities are not broken out in the city&rsquo;s own text access guide.</p>
+          <ul class="kv"><li><span>Accessible</span><div class="yes">3 toilet areas outside the gates</div></li><li><span>Not accessible</span><div class="no">Inside Sakura-dori East gate<small>No barrier-free cubicle &middot; steps at both entrances</small></div></li><li><span>Ostomate / baby</span><div>Not published<small>Not broken out in the city&rsquo;s own text access guide</small></div></li></ul>
       <div class="ptwrap">
         <table class="ptab toi">
           <thead><tr><th scope="col">Location</th><th scope="col">Wheelchair</th><th scope="col">Ostomate</th><th scope="col">Baby facilities</th></tr></thead>
@@ -813,7 +825,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-aonami"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Aonami Line</span><span class="tag">1 per station</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead"><b>Every station</b> on the line has one barrier-free toilet, marked by spoken announcements and chimes. Ostomate and baby facilities are not specified for Nagoya in the sources checked.</p>
+          <ul class="kv"><li><span>Toilets</span><div class="big">1 barrier-free toilet at every station</div></li><li><span>Cue</span><div>Spoken announcements and chimes</div></li><li><span>Ostomate / baby</span><div>Not specified<small>Not specified for Nagoya in the sources checked</small></div></li></ul>
       <div class="ptwrap">
         <table class="ptab toi">
           <thead><tr><th scope="col">Location</th><th scope="col">Wheelchair</th><th scope="col">Ostomate</th><th scope="col">Baby facilities</th></tr></thead>
@@ -841,7 +853,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-bus-city"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">City Bus</span><span class="tag">2 locations</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">Two accessible toilets in the City Bus loop concourse, one at each end. Ostomate and baby facilities are not specified in the sources checked.</p>
+          <ul class="kv"><li><span>Toilets</span><div class="big">2 accessible, one at each end<small>In the City Bus loop concourse</small></div></li><li><span>Ostomate / baby</span><div>Not specified<small>Not specified in the sources checked</small></div></li></ul>
       <div class="ptwrap">
         <table class="ptab toi">
           <thead><tr><th scope="col">Location</th><th scope="col">Wheelchair</th><th scope="col">Ostomate</th><th scope="col">Baby facilities</th></tr></thead>
@@ -871,7 +883,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-bus-meitetsu"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Meitetsu Bus Center</span><span class="tag">2 locations</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">One accessible toilet on each boarding floor. Ostomate and baby facilities are not specified in the sources checked.</p>
+          <ul class="kv"><li><span>Toilets</span><div class="big">1 accessible on each boarding floor</div></li><li><span>Ostomate / baby</span><div>Not specified<small>Not specified in the sources checked</small></div></li></ul>
       <div class="ptwrap">
         <table class="ptab toi">
           <thead><tr><th scope="col">Location</th><th scope="col">Wheelchair</th><th scope="col">Ostomate</th><th scope="col">Baby facilities</th></tr></thead>
@@ -901,7 +913,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-bus-highway"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">JR Highway Bus</span><span class="tag">None on site</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead"><span class="no">No accessible toilet is shown</span> on the official terminal diagram for the JR Highway Bus Terminal.</p>
+          <ul class="kv"><li><span>Toilet</span><div class="no">None shown<small>On the official terminal diagram for the JR Highway Bus Terminal</small></div></li></ul>
       <div class="illust-shell mini">
         <div class="illust">
           <div class="illust-inner">
@@ -914,7 +926,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         </div>
         <p class="illust-note">Redrawn from JR Tokai Bus&rsquo;s own official terminal guide and detail map. Nothing has been invented: the official diagram simply does not locate a toilet here.</p>
       </div>
-          <p class="catnote">Nearest one: inside the station, through the Shinkansen North Gate &mdash; see JR &amp; Shinkansen above.</p>
+          <ul class="kv"><li><span>Nearest</span><div>Inside the station<small>Through the Shinkansen North Gate &mdash; see JR &amp; Shinkansen above</small></div></li></ul>
         </div>
       </div>
     </section>

@@ -598,6 +598,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .catbody .kv li{padding-left:0;padding-right:0;}
+.amn .catbody .kv li:first-child{border-top:none;padding-top:0;}
+.amn .kv li small a,.amn .kv li div a{color:inherit;}
+.amn .kv li .ibadge{margin-right:6px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station Aonami Line Wheelchair Access | Elevators & Toilets","url":"https://accessibilitynagoya.com/amn-train-aonami","description":"Wheelchair access on the Aonami Line at Nagoya Station: confirmed elevators and an accessible toilet at every station, with step-free routes to street level.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"},{"@type":"ListItem","position":3,"name":"Train","item":"https://accessibilitynagoya.com/amn-nagoya-station.html#train"},{"@type":"ListItem","position":4,"name":"Aonami","item":"https://accessibilitynagoya.com/amn-train-aonami"}]}</script>
@@ -701,12 +713,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">One lift, every station</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead"><span class="yes">Every station on the Aonami Line has one lift</span> &mdash; a single, station-to-street lift, not several to choose between. Of the six operators at Nagoya, this is the simplest one to plan.</p>
-          <dl>
-            <div><dt>The lift</dt><dd>Station-to-street. Platform edge gates here too, and full platform doors at Kinjo-futo.</dd></div>
-            <div><dt>Boarding</dt><dd>The step and gap between the platform and the train floor are kept small.</dd></div>
-            <div><dt>On the train</dt><dd>A wheelchair space in the leading car. A chime sounds before the doors close.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Lifts</span><div class="yes">Every station has one<small>Single station-to-street lift; simplest of Nagoya&rsquo;s six operators to plan</small></div></li><li><span>Platform</span><div>Edge gates<small>Full platform doors at Kinjo-futo</small></div></li><li><span>Boarding</span><div>Small step and gap<small>Between platform and train floor</small></div></li><li><span>Wheelchair</span><div>Space in leading car<small>Chime sounds before doors close</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -714,11 +721,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">One, every station</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead"><span class="yes">Every station on the line has one barrier-free toilet.</span></p>
-          <dl>
-            <div><dt>The toilet</dt><dd>Spoken announcements and chimes mark the gates, the stairs and the toilet.</dd></div>
-            <div><dt>Exact position</dt><dd>1F concourse, inside the Aonami Line gates &mdash; see the flat-plan schematic above.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Toilets</span><div class="yes">One at every station<small>Barrier-free</small></div></li><li><span>Guidance</span><div>Spoken announcements and chimes<small>Mark the gates, the stairs and the toilet</small></div></li><li><span>Position</span><div>1F concourse, inside Aonami Line gates<small>See the flat-plan schematic above</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -726,13 +729,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">1F, far west end</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">Aonami Line Nagoya is on the <b>ground floor</b>, past the <b>Taikodori South Entrance</b> &mdash; the furthest corner of the station from Sakuradori.</p>
-          <dl>
-            <div><dt>From JR</dt><dd>A <b>connecting gate</b> takes you straight through, so you do not have to leave the building.</dd></div>
-            <div><dt>The gate itself</dt><dd>Wide ticket gates and ticket machines you can use seated.</dd></div>
-            <div><dt>Finding your way</dt><dd>Braille fare table and tactile paving throughout.</dd></div>
-            <div><dt>Coin lockers</dt><dd>1F, between the restrooms and the elevator, inside the ticket gates.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Location</span><div>1F, past Taikodori South Entrance<small>Furthest corner of the station from Sakuradori</small></div></li><li><span>From JR</span><div>Connecting gate<small>Straight through; no need to leave the building</small></div></li><li><span>Gates</span><div>Wide ticket gates<small>Ticket machines you can use seated</small></div></li><li><span>Wayfinding</span><div>Braille fare table, tactile paving<small>Throughout</small></div></li><li><span>Lockers</span><div>1F, inside ticket gates<small>Between the restrooms and the elevator</small></div></li></ul>
         </div>
               <figure><img src="assets/img/aonami-entrance.jpg" alt="Overhead sign inside Nagoya Station's Taiko-dori concourse pointing to JR Lines and the Aonami Line." width="1448" height="1086" loading="lazy"><figcaption>Aonami Line sign, Taikodori concourse</figcaption></figure>
       </div>
@@ -741,11 +738,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Help &amp; information</span><span class="tag">No need to book</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">Tell the station staff on the day you travel. There is no booking system.</p>
-          <dl>
-            <div><dt>One caveat</dt><dd>If staff are busy elsewhere you may have to wait a little.</dd></div>
-            <div><dt>Discounts</dt><dd>A fare discount applies to disabled passengers and one carer.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Booking</span><div class="yes">None<small>Tell station staff on the day you travel</small></div></li><li><span>Wait</span><div>Staff may be busy elsewhere<small>You may have to wait a little</small></div></li><li><span>Discount</span><div>Disabled passenger + one carer<small>Fare discount applies</small></div></li></ul>
         </div>
       </div>
     </section>

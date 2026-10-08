@@ -284,6 +284,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}
 
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .catbody .kv li{padding-left:0;padding-right:0;}
+.amn .catbody .kv li:first-child{border-top:none;padding-top:0;}
+.amn .kv li small a,.amn .kv li div a{color:inherit;}
+.amn .kv li .ibadge{margin-right:6px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Minato Soccer Field Wheelchair Access | Aichi-Nagoya 2026","url":"https://accessibilitynagoya.com/venue-minato-soccer-field","description":"Wheelchair access to Minato Soccer Field for the Aichi-Nagoya 2026 Asian Games: nearest accessible station, step-free routes and elevators.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Venues","item":"https://accessibilitynagoya.com/amn-venues"},{"@type":"ListItem","position":3,"name":"Minato Soccer Field","item":"https://accessibilitynagoya.com/venue-minato-soccer-field"}]}</script>
@@ -355,12 +367,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Getting there</span><span class="tag">Noseki, 8 min walk</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead"><span class="no">There is no spectator parking at the venue</span> &mdash; nearby lots are reserved for event operations only. One Aonami Line station serves the field &mdash; the same station as Inae Sports Center.</p>
-          <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--aonami)">A</span>Aonami Line &middot; Noseki Station</dt><dd>About 8 min walk. <a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Noseki+Station%2C+Nagoya%2C+Japan&amp;destination=4-11-12+Noseki%2C+Minato-ku%2C+Nagoya%2C+Aichi%2C+Japan&amp;travelmode=walking" target="_blank" rel="noopener">Walking directions (Google Maps)</a><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Noseki+Station%2C+Nagoya%2C+Japan&amp;daddr=4-11-12+Noseki%2C+Minato-ku%2C+Nagoya%2C+Aichi%2C+Japan&amp;dirflg=w&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div></dd></div>
-            <div><dt>Bus</dt><dd>The Noseki Station bus stop is also about a 7 min walk from the venue, per the official page.</dd></div>
-            <div><dt>No parking</dt><dd>No spectator parking at the venue; nearby lots are reserved for event operations and are not available to spectators. <b>Do not use commercial parking lots or park on residential streets</b> around the venue &mdash; the official page asks visitors specifically to avoid this.</dd></div>
-          </dl>
+          <ul class="kv"><li><span><span class="ibadge" style="--bc:var(--aonami)">A</span>Line</span><div>Aonami Line &middot; Noseki Station<small>Same station as Inae Sports Center</small></div></li><li><span>Walk</span><div class="big">About 8 min</div></li><li><span>Route</span><div><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Noseki+Station%2C+Nagoya%2C+Japan&amp;destination=4-11-12+Noseki%2C+Minato-ku%2C+Nagoya%2C+Aichi%2C+Japan&amp;travelmode=walking" target="_blank" rel="noopener">Walking directions (Google Maps)</a></div></li><li><span>Bus</span><div>Noseki Station stop<small>About 7 min walk from the venue, per the official page</small></div></li><li><span>Parking</span><div class="no">None for spectators<small>Nearby lots reserved for event operations only</small></div></li><li><span>Avoid</span><div class="no">Commercial lots and residential streets<small>Do not park there; official page asks visitors specifically to avoid this</small></div></li></ul><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Noseki+Station%2C+Nagoya%2C+Japan&amp;daddr=4-11-12+Noseki%2C+Minato-ku%2C+Nagoya%2C+Aichi%2C+Japan&amp;dirflg=w&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div>
           <p class="subhead">Noseki Station map</p>
           <div class="map-shell">
             <p class="hint">Station exit to the soccer field, via the police-box crossing <span class="swipe">&middot; swipe to see all</span></p>
@@ -378,12 +385,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}
       <h3 class="cathead" id="h-e"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">From central Nagoya</span><span class="tag">3 starting points</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">Live transit directions to Noseki Station from each of the three main hubs. For elevators and step-free routes at that hub station itself, see its own page.</p>
-          <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--aonami)">A</span>From <a class="inline" href="amn-nagoya-station">Nagoya Station</a></dt><dd><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Nagoya+Station%2C+Nagoya%2C+Japan&amp;destination=Noseki+Station%2C+Nagoya%2C+Japan&amp;travelmode=transit" target="_blank" rel="noopener">Get directions to Noseki Station (Google Maps)</a><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Nagoya+Station%2C+Nagoya%2C+Japan&amp;daddr=Noseki+Station%2C+Nagoya%2C+Japan&amp;dirflg=r&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div></dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--aonami)">B</span>From <a class="inline" href="amn-kanayama">Kanayama</a></dt><dd><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Kanayama+Station%2C+Nagoya%2C+Japan&amp;destination=Noseki+Station%2C+Nagoya%2C+Japan&amp;travelmode=transit" target="_blank" rel="noopener">Get directions to Noseki Station (Google Maps)</a><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Kanayama+Station%2C+Nagoya%2C+Japan&amp;daddr=Noseki+Station%2C+Nagoya%2C+Japan&amp;dirflg=r&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div></dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--aonami)">C</span>From <a class="inline" href="amn-sakae">Sakae</a></dt><dd><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Sakae+Station%2C+Nagoya%2C+Japan&amp;destination=Noseki+Station%2C+Nagoya%2C+Japan&amp;travelmode=transit" target="_blank" rel="noopener">Get directions to Noseki Station (Google Maps)</a><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Sakae+Station%2C+Nagoya%2C+Japan&amp;daddr=Noseki+Station%2C+Nagoya%2C+Japan&amp;dirflg=r&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div></dd></div>
-          </dl>
+          <ul class="kv"><li><span><span class="ibadge" style="--bc:var(--aonami)">A</span>From <a class="inline" href="amn-nagoya-station">Nagoya Station</a></span><div><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Nagoya+Station%2C+Nagoya%2C+Japan&amp;destination=Noseki+Station%2C+Nagoya%2C+Japan&amp;travelmode=transit" target="_blank" rel="noopener">Get directions to Noseki Station (Google Maps)</a></div></li><li><span><span class="ibadge" style="--bc:var(--aonami)">B</span>From <a class="inline" href="amn-kanayama">Kanayama</a></span><div><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Kanayama+Station%2C+Nagoya%2C+Japan&amp;destination=Noseki+Station%2C+Nagoya%2C+Japan&amp;travelmode=transit" target="_blank" rel="noopener">Get directions to Noseki Station (Google Maps)</a></div></li><li><span><span class="ibadge" style="--bc:var(--aonami)">C</span>From <a class="inline" href="amn-sakae">Sakae</a></span><div><a class="inline" href="https://www.google.com/maps/dir/?api=1&amp;origin=Sakae+Station%2C+Nagoya%2C+Japan&amp;destination=Noseki+Station%2C+Nagoya%2C+Japan&amp;travelmode=transit" target="_blank" rel="noopener">Get directions to Noseki Station (Google Maps)</a></div></li><li><span>Hub stations</span><div>See each hub&rsquo;s own page<small>Elevators and step-free routes at the hub station itself</small></div></li></ul><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Nagoya+Station%2C+Nagoya%2C+Japan&amp;daddr=Noseki+Station%2C+Nagoya%2C+Japan&amp;dirflg=r&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Kanayama+Station%2C+Nagoya%2C+Japan&amp;daddr=Noseki+Station%2C+Nagoya%2C+Japan&amp;dirflg=r&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div><div class="mapembed"><iframe src="https://www.google.com/maps?saddr=Sakae+Station%2C+Nagoya%2C+Japan&amp;daddr=Noseki+Station%2C+Nagoya%2C+Japan&amp;dirflg=r&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Map"></iframe></div>
         </div>
       </div>
     </section>
@@ -391,12 +393,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">1, secondary source</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">A secondary source (Rakuraku Odekake Net) states one elevator is installed at Noseki Station. The operator&rsquo;s own station page could not be fetched in this research pass (persistent robots.txt error), so treat this as unconfirmed by the primary source until checked directly.</p>
-          <dl>
-            <div><dt>Noseki Station &mdash; the elevator</dt><dd>One elevator installed, per a secondary source. Verify on the operator&rsquo;s own page: aonamiline.co.jp/train/an10-noseki.</dd></div>
-            <div><dt>System-wide policy</dt><dd>The Aonami Line&rsquo;s own accessibility page states an elevator and an accessible toilet are provided at every station on the line.</dd></div>
-            <div><dt>Staffing</dt><dd>This station is normally <b>unstaffed</b>; it is remotely managed by staff based at Kinj&#333;-fut&#333; Station. If you need in-person help &mdash; a ramp across the platform gap, wayfinding &mdash; it may not be available on-site; consider contacting the operator in advance.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Count</span><div>1 elevator<small>Noseki Station, per a secondary source (Rakuraku Odekake Net)</small></div></li><li><span>Status</span><div class="no">Unconfirmed by primary source<small>Operator page could not be fetched (persistent robots.txt error); verify at aonamiline.co.jp/train/an10-noseki</small></div></li><li><span>Network</span><div class="yes">Elevator and accessible toilet at every station<small>Per the Aonami Line&rsquo;s own accessibility page</small></div></li><li><span>Staffing</span><div class="no">Normally unstaffed<small>Remotely managed from Kinj&#333;-fut&#333; Station; in-person help (ramp across platform gap, wayfinding) may not be available on-site; consider contacting the operator in advance</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -404,12 +401,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">Inside the gates</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">A secondary source places the accessible toilet inside the ticket gates only, with the usual fittings, and confirms the network-wide elevator/toilet policy above.</p>
-          <dl>
-            <div><dt>Inside the ticket gates</dt><dd>Wheelchair-accessible toilet, general toilet, ostomate fixture and baby bed all provided inside the gates; none outside the gates, per a secondary source (Rakuraku Odekake Net).</dd></div>
-            <div><dt>Step-free routes</dt><dd>Ground-to-gate, gate-to-platform, and between-platforms are all confirmed step-free.</dd></div>
-            <div><dt>Platform</dt><dd>Movable platform-edge barriers on both platforms (a single island platform, Platforms 1 and 2).</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Inside gates</span><div class="yes">Wheelchair toilet and general toilet<small>Also ostomate fixture and baby bed; per a secondary source (Rakuraku Odekake Net)</small></div></li><li><span>Outside gates</span><div class="no">None</div></li><li><span>Step-free</span><div class="yes">Ground to gate, gate to platform, between platforms<small>All confirmed</small></div></li><li><span>Platform</span><div>Movable platform-edge barriers<small>Both platforms (single island platform, Platforms 1 and 2)</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -417,11 +409,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">Not confirmed</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">No source in this research pass gave exit numbering for this station.</p>
-          <dl>
-            <div><dt>Exit numbering</dt><dd>Not confirmed from any source &mdash; the operator&rsquo;s own station page could not be fetched (robots.txt error). Check directly at aonamiline.co.jp/train/an10-noseki or on site.</dd></div>
-            <div><dt>Wheelchairs</dt><dd>Handle-type and powered wheelchairs are permitted; no advance notice required. A welfare transport service is not available at this station.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Exit numbers</span><div class="no">Not confirmed<small>Operator page could not be fetched (robots.txt error); check aonamiline.co.jp/train/an10-noseki or on site</small></div></li><li><span>Wheelchairs</span><div class="yes">Handle-type and powered permitted<small>No advance notice required</small></div></li><li><span>Welfare transport</span><div class="no">Not available at this station</div></li></ul>
         </div>
       </div>
     </section>

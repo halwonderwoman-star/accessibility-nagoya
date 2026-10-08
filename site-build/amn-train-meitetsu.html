@@ -598,6 +598,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .catbody .kv li{padding-left:0;padding-right:0;}
+.amn .catbody .kv li:first-child{border-top:none;padding-top:0;}
+.amn .kv li small a,.amn .kv li div a{color:inherit;}
+.amn .kv li .ibadge{margin-right:6px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station Meitetsu Wheelchair Access | Elevators & Step-Free Routes","url":"https://accessibilitynagoya.com/amn-train-meitetsu","description":"Wheelchair access on the Meitetsu line at Nagoya Station: step-free routes, platform elevators and accessible toilets across the Meitetsu Building concourse.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"},{"@type":"ListItem","position":3,"name":"Train","item":"https://accessibilitynagoya.com/amn-nagoya-station.html#train"},{"@type":"ListItem","position":4,"name":"Meitetsu","item":"https://accessibilitynagoya.com/amn-train-meitetsu"}]}</script>
@@ -696,14 +708,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">One lift, ask staff</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">Meitetsu&rsquo;s own barrier-free floor plan shows <b>one lift</b>, on the west (Kintetsu-transfer) side of the B1F&ndash;B2F route, reaching <b>platform 1</b> &mdash; plus an escalator and a ramp elsewhere on the platforms. Staff operate the lift &mdash; <b>tell them at the gate, or call 0570-55-0155 in advance</b>.</p>
-          <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--meitetsu)">A</span>The lift to platform 1</dt><dd>Staff-operated. Ask at the gate, or call 0570-55-0155 in advance.</dd></div>
-            <div><dt>Allow time</dt><dd>Meitetsu asks for plenty of notice. At busy hours it may not be possible straight away.</dd></div>
-            <div><dt>Arrive early</dt><dd>Earlier than you would at JR. The platforms are narrow and can be crowded.</dd></div>
-            <div><dt>Platforms 2&ndash;4</dt><dd>Not shown with their own lift on the official diagram &mdash; if you need platform 2, 3 or 4, say so when you call ahead so staff can plan the route.</dd></div>
-            <div><dt>Electric wheelchairs</dt><dd>Handle-type electric wheelchairs are accepted at this station &mdash; <b>use the West Gate</b>. Face forward going in, and staff will turn you to exit facing forward too.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Lift</span><div>One, to platform 1<small>On west (Kintetsu-transfer) side of B1F&ndash;B2F route; escalator and ramp elsewhere on platforms</small></div></li><li><span><span class="ibadge" style="--bc:var(--meitetsu)">A</span>Operation</span><div>Staff-operated<small>Tell staff at the gate, or call <b>0570-55-0155</b> in advance</small></div></li><li><span>Notice</span><div>Allow plenty of time<small>Meitetsu asks for notice; at busy hours may not be possible straight away</small></div></li><li><span>Arrive</span><div>Earlier than at JR<small>Platforms are narrow and can be crowded</small></div></li><li><span>Platforms 2&ndash;4</span><div class="no">No own lift on official diagram<small>Say so when you call ahead so staff can plan the route</small></div></li><li><span>Electric</span><div>Handle-type accepted; use West Gate<small>Face forward going in; staff turn you to exit facing forward</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -711,11 +716,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">One toilet</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">Meitetsu lists <b>one</b> wheelchair-accessible toilet at this station, with an ostomate fitting and a baby changing shelf.</p>
-          <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">A</span>The toilet</dt><dd>Ostomate fitting and baby changing shelf.</dd></div>
-            <div><dt>Exact position</dt><dd>Not published in text. Illustrated once we have walked it.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Toilet</span><div class="yes">One wheelchair-accessible<small>Listed by Meitetsu</small></div></li><li><span><span class="ibadge" style="--bc:var(--toilet)">A</span>Fittings</span><div>Ostomate fitting + baby changing shelf</div></li><li><span>Position</span><div>Not published in text<small>Illustrated once we have walked it</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -723,13 +724,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">B1F, Hirokoji side</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">Meitetsu Nagoya is <b>underground (B1F)</b>, beneath the Meitetsu Department Store, on the <b>Hirokoji</b> side. From the JR concourse you go down &mdash; it is not on the same level.</p>
-          <dl>
-            <div><dt>Gates</dt><dd><b>Central Gate</b>, <b>North Gate</b>, <b>East</b> and <b>West</b> gates. They all lead to the same island.</dd></div>
-            <div><dt>From the subway</dt><dd>Exit <b>12</b> comes out at the Meitetsu North Gate.</dd></div>
-            <div><dt>From JR</dt><dd>The Hirokoji Exit is the nearest JR exit.</dd></div>
-            <div><dt>Coin lockers</dt><dd>Multiple units around the ticket gates.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Location</span><div>Underground (B1F), Hirokoji side<small>Beneath Meitetsu Department Store</small></div></li><li><span>From JR</span><div>Go down; not the same level<small>Hirokoji Exit is the nearest JR exit</small></div></li><li><span>Gates</span><div>Central, North, East, West<small>All lead to the same island</small></div></li><li><span>Subway</span><div>Exit 12 to North Gate</div></li><li><span>Lockers</span><div>Multiple units<small>Around the ticket gates</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -737,13 +732,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Boarding</span><span class="tag">Read the door sign</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">Meitetsu Nagoya has <b>four numbered platforms (1&ndash;4)</b> on one underground level. Trains to completely different places can leave from the same platform, one after another.</p>
-          <dl>
-            <div><dt>Platform 1</dt><dd>Gifu, Tsushima and Inuyama.</dd></div>
-            <div><dt>Platforms 2 &amp; 3</dt><dd>Reserved-car boarding only.</dd></div>
-            <div><dt>Platform 4</dt><dd>Higashi-Okazaki, Toyohashi, Chubu Centrair Airport, Kowa and Utsumi.</dd></div>
-            <div><dt>Before you board</dt><dd><b>Read the sign above the door.</b> This is the one thing that goes wrong here.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Platforms</span><div>Four, numbered 1&ndash;4<small>One underground level; trains to different places can leave from the same platform</small></div></li><li><span>Platform 1</span><div>Gifu, Tsushima, Inuyama</div></li><li><span>Platforms 2 &amp; 3</span><div>Reserved-car boarding only</div></li><li><span>Platform 4</span><div>Higashi-Okazaki, Toyohashi, Chubu Centrair Airport, Kowa, Utsumi</div></li><li><span>Check</span><div class="no">Read the sign above the door<small>The one thing that goes wrong here</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -751,11 +740,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-e"><span class="mk"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span class="ttl">Help &amp; information</span><span class="tag">Service centre</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">The Meitetsu Nagoya Service Centre is in the station.</p>
-          <dl>
-            <div><dt>Opening hours</dt><dd>Weekdays 10:00&ndash;19:00. Weekends and holidays 9:00&ndash;18:00.</dd></div>
-            <div><dt>Assistance</dt><dd><b>0570-55-0155</b>, or ask staff at the gate.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Place</span><div>Meitetsu Nagoya Service Centre<small>In the station</small></div></li><li><span>Hours</span><div>Weekdays 10:00&ndash;19:00<small>Weekends and holidays 9:00&ndash;18:00</small></div></li><li><span>Call</span><div><b>0570-55-0155</b><small>Or ask staff at the gate</small></div></li></ul>
         </div>
       </div>
     </section>

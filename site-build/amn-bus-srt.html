@@ -588,6 +588,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .catbody .kv li{padding-left:0;padding-right:0;}
+.amn .catbody .kv li:first-child{border-top:none;padding-top:0;}
+.amn .kv li small a,.amn .kv li div a{color:inherit;}
+.amn .kv li .ibadge{margin-right:6px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station SRT Wheelchair Access | Smart Roadway Transit to Sakae","url":"https://accessibilitynagoya.com/amn-bus-srt","description":"Is Nagoya's new SRT bus wheelchair accessible? Low-floor, three-door articulated buses linking Nagoya Station and Sakae — boarding points, accessibility notes and the official site.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"},{"@type":"ListItem","position":3,"name":"Bus","item":"https://accessibilitynagoya.com/amn-nagoya-station.html#bus"},{"@type":"ListItem","position":4,"name":"SRT","item":"https://accessibilitynagoya.com/amn-bus-srt"}]}</script>
@@ -661,12 +673,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">Two stops</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">SRT serves Nagoya Station from <b>two separate roadside stops</b>, on opposite sides of Hirokoji-dori &mdash; which one you need depends on your direction of travel.</p>
-          <dl>
-            <div><dt>Sakura-dori side</dt><dd>Stop on the Sakura-dori approach to the station, toward the Shinkansen/Sakura-dori exits.</dd></div>
-            <div><dt>Midland Square side</dt><dd>Stop in front of Midland Square, toward the station&rsquo;s Taikodori side.</dd></div>
-            <div><dt>Route</dt><dd>A 5.6&nbsp;km loop with 7 stops via Hirokoji-dori and Yanagibashi, connecting Nagoya Station and Sakae. A second branch to Nagoya Castle opened 11&nbsp;September 2026.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Stops</span><div class="big">2 separate roadside stops<small>On opposite sides of Hirokoji-dori &middot; which one depends on your direction of travel</small></div></li><li><span>Sakura-dori</span><div>Stop on the Sakura-dori approach<small>Toward the Shinkansen / Sakura-dori exits</small></div></li><li><span>Midland Square</span><div>Stop in front of Midland Square<small>Toward the station&rsquo;s Taikodori side</small></div></li><li><span>Route</span><div>5.6&nbsp;km loop, 7 stops<small>Via Hirokoji-dori and Yanagibashi, connecting Nagoya Station and Sakae &middot; second branch to Nagoya Castle opened 11&nbsp;September 2026</small></div></li></ul>
         </div>
       </div>
     </section>
@@ -674,12 +681,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Boarding</span><span class="tag">Low-floor, 3 doors</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">An 18&nbsp;m, low-floor <b>articulated bus</b> boards and alights through <b>all three doors</b> at sidewalk level &mdash; no step, no ramp request needed for a manual wheelchair.</p>
-          <dl>
-            <div><dt>Vehicle</dt><dd>Low-floor three-door articulated bus (122 seats), operated by Meitetsu Bus Co., Ltd. for the City of Nagoya.</dd></div>
-            <div><dt>Fare</dt><dd>&yen;210 adult &middot; &yen;100 child. Cash, transit IC cards (manaca, Suica, etc.) and contactless card payment all accepted.</dd></div>
-            <div><dt>Days &amp; frequency</dt><dd>Friday&ndash;Monday and public holidays, about 12 trips a day. Not a daily service &mdash; check the day of the week before planning around it.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Doors</span><div class="yes">All 3 doors, sidewalk level<small>No step &middot; no ramp request needed for a manual wheelchair</small></div></li><li><span>Vehicle</span><div>18&nbsp;m low-floor articulated bus<small>Three doors, 122 seats &middot; operated by Meitetsu Bus Co., Ltd. for the City of Nagoya</small></div></li><li><span>Fare</span><div class="big">&yen;210 adult &middot; &yen;100 child<small>Cash, transit IC cards (manaca, Suica, etc.) and contactless card payment all accepted</small></div></li><li><span>Days</span><div>Fri&ndash;Mon and public holidays<small>About 12 trips a day</small></div></li><li><span>Check</span><div class="no">Not a daily service<small>Check the day of the week before planning around it</small></div></li></ul>
         </div>
       </div>
     </section>

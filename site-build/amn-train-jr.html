@@ -609,6 +609,18 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .catbody .kv li{padding-left:0;padding-right:0;}
+.amn .catbody .kv li:first-child{border-top:none;padding-top:0;}
+.amn .kv li small a,.amn .kv li div a{color:inherit;}
+.amn .kv li .ibadge{margin-right:6px;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station JR Wheelchair Access | Elevators & Accessible Toilets","url":"https://accessibilitynagoya.com/amn-train-jr","description":"Wheelchair access on JR lines at Nagoya Station: platform-by-platform elevators, escalators and accessible toilets, cross-checked against JR Central's own data.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"},{"@type":"ListItem","position":3,"name":"Train","item":"https://accessibilitynagoya.com/amn-nagoya-station.html#train"},{"@type":"ListItem","position":4,"name":"JR","item":"https://accessibilitynagoya.com/amn-train-jr"}]}</script>
@@ -721,15 +733,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">Six lifts, one per platform</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead"><span class="yes">There are six separate lifts</span>, one for each platform group &mdash; not one lift shared across the whole station.</p>
-          <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--jr)">A</span>Platform 2</dt><dd>Tokaido Line, for Toyohashi. Up escalator only &mdash; the down escalator is on platform 3.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--jr)">B</span>Platforms 3&ndash;4</dt><dd>Tokaido Line, both directions. Up and down escalators.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--jr)">C</span>Platforms 5&ndash;6</dt><dd>Tokaido Line, for Gifu. Up and down escalators.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--jr)">D</span>Platforms 7&ndash;8</dt><dd>Chuo Line. Up and down escalators.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--jr)">E</span>Platforms 10&ndash;11</dt><dd>Chuo Line &amp; Kansai Line. Up and down escalators.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--jr)">F</span>Platforms 12&ndash;13</dt><dd>Kansai Line. <span class="no">No escalator at all</span> &mdash; that lift, or stairs, is the only way up. Allow extra time.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Lifts</span><div class="yes">Six, one per platform group<small>Not one lift shared across the station</small></div></li><li><span><span class="ibadge" style="--bc:var(--jr)">A</span>Platform 2</span><div>Tokaido Line, for Toyohashi<small>Up escalator only; down escalator is on platform 3</small></div></li><li><span><span class="ibadge" style="--bc:var(--jr)">B</span>Platforms 3&ndash;4</span><div>Tokaido Line, both directions<small>Up and down escalators</small></div></li><li><span><span class="ibadge" style="--bc:var(--jr)">C</span>Platforms 5&ndash;6</span><div>Tokaido Line, for Gifu<small>Up and down escalators</small></div></li><li><span><span class="ibadge" style="--bc:var(--jr)">D</span>Platforms 7&ndash;8</span><div>Chuo Line<small>Up and down escalators</small></div></li><li><span><span class="ibadge" style="--bc:var(--jr)">E</span>Platforms 10&ndash;11</span><div>Chuo Line &amp; Kansai Line<small>Up and down escalators</small></div></li><li><span><span class="ibadge" style="--bc:var(--jr)">F</span>Platforms 12&ndash;13</span><div class="no">Kansai Line: no escalator at all<small>Lift or stairs is the only way up; allow extra time</small></div></li></ul>
         </div>
         <figure><img src="assets/img/jr-central-elevator.jpg" alt="Elevator at the JR Central Entrance (Chuo-guchi), with wheelchair and priority signage." width="1600" height="1200" loading="lazy"><figcaption>Elevator at the Central Entrance</figcaption></figure>
       </div>
@@ -738,16 +742,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">Eight locations, Shinkansen included</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">The station&rsquo;s own diagram marks <span class="yes">wheelchair-accessible toilets in eight places</span> in and around this station, counting the Shinkansen side &mdash; not just one. All have a baby seat and an ostomate fitting.</p>
-          <dl>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">A</span>Inside the local-line gates, North Passage</dt><dd>Wheelchair-accessible, baby seat, ostomate fitting.</dd></div>
-            <div><dt>Also inside the local-line gates</dt><dd>A <b>second</b> accessible toilet, on the Central Passage &mdash; the diagram marks both, not just one.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">B</span>Inside the Shinkansen gates</dt><dd>Same fittings &mdash; only reachable if you are already through the Shinkansen barrier. Full detail on the Shinkansen page.</dd></div>
-            <div><dt><span class="ibadge" style="--bc:var(--toilet)">C</span>Central Concourse, outside all the gates</dt><dd>Near the Central Exit (Chuo-guchi) &mdash; the one personally checked and photographed below.</dd></div>
-            <div><dt>Also outside the gates</dt><dd>One at the <b>City Bus Terminal</b>, just outside JR; one on the <b>Hirokoji side</b>; and one on <b>Sakura-dori</b> (photographed further down this section).</dd></div>
-            <div><dt>Exact position</dt><dd>Not published in text by JR Central. Positions above come from the station&rsquo;s own diagram, cross-checked against what we found on site.</dd></div>
-            <div><dt>Nearby</dt><dd>Lost &amp; Found is on the North Passage.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Toilets</span><div class="yes">Eight accessible toilets<small>Counting the Shinkansen side; all have baby seat and ostomate fitting</small></div></li><li><span><span class="ibadge" style="--bc:var(--toilet)">A</span>North Passage</span><div>Inside local-line gates<small>Wheelchair-accessible, baby seat, ostomate fitting</small></div></li><li><span>Central Passage</span><div>Second toilet, inside local-line gates<small>The diagram marks both</small></div></li><li><span><span class="ibadge" style="--bc:var(--toilet)">B</span>Shinkansen</span><div>Inside Shinkansen gates<small>Same fittings; only reachable through the Shinkansen barrier; see Shinkansen page</small></div></li><li><span><span class="ibadge" style="--bc:var(--toilet)">C</span>Concourse</span><div>Central Concourse, outside all gates<small>Near Central Exit (Chuo-guchi); personally checked and photographed below</small></div></li><li><span>Also outside</span><div>City Bus Terminal, Hirokoji side, Sakura-dori<small>One each; City Bus Terminal is just outside JR; Sakura-dori one photographed below</small></div></li><li><span>Position</span><div>Not published in text by JR Central<small>Positions come from the station&rsquo;s own diagram, cross-checked on site</small></div></li><li><span>Nearby</span><div>Lost &amp; Found<small>On the North Passage</small></div></li></ul>
         </div>
         <div class="pshow">
         <p class="pshow-hint">Toilet near the Sakura-dori Exit</p>
@@ -776,15 +771,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">Sakuradori side</span></h3>
       <div class="catbody">
         <div>
-          <p class="lead">The main gates are on the <b>Sakuradori</b> side, facing the city. The concourse is three parallel passages running west: <b>North</b>, <b>Central</b> and <b>South</b>.</p>
-          <dl>
-            <div><dt>Main gates</dt><dd><b>Central Gate</b> and <b>Central North Gate</b>, opening onto those passages.</dd></div>
-            <div><dt>For Meitetsu &amp; Kintetsu</dt><dd><b>Hirokoji Exit</b>, at the north-east corner, is the nearest.</dd></div>
-            <div><dt>For the Aonami Line</dt><dd><b>Taikodori South</b>, at the far west end.</dd></div>
-            <div><dt>Meeting someone</dt><dd>The <b>Gold Clock</b> stands on the Sakuradori side &mdash; the best-known meeting point in the station.</dd></div>
-            <div><dt>Ask here</dt><dd>Nagoya Tourist Information is in the Central Concourse at the Sakuradori end.</dd></div>
-            <div><dt>Coin lockers</dt><dd>Multiple locations, including the Central Concourse and near the Hirokoji exit; staffed luggage counters at Sakuradori and Taikodori exits.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Concourse</span><div>Three passages running west<small>North, Central and South</small></div></li><li><span>Main gates</span><div>Central Gate, Central North Gate<small>Sakuradori side, facing the city; open onto the passages</small></div></li><li><span>Meitetsu / Kintetsu</span><div>Hirokoji Exit<small>North-east corner; the nearest</small></div></li><li><span>Aonami Line</span><div>Taikodori South<small>Far west end</small></div></li><li><span>Meet</span><div>Gold Clock<small>Sakuradori side; best-known meeting point in the station</small></div></li><li><span>Ask</span><div>Nagoya Tourist Information<small>Central Concourse, Sakuradori end</small></div></li><li><span>Lockers</span><div>Multiple locations<small>Central Concourse, near Hirokoji exit; staffed luggage counters at Sakuradori and Taikodori exits</small></div></li></ul>
         </div>
         <figure><img src="assets/img/gold-clock.jpg" alt="The Gold Clock, a well-known meeting point on the Sakura-dori side of Nagoya Station's central concourse." width="1448" height="1086" loading="lazy"><figcaption>The Gold Clock meeting point</figcaption></figure>
       </div>
@@ -793,11 +780,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Platforms</span><span class="tag">2 to 13</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">The numbers run from the <b>Sakuradori</b> end westwards. Platforms <b>1&ndash;4</b> are nearest Sakuradori; <b>12&ndash;13</b> and the Shinkansen at <b>14&ndash;17</b> are at the Taikodori end.</p>
-          <dl>
-            <div><dt>Rule of thumb</dt><dd>A higher platform number means a longer walk west.</dd></div>
-            <div><dt>There is no platform 1</dt><dd>Out of use since October 2019 because of construction. The numbering starts at 2.</dd></div>
-          </dl>
+          <ul class="kv"><li><span>Numbering</span><div>Runs west from Sakuradori end<small>Platforms 1&ndash;4 nearest Sakuradori; 12&ndash;13 and Shinkansen 14&ndash;17 at Taikodori end</small></div></li><li><span>Rule</span><div>Higher number = longer walk west</div></li><li><span>Platform 1</span><div class="no">Not in use<small>Out of use since October 2019 (construction); numbering starts at 2</small></div></li></ul>
         </div>
       </div>
     </section>
