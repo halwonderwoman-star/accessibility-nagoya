@@ -625,6 +625,24 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .cathead .tag{grid-column:auto;text-align:right;font-size:10px;padding:3px 8px;white-space:normal;max-width:9.5em;line-height:1.25;}
 .amn .catbody{padding:12px 14px 6px;}
 }
+.amn .cmpwrap{overflow-x:auto;border:1.5px solid var(--line);border-radius:var(--r);background:var(--card);}
+.amn .cmp{width:100%;border-collapse:collapse;font-size:14px;line-height:1.45;}
+.amn .cmp th,.amn .cmp td{text-align:left;vertical-align:top;padding:11px 14px;border-top:1.5px solid var(--line);}
+.amn .cmp thead th{border-top:none;background:#FAF8F3;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .cmp tbody th{font-family:var(--display);font-weight:700;}
+.amn .cmp .no{color:#B4001F;font-weight:700;}
+.amn .cmp .yes{color:#0F7A4D;font-weight:700;}
+.amn .cmpnote{font-size:12.5px;color:var(--ink-2);margin:0;padding:10px 14px;border-top:1.5px solid var(--line);}
+.amn .cat .cmpwrap{border:none;border-radius:0;flex:1;}
+@media (max-width:560px){
+.amn .cmp thead{display:none;}
+.amn .cmp,.amn .cmp tbody,.amn .cmp tr,.amn .cmp th,.amn .cmp td{display:block;width:100%;}
+.amn .cmp tr{border-top:1.5px solid var(--line);padding:8px 0;}
+.amn .cmp tr:first-child{border-top:none;}
+.amn .cmp th,.amn .cmp td{border:none;padding:3px 14px;}
+.amn .cmp td.na{display:none;}
+.amn .cmp td::before{content:attr(data-l);display:block;font-weight:700;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Centrair Station (Meitetsu) Wheelchair Access | μSKY to Nagoya","url":"https://accessibilitynagoya.com/amn-centrair-meitetsu","description":"Is Centrair&rsquo;s Meitetsu station wheelchair accessible? Platform doors, accessible toilet location and &mu;SKY Limited Express travel times to Nagoya Station.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Centrair","item":"https://accessibilitynagoya.com/amn-centrair"},{"@type":"ListItem","position":3,"name":"Access","item":"https://accessibilitynagoya.com/amn-centrair#access"},{"@type":"ListItem","position":4,"name":"Meitetsu","item":"https://accessibilitynagoya.com/amn-centrair-meitetsu"}]}</script>
@@ -702,45 +720,40 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <section class="cat" style="--c:var(--meitetsu)" id="cat-a" aria-labelledby="h-a">
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">Call ahead</span></h3>
       <div class="catbody solo">
-        <div>
-          <p class="lead">Step-free routes exist from the ground entrance to the ticket gates, from the gates to the platforms, and between the two platforms &mdash; but the station asks wheelchair users to call ahead.</p>
-          <dl>
-            <div><dt>Advance call</dt><dd>0569-34-2482 &mdash; the station&rsquo;s own barrier-free contact number.</dd></div>
-          </dl>
-        </div>
-      </div>
+<div class="cmpwrap"><table class="cmp"><thead><tr><th scope="col">Route section</th><th scope="col">Step-free</th><th scope="col">Action</th></tr></thead><tbody>
+<tr><th scope="row">Ground entrance &rarr; ticket gates</th><td class="yes" data-l="Step-free">Yes</td><td class="na" data-l="Action">&mdash;</td></tr>
+<tr><th scope="row">Ticket gates &rarr; platforms</th><td class="yes" data-l="Step-free">Yes</td><td class="na" data-l="Action">&mdash;</td></tr>
+<tr><th scope="row">Between the two platforms</th><td class="yes" data-l="Step-free">Yes</td><td class="na" data-l="Action">&mdash;</td></tr>
+<tr><th scope="row">Before you go</th><td data-l="Step-free">Call ahead</td><td data-l="Action">Station barrier-free line: <b>0569-34-2482</b></td></tr>
+</tbody></table></div>
+</div>
     </section>
     <section class="cat light" style="--c:var(--toilet)" id="cat-b" aria-labelledby="h-b">
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">Inside the gates</span></h3>
       <div class="catbody solo">
-        <div>
-          <p class="lead"><span class="no">No accessible toilet outside the ticket gates</span> &mdash; the station&rsquo;s wheelchair-accessible restroom (plus ostomy and baby-changing facilities) is inside, past the gates.</p>
-        </div>
-      </div>
+<div class="cmpwrap"><table class="cmp"><thead><tr><th scope="col">Location</th><th scope="col">Accessible toilet</th><th scope="col">Also available</th></tr></thead><tbody>
+<tr><th scope="row">Outside the ticket gates</th><td class="no" data-l="Accessible toilet">No</td><td class="na" data-l="Also available">&mdash;</td></tr>
+<tr><th scope="row">Inside the gates</th><td class="yes" data-l="Accessible toilet">Yes</td><td data-l="Also available">Ostomy and baby-changing facilities</td></tr>
+</tbody></table></div>
+</div>
     </section>
     <section class="cat" style="--c:var(--ink)" id="cat-c" aria-labelledby="h-c">
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-train"/></svg></span><span class="ttl">Platforms &amp; boarding</span><span class="tag">3 tracks</span></h3>
       <div class="catbody">
-        <div>
-          <p class="lead">Centrair Station has <b>one single-sided platform and one island platform</b> (two sides) &mdash; three tracks in total.</p>
-          <dl>
-            <div><dt>Track 1</dt><dd>Has platform doors.</dd></div>
-            <div><dt>Tracks 2 &amp; 3</dt><dd>No platform doors, but gap-reduced platforms at the door positions &mdash; though not every train model lines up with them.</dd></div>
-          </dl>
-        </div>
-      </div>
+<div class="cmpwrap"><table class="cmp"><thead><tr><th scope="col">Track</th><th scope="col">Platform doors</th><th scope="col">Gap at door positions</th></tr></thead><tbody>
+<tr><th scope="row">Track 1</th><td class="yes" data-l="Platform doors">Yes</td><td class="na" data-l="Gap at door positions">&mdash;</td></tr>
+<tr><th scope="row">Tracks 2 &amp; 3</th><td class="no" data-l="Platform doors">No</td><td data-l="Gap at door positions">Gap-reduced &mdash; but not every train model lines up</td></tr>
+</tbody></table><p class="cmpnote">One single-sided platform + one island platform (two sides) = three tracks.</p></div>
+</div>
     </section>
     <section class="cat" style="--c:var(--meitetsu)" id="cat-d" aria-labelledby="h-d">
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span class="ttl">Trains to Nagoya</span><span class="tag">28&ndash;35 min</span></h3>
       <div class="catbody solo">
-        <div>
-          <p class="lead">The <b>&mu;SKY Limited Express</b> runs direct to Nagoya Station, all-reserved, in about 28&ndash;35 minutes.</p>
-          <dl>
-            <div><dt>Fare</dt><dd>&yen;890 + &yen;360 reserved-seat surcharge (&yen;1,250 total) for &mu;SKY. Regular limited express and local trains also run, at the base &yen;890 fare.</dd></div>
-            <div><dt>Terminal connection</dt><dd>The station sits directly beneath Terminal 1&rsquo;s 1F Access Plaza.</dd></div>
-          </dl>
-        </div>
-      </div>
+<div class="cmpwrap"><table class="cmp"><thead><tr><th scope="col">Train</th><th scope="col">Time</th><th scope="col">Fare</th><th scope="col">Seat</th></tr></thead><tbody>
+<tr><th scope="row">&mu;SKY Limited Express</th><td data-l="Time">28&ndash;35 min, direct</td><td data-l="Fare">&yen;1,250 (&yen;890 + &yen;360)</td><td data-l="Seat">All reserved</td></tr>
+<tr><th scope="row">Limited express / local</th><td class="na" data-l="Time">&mdash;</td><td data-l="Fare">&yen;890</td><td class="na" data-l="Seat">&mdash;</td></tr>
+</tbody></table><p class="cmpnote">The station sits directly beneath Terminal 1&rsquo;s 1F Access Plaza.</p></div>
+</div>
     </section>
     </div>
 
