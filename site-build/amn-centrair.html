@@ -346,6 +346,37 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .rc-track.dashed span{font-size:12px;font-weight:700;color:var(--ink-2);text-transform:uppercase;letter-spacing:.07em;}
 .amn .rc-fare{margin-top:9px;font-size:13px;color:var(--ink-2);}
 .amn .rc-scale{padding:10px clamp(16px,4vw,22px);font-size:11px;color:var(--ink-2);letter-spacing:.03em;border-top:1.5px solid var(--line);background:#FAF8F3;}
+/* at-a-glance tiles, step flow, compact table */
+.amn .quick{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5px;background:var(--line);border:1.5px solid var(--line);border-radius:var(--r);overflow:hidden;margin:clamp(14px,3.5vw,20px) 0 clamp(14px,3.5vw,20px);}
+.amn .quick div{background:var(--card);padding:clamp(12px,3.2vw,18px);display:flex;flex-direction:column;gap:4px;}
+.amn .quick .k{font-weight:700;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .quick b{font-family:var(--display);font-weight:700;font-size:clamp(20px,5.4vw,30px);letter-spacing:-.02em;line-height:1.05;}
+.amn .quick small{font-size:12.5px;line-height:1.4;color:var(--ink-2);}
+.amn .quick .hl{background:var(--centrair);}
+.amn .quick .hl .k,.amn .quick .hl small{color:var(--ink);}
+@media (max-width:560px){.amn .quick{grid-template-columns:1fr;}}
+.amn .steps{list-style:none;margin:0 0 22px;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;counter-reset:s;}
+.amn .steps li{position:relative;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:12px 12px 12px;display:flex;flex-direction:column;gap:3px;font-weight:700;font-size:14px;line-height:1.2;}
+.amn .steps li::before{counter-increment:s;content:counter(s);width:24px;height:24px;border-radius:50%;background:var(--meitetsu);color:#fff;display:grid;place-items:center;font-size:12px;margin-bottom:4px;}
+.amn .steps li small{font-weight:500;font-size:12px;color:var(--ink-2);line-height:1.35;}
+@media (max-width:640px){.amn .steps{grid-template-columns:repeat(2,minmax(0,1fr));}}
+.amn .cmpwrap{overflow-x:auto;border:1.5px solid var(--line);border-radius:var(--r);background:var(--card);}
+.amn .cmp{width:100%;border-collapse:collapse;font-size:14px;line-height:1.45;min-width:520px;}
+.amn .cmp th,.amn .cmp td{text-align:left;vertical-align:top;padding:12px 14px;border-top:1.5px solid var(--line);}
+.amn .cmp thead th{border-top:none;background:#FAF8F3;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .cmp tbody th{font-family:var(--display);font-weight:700;white-space:nowrap;}
+.amn .cmp .no{color:#B4001F;font-weight:700;}
+.amn .cmp .yes{color:#0F7A4D;font-weight:700;}
+.amn .cmpnote{font-size:12.5px;color:var(--ink-2);margin:10px 0 0;}
+@media (max-width:560px){
+.amn .cmp{min-width:0;}
+.amn .cmp thead{display:none;}
+.amn .cmp,.amn .cmp tbody,.amn .cmp tr,.amn .cmp th,.amn .cmp td{display:block;width:100%;}
+.amn .cmp tr{border-top:1.5px solid var(--line);padding:10px 0;}
+.amn .cmp tr:first-child{border-top:none;}
+.amn .cmp th,.amn .cmp td{border:none;padding:3px 14px;}
+.amn .cmp td::before{content:attr(data-l);display:block;font-weight:700;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+}
 
 /* ---------------------------------------------------------------
    7. FOOTER — black, like the TOP page
@@ -529,9 +560,12 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       </div>
       <hr class="rule">
       <h1 id="a-title"><span>Centrair</span><span class="sr-only">Airport Wheelchair Access Guide: Centrair to Nagoya Station, Step-Free Route</span></h1>
-      <p class="stand">Chubu Centrair International Airport to central Nagoya &mdash; terminals, trains, buses, taxis, and the step-free route in between, for an accessible transfer from Centrair to Nagoya Station.</p>
-      <p class="qa"><b>Is Centrair wheelchair accessible?</b> Yes &mdash; elevators connect every floor of both terminal buildings, free wheelchair and stroller rental is available at information desks throughout, and assistance can be booked in advance for departures.</p>
-      <p class="qa"><b>What&rsquo;s the fastest step-free way from Centrair to Nagoya?</b> The Meitetsu &mu;SKY Limited Express, direct from Centrair Station beneath Terminal 1 to Nagoya Station, about 28&ndash;35 minutes. See &ldquo;Best route to Nagoya&rdquo; below for how it compares with the bus and taxi.</p>
+      <p class="stand">Centrair Airport to Nagoya Station &mdash; the step-free route, mapped.</p>
+      <div class="quick">
+        <div><span class="k">Wheelchair accessible</span><b>Yes</b><small>Elevators to every floor, both terminals</small></div>
+        <div class="hl"><span class="k">Fastest step-free</span><b>28&ndash;35 min</b><small>Meitetsu &mu;SKY &middot; &yen;1,250 &middot; direct to Nagoya Station</small></div>
+        <div><span class="k">Free loan</span><b>Wheelchair &amp; stroller</b><small>Information desks &middot; book assistance ahead for departures</small></div>
+      </div>
       <div class="colourrule" aria-hidden="true"></div>
     </div>
   </section>
@@ -598,7 +632,12 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         <h2 id="route-t">Best route to Nagoya</h2>
         <div class="meta"><span class="label">Options</span><b>3</b></div>
       </div>
-      <p class="qa"><b>Our take, for wheelchair users:</b> the Meitetsu &mu;SKY Limited Express is the fastest and most reliable step-free route into central Nagoya right now. The regular daytime airport bus to Nagoya Station is suspended (a separate late-night/early-morning bus runs to Nagoya Station West Exit instead), and taxi is the simplest option but the most expensive. See each Access page above for full detail.</p>
+      <ol class="steps" aria-label="Step-free route from Centrair to Nagoya Station">
+        <li>Arrivals<small>Either terminal</small></li>
+        <li>Centrair Station<small>Beneath Terminal 1 &middot; step-free to platform</small></li>
+        <li>Meitetsu &mu;SKY<small>28&ndash;35 min &middot; direct</small></li>
+        <li>Nagoya Station<small>Meitetsu platform</small></li>
+      </ol>
 
       <div class="routecompare" role="img" aria-label="Route comparison: Meitetsu mySKY takes 28 to 35 minutes for 1,250 yen and is recommended; the regular daytime airport bus route to Nagoya Station is suspended, though a late-night and early-morning bus runs to Nagoya Station West Exit for 1,500 yen in about 55 minutes; taxi takes about 50 minutes for about 16,000 yen.">
         <div class="rc-row" style="--c:var(--meitetsu)">
@@ -606,7 +645,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
           <div class="rc-body">
             <div class="rc-top"><span class="rc-name">Meitetsu &mu;SKY</span><span class="rc-badge good">Recommended</span></div>
             <div class="rc-track"><div class="rc-fill" style="width:63%"><span>28&ndash;35 min</span></div></div>
-            <p class="rc-fare">&yen;890 + &yen;360 reserved-seat surcharge &middot; &yen;1,250 total &middot; direct, step-free to the platform</p>
+            <p class="rc-fare">&yen;1,250 total (&yen;890 fare + &yen;360 seat) &middot; direct</p>
           </div>
         </div>
         <div class="rc-row" style="--c:var(--centrair-bus)">
@@ -614,7 +653,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
           <div class="rc-body">
             <div class="rc-top"><span class="rc-name">Airport bus</span><span class="rc-badge warn">Daytime suspended</span></div>
             <div class="rc-track dashed"><span>Daytime route to Nagoya Station suspended</span></div>
-            <p class="rc-fare">A separate late-night/early-morning bus runs to <b>Nagoya Station West Exit</b> (a different stop) &mdash; about 55 min, &yen;1,500. No step-free boarding details are given; confirm the current timetable before relying on either.</p>
+            <p class="rc-fare">Night/early bus to <b>Nagoya Station West Exit</b> only &middot; ~55 min &middot; &yen;1,500</p>
           </div>
         </div>
         <div class="rc-row" style="--c:var(--taxi)">
@@ -622,25 +661,23 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
           <div class="rc-body">
             <div class="rc-top"><span class="rc-name">Taxi</span><span class="rc-badge mid">Simplest, priciest</span></div>
             <div class="rc-track"><div class="rc-fill" style="width:100%"><span>~50 min</span></div></div>
-            <p class="rc-fare">&yen;16,000 estimate (official) &middot; door-to-door, no transfers &middot; Uber Taxi offers English-language booking &middot; call ahead to request a wheelchair-accessible (UD) vehicle</p>
+            <p class="rc-fare">~&yen;16,000 (official estimate) &middot; door-to-door</p>
           </div>
         </div>
         <p class="rc-scale">Bar length &asymp; travel time to Nagoya Station, taxi&rsquo;s ~50 minutes shown as the full bar. Figures are estimates &mdash; see each Access page above for sourcing.</p>
       </div>
 
-      <div class="toi-cat">
-        <h3>Meitetsu &mu;SKY &mdash; recommended</h3>
-        <p>Direct from Centrair Station, beneath Terminal 1, to Nagoya Station in about 28&ndash;35 minutes. &yen;890 fare + &yen;360 reserved-seat surcharge for &mu;SKY (&yen;1,250 total). Step-free from the terminal through the ticket gates to the platform; call the station ahead (0569-34-2482) if you&rsquo;d like boarding assistance arranged.</p>
+      <div class="cmpwrap">
+        <table class="cmp">
+          <thead><tr><th scope="col">Option</th><th scope="col">Boards at</th><th scope="col">Step-free</th><th scope="col">Book / check</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Meitetsu &mu;SKY</th><td data-l="Boards at">Centrair Station, beneath Terminal 1</td><td class="yes" data-l="Step-free">Yes, to the platform</td><td data-l="Book / check">Boarding help: call the station, 0569-34-2482</td></tr>
+            <tr><th scope="row">Airport bus</th><td data-l="Boards at">1F bus bays, both terminals</td><td class="no" data-l="Step-free">Not documented</td><td data-l="Book / check">Daytime Nagoya Station route suspended &mdash; confirm timetable</td></tr>
+            <tr><th scope="row">Taxi</th><td data-l="Boards at">Access Plaza (T1) &middot; 1F (T2)</td><td data-l="Step-free">On request</td><td data-l="Book / check">Call ahead for a wheelchair (UD) taxi &middot; Uber Taxi has English booking</td></tr>
+          </tbody>
+        </table>
       </div>
-      <div class="toi-cat">
-        <h3>Airport bus &mdash; check before relying on this</h3>
-        <p>Boards from the 1F bus bays at either terminal. As of the source checked, the route to Nagoya Station (Meitetsu Bus Center) is suspended &mdash; confirm the current timetable before planning a wheelchair route around it.</p>
-      </div>
-      <div class="toi-cat">
-        <h3>Taxi &mdash; simplest, priciest</h3>
-        <p>Door-to-door with no transfers, from the Access Plaza (Terminal 1) or 1F (Terminal 2). About 50 minutes and &yen;16,000 to Nagoya Station, per Centrair&rsquo;s official estimate. For English-language booking, Uber Taxi has served Centrair since April 2024. No wheelchair-specific details are given on the official page &mdash; call a taxi company in advance to request a wheelchair-accessible (UD) vehicle.</p>
-        <p class="note">Centrair, official bus and taxi pages; Nagoya Concierge, access fares and times. Checked 2 October 2026.</p>
-      </div>
+      <p class="cmpnote">Sources: Centrair official bus and taxi pages; Nagoya Concierge fares and times. Checked 2 October 2026.</p>
     </div>
   </section>
 
