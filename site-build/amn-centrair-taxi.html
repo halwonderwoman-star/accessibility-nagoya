@@ -626,6 +626,22 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .catbody{padding:12px 14px 6px;}
 }
 @media (min-width:1600px){.amn .cats{max-width:1560px;margin-left:auto;margin-right:auto;}}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .cat .num{margin-right:8px;vertical-align:2px;}
+.amn .cat .num,.amn .pinmk{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#fff;color:#111;font-family:var(--display);font-weight:700;font-size:14px;border:2px solid #111;flex:none;}
+.amn .cat .mapjump{display:block;padding:9px 16px;border-top:1.5px solid var(--line);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);text-decoration:none;background:#FAF8F3;}
+.amn .cat .mapjump:hover{text-decoration:underline;}
+.amn .pinmk{position:absolute;width:64px;height:64px;font-size:38px;border-width:6px;background:#FFE14A;pointer-events:none;box-shadow:0 0 0 6px #fff;transform:translate(-50%,-50%);z-index:3;}
+.amn .legend-num{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 16px;border-top:1.5px solid var(--line);font-size:13px;font-weight:600;}
+.amn .legend-num span{display:inline-flex;align-items:center;gap:8px;}
+.amn .legend-num .num{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#FFE14A;border:2px solid #111;font-size:13px;font-weight:700;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Centrair Taxi Stand Wheelchair Access | Airport to Nagoya","url":"https://accessibilitynagoya.com/amn-centrair-taxi","description":"Centrair&rsquo;s taxi stand: Access Plaza and Terminal 2 locations, accessibility notes, and the fare and time to Nagoya Station.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Centrair","item":"https://accessibilitynagoya.com/amn-centrair"},{"@type":"ListItem","position":3,"name":"Access","item":"https://accessibilitynagoya.com/amn-centrair#access"},{"@type":"ListItem","position":4,"name":"Taxi","item":"https://accessibilitynagoya.com/amn-centrair-taxi"}]}</script>
@@ -703,53 +719,24 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <div class="cats">
     <section class="cat" style="--c:var(--taxi)" id="cat-a" aria-labelledby="h-a">
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Where to board</span><span class="tag">1F, both terminals</span></h3>
-      <div class="catbody">
-        <div>
-          <p class="lead">Taxi stands are on the <b>1st floor</b> of both terminal buildings.</p>
-          <dl>
-            <div><dt>Terminal 1</dt><dd>Access Plaza, 1F &mdash; reached via the Access Plaza only. Departing passengers come from 3F, arriving passengers from 2F.</dd></div>
-            <div><dt>Terminal 2</dt><dd>1F, directly. Departing passengers come from 2F, arriving passengers from 1F.</dd></div>
-          </dl>
-        </div>
-      </div>
-    </section>
+<ul class="kv"><li><span>Floor</span><div>1F, both terminals</div></li><li><span>Terminal 1</span><div>Access Plaza 1F<small>Via the Plaza only &middot; from 3F departures / 2F arrivals</small></div></li><li><span>Terminal 2</span><div>1F, directly<small>From 2F departures / 1F arrivals</small></div></li></ul>
+<a class="mapjump" href="#map-taxi-t1">See the map &darr;</a>
+</section>
     <section class="cat" style="--c:var(--taxi)" id="cat-b" aria-labelledby="h-b">
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-wheel"/></svg></span><span class="ttl">Accessibility</span><span class="tag">Call ahead</span></h3>
-      <div class="catbody solo">
-        <div>
-          <p class="lead">No wheelchair details on the official page.</p>
-          <dl>
-            <div><dt>UD taxi</dt><dd>Call a taxi company <b>in advance</b> rather than waiting at the stand &mdash; availability at the curb isn&rsquo;t guaranteed.</dd></div>
-          </dl>
-        </div>
-      </div>
-    </section>
+<ul class="kv"><li><span>Wheelchair info</span><div>Not on official page</div></li><li><span>UD taxi</span><div>Call ahead<small>Not guaranteed at the curb</small></div></li></ul>
+<a class="mapjump" href="#map-taxi-t1">See the map &darr;</a>
+</section>
     <section class="cat" style="--c:var(--ink)" id="cat-c" aria-labelledby="h-c">
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span class="ttl">Fare &amp; time to Nagoya</span><span class="tag">~50 min</span></h3>
-      <div class="catbody solo">
-        <div>
-          <p class="lead">About 50 min &middot; &yen;16,000 to Nagoya Station.</p>
-          <dl>
-            <div><dt>Sakae</dt><dd>About 45 min &middot; &yen;15,500.</dd></div>
-            <div><dt>Source</dt><dd>Centrair official fare/time table. Traffic-dependent &mdash; confirm with the driver.</dd></div>
-          </dl>
-        </div>
-      </div>
-    </section>
+<ul class="kv"><li><span>Nagoya Station</span><div class="big">~50 min &middot; &yen;16,000</div></li><li><span>Sakae</span><div>~45 min &middot; &yen;15,500</div></li><li><span>Note</span><div>Traffic-dependent &mdash; confirm with the driver<small>Source: Centrair official fare / time table</small></div></li></ul>
+<a class="mapjump" href="#map-taxi-t1">See the map &darr;</a>
+</section>
     <section class="cat" style="--c:var(--taxi)" id="cat-d" aria-labelledby="h-d">
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><span class="ttl">Booking a taxi</span><span class="tag">English via app</span></h3>
-      <div class="catbody solo">
-        <div>
-          <p class="lead">English booking: <b>Uber Taxi</b>, at Centrair since April 2024.</p>
-          <dl>
-            <div><dt>In the app</dt><dd>50+ languages, with in-app driver-chat translation.</dd></div>
-            <div><dt>Meet your driver</dt><dd>Terminal 1 Access Plaza 2F &middot; Terminal 2 taxi stand.</dd></div>
-            <div><dt>Phone operators</dt><dd>Japanese only &mdash; call ahead for a wheelchair (UD) vehicle.<br>Meitetsu Chita Taxi 0569-37-1112 (24h)<br>Anzen Taxi 0569-21-0685 (6:00&ndash;2:00)<br>Anshin Net Nagoya 052-604-8183 / 052-604-3322<br>Shachi Daiichi Kotsu 052-604-2323</dd></div>
-            <div><dt>Shared taxi</dt><dd>Aichi Airport Limousine jumbo taxis to sightseeing spots; advance reservation required.</dd></div>
-          </dl>
-        </div>
-      </div>
-    </section>
+<ul class="kv"><li><span>English</span><div><b>Uber Taxi</b><small>At Centrair since April 2024</small></div></li><li><span>In the app</span><div>50+ languages, driver-chat translation</div></li><li><span>Meet driver</span><div>T1 Access Plaza 2F &middot; T2 taxi stand</div></li><li><span>Phone</span><div>Japanese only &mdash; call ahead for a UD vehicle<small>Meitetsu Chita Taxi 0569-37-1112 (24h)<br>Anzen Taxi 0569-21-0685 (6:00&ndash;2:00)<br>Anshin Net Nagoya 052-604-8183 / 052-604-3322<br>Shachi Daiichi Kotsu 052-604-2323</small></div></li><li><span>Shared taxi</span><div>Aichi Airport Limousine jumbo taxi<small>Advance reservation required</small></div></li></ul>
+<a class="mapjump" href="#map-taxi-t1">See the map &darr;</a>
+</section>
     </div>
 
     <div class="wrap">

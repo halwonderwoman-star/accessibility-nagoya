@@ -626,6 +626,22 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .catbody{padding:12px 14px 6px;}
 }
 @media (min-width:1600px){.amn .cats{max-width:1560px;margin-left:auto;margin-right:auto;}}
+.amn .kv{list-style:none;margin:0;padding:0;flex:1;}
+.amn .kv li{display:grid;grid-template-columns:104px minmax(0,1fr);gap:4px 12px;align-items:baseline;padding:11px 16px;border-top:1.5px solid var(--line);font-size:clamp(15px,3.9vw,17px);font-weight:600;line-height:1.4;}
+.amn .kv li:first-child{border-top:none;}
+.amn .kv li>span{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);}
+.amn .kv li small{display:block;font-size:12.5px;font-weight:500;color:var(--ink-2);margin-top:2px;}
+.amn .kv .no{color:#B4001F;}
+.amn .kv .yes{color:#0F7A4D;}
+.amn .kv .big{font-family:var(--display);font-size:clamp(20px,5vw,24px);font-weight:700;}
+.amn .cat .num{margin-right:8px;vertical-align:2px;}
+.amn .cat .num,.amn .pinmk{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#fff;color:#111;font-family:var(--display);font-weight:700;font-size:14px;border:2px solid #111;flex:none;}
+.amn .cat .mapjump{display:block;padding:9px 16px;border-top:1.5px solid var(--line);font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);text-decoration:none;background:#FAF8F3;}
+.amn .cat .mapjump:hover{text-decoration:underline;}
+.amn .pinmk{position:absolute;width:64px;height:64px;font-size:38px;border-width:6px;background:#FFE14A;pointer-events:none;box-shadow:0 0 0 6px #fff;transform:translate(-50%,-50%);z-index:3;}
+.amn .legend-num{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 16px;border-top:1.5px solid var(--line);font-size:13px;font-weight:600;}
+.amn .legend-num span{display:inline-flex;align-items:center;gap:8px;}
+.amn .legend-num .num{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#FFE14A;border:2px solid #111;font-size:13px;font-weight:700;}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Centrair International Terminal Wheelchair Access | Chubu Centrair Airport","url":"https://accessibilitynagoya.com/amn-centrair-international","description":"Is Centrair&rsquo;s international terminal wheelchair accessible? Elevators, wheelchair rental and floor-by-floor access for Terminal 1 and the Terminal 2 LCC building.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Centrair","item":"https://accessibilitynagoya.com/amn-centrair"},{"@type":"ListItem","position":3,"name":"Terminal","item":"https://accessibilitynagoya.com/amn-centrair#terminal"},{"@type":"ListItem","position":4,"name":"International","item":"https://accessibilitynagoya.com/amn-centrair-international"}]}</script>
@@ -702,53 +718,24 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <div class="cats">
     <section class="cat" style="--c:var(--centrair-intl)" id="cat-a" aria-labelledby="h-a">
       <h3 class="cathead" id="h-a"><span class="mk"><svg aria-hidden="true"><use href="#i-elev"/></svg></span><span class="ttl">Elevator</span><span class="tag">Every floor</span></h3>
-      <div class="catbody solo">
-        <div>
-          <p class="lead">Elevators connect every floor used by international flights, in both terminal buildings.</p>
-          <dl>
-            <div><dt>Terminal 1</dt><dd>1F Access Plaza &harr; 2F international arrivals &harr; 3F international departures.</dd></div>
-            <div><dt>Terminal 2</dt><dd>1F arrivals &harr; 2F departures (the LCC terminal, opened September 2019).</dd></div>
-          </dl>
-        </div>
-      </div>
-    </section>
+<ul class="kv"><li><span>Terminal 1</span><div>1F Plaza &harr; 2F arrivals &harr; 3F departures</div></li><li><span>Terminal 2</span><div>1F arrivals &harr; 2F departures<small>LCC terminal</small></div></li></ul>
+<a class="mapjump" href="#map-t1-intl">See the map &darr;</a>
+</section>
     <section class="cat light" style="--c:var(--toilet)" id="cat-b" aria-labelledby="h-b">
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-toilet"/></svg></span><span class="ttl">Accessible toilet</span><span class="tag">Ask at an info desk</span></h3>
-      <div class="catbody solo">
-        <div>
-          <p class="lead">Centrair&rsquo;s own facilities page lists accessible restrooms as a standard amenity, but does not break down exact locations by floor in the source checked.</p>
-          <dl>
-            <div><dt>Best bet</dt><dd>Ask at any of the information desks below &mdash; they double as the wheelchair-rental points, so staff are used to these questions.</dd></div>
-          </dl>
-        </div>
-      </div>
-    </section>
+<ul class="kv"><li><span>Where</span><div>Not listed by floor</div></li><li><span>Best bet</span><div>Ask at an info desk<small>They also lend wheelchairs</small></div></li></ul>
+<a class="mapjump" href="#map-t1-intl">See the map &darr;</a>
+</section>
     <section class="cat" style="--c:var(--ink)" id="cat-c" aria-labelledby="h-c">
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">T1 &amp; T2</span></h3>
-      <div class="catbody">
-        <div>
-          <p class="lead">International flights split across two buildings &mdash; most full-service airlines use <b>Terminal 1</b>; budget carriers use <b>Terminal 2</b>.</p>
-          <dl>
-            <div><dt>Terminal 1</dt><dd>International departures on 3F, international arrivals on 2F.</dd></div>
-            <div><dt>Terminal 2 (LCC)</dt><dd>Departures 2F (7:00&ndash;23:00), arrivals 1F (9:00&ndash;23:00). Carriers include Spring Airlines, Cebu Pacific, Tigerair Taiwan, Jeju Air and HK Express.</dd></div>
-            <div><dt>Between T1 &amp; T2</dt><dd>Free shuttle bus from Terminal 1&rsquo;s Access Plaza, or about a 7-minute walk via the P1 parking corridor or Centrair Garden.</dd></div>
-          </dl>
-        </div>
-      </div>
-    </section>
+<ul class="kv"><li><span>Who uses</span><div>Full-service: T1 &middot; Budget: T2</div></li><li><span>Terminal 1</span><div>Departures 3F<small>Arrivals 2F</small></div></li><li><span>Terminal 2</span><div>Departures 2F (7:00&ndash;23:00)<small>Arrivals 1F (9:00&ndash;23:00)</small></div></li><li><span>T2 airlines</span><div>Spring, Cebu Pacific, Tigerair Taiwan, Jeju Air, HK Express</div></li><li><span>T1 &harr; T2</span><div>Free shuttle bus from T1 Access Plaza<small>Or ~7 min on foot via P1 corridor / Centrair Garden</small></div></li></ul>
+<a class="mapjump" href="#map-t1-intl">See the map &darr;</a>
+</section>
     <section class="cat" style="--c:var(--centrair-intl)" id="cat-d" aria-labelledby="h-d">
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-wheel"/></svg></span><span class="ttl">Wheelchair &amp; assistance</span><span class="tag">Free rental</span></h3>
-      <div class="catbody solo">
-        <div>
-          <p class="lead">Free wheelchair and stroller rental is available terminal-wide, and staff assistance can be arranged in advance.</p>
-          <dl>
-            <div><dt>Rental points</dt><dd>3F departure lobby (central info desk), 1F info desk, and the 2F international arrivals lobby info desk.</dd></div>
-            <div><dt>Departing</dt><dd>Book assistance from your transport or the parking area to the airline counter in advance online.</dd></div>
-            <div><dt>Arriving</dt><dd>Check with your airline first; for extra help at the information desk, reserve in advance via the online form.</dd></div>
-          </dl>
-        </div>
-      </div>
-    </section>
+<ul class="kv"><li><span>Rental</span><div>Free wheelchair &amp; stroller</div></li><li><span>Pick up</span><div>3F departure lobby desk &middot; 1F desk &middot; 2F intl arrivals desk</div></li><li><span>Departing</span><div>Book online in advance<small>Transport / parking &rarr; airline counter</small></div></li><li><span>Arriving</span><div>Ask your airline first<small>Extra help: reserve via online form</small></div></li></ul>
+<a class="mapjump" href="#map-t1-intl">See the map &darr;</a>
+</section>
     </div>
 
     <div class="wrap">
