@@ -601,6 +601,30 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .quick .hl{background:var(--hc);color:var(--hf,#111);}
 .amn .quick .hl .k,.amn .quick .hl small{color:inherit;}
 @media (max-width:560px){.amn .quick{grid-template-columns:1fr;}}
+
+/* compact card layout for the step-free blocks */
+.amn .cats{border-top:none;margin-top:clamp(8px,2vw,14px);padding:0 var(--gut) clamp(20px,5vw,32px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:clamp(12px,2.6vw,18px);align-items:stretch;}
+.amn .cat{border:1.5px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--card);display:flex;flex-direction:column;}
+.amn .cathead{padding:11px 16px;gap:12px;}
+.amn .cathead .mk{width:32px;height:32px;}
+.amn .cathead .ttl{font-size:clamp(17px,4.2vw,20px);}
+.amn .cathead .tag{font-size:11px;background:rgba(255,255,255,.2);padding:4px 10px;border-radius:999px;white-space:nowrap;}
+.amn .cat.light .cathead .tag{background:rgba(0,0,0,.08);}
+.amn .catbody{display:block;padding:14px 16px 8px;flex:1;}
+.amn .catbody>div{min-width:0;}
+.amn .catbody .lead{font-size:clamp(15px,3.9vw,17px);font-weight:700;line-height:1.35;margin:0 0 6px;}
+.amn .catbody dl>div{grid-template-columns:96px minmax(0,1fr);gap:12px;padding:9px 0;}
+.amn .catbody dt{font-size:11px;}
+.amn .catbody dd{font-size:14.5px;line-height:1.45;}
+.amn .catbody figure{margin-top:12px;}
+@media (max-width:720px){.amn .catbody dl>div{grid-template-columns:minmax(0,1fr);gap:2px;padding:8px 0;}}
+
+.amn .cat{padding:0;}
+@media (max-width:720px){
+.amn .cathead{grid-template-columns:auto minmax(0,1fr) auto;gap:10px;padding:10px 14px;}
+.amn .cathead .tag{grid-column:auto;text-align:right;font-size:10px;padding:3px 8px;white-space:normal;max-width:9.5em;line-height:1.25;}
+.amn .catbody{padding:12px 14px 6px;}
+}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Centrair International Terminal Wheelchair Access | Chubu Centrair Airport","url":"https://accessibilitynagoya.com/amn-centrair-international","description":"Is Centrair&rsquo;s international terminal wheelchair accessible? Elevators, wheelchair rental and floor-by-floor access for Terminal 1 and the Terminal 2 LCC building.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Centrair","item":"https://accessibilitynagoya.com/amn-centrair"},{"@type":"ListItem","position":3,"name":"Terminal","item":"https://accessibilitynagoya.com/amn-centrair#terminal"},{"@type":"ListItem","position":4,"name":"International","item":"https://accessibilitynagoya.com/amn-centrair-international"}]}</script>

@@ -601,6 +601,30 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .quick .hl{background:var(--hc);color:var(--hf,#111);}
 .amn .quick .hl .k,.amn .quick .hl small{color:inherit;}
 @media (max-width:560px){.amn .quick{grid-template-columns:1fr;}}
+
+/* compact card layout for the step-free blocks */
+.amn .cats{border-top:none;margin-top:clamp(8px,2vw,14px);padding:0 var(--gut) clamp(20px,5vw,32px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:clamp(12px,2.6vw,18px);align-items:stretch;}
+.amn .cat{border:1.5px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--card);display:flex;flex-direction:column;}
+.amn .cathead{padding:11px 16px;gap:12px;}
+.amn .cathead .mk{width:32px;height:32px;}
+.amn .cathead .ttl{font-size:clamp(17px,4.2vw,20px);}
+.amn .cathead .tag{font-size:11px;background:rgba(255,255,255,.2);padding:4px 10px;border-radius:999px;white-space:nowrap;}
+.amn .cat.light .cathead .tag{background:rgba(0,0,0,.08);}
+.amn .catbody{display:block;padding:14px 16px 8px;flex:1;}
+.amn .catbody>div{min-width:0;}
+.amn .catbody .lead{font-size:clamp(15px,3.9vw,17px);font-weight:700;line-height:1.35;margin:0 0 6px;}
+.amn .catbody dl>div{grid-template-columns:96px minmax(0,1fr);gap:12px;padding:9px 0;}
+.amn .catbody dt{font-size:11px;}
+.amn .catbody dd{font-size:14.5px;line-height:1.45;}
+.amn .catbody figure{margin-top:12px;}
+@media (max-width:720px){.amn .catbody dl>div{grid-template-columns:minmax(0,1fr);gap:2px;padding:8px 0;}}
+
+.amn .cat{padding:0;}
+@media (max-width:720px){
+.amn .cathead{grid-template-columns:auto minmax(0,1fr) auto;gap:10px;padding:10px 14px;}
+.amn .cathead .tag{grid-column:auto;text-align:right;font-size:10px;padding:3px 8px;white-space:normal;max-width:9.5em;line-height:1.25;}
+.amn .catbody{padding:12px 14px 6px;}
+}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Centrair Taxi Stand Wheelchair Access | Airport to Nagoya","url":"https://accessibilitynagoya.com/amn-centrair-taxi","description":"Centrair&rsquo;s taxi stand: Access Plaza and Terminal 2 locations, accessibility notes, and the fare and time to Nagoya Station.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Centrair","item":"https://accessibilitynagoya.com/amn-centrair"},{"@type":"ListItem","position":3,"name":"Access","item":"https://accessibilitynagoya.com/amn-centrair#access"},{"@type":"ListItem","position":4,"name":"Taxi","item":"https://accessibilitynagoya.com/amn-centrair-taxi"}]}</script>
@@ -692,15 +716,22 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-b"><span class="mk"><svg aria-hidden="true"><use href="#i-wheel"/></svg></span><span class="ttl">Accessibility</span><span class="tag">Call ahead</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">The official taxi-stand page gives no wheelchair-specific details. For a wheelchair-accessible (UD) taxi, <b>call a taxi company in advance</b> rather than waiting at the stand &mdash; availability at the curb isn&rsquo;t guaranteed.</p>
+          <p class="lead">No wheelchair details on the official page.</p>
+          <dl>
+            <div><dt>UD taxi</dt><dd>Call a taxi company <b>in advance</b> rather than waiting at the stand &mdash; availability at the curb isn&rsquo;t guaranteed.</dd></div>
+          </dl>
         </div>
       </div>
     </section>
-    <section class="cat light" style="--c:var(--ink)" id="cat-c" aria-labelledby="h-c">
+    <section class="cat" style="--c:var(--ink)" id="cat-c" aria-labelledby="h-c">
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span class="ttl">Fare &amp; time to Nagoya</span><span class="tag">~50 min</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">About <b>50 minutes</b> and <b>&yen;16,000</b> to Nagoya Station, per Centrair&rsquo;s official fare/time estimate table &mdash; traffic-dependent, so confirm with the driver. Sakae is about 45 min / &yen;15,500.</p>
+          <p class="lead">About 50 min &middot; &yen;16,000 to Nagoya Station.</p>
+          <dl>
+            <div><dt>Sakae</dt><dd>About 45 min &middot; &yen;15,500.</dd></div>
+            <div><dt>Source</dt><dd>Centrair official fare/time table. Traffic-dependent &mdash; confirm with the driver.</dd></div>
+          </dl>
         </div>
       </div>
     </section>
@@ -708,10 +739,12 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-phone"/></svg></span><span class="ttl">Booking a taxi</span><span class="tag">English via app</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">For English-language booking, <b>Uber Taxi</b> has served Centrair since April 2024 &mdash; book in the app (50+ languages, with in-app driver-chat translation) and meet your driver at <b>Terminal 1 Access Plaza 2F</b> or the <b>Terminal 2 taxi stand</b>.</p>
+          <p class="lead">English booking: <b>Uber Taxi</b>, at Centrair since April 2024.</p>
           <dl>
-            <div><dt>Phone operators</dt><dd>Japanese-language only; call ahead to request a wheelchair-accessible (UD) vehicle, since curb availability isn&rsquo;t guaranteed. Meitetsu Chita Taxi 0569-37-1112 (24h) &middot; Anzen Taxi 0569-21-0685 (6:00&ndash;2:00) &middot; Anshin Net Nagoya 052-604-8183 / 052-604-3322 &middot; Shachi Daiichi Kotsu 052-604-2323.</dd></div>
-            <div><dt>Shared taxi</dt><dd>Aichi Airport Limousine runs jumbo taxis to sightseeing destinations; advance reservation is required.</dd></div>
+            <div><dt>In the app</dt><dd>50+ languages, with in-app driver-chat translation.</dd></div>
+            <div><dt>Meet your driver</dt><dd>Terminal 1 Access Plaza 2F &middot; Terminal 2 taxi stand.</dd></div>
+            <div><dt>Phone operators</dt><dd>Japanese only &mdash; call ahead for a wheelchair (UD) vehicle.<br>Meitetsu Chita Taxi 0569-37-1112 (24h)<br>Anzen Taxi 0569-21-0685 (6:00&ndash;2:00)<br>Anshin Net Nagoya 052-604-8183 / 052-604-3322<br>Shachi Daiichi Kotsu 052-604-2323</dd></div>
+            <div><dt>Shared taxi</dt><dd>Aichi Airport Limousine jumbo taxis to sightseeing spots; advance reservation required.</dd></div>
           </dl>
         </div>
       </div>

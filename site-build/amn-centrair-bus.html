@@ -601,6 +601,30 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .quick .hl{background:var(--hc);color:var(--hf,#111);}
 .amn .quick .hl .k,.amn .quick .hl small{color:inherit;}
 @media (max-width:560px){.amn .quick{grid-template-columns:1fr;}}
+
+/* compact card layout for the step-free blocks */
+.amn .cats{border-top:none;margin-top:clamp(8px,2vw,14px);padding:0 var(--gut) clamp(20px,5vw,32px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:clamp(12px,2.6vw,18px);align-items:stretch;}
+.amn .cat{border:1.5px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--card);display:flex;flex-direction:column;}
+.amn .cathead{padding:11px 16px;gap:12px;}
+.amn .cathead .mk{width:32px;height:32px;}
+.amn .cathead .ttl{font-size:clamp(17px,4.2vw,20px);}
+.amn .cathead .tag{font-size:11px;background:rgba(255,255,255,.2);padding:4px 10px;border-radius:999px;white-space:nowrap;}
+.amn .cat.light .cathead .tag{background:rgba(0,0,0,.08);}
+.amn .catbody{display:block;padding:14px 16px 8px;flex:1;}
+.amn .catbody>div{min-width:0;}
+.amn .catbody .lead{font-size:clamp(15px,3.9vw,17px);font-weight:700;line-height:1.35;margin:0 0 6px;}
+.amn .catbody dl>div{grid-template-columns:96px minmax(0,1fr);gap:12px;padding:9px 0;}
+.amn .catbody dt{font-size:11px;}
+.amn .catbody dd{font-size:14.5px;line-height:1.45;}
+.amn .catbody figure{margin-top:12px;}
+@media (max-width:720px){.amn .catbody dl>div{grid-template-columns:minmax(0,1fr);gap:2px;padding:8px 0;}}
+
+.amn .cat{padding:0;}
+@media (max-width:720px){
+.amn .cathead{grid-template-columns:auto minmax(0,1fr) auto;gap:10px;padding:10px 14px;}
+.amn .cathead .tag{grid-column:auto;text-align:right;font-size:10px;padding:3px 8px;white-space:normal;max-width:9.5em;line-height:1.25;}
+.amn .catbody{padding:12px 14px 6px;}
+}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Centrair Airport Bus Wheelchair Access | Limousine &amp; Highway Bus","url":"https://accessibilitynagoya.com/amn-centrair-bus","description":"Centrair&rsquo;s airport limousine and highway bus terminal: bay locations, elevator access, current route status and accessibility notes.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Centrair","item":"https://accessibilitynagoya.com/amn-centrair"},{"@type":"ListItem","position":3,"name":"Access","item":"https://accessibilitynagoya.com/amn-centrair#access"},{"@type":"ListItem","position":4,"name":"Bus","item":"https://accessibilitynagoya.com/amn-centrair-bus"}]}</script>
@@ -608,6 +632,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 <body>
 <a href="#main" class="skip-link">Skip to content</a>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-bus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="14" rx="3"/><path d="M4 10h16M8 21l1-2M16 21l-1-2"/><circle cx="8" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></symbol>
   <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M12 6v3l2 1.5M12 15v6M9 21h6"/></symbol>
   <symbol id="i-gate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="6" height="16" rx="2"/><rect x="15" y="4" width="6" height="16" rx="2"/><path d="M9 12h6"/></symbol>
   <symbol id="i-elev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 14v-4l-2 2M9 10l2 2M15 10v4l-2-2M15 14l2-2"/></symbol>
@@ -695,11 +720,16 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         </div>
       </div>
     </section>
-    <section class="cat light" style="--c:#B4001F" id="cat-c" aria-labelledby="h-c">
+    <section class="cat" style="--c:#B4001F" id="cat-c" aria-labelledby="h-c">
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><span class="ttl">Routes</span><span class="tag">Check before relying on this</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">Destinations include Toyota City, Hamamatsu and Kanazawa. <span class="no">The regular daytime route to Nagoya Station (Meitetsu Bus Center) is suspended</span> &mdash; a separate late-night/early-morning service runs to <b>Nagoya Station West Exit</b> instead (a different stop), about 55 minutes for &yen;1,500. Confirm the current timetable before planning around either for central Nagoya.</p>
+          <p class="lead"><span class="no">Daytime bus to Nagoya Station: suspended.</span></p>
+          <dl>
+            <div><dt>Night / early</dt><dd>Runs to <b>Nagoya Station West Exit</b> (a different stop) &middot; about 55 min &middot; &yen;1,500.</dd></div>
+            <div><dt>Other cities</dt><dd>Toyota City, Hamamatsu, Kanazawa.</dd></div>
+            <div><dt>Before you go</dt><dd>Confirm the current timetable before planning around either.</dd></div>
+          </dl>
         </div>
       </div>
     </section>
@@ -707,7 +737,10 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
       <h3 class="cathead" id="h-d"><span class="mk"><svg aria-hidden="true"><use href="#i-wheel"/></svg></span><span class="ttl">Accessibility</span><span class="tag">Ask in advance</span></h3>
       <div class="catbody solo">
         <div>
-          <p class="lead">The official bus page gives no step-free boarding details for the coaches. Ask airport staff or the bus operator in advance if you need ramp assistance.</p>
+          <p class="lead">No step-free boarding details are published.</p>
+          <dl>
+            <div><dt>Ramp help</dt><dd>Ask airport staff or the bus operator in advance.</dd></div>
+          </dl>
         </div>
       </div>
     </section>
