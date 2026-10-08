@@ -621,6 +621,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .catbody .kv li:first-child{border-top:none;padding-top:0;}
 .amn .kv li small a,.amn .kv li div a{color:inherit;}
 .amn .kv li .ibadge{margin-right:6px;}
+.amn .photorow{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),420px));gap:14px;padding:0 var(--gut) clamp(20px,5vw,30px);align-items:start;}
+.amn .photorow .rownote{grid-column:1/-1;margin:0;font-size:14px;line-height:1.6;color:var(--ink-2);}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Nagoya Station JR Wheelchair Access | Elevators & Accessible Toilets","url":"https://accessibilitynagoya.com/amn-train-jr","description":"Wheelchair access on JR lines at Nagoya Station: platform-by-platform elevators, escalators and accessible toilets, cross-checked against JR Central's own data.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Top","item":"https://accessibilitynagoya.com/index"},{"@type":"ListItem","position":2,"name":"Nagoya Station","item":"https://accessibilitynagoya.com/amn-nagoya-station"},{"@type":"ListItem","position":3,"name":"Train","item":"https://accessibilitynagoya.com/amn-nagoya-station.html#train"},{"@type":"ListItem","position":4,"name":"JR","item":"https://accessibilitynagoya.com/amn-train-jr"}]}</script>
@@ -751,7 +753,8 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
         </div>
       </div>
       </div>
-      <p style="margin:16px 0 0;font-size:14px;line-height:1.6;color:var(--ink-2)"><b>Personally checked, 16 Sep 2026:</b> the Central Exit (Chuo-guchi) and Umaimon Street toilets below were found on site and match the station&rsquo;s own diagram (Central Concourse and Umaimon Street). Both have the standard wheelchair, baby-seat and ostomate pictograms.</p>
+      <div class="photorow">
+<p class="rownote"><b>Personally checked, 16 Sep 2026:</b> the Central Exit (Chuo-guchi) and Umaimon Street toilets below were found on site and match the station&rsquo;s own diagram (Central Concourse and Umaimon Street). Both have the standard wheelchair, baby-seat and ostomate pictograms.</p>
       <div class="pshow">
         <p class="pshow-hint">Toilet near the Central Exit (Chuo-guchi) &middot; swipe for both angles</p>
         <div class="pshow-track">
@@ -766,6 +769,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
           <figure><img src="assets/img/umaimon-toiletb.jpg" alt="Accessible toilet with wheelchair, baby-seat and ostomate pictograms on Umaimon Street, near the Taikodori side of Nagoya Station, a second angle." width="1600" height="1200" loading="lazy"><figcaption>Umaimon Street toilet, angle 2</figcaption></figure>
         </div>
       </div>
+</div>
     </section>
     <section class="cat" style="--c:var(--ink)" id="cat-c" aria-labelledby="h-c">
       <h3 class="cathead" id="h-c"><span class="mk"><svg aria-hidden="true"><use href="#i-gate"/></svg></span><span class="ttl">Entrances &amp; exits</span><span class="tag">Sakuradori side</span></h3>
