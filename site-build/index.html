@@ -9,7 +9,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Accessibility Map NAGOYA">
 <meta property="og:title" content="Accessibility Map NAGOYA | Step-by-Step Wheelchair Travel Routes">
-<meta property="og:description" content="Step-by-step wheelchair travel routes in Nagoya: from Centrair Airport to Nagoya Station, major areas and the Aichi-Nagoya 2026 Asian Games and Asian Para Games venues, with elevators and accessible toilets along the way.">
+<meta property="og:description" content="Step-by-step wheelchair travel routes in Nagoya: from Centrair Airport to Nagoya Station and major areas, with elevators and accessible toilets along the way.">
 <meta property="og:url" content="https://accessibilitynagoya.com/">
 <meta property="og:image" content="https://accessibilitynagoya.com/assets/img/og-image.jpg">
 <meta property="og:image:width" content="1200">
@@ -26,7 +26,7 @@
 </script>
 <script defer src="assets/js/analytics-events.js"></script>
 <title>Accessibility Map NAGOYA | Step-by-Step Wheelchair Travel Routes</title>
-<meta name="description" content="Step-by-step wheelchair travel routes in Nagoya: from Centrair Airport to Nagoya Station, major areas and the Aichi-Nagoya 2026 Asian Games and Asian Para Games venues, with elevators and accessible toilets along the way.">
+<meta name="description" content="Step-by-step wheelchair travel routes in Nagoya: from Centrair Airport to Nagoya Station and major areas, with elevators and accessible toilets along the way.">
 <!--
   ACCESSIBILITY MAP NAGOYA — TOP page prototype
   Same design system as the Nagoya Station > Train page. Paste into a WordPress Custom HTML block.
@@ -51,9 +51,6 @@
   /* site palette (from the TOP page) */
   --area:#D4FF3A;        /* Nagoya Station area card colour */
   --sky:#3CC1F3;         /* logo dot */
-  /* Asian Games Aichi-Nagoya 2026 — the five official colours, sampled from the
-     official artwork. Used for the bars, the badge and the underline. */
-  --g1:#E8412A; --g2:#F2C230; --g3:#3CA83C; --g4:#6A3FB8; --g5:#C9A050;
 
   --ink:#111111; --ink-2:#555555; --paper:#F3F2EE; --card:#FFFFFF; --grey:#E4E2DC; --line:#111111; --focus:#111111;
   --r:18px;
@@ -177,47 +174,6 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .hero .band{display:block;width:100%;line-height:0;}
 .amn .hero .band img{display:block;width:100%;height:auto;}
 
-/* SPECIAL FEATURE — Asian Games Aichi-Nagoya 2026.
-   A dark full-bleed block so it reads as its own zone, and the five official
-   Games colours carry through it: top and bottom bars, the badge, the five dots
-   and the underline. The headline leads with the EVENT, not with the word
-   "guide" — "Accessibility Guide" is the subtitle underneath. */
-.amn .special{background:#111;color:#fff;padding:0;}
-.amn .special .bar{display:grid;grid-template-columns:repeat(5,1fr);height:clamp(10px,2.4vw,14px);}
-.amn .special .bar i:nth-child(1){background:var(--g1);} .amn .special .bar i:nth-child(2){background:var(--g2);}
-.amn .special .bar i:nth-child(3){background:var(--g3);} .amn .special .bar i:nth-child(4){background:var(--g4);}
-.amn .special .bar i:nth-child(5){background:var(--g5);}
-.amn .special a{display:block;text-decoration:none;color:inherit;}
-.amn .special .row{padding:clamp(34px,8.5vw,64px) var(--gut) clamp(34px,8.5vw,64px);display:grid;justify-items:start;gap:clamp(14px,3.5vw,20px);}
-
-/* headline: the event first */
-.amn .special .kicker{font-family:var(--display);font-weight:700;font-size:clamp(15px,3.8vw,22px);letter-spacing:.26em;text-transform:uppercase;color:#fff;}
-.amn .special h2{font-family:var(--display);font-weight:700;font-size:clamp(34px,8.6vw,86px);letter-spacing:-.015em;line-height:.9;text-transform:uppercase;color:#fff;margin-top:-.1em;}
-/* subtitle with the five colours as its rule */
-.amn .special .subtitle{font-family:var(--display);font-weight:500;font-size:clamp(20px,5.4vw,38px);letter-spacing:-.02em;color:#fff;padding-bottom:10px;position:relative;}
-.amn .special .subtitle::after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;border-radius:3px;
-  background:linear-gradient(90deg,var(--g1) 0 20%,var(--g2) 20% 40%,var(--g3) 40% 60%,var(--g4) 60% 80%,var(--g5) 80% 100%);}
-.amn .special .lead{font-size:clamp(15px,3.8vw,19px);font-weight:500;color:#CFCFCF;max-width:34em;}
-.amn .special .go{display:inline-flex;align-items:center;gap:12px;background:#fff;color:#111;margin-top:clamp(4px,1.5vw,8px);
-  border-radius:999px;padding:14px 22px;font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;transition:transform .25s;}
-.amn .special .go svg{width:18px;height:18px;transition:transform .25s;}
-@media (hover:hover){.amn .special a:hover .go{transform:translateY(-2px);} .amn .special a:hover .go svg{transform:translateX(4px);}}
-/* on wide screens the block becomes two columns: the event on the left,
-   the explanation and the button on the right, both sitting on the baseline */
-.amn .special .kicker{grid-area:kicker;}
-.amn .special h2{grid-area:title;} .amn .special .subtitle{grid-area:sub;}
-.amn .special .lead{grid-area:lead;} .amn .special .go{grid-area:go;}
-.amn .special .row{grid-template-areas:"kicker" "title" "sub" "lead" "go";}
-@media (min-width:900px){
-  .amn .special .row{
-    grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
-    grid-template-areas:"kicker ." "title lead" "sub go";
-    column-gap:clamp(40px,6vw,90px);
-  }
-  .amn .special .lead{align-self:end;padding-bottom:.4em;}
-  .amn .special .go{align-self:end;margin-top:0;}
-}
-
 /* AREAS — the four cards from the rough, in the new system */
 .amn .areas{padding:clamp(32px,8vw,56px) 0 clamp(48px,10vw,80px);}
 .amn .areas .head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:clamp(14px,4vw,18px) 0 clamp(20px,5vw,26px);border-top:1.5px solid var(--line);}
@@ -334,8 +290,8 @@ a.amn .plancard{cursor:pointer;}
 .skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;background:#111;color:#fff;padding:14px 22px;z-index:1000;text-decoration:none;font-weight:700;font-size:13px;letter-spacing:.05em;border-radius:0 0 8px 0;}
 .skip-link:focus{left:0;top:0;width:auto;height:auto;overflow:visible;outline:3px solid #fff;outline-offset:-3px;}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/","description":"Step-by-step wheelchair travel routes in Nagoya: from Centrair Airport to Nagoya Station, major areas and the Aichi-Nagoya 2026 Asian Games and Asian Para Games venues, with elevators and accessible toilets along the way."}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Accessibility Map NAGOYA | Step-by-Step Wheelchair Travel Routes","url":"https://accessibilitynagoya.com/","description":"Step-by-step wheelchair travel routes in Nagoya: from Centrair Airport to Nagoya Station, major areas and the Aichi-Nagoya 2026 Asian Games and Asian Para Games venues, with elevators and accessible toilets along the way.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/","description":"Step-by-step wheelchair travel routes in Nagoya: from Centrair Airport to Nagoya Station and major areas, with elevators and accessible toilets along the way."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Accessibility Map NAGOYA | Step-by-Step Wheelchair Travel Routes","url":"https://accessibilitynagoya.com/","description":"Step-by-step wheelchair travel routes in Nagoya: from Centrair Airport to Nagoya Station and major areas, with elevators and accessible toilets along the way.","isPartOf":{"@type":"WebSite","name":"Accessibility Map NAGOYA","url":"https://accessibilitynagoya.com/"}}</script>
 </head>
 <body>
 <a href="#main" class="skip-link">Skip to content</a>
@@ -374,8 +330,8 @@ a.amn .plancard{cursor:pointer;}
   <section class="hero" aria-labelledby="hero-title">
     <div class="copy">
       <h1 id="hero-title">Nagoya, without the stairs.</h1>
-      <p class="tag">Step-by-step wheelchair travel routes &mdash; airport, stations and venues.</p>
-      <p class="sub">Free, independent route guides from Centrair Airport to Nagoya Station, the main areas and the Games venues &mdash; with the elevators, exits and accessible toilets you need along the way.</p>
+      <p class="tag">Step-by-step wheelchair travel routes &mdash; airport and stations.</p>
+      <p class="sub">Free, independent route guides from Centrair Airport to Nagoya Station and the main areas &mdash; with the elevators, exits and accessible toilets you need along the way.</p>
       <div class="ctas">
         <a class="btn" href="amn-accessible-travel">Plan accessible travel <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <a class="btn" href="#areas">Explore by area <svg aria-hidden="true"><use href="#i-down"/></svg></a>
@@ -388,22 +344,6 @@ a.amn .plancard{cursor:pointer;}
   <div class="wrap">
     <p class="note" style="margin-top:22px;margin-bottom:22px;font-size:14px;line-height:1.6;color:var(--ink);border-left:3px solid var(--ink);padding:10px 14px;background:var(--card)"><b>New since 3 Sep 2026:</b> Contactless credit and debit cards (Visa, Mastercard, JCB, American Express, Diners Club, Discover, UnionPay) can now be tapped directly at the ticket gates on every Nagoya Municipal Subway station &mdash; no IC card or paper ticket needed. Commuter passes are not yet supported this way. <a href="https://www.kotsu.city.nagoya.jp/rp/ticket/TRP0005579.htm" target="_blank" rel="noopener" style="color:inherit">Official details</a>.</p>
   </div>
-
-  <!-- 3. SPECIAL FEATURE — Asian Games Aichi-Nagoya 2026 (own dark zone) -->
-  <section class="special" id="special" aria-labelledby="sp-title">
-    <div class="bar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-    <a href="amn-venues">
-      <div class="row">
-        <span class="kicker">Asian Games &amp; Asian Para Games</span>
-        <h2 id="sp-title">Aichi-Nagoya<br>2026</h2>
-        <span class="subtitle">Accessibility Guide</span>
-        <!-- [TEXT] one line on what the special covers -->
-        <p class="lead">Venues, nearest stations and step-free routes for the Asian Games (Sep 19&ndash;Oct 4) and the Asian Para Games (Oct 18&ndash;24) &mdash; in one place.</p>
-        <span class="go">Open the guide <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
-      </div>
-    </a>
-    <div class="bar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-  </section>
 
   <!-- 4. EXPLORE BY AREA -->
   <section class="areas" id="areas" aria-labelledby="ar-title">
