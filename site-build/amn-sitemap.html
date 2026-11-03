@@ -189,6 +189,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 .amn .pg{display:inline-flex;align-items:center;gap:9px;border:1.5px solid var(--line);border-radius:999px;
   padding:8px 14px;font-size:14px;font-weight:500;background:var(--paper);}
 .amn .pg i{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ink);flex:none;}
+.amn a.pg{text-decoration:none;color:inherit;}
 .amn .pg.done{background:var(--ink);color:#fff;border-color:var(--ink);}
 .amn .pg.done i{background:#fff;border-color:#fff;}
 .amn .pg.c{border-color:var(--c);}
@@ -272,95 +273,101 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
     <div class="wrap">
       <span class="label">Structure</span>
       <h1>Sitemap</h1>
-      <p class="standfirst">Five branches from the top page. Every leaf is one page.</p>
+      <p class="standfirst">Six areas and the standing pages. Every link is one page.</p>
       <div class="key">
         <span><i class="done"></i>Built</span>
-        <span><i></i>To build</span>
       </div>
     </div>
   </section>
 
   <div class="tree">
-<section class="branch">    <div class="l1 light" style="--c:#D4FF3A">
-      <div class="wrap"><h2>Nagoya Station</h2><span class="n">1 + 3 + 9</span></div>
+<section class="branch">    <div class="l1 light" style="--c:#1FA7FF">
+      <div class="wrap"><h2>Centrair Airport</h2><span class="n">6 pages</span></div>
+    </div>
+      <div class="l2" style="--c:#1FA7FF">
+        <div class="wrap">
+          <h3>Airport</h3>
+          <p class="sub">Terminals and ways into the city</p>
+          <div class="grp"><div class="gname">Hub and terminals</div><div class="pages"><a class="pg done" href="amn-centrair"><i></i>Centrair hub</a><a class="pg done" href="amn-centrair-domestic"><i></i>Domestic</a><a class="pg done" href="amn-centrair-international"><i></i>International</a></div></div>
+          <div class="grp"><div class="gname">Getting to the city</div><div class="pages"><a class="pg done" href="amn-centrair-meitetsu"><i></i>Meitetsu</a><a class="pg done" href="amn-centrair-bus"><i></i>Bus</a><a class="pg done" href="amn-centrair-taxi"><i></i>Taxi</a></div></div>
+        </div>
+      </div>
+</section><section class="branch">    <div class="l1 light" style="--c:#D4FF3A">
+      <div class="wrap"><h2>Nagoya Station</h2><span class="n">13 pages</span></div>
     </div>
       <div class="l2" style="--c:#1F5BFF">
         <div class="wrap">
           <h3>Train</h3>
           <p class="sub">Index of the six lines</p>
-          <div class="grp"><div class="gname">One page per line</div><div class="pages"><span class="pg done"><i></i>Shinkansen</span><span class="pg done"><i></i>JR</span><span class="pg done"><i></i>Meitetsu</span><span class="pg done"><i></i>Kintetsu</span><span class="pg done"><i></i>Subway</span><span class="pg done"><i></i>Aonami</span></div></div>
+          <div class="grp"><div class="gname">One page per line</div><div class="pages"><a class="pg done" href="amn-train-shinkansen"><i></i>Shinkansen</a><a class="pg done" href="amn-train-jr"><i></i>JR</a><a class="pg done" href="amn-train-meitetsu"><i></i>Meitetsu</a><a class="pg done" href="amn-train-kintetsu"><i></i>Kintetsu</a><a class="pg done" href="amn-train-subway"><i></i>Subway</a><a class="pg done" href="amn-train-aonami"><i></i>Aonami</a></div></div>
         </div>
       </div>
       <div class="l2" style="--c:#16C2B0">
         <div class="wrap">
           <h3>Bus</h3>
-          
-          <div class="grp"><div class="gname">One page per service</div><div class="pages"><span class="pg done"><i></i>City bus</span><span class="pg done"><i></i>Highway bus</span></div></div>
+          <div class="grp"><div class="gname">One page per service</div><div class="pages"><a class="pg done" href="amn-bus-city"><i></i>City bus</a><a class="pg done" href="amn-bus-meitetsu"><i></i>Meitetsu Bus</a><a class="pg done" href="amn-bus-highway"><i></i>JR Highway bus</a><a class="pg done" href="amn-bus-srt"><i></i>SRT</a></div></div>
         </div>
       </div>
       <div class="l2" style="--c:#FF66C4">
         <div class="wrap">
-          <h3>Toilets</h3>
-          <p class="sub">Accessible &amp; family toilets in and around the station</p>
-          <div class="grp"><div class="gname">Single page</div><div class="pages"><span class="pg c"><i></i>Toilet guide</span></div></div>
+          <h3>Toilets, taxi &amp; underground</h3>
+          <div class="grp"><div class="gname">Single pages</div><div class="pages"><a class="pg done" href="amn-toilets"><i></i>Toilet guide</a><a class="pg done" href="amn-taxi"><i></i>Taxi</a><a class="pg done" href="amn-underground"><i></i>Underground streets</a></div></div>
         </div>
       </div>
 </section><section class="branch">    <div class="l1 light" style="--c:#3AE6F2">
-      <div class="wrap"><h2>Sakae / Hisaya-odori</h2><span class="n">1 + 2</span></div>
+      <div class="wrap"><h2>Sakae / Hisaya-odori</h2><span class="n">1 page</span></div>
     </div>
       <div class="l2" style="--c:#3AE6F2">
         <div class="wrap">
-          <h3>Station</h3>
-          
-          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+          <h3>Station &amp; bus terminal</h3>
+          <div class="grp"><div class="gname">Single page</div><div class="pages"><a class="pg done" href="amn-sakae"><i></i>Sakae</a></div></div>
         </div>
       </div>
-      <div class="l2" style="--c:#3AE6F2">
+</section><section class="branch">    <div class="l1 light" style="--c:#FF8400">
+      <div class="wrap"><h2>Kanayama</h2><span class="n">6 pages</span></div>
+    </div>
+      <div class="l2" style="--c:#FF8400">
         <div class="wrap">
-          <h3>Bus terminal</h3>
-          
-          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+          <h3>Station</h3>
+          <p class="sub">Hub, three train lines, bus and Asunal</p>
+          <div class="grp"><div class="gname">Hub</div><div class="pages"><a class="pg done" href="amn-kanayama"><i></i>Kanayama hub</a></div></div>
+          <div class="grp"><div class="gname">One page per line or facility</div><div class="pages"><a class="pg done" href="amn-kanayama-jr"><i></i>JR</a><a class="pg done" href="amn-kanayama-meitetsu"><i></i>Meitetsu</a><a class="pg done" href="amn-kanayama-subway"><i></i>Subway</a><a class="pg done" href="amn-kanayama-bus-city"><i></i>Bus &amp; taxi</a><a class="pg done" href="amn-kanayama-asunal"><i></i>Asunal</a></div></div>
         </div>
       </div>
 </section><section class="branch">    <div class="l1 light" style="--c:#FF66C4">
-      <div class="wrap"><h2>Yaba-cho</h2><span class="n">1 + 2</span></div>
+      <div class="wrap"><h2>Yaba-cho</h2><span class="n">1 page</span></div>
     </div>
       <div class="l2" style="--c:#FF66C4">
         <div class="wrap">
-          <h3>Station</h3>
-          
-          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
-        </div>
-      </div>
-      <div class="l2" style="--c:#FF66C4">
-        <div class="wrap">
-          <h3>Other facilities</h3>
-          
-          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+          <h3>Station &amp; shops</h3>
+          <div class="grp"><div class="gname">Single page</div><div class="pages"><a class="pg done" href="amn-yabacho"><i></i>Yaba-cho</a></div></div>
         </div>
       </div>
 </section><section class="branch">    <div class="l1 light" style="--c:#FF3B0F">
-      <div class="wrap"><h2>Osu</h2><span class="n">1 + 2</span></div>
+      <div class="wrap"><h2>Osu</h2><span class="n">4 pages</span></div>
     </div>
       <div class="l2" style="--c:#FF3B0F">
         <div class="wrap">
-          <h3>Station</h3>
-          
-          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+          <h3>Stations &amp; shopping street</h3>
+          <div class="grp"><div class="gname">Hub</div><div class="pages"><a class="pg done" href="amn-osu"><i></i>Osu hub</a></div></div>
+          <div class="grp"><div class="gname">Stations and street</div><div class="pages"><a class="pg done" href="amn-osu-kamimaezu"><i></i>Kamimaezu</a><a class="pg done" href="amn-osu-osukannon"><i></i>Osu Kannon</a><a class="pg done" href="amn-osu-shopping-street"><i></i>Shopping street</a></div></div>
         </div>
       </div>
-      <div class="l2" style="--c:#FF3B0F">
+</section><section class="branch">    <div class="l1" style="--c:#111111">
+      <div class="wrap"><h2>Guides &amp; information</h2><span class="n">7 pages</span></div>
+    </div>
+      <div class="l2" style="--c:#111">
         <div class="wrap">
-          <h3>Other facilities</h3>
-          
-          <div class="grp"><div class="gname">On every page</div><div class="pages"><span class="pg c"><i></i>Elevators</span><span class="pg c"><i></i>Toilets</span><span class="pg c"><i></i>Coin lockers</span></div></div>
+          <h3>Standing pages</h3>
+          <div class="grp"><div class="gname">About the site</div><div class="pages"><a class="pg done" href="amn-accessible-travel"><i></i>Accessible travel guide</a><a class="pg done" href="amn-about"><i></i>About us</a><a class="pg done" href="amn-sources"><i></i>Sources</a><a class="pg done" href="amn-contact"><i></i>Contact</a></div></div>
+          <div class="grp"><div class="gname">Legal</div><div class="pages"><a class="pg done" href="amn-privacy"><i></i>Privacy</a><a class="pg done" href="amn-terms"><i></i>Terms</a><a class="pg done" href="amn-affiliate-disclosure"><i></i>Affiliate disclosure</a></div></div>
         </div>
       </div>
 </section>  </div>
 
   <div class="foot-note">
     <div class="wrap">
-      <p>Top page also carries the standing pages in the footer: About us, Sources and Privacy. Each area page opens with its own index; each leaf below is a page of its own so it can be linked to directly and updated on its own schedule.</p>
+      <p>The top page links to the six areas. Each area page opens with its own index; every page below can be linked to directly and is updated on its own schedule.</p>
     </div>
   </div>
 
@@ -369,7 +376,7 @@ body{margin:0;background:#F3F2EE;color:#111111;font-family:var(--font-main);}  /
 <div class="verify">
     <div class="wrap">
       <svg aria-hidden="true"><use href="#i-check"/></svg>
-      <span><b>Verified</b> against official sources &middot; Last updated 12 Sep 2026</span>
+      <span><b>Verified</b> against official sources &middot; Last updated 3 Nov 2026</span>
     </div>
   </div>
 
